@@ -1,7 +1,6 @@
 # Chapter 3: Configuration of prerequisites
 
 
-# CONFIGURATION OF PREREQUISITES
 
 This chapter describes the configurations of master data that are associated with IBMS application and other necessary configurations. Configurations will be done by the Application administrator.  
 

@@ -1,8 +1,6 @@
 # Chapter 6: Viewing Items
 
 
-# VIEW
-
 Chapter 6 describes viewing the details of the following using respective Search pages.  
 
 - [View Equipment](#_View_Equipment)

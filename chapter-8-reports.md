@@ -1,7 +1,6 @@
 # Chapter 8: Reports
 
 
-# REPORTS
 
 This chapter describes the following:
 

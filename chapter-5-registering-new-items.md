@@ -1,8 +1,6 @@
 # Chapter 5: Registering New Items
 
 
-# REGISTER
-
 Registering **Equipment**, **Systems** and **Dashboard** have to be done after the configuration described under Chapter 3.
 
 This section describes the following;

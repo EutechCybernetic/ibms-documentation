@@ -1,7 +1,6 @@
 # Chapter 7: Managing the application
 
 
-# MANAGE
 
 **Manage** section describes the following:
 

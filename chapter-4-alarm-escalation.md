@@ -1,8 +1,6 @@
 # Chapter 4: Alarm Escalation
 
 
-# ALARM ESCALATION
-
 **Alarm Escalation** is the process of **notifying alarms up the hierarchy**, to the interested **notification groups**, according to pre-configured **escalation matrices**.
 
 **Escalation levels** are configured for each **Alarm Class** in a way that if no action is taken at the **first level** within a given time, Alarm is routed to the **notification groups** at the **second level**, and again still if there is no action taken at the timeout for the third escalation level the alarm being routed to a **notification group** at a **third level** if it is configured.

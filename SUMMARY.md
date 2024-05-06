@@ -1,6 +1,5 @@
 # Table of contents
 
-* [README](README.md)
 * [Chapter 1: How to use this guide](chapter-1-how-to-use-this-guide.md)
 * [Chapter 2: Introduction](chapter-2-introduction.md)
 * [Chapter 3: Configuration of prerequisites](chapter-3-configuration-of-prerequisites.md)

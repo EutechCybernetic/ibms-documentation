@@ -1,7 +1,6 @@
 # Chapter 2: Introduction
 
 
-# INTRODUCTION
 
 ## Application Overview
 

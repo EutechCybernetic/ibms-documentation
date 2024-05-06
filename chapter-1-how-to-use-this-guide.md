@@ -1,6 +1,5 @@
 # Chapter 1: How to use this guide
 
-# HOW TO USE THE GUIDE
 
 This guide is for administrators and other authorized users who perform operations related to IBMS application.
 
