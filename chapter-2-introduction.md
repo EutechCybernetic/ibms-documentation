@@ -111,7 +111,7 @@ How to View Alarm Details of a Selected Location
 
 *   **View Child Map link:**
 
-    Click on the required Building Alarm marker  on map. A pop-up window will open.
+    Click on the required Building Alarm marker ![](<.gitbook/assets/icon\_2 (3).png>) on map. A pop-up window will open.
 
     Click **View child map** link. This opens the current location’s immediate child map.\
     **Site** may consist of **Child Maps** consisting of maps of child locations/areas belong to the respective **Site**.
@@ -120,16 +120,7 @@ How to View Alarm Details of a Selected Location
 
 **Filters in Alarm (Child) Map**
 
-| Filter Criteria      | Description                                                                                         |
-| -------------------- | --------------------------------------------------------------------------------------------------- |
-| Alarm Severity       | Used to filter by Priority of the alarm.                                                            |
-| Alarm Class          | **Alarm Class** is a way to categorize alarm points into different priorities of escalation levels. |
-| Site Map             | Used to select the required **Site**.                                                               |
-| Child Map            | Used to select the required **Child Map.**                                                          |
-| Asset Category       | Used to filter by the **Asset Category** that the respective **Equipment** belongs to.              |
-| System Name          | Used to filter by the **System** that the respective **Equipment** belongs to.                      |
-| Show un-acked alarms | Select to view only the alarms that are not acknowledged.                                           |
-| Show Alarm Count     | Select to view the **Alarm Count** on the Alarm Map.                                                |
+<table><thead><tr><th width="239">Filter Criteria</th><th>Description</th></tr></thead><tbody><tr><td>Alarm Severity</td><td>Used to filter by Priority of the alarm.</td></tr><tr><td>Alarm Class</td><td><strong>Alarm Class</strong> is a way to categorize alarm points into different priorities of escalation levels.</td></tr><tr><td>Site Map</td><td>Used to select the required <strong>Site</strong>.</td></tr><tr><td>Child Map</td><td>Used to select the required <strong>Child Map.</strong></td></tr><tr><td>Asset Category</td><td>Used to filter by the <strong>Asset Category</strong> that the respective <strong>Equipment</strong> belongs to.</td></tr><tr><td>System Name</td><td>Used to filter by the <strong>System</strong> that the respective <strong>Equipment</strong> belongs to.</td></tr><tr><td>Show un-acked alarms</td><td>Select to view only the alarms that are not acknowledged.</td></tr><tr><td>Show Alarm Count</td><td>Select to view the <strong>Alarm Count</strong> on the Alarm Map.</td></tr></tbody></table>
 
 
 
