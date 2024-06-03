@@ -30,7 +30,7 @@ Chapter 3 consists of **Configuration of Prerequisites** section.\
 * [Interfaces](chapter-3-configuration-of-prerequisites.md#interfaces)
 * [Trend Groups](chapter-3-configuration-of-prerequisites.md#trend-groups)
 * [Data Sources](chapter-3-configuration-of-prerequisites.md#data-sources)
-* [Real-Time Reports](chapter-3-configuration-of-prerequisites.md#real-time-reports-configuration)
+* [Real-Time Reports](chapter-8-reports.md#real-time-reports)
 * [Escalated Alarm Message Templates](chapter-3-configuration-of-prerequisites.md#escalated-alarm-message-templates)
 * [Alarm Escalation Disable Message Templates](chapter-3-configuration-of-prerequisites.md#alarm-escalation-disable-message-templates)
 * [Link Templates and Links](chapter-3-configuration-of-prerequisites.md#link-templates-and-links)
