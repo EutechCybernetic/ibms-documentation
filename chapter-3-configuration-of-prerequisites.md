@@ -18,8 +18,8 @@ _Note –_
 In IBMS application, the following tasks have to be carried out beforehand:
 
 * [Configure Zones](chapter-3-configuration-of-prerequisites.md#configure-zones)
-* Configure Alarm Classes
-* Configure Alarm Severity
+* [Configure Alarm Classes](chapter-3-configuration-of-prerequisites.md#alarm-classes)
+* [Configure Alarm Severity](chapter-3-configuration-of-prerequisites.md#alarm-severity)
 * Configure System Types
 * Configure Equipment Templates
 * Configure Point Templates
@@ -108,7 +108,7 @@ This section describes the following:
 3. Delete an **Alarm Class**
 
 {% hint style="info" %}
-_Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Severity) _should be configured before configuring_ _**Alarm Classes.**_
+_Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-of-prerequisites.md#alarm-severity) _should be configured before configuring_ _**Alarm Classes.**_
 {% endhint %}
 
 **Path**\
