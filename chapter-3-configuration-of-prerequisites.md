@@ -2,13 +2,18 @@
 
 This chapter describes the configurations of master data that are associated with IBMS application and other necessary configurations. Configurations will be done by the Application administrator.
 
-| bbz1vS38bull | <p><em>Note –</em></p><ul><li><em>As the initial configuration, you need to do App Configuration, User Role Configuration and Process Configuration</em></li><li><em>Next, <strong>Location</strong> and <strong>Site</strong> Configuration under the Location App and <strong>Asset</strong> Configuration under Asset App should be carried out before you start configuring Master data on IBMS App.</em></li></ul> |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+
+{% hint style="info" %}
+_Note –_
+
+* _As the initial configuration, you need to do App Configuration, User Role Configuration and Process Configuration_
+* _Next, **Location** and **Site** Configuration under the Location App and **Asset** Configuration under Asset App should be carried out before you start configuring Master data on IBMS App._
+{% endhint %}
 
 \
-It is recommended to follow the below stated sequence of configurations in IBMS application as some data become Prerequisites for some other configurations.\
-\
-Most of the configurations have been described under this chapter, while some of the configurations found under Chapter 4 – Escalations and Chapter 5 – Register.
+<mark style="color:blue;">It is recommended to follow the below stated sequence of configurations in IBMS application as some data become Prerequisites for some other configurations.</mark>\
+\ <mark style="color:blue;">Most of the configurations have been described under this chapter, while some of the configurations found under Chapter 4 – Escalations and Chapter 5 – Register.</mark>
 
 In IBMS application, the following tasks have to be carried out beforehand:
 
@@ -32,8 +37,7 @@ In IBMS application, the following tasks have to be carried out beforehand:
 * [Register Systems](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Systems) ( Described under Chapter 5 –Register)
 * [Register Dashboards](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Dashboard) ( Described under Chapter 5 –Register)
 
-1.
-   1.
+
 
 ## Zones
 
@@ -47,7 +51,7 @@ This section describes the following:
 4. Search **Zones**
 
 **Path**\
-**Settings** icon\*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)\*\* on the Application Dashboard 🡪 **Configure** section 🡪 **Zones 🡪 Zones** Search page
+**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **Zones 🡪 Zones** Search page
 
 ### Configure Zones
 
