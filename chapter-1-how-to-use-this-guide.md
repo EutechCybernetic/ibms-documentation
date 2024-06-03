@@ -91,12 +91,23 @@ Chapter 8 “**Reports”** describes the following:
   * [Configure a Real-Time Report](chapter-8-reports.md#configure-a-real-time-report)
   * [View Real-Time Reports](chapter-8-reports.md#view-real-time-reports)
 
-\
-
-
 ## Conventions Used in This Guide
 
 The following shows the description of icons and conventions used throughout the guide.
+
+
+
+{% hint style="info" %}
+_Note –A note provides important information that you should know in addition to the standard details._
+{% endhint %}
+
+{% hint style="success" %}
+_Tip – This represents any tips regarding the topic/steps that have been discussed._
+{% endhint %}
+
+{% hint style="danger" %}
+_Attention – Represents any warning before proceeding with any operations._
+{% endhint %}
 
 |   | _Note –A note provides important information that you should know in addition to the standard details._ |
 | - | ------------------------------------------------------------------------------------------------------- |
