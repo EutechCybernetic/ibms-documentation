@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Chapter 1: How to use this guide](chapter-1-how-to-use-this-guide.md)
+* [README](README.md)
+* [Chapter 1: How to Use the Guide](chapter-1-how-to-use-this-guide.md)
 * [Chapter 2: Introduction](chapter-2-introduction.md)
 * [Chapter 3: Configuration of prerequisites](chapter-3-configuration-of-prerequisites.md)
 * [Chapter 4: Alarm Escalation](chapter-4-alarm-escalation.md)
