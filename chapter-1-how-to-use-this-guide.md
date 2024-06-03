@@ -108,12 +108,3 @@ _Tip – This represents any tips regarding the topic/steps that have been discu
 {% hint style="danger" %}
 _Attention – Represents any warning before proceeding with any operations._
 {% endhint %}
-
-|   | _Note –A note provides important information that you should know in addition to the standard details._ |
-| - | ------------------------------------------------------------------------------------------------------- |
-
-|   | _Tip – This represents any tips regarding the topic/steps that have been discussed._ |
-| - | ------------------------------------------------------------------------------------ |
-
-|   | _Attention – Represents any warning before proceeding with any operations._ |
-| - | --------------------------------------------------------------------------- |
