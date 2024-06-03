@@ -43,10 +43,10 @@ An IBMS **Zone** is a wrapper around a “**Site**” which logically groups equ
 
 This section describes the following:
 
-1. Configure **Zones**
-2. Edit a **Zone**
-3. Delete a **Zone**
-4. Search **Zones**
+1. Configure Zones
+2. Edit a Zone
+3. Delete a Zone
+4. Search Zones
 
 **Path**\
 **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **Zones 🡪 Zones** Search page
@@ -103,9 +103,9 @@ E.g. If the Severity of an Alarm is Critical, you need to configure times of eac
 
 This section describes the following:
 
-1. Configure **Alarm Classes**
-2. Edit **Alarm Class Details**
-3. Delete an **Alarm Class**
+1. Configure Alarm Classes
+2. Edit Alarm Class Details
+3. Delete an Alarm Class
 
 {% hint style="info" %}
 _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-of-prerequisites.md#alarm-severity) _should be configured before configuring_ _**Alarm Classes.**_
@@ -153,9 +153,9 @@ E.g. Severity “Critical” - Color Code: “Red”
 
 This section describes the following:
 
-1. Configure **Alarm Severity**
-2. Edit an **Alarm Severity**
-3. Delete an **Alarm Severity**
+1. Configure Alarm Severity
+2. Edit an Alarm Severity
+3. Delete an Alarm Severity
 
 **Path**\
 **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **Alarm Severity 🡪 Alarm Severities** page
@@ -182,9 +182,9 @@ System Types should be configured before registering Systems.
 
 This section describes the following:
 
-1. Configure **System Types**
-2. Edit System Type
-3. Delete System Types
+1. Configure System Types
+2. Edit a System Type
+3. Delete a System Type
 
 **Path**\
 **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **System Types🡪 System Types search** page
@@ -224,10 +224,10 @@ This section describes the following:
 1. On the Equipment Templates search page, click the **New Equipment Template** link. **New Equipment Template** dialog box appears.
 2. In the **Equipment Template** box, type a unique and appropriate name for the new Equipment template.
 3. In the **Description** box, type a suitable description on **Equipment template.**
-4. Click **Create** to create the new **Equipment Template**. Click  icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
+4. Click **Create** to create the new **Equipment Template**. Click![](<.gitbook/assets/icon\_3 (1).png>)  icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
 
-* To see how to edit Equipment Template Details, please refer to the [Edit Equipment Template](chapter-3-configuration-of-prerequisites.md#\_Edit\_SCADA\_Template) section below.
-* To see how to configure Point Templates, please refer to the [Point Templates](chapter-3-configuration-of-prerequisites.md#\_Point\_Templates) section.
+* To see how to edit Equipment Template Details, please refer to the [Edit Equipment Template](chapter-3-configuration-of-prerequisites.md#edit-equipment-template) section below.
+* To see how to configure Point Templates, please refer to the [Point Templates](chapter-3-configuration-of-prerequisites.md#point-templates) section.
 
 ### Edit Equipment Template
 
