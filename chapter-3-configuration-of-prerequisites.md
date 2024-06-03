@@ -17,7 +17,7 @@ _Note –_
 
 In IBMS application, the following tasks have to be carried out beforehand:
 
-* [Configure Zones](chapter-3-configuration-of-prerequisites.md#\_IBMS\_Zones)
+* [Configure Zones](chapter-3-configuration-of-prerequisites.md#configure-zones)
 * [Configure Alarm Classes](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Classes\_1)
 * [Configure Alarm Severity](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Severity)
 * [Configure System Types](chapter-3-configuration-of-prerequisites.md#\_System\_Types)
@@ -36,8 +36,6 @@ In IBMS application, the following tasks have to be carried out beforehand:
 * [Register Equipment](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Equipment) ( Described under Chapter 5 – Register)
 * [Register Systems](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Systems) ( Described under Chapter 5 –Register)
 * [Register Dashboards](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Dashboard) ( Described under Chapter 5 –Register)
-
-
 
 ## Zones
 
