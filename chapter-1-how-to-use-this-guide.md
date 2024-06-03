@@ -22,40 +22,40 @@ Chapter 3 consists of **Configuration of Prerequisites** section.\
 
 * [Zones](chapter-3-configuration-of-prerequisites.md#zones)
 * [Alarm Classes](chapter-3-configuration-of-prerequisites.md#alarm-classes)
-* [Alarm Severity](chapter-1-how-to-use-this-guide.md#\_Alarm\_Severity)
-* [System Types](chapter-1-how-to-use-this-guide.md#\_System\_Types)
-* [Equipment Templates](chapter-1-how-to-use-this-guide.md#\_Equipment\_Templates)
-* [Point Templates](chapter-1-how-to-use-this-guide.md#\_Point\_Templates)
-* [Interface Driver Types](chapter-1-how-to-use-this-guide.md#\_Alarm\_Classes)
-* [Interfaces](chapter-1-how-to-use-this-guide.md#\_Interfaces)
-* [Trend Groups](chapter-1-how-to-use-this-guide.md#\_Trend\_Groups)
-* [Data Sources](chapter-1-how-to-use-this-guide.md#\_IBMS\_Rules\_\(NOT)
-* [Real-Time Reports](chapter-1-how-to-use-this-guide.md#\_Real-Time\_Reports)
-* [Escalated Alarm Message Templates](chapter-1-how-to-use-this-guide.md#\_Escalated\_Alarm\_Message)
-* [Alarm Escalation Disable Message Templates](chapter-1-how-to-use-this-guide.md#\_Alarm\_Escalation\_Disable)
-* [Link Templates and Links](chapter-1-how-to-use-this-guide.md#\_LInk\_Templates)
+* [Alarm Severity](chapter-3-configuration-of-prerequisites.md#alarm-severity)
+* [System Types](chapter-3-configuration-of-prerequisites.md#system-types)
+* [Equipment Templates](chapter-3-configuration-of-prerequisites.md#equipment-templates)
+* [Point Templates](chapter-3-configuration-of-prerequisites.md#point-templates)
+* [Interface Driver Types](chapter-3-configuration-of-prerequisites.md#interface-driver-types)
+* [Interfaces](chapter-3-configuration-of-prerequisites.md#interfaces)
+* [Trend Groups](chapter-3-configuration-of-prerequisites.md#trend-groups)
+* [Data Sources](chapter-3-configuration-of-prerequisites.md#data-sources)
+* [Real-Time Reports](chapter-3-configuration-of-prerequisites.md#real-time-reports-configuration)
+* [Escalated Alarm Message Templates](chapter-3-configuration-of-prerequisites.md#escalated-alarm-message-templates)
+* [Alarm Escalation Disable Message Templates](chapter-3-configuration-of-prerequisites.md#alarm-escalation-disable-message-templates)
+* [Link Templates and Links](chapter-3-configuration-of-prerequisites.md#link-templates-and-links)
 
 Chapter 4 describes **Alarm Escalation**. The chapter contains the following sub topics.
 
-* [Alarm Notification Groups](chapter-1-how-to-use-this-guide.md#\_Alarm\_Notification\_Groups)
-* [Alarm Escalation Matrix](chapter-1-how-to-use-this-guide.md#\_Alarm\_Escalation\_Matrix)
+* [Alarm Notification Groups](chapter-4-alarm-escalation.md#alarm-notification-groups)
+* [Alarm Escalation Matrix](chapter-4-alarm-escalation.md#alarm-escalation-matrix)
 
 Chapter 5 “**Register**” describes registering the following:
 
-* [Equipment](chapter-1-how-to-use-this-guide.md#\_Register\_New\_Equipment)
-* [Systems](chapter-1-how-to-use-this-guide.md#\_Register\_New\_Systems)
-* [Dashboard](chapter-1-how-to-use-this-guide.md#\_Register\_New\_Dashboard)
+* [Equipment](chapter-5-registering-new-items.md#register-new-equipment)
+* [Systems](chapter-5-registering-new-items.md#register-new-systems)
+* [Dashboard](chapter-5-registering-new-items.md#register-new-dashboard)
 
 Chapter 6 “**View**” describes the following:
 
-* [View Equipment](chapter-1-how-to-use-this-guide.md#\_View\_Equipment)
-* [View Systems](chapter-1-how-to-use-this-guide.md#\_View\_Systems)
-* [View Dashboards](chapter-1-how-to-use-this-guide.md#\_View\_Dashboards)
-* [View Points](chapter-1-how-to-use-this-guide.md#\_View\_Points)
-* [View Point Templates](chapter-1-how-to-use-this-guide.md#\_View\_Point\_Templates)
-* [View Link Templates](chapter-1-how-to-use-this-guide.md#\_View\_Link\_Templates\_2)
-* [View Trends](chapter-1-how-to-use-this-guide.md#\_View\_Rule\_History)
-* [View Trend Groups](chapter-1-how-to-use-this-guide.md#\_View\_Trend\_Groups)
+* [View Equipment](chapter-6-viewing-items.md#view-equipment)
+* [View Systems](chapter-6-viewing-items.md#view-systems)
+* View Dashboards
+* View Points
+* View Point Templates
+* View Link Templates
+* View Trends
+* View Trend Groups
 * [View Alarms & Alarm History](chapter-1-how-to-use-this-guide.md#\_View\_Alarms\_and)
   * [Alarms Search](chapter-1-how-to-use-this-guide.md#\_Alarms\_Search)
   * [Alarm Viewer](chapter-1-how-to-use-this-guide.md#\_Alarm\_Viewer)
