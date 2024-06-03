@@ -87,7 +87,7 @@ This section describes the following:
    2. **Equipment** tab lists all the available equipment, relevant to the selected **Zone**. Clicking on the equipment name will navigate to the quick info page. Clicking on the Equipment name on the quick info page will show the **Asset** **details**.
 
 {% hint style="info" %}
-_Note – The_ _**Assets**_ _that have been registered as_ _**Equipment**_ _for the_ _**IBMS Zone,**_ _will be listed under the_ _**Equipment**_ _tab on the_ _**Zone Details**_ _page. To see details on registering an Equipment, please refer to the_ [_Register New Equipment_](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Equipment) _section below._
+_Note – The_ _**Assets**_ _that have been registered as_ _**Equipment**_ _for the_ _**IBMS Zone,**_ _will be listed under the_ _**Equipment**_ _tab on the_ _**Zone Details**_ _page. To see details on registering an Equipment, please refer to the_ [_Register New Equipment_](chapter-5-registering-new-items.md#register-new-equipment) _section below._
 {% endhint %}
 
 
@@ -143,18 +143,8 @@ A message box to confirm deletion appears. Click **OK** to confirm deletion of t
 
 Typical Alarm Severities
 
-Critical
+<figure><img src=".gitbook/assets/Typical Alarm Severities_s3.png" alt=""><figcaption><p>Typical Alarm Severities</p></figcaption></figure>
 
-High
-
-Medium
-
-**Importance of alarm increases**
-
-Low
-
-\
-\
 
 
 Alarm Severities are color coded by configuring a color code for each Severity level. This is helpful for easy identification of alarms.
@@ -166,13 +156,9 @@ This section describes the following:
 1. Configure **Alarm Severity**
 2. Edit an **Alarm Severity**
 3. Delete an **Alarm Severity**
-4. \*\*\
-   \
-   \
-   \*\*
 
 **Path**\
-**Settings** icon\*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)\*\* on the Application Dashboard 🡪 **Configure** section 🡪 **Alarm Severity 🡪 Alarm Severities** page
+**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **Alarm Severity 🡪 Alarm Severities** page
 
 ### Configure Alarm Severity
 
