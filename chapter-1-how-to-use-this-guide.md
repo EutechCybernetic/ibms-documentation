@@ -13,15 +13,15 @@ Chapter 2 “**Introduction**” is comprised of ‘**Application** **Overview�
 Chapter 2 consists of the following:
 
 * [Application Overview](chapter-2-introduction.md)
-* [Application Concepts](chapter-1-how-to-use-this-guide.md#\_Application\_Concepts)
-* [Getting Started](chapter-1-how-to-use-this-guide.md#\_Getting\_Started) – This section describes how to access the IBMS App, Application’s Home Page, Dashboard and Toolbar, how to log out from the system and Glossary of IBMS App Terms
+* [Application Concepts](chapter-2-introduction.md#application-concepts)
+* [Getting Started](chapter-2-introduction.md#getting-started) – This section describes how to access the IBMS App, Application’s Home Page, Dashboard and Toolbar, how to log out from the system and Glossary of IBMS App Terms
 
 Chapter 3 consists of **Configuration of Prerequisites** section.\
 \
 **This chapter describes how to configure the following master data and other configurations which have to be configured beforehand.**
 
-* [Zones](chapter-1-how-to-use-this-guide.md#\_IBMS\_Zones)
-* [Alarm Classes](chapter-1-how-to-use-this-guide.md#\_Alarm\_Classes\_1)
+* [Zones](chapter-3-configuration-of-prerequisites.md#zones)
+* [Alarm Classes](chapter-3-configuration-of-prerequisites.md#alarm-classes)
 * [Alarm Severity](chapter-1-how-to-use-this-guide.md#\_Alarm\_Severity)
 * [System Types](chapter-1-how-to-use-this-guide.md#\_System\_Types)
 * [Equipment Templates](chapter-1-how-to-use-this-guide.md#\_Equipment\_Templates)
@@ -37,9 +37,8 @@ Chapter 3 consists of **Configuration of Prerequisites** section.\
 
 Chapter 4 describes **Alarm Escalation**. The chapter contains the following sub topics.
 
-*
-  * [Alarm Notification Groups](chapter-1-how-to-use-this-guide.md#\_Alarm\_Notification\_Groups)
-    * [Alarm Escalation Matrix](chapter-1-how-to-use-this-guide.md#\_Alarm\_Escalation\_Matrix)
+* [Alarm Notification Groups](chapter-1-how-to-use-this-guide.md#\_Alarm\_Notification\_Groups)
+* [Alarm Escalation Matrix](chapter-1-how-to-use-this-guide.md#\_Alarm\_Escalation\_Matrix)
 
 Chapter 5 “**Register**” describes registering the following:
 
