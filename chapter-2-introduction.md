@@ -95,7 +95,7 @@ To view another Site map, select the required Site under **Site Map** box.
 
 How to View Alarm Details of a Selected Location
 
-* Click on the required Building Alarm marker  on map. A pop-up window will open.
+* Click on the required Building Alarm marker ![](<.gitbook/assets/icon\_2 (1).png>) on map. A pop-up window will open.
 *   **Equipment in Alarm:** This shows the **number of equipment in the respective Location, which has alarms at the moment**&#x20;
 
     e.g. **Equipment in Alarm: 3**, meaning there are 3 Equipment with one or multiple alarms&#x20;
