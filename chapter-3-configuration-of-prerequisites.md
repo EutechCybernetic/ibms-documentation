@@ -18,24 +18,24 @@ _Note –_
 In IBMS application, the following tasks have to be carried out beforehand:
 
 * [Configure Zones](chapter-3-configuration-of-prerequisites.md#configure-zones)
-* [Configure Alarm Classes](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Classes\_1)
-* [Configure Alarm Severity](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Severity)
-* [Configure System Types](chapter-3-configuration-of-prerequisites.md#\_System\_Types)
-* [Configure Equipment Templates](chapter-3-configuration-of-prerequisites.md#\_Equipment\_Templates)
-* [Configure Point Templates](chapter-3-configuration-of-prerequisites.md#\_Point\_Templates)
-* [Configure Interface Driver Types](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Classes)
-* [Configure Interfaces](chapter-3-configuration-of-prerequisites.md#\_Interfaces)
-* [Configure Trend Groups](chapter-3-configuration-of-prerequisites.md#\_Trend\_Groups)
-* [Configure Data Sources](chapter-3-configuration-of-prerequisites.md#\_IBMS\_Rules\_\(NOT)
-* [Configure Real-Time Reports](chapter-3-configuration-of-prerequisites.md#\_Configure\_a\_Real-Time)
-* [Configure Escalated Alarm Message Templates](chapter-3-configuration-of-prerequisites.md#\_Escalated\_Alarm\_Message)
-* [Configure Alarm Escalation Disable Message Templates](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Escalation\_Disable)
-* [Configure Link Templates & Links](chapter-3-configuration-of-prerequisites.md#\_LInk\_Templates)
-* [Configure Alarm Notification Groups](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Notification\_Groups) ( Described under Chapter 4 – Escalations)
-* [Configure Alarm Escalation Matrix](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Escalation\_Matrix) (Described under Chapter 4 –Escalations)
-* [Register Equipment](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Equipment) ( Described under Chapter 5 – Register)
-* [Register Systems](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Systems) ( Described under Chapter 5 –Register)
-* [Register Dashboards](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Dashboard) ( Described under Chapter 5 –Register)
+* Configure Alarm Classes
+* Configure Alarm Severity
+* Configure System Types
+* Configure Equipment Templates
+* Configure Point Templates
+* Configure Interface Driver Types
+* Configure Interfaces
+* Configure Trend Groups
+* Configure Data Sources
+* Configure Real-Time Reports
+* Configure Escalated Alarm Message Templates
+* Configure Alarm Escalation Disable Message Templates
+* Configure Link Templates & Links
+* Configure Alarm Notification Groups ( Described under Chapter 4 – Escalations)
+* Configure Alarm Escalation Matrix (Described under Chapter 4 –Escalations)
+* Register Equipment ( Described under Chapter 5 – Register)
+* Register Systems ( Described under Chapter 5 –Register)
+* Register Dashboards ( Described under Chapter 5 –Register)
 
 ## Zones
 
@@ -80,17 +80,21 @@ This section describes the following:
 1. On the Zones search page, to search by the **Zone** name, type the name of the **Zone** you want in the **Search Zones** box. Matching record/records will be filtered as you type.
 2. To filter **Zones** by the **Site**, select the required **Site** from the box on the top right.
 3. **Generate Report**: This is used to generate the current report in PDF/Word/Excel/Excel Raw formats.
-4. In the **Format** box, select the type of format you want.
-5. Click **Generate Report**.
-6. To go to the detailed page of a **Zone** in the search results, click its name.
+   1. In the **Format** box, select the type of format you want.
+   2. Click **Generate Report**.
+4. To go to the detailed page of a **Zone** in the search results, click its name.
    1. **Zone Details** tab shows the top-level location (**Site**) that this zone is configured for.
    2. **Equipment** tab lists all the available equipment, relevant to the selected **Zone**. Clicking on the equipment name will navigate to the quick info page. Clicking on the Equipment name on the quick info page will show the **Asset** **details**.
 
-|   | _Note – The_ _**Assets**_ _that have been registered as_ _**Equipment**_ _for the_ _**IBMS Zone,**_ _will be listed under the_ _**Equipment**_ _tab on the_ _**Zone Details**_ _page. To see details on registering an Equipment, please refer to the_ [_Register New Equipment_](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Equipment) _section below._ |
-| - | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note – The_ _**Assets**_ _that have been registered as_ _**Equipment**_ _for the_ _**IBMS Zone,**_ _will be listed under the_ _**Equipment**_ _tab on the_ _**Zone Details**_ _page. To see details on registering an Equipment, please refer to the_ [_Register New Equipment_](chapter-3-configuration-of-prerequisites.md#\_Register\_New\_Equipment) _section below._
+{% endhint %}
 
-|   | _Tip – To go back to the IBMS Home page, click the_ ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkCAIAAACBoGTxAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsIB3nSZJQAAAstJREFUWEftlTtMU1EcxltMmtZ2kJbWQSrBpK9FtBNqHSTqIo+IiNHBgiw+QgK9IMa3kTgI4oKVBB88Eg2VSeiKC/Ti0hYWazdMB0PtQlraTT9zmn9vL/TWNPQOhg7kcM73/X/3fP9z7lVubPxUyPirkJH1F7XL29nAy55nMplaW/tBD12EB+mdgXvwlLDLyLfv795O9vZwiUSC7EqJ+wDM4NNnUFut1v7bnn9ExuO/eH45sMQT5v6DuzU1B5ldivfk8WAsFmO69va2M2dPSyNDwfBSgF8Jr4hk42/GiueJKAgGtc83K2zDtuBgKLwVptfrheLt+7e4GOB5XlR04v2UqJFDz0egJFlXV4e746rIZTAYivDQ58mJKSaqrj7Acb1sjO3OfZ4nMwKIRqNQQk+TVfnVMW+zW6V4CM3rzcatVqu5Po/dYWtoOMU8CwtfgsEQBsIAoGdR46SQlxh7NZqCPMSF0NLpNBSA9fV7dDotxpevXMJGmQ0CICkAzED/Yvgldul9NUZenMn6Y/VYNZvNQl7e+RwdfU0NRydcruMkxQ6Gh0YymYzQjGeiGY1Gw2D4kRcx2GxWo7GKXLnz8vHDDMEam84JYVDjAjU3N4pgCIAOCMEQPnkxEMJgz/LwIOgNK1dXd7ilpUlYmo1x/7BE853X3HgIVBSeSYvFgvC3evP2h6x8M5/YFPrU0ekuZMASMsQqrr/TeZTJgGStwlW7eeu6BAxLe7q7b+ClJTgjXGXlvkIelUp1qLb2t0LRdrFVqHE6j6SSqdYL500mozRPOT09Pj/nZyLhi07aVvJqBVrFGoC/9FYtuVxRY/Y+4KqKDlJRZ2kCqe9DaRWlXWX/vovwytXVr5upzXJshWpqddrc9/bRw4FIJPeCLwfY4bB7uB5WWe485eYp/f7Z9fV4OWKkmvtNJtfJE+zf//0+yN2/Xd7OHl258/wDQS4ixFdKF9QAAAAASUVORK5CYII=) icon. |
-| - | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+
+{% hint style="success" %}
+_Tip – To go back to the IBMS Home page, click the_ ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkCAIAAACBoGTxAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsIB3nSZJQAAAstJREFUWEftlTtMU1EcxltMmtZ2kJbWQSrBpK9FtBNqHSTqIo+IiNHBgiw+QgK9IMa3kTgI4oKVBB88Eg2VSeiKC/Ti0hYWazdMB0PtQlraTT9zmn9vL/TWNPQOhg7kcM73/X/3fP9z7lVubPxUyPirkJH1F7XL29nAy55nMplaW/tBD12EB+mdgXvwlLDLyLfv795O9vZwiUSC7EqJ+wDM4NNnUFut1v7bnn9ExuO/eH45sMQT5v6DuzU1B5ldivfk8WAsFmO69va2M2dPSyNDwfBSgF8Jr4hk42/GiueJKAgGtc83K2zDtuBgKLwVptfrheLt+7e4GOB5XlR04v2UqJFDz0egJFlXV4e746rIZTAYivDQ58mJKSaqrj7Acb1sjO3OfZ4nMwKIRqNQQk+TVfnVMW+zW6V4CM3rzcatVqu5Po/dYWtoOMU8CwtfgsEQBsIAoGdR46SQlxh7NZqCPMSF0NLpNBSA9fV7dDotxpevXMJGmQ0CICkAzED/Yvgldul9NUZenMn6Y/VYNZvNQl7e+RwdfU0NRydcruMkxQ6Gh0YymYzQjGeiGY1Gw2D4kRcx2GxWo7GKXLnz8vHDDMEam84JYVDjAjU3N4pgCIAOCMEQPnkxEMJgz/LwIOgNK1dXd7ilpUlYmo1x/7BE853X3HgIVBSeSYvFgvC3evP2h6x8M5/YFPrU0ekuZMASMsQqrr/TeZTJgGStwlW7eeu6BAxLe7q7b+ClJTgjXGXlvkIelUp1qLb2t0LRdrFVqHE6j6SSqdYL500mozRPOT09Pj/nZyLhi07aVvJqBVrFGoC/9FYtuVxRY/Y+4KqKDlJRZ2kCqe9DaRWlXWX/vovwytXVr5upzXJshWpqddrc9/bRw4FIJPeCLwfY4bB7uB5WWe485eYp/f7Z9fV4OWKkmvtNJtfJE+zf//0+yN2/Xd7OHl258/wDQS4ixFdKF9QAAAAASUVORK5CYII=) icon.
+{% endhint %}
 
 ## Alarm Classes
 
@@ -103,15 +107,12 @@ This section describes the following:
 2. Edit **Alarm Class Details**
 3. Delete an **Alarm Class**
 
-|   | _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Severity) _should be configured before configuring_ _**Alarm Classes.**_ |
-| - | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-1. \
-   \
-
+{% hint style="info" %}
+_Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Severity) _should be configured before configuring_ _**Alarm Classes.**_
+{% endhint %}
 
 **Path**\
-**Settings** icon\*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)\*\* 🡪 **Configure** section 🡪 **Alarm Classes 🡪 Alarm Classes** search page
+**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) 🡪 **Configure** section 🡪 **Alarm Classes 🡪 Alarm Classes** search page
 
 ### Configure Alarm Classes
 
