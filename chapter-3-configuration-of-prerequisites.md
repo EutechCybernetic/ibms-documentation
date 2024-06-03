@@ -20,9 +20,9 @@ In IBMS application, the following tasks have to be carried out beforehand:
 * [Configure Zones](chapter-3-configuration-of-prerequisites.md#configure-zones)
 * [Configure Alarm Classes](chapter-3-configuration-of-prerequisites.md#alarm-classes)
 * [Configure Alarm Severity](chapter-3-configuration-of-prerequisites.md#alarm-severity)
-* Configure System Types
-* Configure Equipment Templates
-* Configure Point Templates
+* [Configure System Types](chapter-3-configuration-of-prerequisites.md#system-types)
+* [Configure Equipment Templates](chapter-3-configuration-of-prerequisites.md#equipment-templates)
+* [Configure Point Templates](chapter-3-configuration-of-prerequisites.md#point-templates)
 * Configure Interface Driver Types
 * Configure Interfaces
 * Configure Trend Groups
@@ -163,7 +163,7 @@ This section describes the following:
 ### Configure Alarm Severity
 
 1. On the Alarm Severities page, click the **Add new Alarm Severity** link.
-2. Type the name of the Alarm Severity and its Color code
+2. Type the name of the Alarm Severity and its Color code.
 3. Click **Add**.
 
 ### Edit an Alarm Severity
@@ -185,13 +185,9 @@ This section describes the following:
 1. Configure **System Types**
 2. Edit System Type
 3. Delete System Types
-4.
-5. \*\*\
-   \
-   \*\*
 
 **Path**\
-**Settings** icon\*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)\*\* on the Application Dashboard 🡪 **Configure** section 🡪 **System Types🡪 System Types search** page
+**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **System Types🡪 System Types search** page
 
 ### Configure System Types
 
@@ -221,9 +217,7 @@ This section describes the following:
 4. Search **Equipment Templates**
 
 **Path**\
-**Settings** icon\*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)\*\* 🡪 **Configure** section 🡪 **Equipment Templates 🡪 Equipment Templates** search page
-
-1.
+**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) 🡪 **Configure** section 🡪 **Equipment Templates 🡪 Equipment Templates** search page
 
 ### Configure Equipment Template
 
