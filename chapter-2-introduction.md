@@ -28,7 +28,7 @@ Below illustration shows the main elements used to configure Equipment and acqui
 
 <figure><img src=".gitbook/assets/IBMS_AppatGlance_s1.png" alt=""><figcaption></figcaption></figure>
 
-The above illustration depicts the dependencies, and basic components that constitute the IBMS application\*\*.\*\* Equipment builds up upon a pre-configured **Asset.**
+The above illustration depicts the dependencies, and basic components that constitute the IBMS application. Equipment builds up upon a pre-configured **Asset.**
 
 **Equipment Template** is a collection of **Point Templates. Equipment Template** defines the points that belong to particular **Equipment.**
 
@@ -60,23 +60,26 @@ Table : Features on Home Page
 
 ### Dashboard Tab
 
-Dashboard tab displays various weblets related to the **IBMS** application. On **IBMS** Dashboard the following default weblets can be found.
+Dashboard tab displays various weblets related to the **IBMS** application. On the **IBMS** Dashboard, the following default weblets can be found.
 
 **Weblets**
 
-* [Alarm Map](chapter-2-introduction.md#\_Alarm\_Map)
-* [Systems with Faculty Equipment](chapter-2-introduction.md#\_Systems\_with\_Faulty)
-* [Alarms Confirmed by me](chapter-2-introduction.md#\_Alarms\_confirmed\_by)
-* [Alarms Assigned to me](chapter-2-introduction.md#\_Alarms\_assigned\_to)
-* [Active Alarms](chapter-2-introduction.md#\_Active\_Alarms)
-* [Alarm Summary](chapter-2-introduction.md#\_Alarm\_Summary)
-* [Monthly Alarm Summary](chapter-2-introduction.md#\_Monthly\_Alarm\_Summary)
-* [Alarm Action Summary](chapter-2-introduction.md#\_Alarm\_Action\_Summary)
-* [Faulty Equipment](chapter-2-introduction.md#\_Faulty\_Equipment)
-* Overridden Points
+* [Alarm Map](chapter-2-introduction.md#alarm-map-weblet)
+* [Systems with Faculty Equipment](chapter-2-introduction.md#systems-with-faulty-equipment-weblet)
+* [Alarms Confirmed by me](chapter-2-introduction.md#alarms-confirmed-by-me-weblet)
+* [Alarms Assigned to me](chapter-2-introduction.md#alarms-assigned-to-me-weblet)
+* [Active Alarms](chapter-2-introduction.md#active-alarms-weblet)
+* [Alarm Summary](chapter-2-introduction.md#alarm-summary-weblet)
+* [Monthly Alarm Summary](chapter-2-introduction.md#monthly-alarm-summary-weblet)
+* [Alarm Action Summary](chapter-2-introduction.md#alarm-action-summary-weblet)
+* [Faulty Equipment](chapter-2-introduction.md#faulty-equipment-weblet)
+* [Overridden Points](chapter-2-introduction.md#overridden-points-weblet)
 
-|   | <p><em>Note –Click</em> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsIBFShKgAAAAkpJREFUSEu1ls1PGkEYxjszK4TFpQsawCNCEy9tT22qntFrWy/GxJh4U/4e7K2npmkPlV6rZ5oeemk5GUW86RIKhOVD+Zj1Jbuyy+wHA6YTDszkeX/zzjvPzgzSNO3J/2nIG/29WL5rt9uq2u92KR0M+j0izGFMBJ9PlCS/KL5NRt0Sc0XnLhS1Vm3V65pGXYMRDsqyFI68S8XsGmf0l7+lerlMaZ+nVBgRORbbfpFgxA7oT7/PGtUKD9SqkcILu69WrCOYQczGBYha+wexruivhasZ8h3hIBYqOeqaWeeKSk1Rpq0Do4cdAo4+aKLVapVz3zymBwJwdIGxjeDf68si47PDjXWeRRyd5K0yhPDSchL8bmTdabWoRuG7tP54uKBhooDTaTbNrD/+LHSaDU7WRFlgPrS/9tzIute9nRjAL9BpRq0/nP6i2oAJzvDVOjte66E3EDlIvzGytnP5c7QrdZpX1jPTwSSH6VUjaywQdqeZjZ+mSwTB4pC8g0Mym1y+zv4Y8zVAhw5Zf3BIIBicefn2QJ1m1Pr4onxTKlLqeurzT4wxjieS71MPXyP8E5/K/PEeSuAAbex4kiIRjIflf0wDAnB0gnnybaVictT1DuWcDwjAYdHQ33mZgHuIk2KXQSwQRuPsBbb3emW0oqnmgCiItYY43+if/5TqisL59YMl5Gjcmq8+ges75Nv5TaNS6TRVD0cihEQpFFpc3HoWty9xwusJ/G6+ngbQeoTMYUIEv0+cH76edJ85tgnoqcrNiNltfAyLib0H0VQgPAzIUawAAAAASUVORK5CYII=" alt=""> <em>icon on Weblets to expand the area which consists of Search criteria and Generate Report option.</em><br><em>To collapse the expanded area with Search criteria, click the same</em> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsIBFShKgAAAAkpJREFUSEu1ls1PGkEYxjszK4TFpQsawCNCEy9tT22qntFrWy/GxJh4U/4e7K2npmkPlV6rZ5oeemk5GUW86RIKhOVD+Zj1Jbuyy+wHA6YTDszkeX/zzjvPzgzSNO3J/2nIG/29WL5rt9uq2u92KR0M+j0izGFMBJ9PlCS/KL5NRt0Sc0XnLhS1Vm3V65pGXYMRDsqyFI68S8XsGmf0l7+lerlMaZ+nVBgRORbbfpFgxA7oT7/PGtUKD9SqkcILu69WrCOYQczGBYha+wexruivhasZ8h3hIBYqOeqaWeeKSk1Rpq0Do4cdAo4+aKLVapVz3zymBwJwdIGxjeDf68si47PDjXWeRRyd5K0yhPDSchL8bmTdabWoRuG7tP54uKBhooDTaTbNrD/+LHSaDU7WRFlgPrS/9tzIute9nRjAL9BpRq0/nP6i2oAJzvDVOjte66E3EDlIvzGytnP5c7QrdZpX1jPTwSSH6VUjaywQdqeZjZ+mSwTB4pC8g0Mym1y+zv4Y8zVAhw5Zf3BIIBicefn2QJ1m1Pr4onxTKlLqeurzT4wxjieS71MPXyP8E5/K/PEeSuAAbex4kiIRjIflf0wDAnB0gnnybaVictT1DuWcDwjAYdHQ33mZgHuIk2KXQSwQRuPsBbb3emW0oqnmgCiItYY43+if/5TqisL59YMl5Gjcmq8+ges75Nv5TaNS6TRVD0cihEQpFFpc3HoWty9xwusJ/G6+ngbQeoTMYUIEv0+cH76edJ85tgnoqcrNiNltfAyLib0H0VQgPAzIUawAAAAASUVORK5CYII=" alt=""> <em>icon.</em></p> |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+
+{% hint style="info" %}
+Note –Click icon on Weblets to expand the area which consists of Search criteria and Generate Report option. To collapse the expanded area with Search criteria, click the same icon.
+{% endhint %}
 
 #### Alarm Map Weblet
 
