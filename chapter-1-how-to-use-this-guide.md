@@ -80,16 +80,16 @@ Chapter 7 “**Manage**” describes managing the following:
 
 Chapter 8 “**Reports”** describes the following:
 
-* [Alarm Transaction Report](chapter-1-how-to-use-this-guide.md#\_Alarm\_Transaction\_Report)
-* [OPCAE Transaction Report](chapter-1-how-to-use-this-guide.md#\_OPCAE\_Transaction\_Report)
+* [Alarm Transaction Report](chapter-8-reports.md#alarm-transaction-report)
+* [OPCAE Transaction Report](chapter-8-reports.md#opcae-transaction-report)
 * Alarm Reports
-  * [IBMS Reports](chapter-1-how-to-use-this-guide.md#\_IBMS\_Reports)
-    * [Location-wise Alarm Summary Report](chapter-1-how-to-use-this-guide.md#\_Location-wise\_Alarm\_Summary)
-    * [Severity-wise Alarm Summary Report](chapter-1-how-to-use-this-guide.md#\_Severity-wise\_Alarm\_Summary)
-    * [Driver-type wise Alarm Summary Report](chapter-1-how-to-use-this-guide.md#\_Driver\_Type-wise\_Alarm)
+  * [IBMS Reports](chapter-8-reports.md#ibms-reports)
+    * [Location-wise Alarm Summary Report](chapter-8-reports.md#location-wise-alarm-summary-report)
+    * [Severity-wise Alarm Summary Report](chapter-8-reports.md#severity-wise-alarm-summary-report)
+    * [Driver-type wise Alarm Summary Report](chapter-8-reports.md#driver-type-wise-alarm-summary-report)
 * Real-Time Reports
-  * [Configure a Real-Time Report](chapter-1-how-to-use-this-guide.md#\_Configure\_a\_Real-Time)
-  * [View Real-Time Reports](chapter-1-how-to-use-this-guide.md#\_View\_Real\_Time)
+  * [Configure a Real-Time Report](chapter-8-reports.md#configure-a-real-time-report)
+  * [View Real-Time Reports](chapter-8-reports.md#view-real-time-reports)
 
 \
 
