@@ -50,12 +50,12 @@ Chapter 6 “**View**” describes the following:
 
 * [View Equipment](chapter-6-viewing-items.md#view-equipment)
 * [View Systems](chapter-6-viewing-items.md#view-systems)
-* View Dashboards
-* View Points
-* View Point Templates
-* View Link Templates
-* View Trends
-* View Trend Groups
+* [View Dashboards](chapter-6-viewing-items.md#view-dashboards)
+* [View Points](chapter-6-viewing-items.md#view-points)
+* [View Point Templates](chapter-6-viewing-items.md#view-point-templates)
+* [View Link Templates](chapter-6-viewing-items.md#view-link-templates)
+* [View Trends](chapter-6-viewing-items.md#view-trends)
+* [View Trend Groups](chapter-6-viewing-items.md#view-trend-groups)
 * [View Alarms & Alarm History](chapter-1-how-to-use-this-guide.md#\_View\_Alarms\_and)
   * [Alarms Search](chapter-1-how-to-use-this-guide.md#\_Alarms\_Search)
   * [Alarm Viewer](chapter-1-how-to-use-this-guide.md#\_Alarm\_Viewer)
