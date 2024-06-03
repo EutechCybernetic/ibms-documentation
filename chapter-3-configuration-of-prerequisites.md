@@ -1,4 +1,4 @@
-# Chapter 3: Configuration of prerequisites
+# Chapter 3: Configuration of Prerequisites
 
 This chapter describes the configurations of master data that are associated with IBMS application and other necessary configurations. Configurations will be done by the Application administrator.
 
@@ -56,7 +56,7 @@ This section describes the following:
 1. On the Zones search page, click the **New Zone** link. A dialog box to configure a new **Zone** appears.
 2. Select the **Location** from the **Location** list box.
 3. In the **Zone ID** box, type the name of the **Zone** that you want to configure.
-4. Click **Add** to create the new **Zone**. Click  icon to close and abort the operation.
+4. Click **Add** to create the new **Zone**. Click ![](.gitbook/assets/icon\_3.png) icon to close and abort the operation.
 
 ### Edit Zones
 
