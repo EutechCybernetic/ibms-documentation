@@ -237,11 +237,11 @@ This section describes the following:
 4. Edit the **Description** as required.
 5. Click **Save**. Click **Cancel** to discard the changes.
 6. To Upload a Real-Time GUI to the Equipment Template;
-7. On the **Details** tab, under Upload Real-Time GUI section, click the marked area and select the required Real-Time GUI page; or drag and drop the GUI page onto the given area.
-8. Click **Upload** to upload the selected Real-Time GUI page.
-9. Edit the Point Templates tab on the Equipment Template.
-10. [Add Point Templates to the Equipment Template](chapter-3-configuration-of-prerequisites.md#\_Configure\_Point\_Templates)
-11. Under the **Link Templates** tab, [add **Link Templates** to the selected **Equipment** **Template.**](chapter-3-configuration-of-prerequisites.md#\_LInk\_Templates)
+   1. On the **Details** tab, under Upload Real-Time GUI section, click the marked area and select the required Real-Time GUI page; or drag and drop the GUI page onto the given area.
+   2. Click **Upload** to upload the selected Real-Time GUI page.
+7. Edit the Point Templates tab on the Equipment Template.
+8. [Add Point Templates to the Equipment Template](chapter-3-configuration-of-prerequisites.md#\_Configure\_Point\_Templates)
+9. Under the **Link Templates** tab, [add **Link Templates** to the selected **Equipment** **Template.**](chapter-3-configuration-of-prerequisites.md#\_LInk\_Templates)
 
 ### Delete an Equipment Template
 
