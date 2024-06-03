@@ -64,19 +64,16 @@ This section describes the following:
 2. **Zone Details** tab displays IBMS Zone details.
    1. Move the cursor to the **Zone** **Details** section and click the **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) that appears.
    2. Edit the **Zone ID** as required.
-3. **Location** cannot be changed. If required, create a new **Zone** with desired **Site**.
-4. Click **Save**. Click **Cancel** to discard the changes.
-5. **Subsystem Interface Connector** tab displays the IBMS Subsystem Interface configuration details.
-6. **Equipment** tab displays the assets that are associated with the respective **Zone**.
+   3. **Location** cannot be changed. If required, create a new **Zone** with desired **Site**.
+   4. Click **Save**. Click **Cancel** to discard the changes.
+3. **Subsystem Interface Connector** tab displays the IBMS Subsystem Interface configuration details.
+4. **Equipment** tab displays the assets that are associated with the respective **Zone**.
 
 ### Delete Zones
 
 1. Go to the Zones Search page and click the **Zone ID** you want to delete. Detailed page of the selected Zone will appear.
-2. Click the **Delete this Zone** link or **Delete this Item**  icon on the side bar.
+2. Click the **Delete this Zone** link or **Delete this Item**![](.gitbook/assets/icon\_4.png)  icon on the side bar.
 3. A confirmation box will appear. If the selected **Zone** is already in use, the system will not allow you to delete it.
-
-\
-
 
 ### Search Zones
 
