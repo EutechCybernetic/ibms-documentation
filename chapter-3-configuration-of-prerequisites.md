@@ -751,7 +751,7 @@ To configure a Dynamic Trend Group;
 2. On the Trend Groups search page, click the **Create New Dynamic Trend Group** link on the top right corner.
 3. Select the **Location** that you are interested in to filter the **Equipment** based on the selected Location and click **Create**. Dynamic Trend Groups page will be opened.
 4. Click the **Add** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAfhJREFUSEu1lllPg1AQhXvZGkNBW6lafTEucYkm/v9fYaKpGpf0ydZQaGWJadk8CF4LBUKhNn0AMvPNYe5cziWGMWr8z48UoH3ft23bNKzZbO55nuu4HM+xLNtsCpLcEkWRYZgCVdlogMaqPplMG0GQm0xIu72ldDsolhmTgTYMczT88D2/TJ8IQ3r7e7IsLQen0aqqaapWBroYs610ujtKKivRrGpcELWxjtxctGmaFfRSHHLRyUV6rNp13eH7x6p9SMVjhcChD2O0rk2K1+3s/Pry6gZ/wmTPA4gggJNAY351fVpTcpQODmjRdajasuyi+V2pZhCYprWA/r1ZCZIXbEMoVf31NVsLNIJQWrhlnh6fAz+xobFWF5fXZeo99O8C31uMxP48Oz+Ne53iliEWxFBauIyoUxOXSCcxLWzI68vAmc+L6Zhrlgsnun9/WxzJC8LxyWHckI2N5hpVU1rYELElrhFNaSFaklqN3wbVrUFISKNzDR+CX9SF/uSDQ10ttgJ8sd5eByWdJU8EwzJHx4ccx/2pxhXu93q7NYWDQLnxhERE+Bt8qDIduSmHTBgY/K2z3a5AR9ayN2Y7+vB9VHb3E7J/UM7RI8mO44zH+ufUKD6HbG7JitLheT7zRcuenjBCnuthr2OhBIGXN6WKp6cK7V5O+QaIDOrF/icMDwAAAABJRU5ErkJggg==) icon on the top right corner.
-5. Select the required **Equipment.** Points of the selected Equipment will be displayed\*\*.\*\*
+5. Select the required **Equipment.** Points of the selected Equipment will be displayed.
 6. Select the **Data Type** and the **Unit** as required to filter the Points further.
 7. To view only the trend enabled points, select the ‘Only Trend enable points’ checkbox.
 8. Click ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAaCAIAAADJ6rCnAAAAAXNSR0IArs4c6QAAANtJREFUSEtj/PTpBQNVARNVTQMZNhRMZPy2dyLb6Y9U8Ltp+DdTfpA5nz49+NVg9J+BgRL0r2Hr108vgJEMimcwRZGhyMYBTYPEDMePonW/G4zI8Pv/hq3fi4z/IumExzU5hmIah5Z6SDMUq3GY6ZFYQ3EZhzWFEzYUj3G48gw+Q/EbhycXgg1Nwoj8pGVoMYuZPPDkaw4GOQz1cvzICQVrahsKJcWoG8koKLBoISYcZf97x/2dPv/3mUvfiowJWsuIpy5kuXWMhUHlt5oYwTSIbA0+Ewk6Z8imcABigqIXr0x+TQAAAABJRU5ErkJggg==) icon to select the required Date/Time range to select the Trend period.
@@ -803,7 +803,7 @@ This describes how to edit the configuration details of a selected **Data Source
 
 ## Real-Time Reports Configuration
 
-For details on Real-Time Reports, go to the section [Real-Time Reports](chapter-3-configuration-of-prerequisites.md#\_Real-Time\_Reports).
+For details on Real-Time Reports, go to the section [Real-Time Reports.](chapter-8-reports.md#real-time-reports)
 
 ## Escalated Alarm Message Templates
 
