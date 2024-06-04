@@ -28,9 +28,9 @@ In IBMS application, the following tasks have to be carried out beforehand:
 * [Configure Trend Groups](chapter-3-configuration-of-prerequisites.md#trend-groups)
 * [Configure Data Sources](chapter-3-configuration-of-prerequisites.md#data-sources)
 * [Configure Real-Time Reports](chapter-3-configuration-of-prerequisites.md#real-time-reports-configuration)
-* Configure Escalated Alarm Message Templates
-* Configure Alarm Escalation Disable Message Templates
-* Configure Link Templates & Links
+* [Configure Escalated Alarm Message Templates](chapter-3-configuration-of-prerequisites.md#escalated-alarm-message-templates)
+* [Configure Alarm Escalation Disable Message Templates](chapter-3-configuration-of-prerequisites.md#alarm-escalation-disable-message-templates)
+* [Configure Link Templates & Links](chapter-3-configuration-of-prerequisites.md#link-templates-and-links)
 * Configure Alarm Notification Groups ( Described under Chapter 4 – Escalations)
 * Configure Alarm Escalation Matrix (Described under Chapter 4 –Escalations)
 * Register Equipment ( Described under Chapter 5 – Register)
@@ -821,8 +821,8 @@ This section describes the following:
 **Path**\
 **Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)on the Application Dashboard 🡪 **Configure** section 🡪 **Escalated Alarm** **Message Templates 🡪 Escalated Alarm Message Templates** search page
 
-_Setting under App Configuration_\
-_**Escalated Alarm Message Templates** configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “**Assignee Message Template**” and “**Un-assignee Message Template**” Drop down boxes in_ _**App Configuration page**, which enable user to select accordingly._
+_<mark style="color:blue;">Setting under App Configuration</mark>_\
+_<mark style="color:blue;">**Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “</mark><mark style="color:blue;">**Assignee Message Template**</mark><mark style="color:blue;">” and “</mark><mark style="color:blue;">**Un-assignee Message Template**</mark><mark style="color:blue;">” Drop down boxes in</mark>_ _<mark style="color:blue;">**App Configuration page**</mark><mark style="color:blue;">, which enable user to select accordingly.</mark>_
 
 ### Create a New Escalated Alarm Message Template
 
@@ -835,6 +835,14 @@ To configure an Escalated Alarm Message Template;
 #### Configure Plain Text Message Template (plain text e-mail)
 
 1. In the **Message** box, configure the message using message text and relevant **Placeholders.**
+2. Select the **From Address**.
+3. Add Recipients
+4. Click the **Add Recipient** link.
+5. Click the **Info** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAnBJREFUSEutll2P0kAUhrfTD5aPQqEFWdyP4I2bTbwwJsZL/4GJP9UL/4DJZuONF2s26g2RrAtuC5RCQeiHvmUQWOhMK3EuSpN536dnzmHOjPCpe33wv4fAgoZhOHUn7sidz7wwDPy5LykSIaKSkfNqPpvPEUJYwcRAgyCwrYFjj36HIdNGSFFTNaMsiuKuZhs6dkbWz17oB2lSQkRi1I1CUd0SP1hC3xrc/7hPSQQoDELo+2afCQXR3plOEy9yBe+mchmpOxrvR6QseJG3FTeC+r5vdi1+UC/On799/QZPlgyVAIfORlCnP+TnsVo2zuqnUOKpqaVYLgjgLKH4Pw4HDj/M8a/JSjDzPZYYHNAwK3z4dokKJhYkm80166etbns6XX9g11Vt1NSSSiZjngg2WZaxfLzctL7widBgE0aRvrt8783mrEhfPXvZ0I/o7F2vc3X9kb8mOaOcPDkhwd+SxarvrO7V5yUIdFaVVl5KI9gVnI+3O21zuP63capEIZSGvsNsNlRXLUUJxfB8LzGnwqJ1EVGS+GkyFlWKcmp1+ErMSnJEI5lDhS9t6HUqMIe9RCilEbRbvjR3uBSYdsJWBofSCNo4TQRrIJV06uLs6UXzHLuApQQHtAiKgR7Ogd58/0q5DeMom8lyagUOPWOizo/uctu6Td+bYyMgknjcPJYWZY/AeDMe6YlF4AtAoMQlFD84Z3CK7c2Fd/OkWpeoUq1ourYHFy54N40P6l6p6bXHtcQ9tvKj3NDDtRVKzLnved7Asl1nzDn3DwShUFLLhobGuLu4VDcUXC8CzxdlCVcHWZEKxcI/31D2SOuW5Q95LhHUjesAJwAAAABJRU5ErkJggg==) and select the relevant re\_c\_ipient from the window that appears.
+6. To add multiple recipients, repeat the step 6.
+7. To remove a recipient which is already added, click the respective **Delete** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC).
+8. Add recipients under **CC List** and **BCC List**.
+9. Click **Create** to create the new message template. Detailed page of the created Message template will appear. Observe that there are 5 tabs, **Notification Template, Message, Rich Message, Short Message** and **Attachments.**
 
 {% hint style="info" %}
 _Note –The default message that created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates._
@@ -881,14 +889,7 @@ _Note –The default message that created here is the plain text e-mail message.
 | Type                                         | Returns the type of the recipient. This is usually the 'User'          |
 | Key                                          | Returns the Key associated with the recipient in the System            |
 
-1. Select the **From Address**.
-2. Add Recipients
-3. Click the **Add Recipient** link.
-4. Click the **Info** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAnBJREFUSEutll2P0kAUhrfTD5aPQqEFWdyP4I2bTbwwJsZL/4GJP9UL/4DJZuONF2s26g2RrAtuC5RCQeiHvmUQWOhMK3EuSpN536dnzmHOjPCpe33wv4fAgoZhOHUn7sidz7wwDPy5LykSIaKSkfNqPpvPEUJYwcRAgyCwrYFjj36HIdNGSFFTNaMsiuKuZhs6dkbWz17oB2lSQkRi1I1CUd0SP1hC3xrc/7hPSQQoDELo+2afCQXR3plOEy9yBe+mchmpOxrvR6QseJG3FTeC+r5vdi1+UC/On799/QZPlgyVAIfORlCnP+TnsVo2zuqnUOKpqaVYLgjgLKH4Pw4HDj/M8a/JSjDzPZYYHNAwK3z4dokKJhYkm80166etbns6XX9g11Vt1NSSSiZjngg2WZaxfLzctL7widBgE0aRvrt8783mrEhfPXvZ0I/o7F2vc3X9kb8mOaOcPDkhwd+SxarvrO7V5yUIdFaVVl5KI9gVnI+3O21zuP63capEIZSGvsNsNlRXLUUJxfB8LzGnwqJ1EVGS+GkyFlWKcmp1+ErMSnJEI5lDhS9t6HUqMIe9RCilEbRbvjR3uBSYdsJWBofSCNo4TQRrIJV06uLs6UXzHLuApQQHtAiKgR7Ogd58/0q5DeMom8lyagUOPWOizo/uctu6Td+bYyMgknjcPJYWZY/AeDMe6YlF4AtAoMQlFD84Z3CK7c2Fd/OkWpeoUq1ourYHFy54N40P6l6p6bXHtcQ9tvKj3NDDtRVKzLnved7Asl1nzDn3DwShUFLLhobGuLu4VDcUXC8CzxdlCVcHWZEKxcI/31D2SOuW5Q95LhHUjesAJwAAAABJRU5ErkJggg==) and select the relevant re\_c\_ipient from the window that appears.
-5. To add multiple recipients, repeat the step 6.
-6. To remove a recipient which is already added, click the respective **Delete** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC).
-7. Add recipients under **CC List** and **BCC List**.
-8. Click **Create** to create the new message template. Detailed page of the created Message template will appear. Observe that there are 5 tabs, **Notification Template, Message, Rich Message, Short Message** and **Attachments.**
+
 
 #### Configure Rich Text Message Template (HTML e-mail)
 
