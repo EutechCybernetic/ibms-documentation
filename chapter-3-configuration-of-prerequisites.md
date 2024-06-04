@@ -308,7 +308,7 @@ You can configure Point Templates for Equipment Templates from here. These Point
    1.  **Reset Value** – This is used to configure the Consultant recommended default value for Point Template.&#x20;
 
        _**Note**: You can override this consultant recommended Reset value at each Point level in the respective Point Template according to your requirement._
-   2. Enter **Previous Reset Value, Configured User** and **Configured Date Time**
+   2. Enter **Previous Reset Value, Configured User** and **Configured Date Time.**
    3. Click **Save.**
 7. **Trend**: Click the **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon next to the **Trend** section to edit the following details.
    1.  **Use Controller Based Trends ­­-** select this check box to use the trends that get recorded at Controller level.&#x20;
@@ -346,7 +346,7 @@ _Note – Before you add_ _**Alarms**_ _to_ _**Point Template**, the required_ _
 2. Access Point Template via Point Template Search page. (Settings🡪 View🡪 Point Templates)
 3. Click the name of the **Point Template** you want and navigate to Point Template details page. Scroll down and go to the **Alarm** section.
 4. Click on **Add** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAfhJREFUSEu1lllPg1AQhXvZGkNBW6lafTEucYkm/v9fYaKpGpf0ydZQaGWJadk8CF4LBUKhNn0AMvPNYe5cziWGMWr8z48UoH3ft23bNKzZbO55nuu4HM+xLNtsCpLcEkWRYZgCVdlogMaqPplMG0GQm0xIu72ldDsolhmTgTYMczT88D2/TJ8IQ3r7e7IsLQen0aqqaapWBroYs610ujtKKivRrGpcELWxjtxctGmaFfRSHHLRyUV6rNp13eH7x6p9SMVjhcChD2O0rk2K1+3s/Pry6gZ/wmTPA4gggJNAY351fVpTcpQODmjRdajasuyi+V2pZhCYprWA/r1ZCZIXbEMoVf31NVsLNIJQWrhlnh6fAz+xobFWF5fXZeo99O8C31uMxP48Oz+Ne53iliEWxFBauIyoUxOXSCcxLWzI68vAmc+L6Zhrlgsnun9/WxzJC8LxyWHckI2N5hpVU1rYELElrhFNaSFaklqN3wbVrUFISKNzDR+CX9SF/uSDQ10ttgJ8sd5eByWdJU8EwzJHx4ccx/2pxhXu93q7NYWDQLnxhERE+Bt8qDIduSmHTBgY/K2z3a5AR9ayN2Y7+vB9VHb3E7J/UM7RI8mO44zH+ufUKD6HbG7JitLheT7zRcuenjBCnuthr2OhBIGXN6WKp6cK7V5O+QaIDOrF/icMDwAAAABJRU5ErkJggg==) under **Alarm** section. **Add Alarm** dialog box appears.
-5. Select **Alarm Class** from the configured **Alarm Classes** in the list box (To see how to configure Alarm Classes, please refer to [**Alarm Classes**](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Classes\_1) section).
+5. Select **Alarm Class** from the configured **Alarm Classes** in the list box (To see how to configure Alarm Classes, please refer to [**Alarm Classes** ](chapter-3-configuration-of-prerequisites.md#alarm-classes)section).
 6. Select the relevant **Alarm Severity** from the Alarm Severity box. Alarm Severities should be configured beforehand.
 7. If the **Data Type** of the selected Point is “**Value**”;
    1. In the ‘**Alarm When’** dropdown box, select the relevant condition. (Equals, Is Not Equal To, Greater, Greater or Equal, Less, Less or Equal, Between, Between or Equal and Controller Based Alarms).
@@ -363,7 +363,7 @@ _Note – Before you add_ _**Alarms**_ _to_ _**Point Template**, the required_ _
 11. Enter Alarm Deadband, Clearance Deadband, Alarm Delay and Clearance Delay accordingly. ([See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
 12. Select Enable only for working hours/ Enable only for non-working hours checkboxes accordingly. ([See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
 13. In the **Alarm Message** box, type the required alarm message to be relayed.
-14. Click **Add.** Click  icon to abort operation.
+14. Click **Add.** Click ![](<.gitbook/assets/icon\_3 (4).png>) icon to abort operation.
 
 #### **Alarm Observation Period/ Alarm Trigger Period and Deadband for Alarms**
 
