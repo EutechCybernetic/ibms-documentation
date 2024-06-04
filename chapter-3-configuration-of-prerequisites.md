@@ -224,7 +224,7 @@ This section describes the following:
 1. On the Equipment Templates search page, click the **New Equipment Template** link. **New Equipment Template** dialog box appears.
 2. In the **Equipment Template** box, type a unique and appropriate name for the new Equipment template.
 3. In the **Description** box, type a suitable description on **Equipment template.**
-4. Click **Create** to create the new **Equipment Template**. Click![](<.gitbook/assets/icon\_3 (1) (1).png>)  icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
+4. Click **Create** to create the new **Equipment Template**. Click![](<.gitbook/assets/icon\_3 (1) (1) (1).png>)  icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
 
 * To see how to edit Equipment Template Details, please refer to the [Edit Equipment Template](chapter-3-configuration-of-prerequisites.md#edit-equipment-template) section below.
 * To see how to configure Point Templates, please refer to the [Point Templates](chapter-3-configuration-of-prerequisites.md#point-templates) section.
@@ -249,7 +249,7 @@ To delete an **Equipment Template**;
 
 1. On the Equipment Templates search page, click the **Equipment Template** that you want to delete, to go to its detailed page.
 2. Click the **Delete this Equipment Template** link or **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) on the Side bar.
-3. A message to confirm deletion appears. Click **Delete** to confirm deletion of the **Equipment Template,** or to close the message box without deleting, click ![](<.gitbook/assets/icon\_3 (1).png>) icon on the top left of the message box.
+3. A message to confirm deletion appears. Click **Delete** to confirm deletion of the **Equipment Template,** or to close the message box without deleting, click ![](<.gitbook/assets/icon\_3 (1) (1).png>) icon on the top left of the message box.
 
 #### If the Equipment Template is in use
 
@@ -292,7 +292,7 @@ You can configure Point Templates for Equipment Templates from here. These Point
 4. Click the **Add** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAfhJREFUSEu1lllPg1AQhXvZGkNBW6lafTEucYkm/v9fYaKpGpf0ydZQaGWJadk8CF4LBUKhNn0AMvPNYe5cziWGMWr8z48UoH3ft23bNKzZbO55nuu4HM+xLNtsCpLcEkWRYZgCVdlogMaqPplMG0GQm0xIu72ldDsolhmTgTYMczT88D2/TJ8IQ3r7e7IsLQen0aqqaapWBroYs610ujtKKivRrGpcELWxjtxctGmaFfRSHHLRyUV6rNp13eH7x6p9SMVjhcChD2O0rk2K1+3s/Pry6gZ/wmTPA4gggJNAY351fVpTcpQODmjRdajasuyi+V2pZhCYprWA/r1ZCZIXbEMoVf31NVsLNIJQWrhlnh6fAz+xobFWF5fXZeo99O8C31uMxP48Oz+Ne53iliEWxFBauIyoUxOXSCcxLWzI68vAmc+L6Zhrlgsnun9/WxzJC8LxyWHckI2N5hpVU1rYELElrhFNaSFaklqN3wbVrUFISKNzDR+CX9SF/uSDQ10ttgJ8sd5eByWdJU8EwzJHx4ccx/2pxhXu93q7NYWDQLnxhERE+Bt8qDIduSmHTBgY/K2z3a5AR9ayN2Y7+vB9VHb3E7J/UM7RI8mO44zH+ufUKD6HbG7JitLheT7zRcuenjBCnuthr2OhBIGXN6WKp6cK7V5O+QaIDOrF/icMDwAAAABJRU5ErkJggg==). **New Point Template** dialog box appears.
 5. In the **Point Name** box, type a unique and appropriate name for the new **Point Template**.
 6. In the **Data Type** list box, select the relevant Data Type of the Point (**Value, Binary, Text** or **MultiState**)**.**
-7. Click **Add** to create the new **Point Template**. Click  icon![](<.gitbook/assets/icon\_3 (2).png>) to close and abort the operation.
+7. Click **Add** to create the new **Point Template**. Click  icon![](<.gitbook/assets/icon\_3 (2) (1).png>) to close and abort the operation.
 
 ### Edit Point Template
 
@@ -305,6 +305,19 @@ You can configure Point Templates for Equipment Templates from here. These Point
    3. Click **Save** to save the changes in the **General** section.
 5. **Properties:** Click on the **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) next to **Properties** section on the page and configure the following attributes of the **Point Template** and click **Save**.
 6. **Reset Value Configuration**: Click the **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon next to the **Reset Value Configuration** section to edit the following details.
+   1.  **Reset Value** – This is used to configure the Consultant recommended default value for Point Template.&#x20;
+
+       _**Note**: You can override this consultant recommended Reset value at each Point level in the respective Point Template according to your requirement._
+   2. Enter **Previous Reset Value, Configured User** and **Configured Date Time**
+   3. Click **Save.**
+7. **Trend**: Click the **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon next to the **Trend** section to edit the following details.
+   1.  **Use Controller Based Trends ­­-** select this check box to use the trends that get recorded at Controller level.&#x20;
+
+       _**Note:** If “Use Controller Based Trends” check box is selected, “Sample Interval” and “Change of Value (COV) trending” fields will be hidden._
+   2. **Sample Interval(trending) –** Trending sample interval frequency in minutes.
+   3. **Change of Value (COV) trending –** Select this checkbox to use COV (Change of Value) of point to trend instead of poling for given trending intervals.
+   4. **Also apply for overridden points** - Select this check box to apply the settings under **Reset Value Configuration** for overridden points.
+   5. Click **Save**.
 
 <table><thead><tr><th width="262">Properties of Point Template</th><th>Description</th></tr></thead><tbody><tr><td>Data Type</td><td>Data Type of the Point</td></tr><tr><td>Read/Write State</td><td>Select Read or Write from the list box to denote the <strong>Point</strong> as read-only or write-only.</td></tr><tr><td>Units</td><td>Select the unit of measurement from the supported units in the combo box. (e.g. Point Template : Return Air Temperature, Units: Celsius (C) )</td></tr><tr><td>Valid Range (L:H)</td><td>This range will be the Valid Range (Low: High) of Point values. SSIF will send only Point Values within this valid range and rest of the Point values will be ignored.<br>E.g. 0.01 :1)</td></tr><tr><td>Display Range (L:H)</td><td>Display Range shows the formatted ‘Valid Range’ to give a proper look to the Point Values sent by SSIF to make it more convenient in usage (e.g. Valid Range is multiplied by 100 to make it ‘Display Range’).<br>Display Range (Low: High) e.g. 1:100</td></tr><tr><td>Round Off</td><td>Point Value will be rounded off up to this decimal point e.g. Round Off value is 1 --> if the real value is 2.46, the value will be rounded off to 1 decimal point and make it 2.5</td></tr><tr><td>Deadband</td><td>If the difference between the new Point Value and the existing Point value is plus or minus the Deadband, the new Point Value will be ignored. If the difference of the new Value falls between the deadband, the new Point value will be ignored. E.g. 0.5 and -0.5</td></tr><tr><td>Polling Frequency</td><td>Frequency of polling in seconds for the value you monitor from Sub System Interface.</td></tr><tr><td>Also apply for overridden points</td><td>Select this check box to apply the settings under <strong>Properties</strong> for overridden points</td></tr></tbody></table>
 
@@ -314,74 +327,53 @@ You can configure Point Templates for Equipment Templates from here. These Point
 _Note –_ _Reset Value Configuration section will be displayed under Point Template details only if the point’s_ **Read\_/Write State is ’Write’.**
 {% endhint %}
 
-**Reset Value Configuration**: Click the **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon next to the **Reset Value Configuration** section to edit the following details.
-
-1. **Reset Value** – This is used to configure the Consultant recommended default value for Point Template.
-
-**Note**: You can override this consultant recommended Reset value at each Point level in the respective Point Template according to your requirement.
-
-*
-  1. Enter **Previous Reset Value, Configured User** and **Configured Date Time**
-  2. Click **Save.**
-
-1. **Trend**: Click the **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon next to the **Trend** section to edit the following details.
-   1. **Use Controller Based Trends ­­-** select this check box to use the trends that get recorded at Controller level.
-
-Note: If “Use Controller Based Trends” check box is selected, “Sample Interval” and “Change of Value (COV) trending” fields will be hidden.
-
-1. **Sample Interval(trending) –** Trending sample interval frequency in minutes.
-2. **Change of Value (COV) trending –** Select this checkbox to use COV (Change of Value) of point to trend instead of poling for given trending intervals.
-   1. **Also apply for overridden points** - Select this check box to apply the settings under **Reset Value Configuration** for overridden points\*\*.\*\*
-   2. Click **Save**.
-
 ### Add Alarm to Point Template
 
 Alarm configuration under Point Templates varies due to the **Data Type** (e.g. Binary, Text, Value, Multi-state) of Point Template.
 
-|   | _Note – Before you add_ _**Alarms**_ _to_ _**Point Template**, the required_ _**Alarm Classes**_ _should be configured under Alarm Class Configuration. (Settings🡪Configure🡪Alarm Classes) and_ _**Alarm Severity**_ _should be configured as well._ |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
 _**Prerequisites: Alarm Class and Alarm Severity**_
 
+{% hint style="info" %}
+_Note – Before you add_ _**Alarms**_ _to_ _**Point Template**, the required_ _**Alarm Classes**_ _should be configured under Alarm Class Configuration. (Settings🡪Configure🡪Alarm Classes) and_ _**Alarm Severity**_ _should be configured as well._
+{% endhint %}
+
+
+
 1. Access Point Template search page via Equipment Template Search page.
-2. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates Search** page will appear.
-3. Click the relevant **Equipment Template** which has the required **Point Template.**
-4. Click the **Point Templates** tab.
-5. Access Point Template via Point Template Search page. (Settings🡪 View🡪 Point Templates)
-6. Click the name of the **Point Template** you want and navigate to Point Template details page. Scroll down and go to the **Alarm** section.
-7. Click on **Add** icon \*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAfhJREFUSEu1lllPg1AQhXvZGkNBW6lafTEucYkm/v9fYaKpGpf0ydZQaGWJadk8CF4LBUKhNn0AMvPNYe5cziWGMWr8z48UoH3ft23bNKzZbO55nuu4HM+xLNtsCpLcEkWRYZgCVdlogMaqPplMG0GQm0xIu72ldDsolhmTgTYMczT88D2/TJ8IQ3r7e7IsLQen0aqqaapWBroYs610ujtKKivRrGpcELWxjtxctGmaFfRSHHLRyUV6rNp13eH7x6p9SMVjhcChD2O0rk2K1+3s/Pry6gZ/wmTPA4gggJNAY351fVpTcpQODmjRdajasuyi+V2pZhCYprWA/r1ZCZIXbEMoVf31NVsLNIJQWrhlnh6fAz+xobFWF5fXZeo99O8C31uMxP48Oz+Ne53iliEWxFBauIyoUxOXSCcxLWzI68vAmc+L6Zhrlgsnun9/WxzJC8LxyWHckI2N5hpVU1rYELElrhFNaSFaklqN3wbVrUFISKNzDR+CX9SF/uSDQ10ttgJ8sd5eByWdJU8EwzJHx4ccx/2pxhXu93q7NYWDQLnxhERE+Bt8qDIduSmHTBgY/K2z3a5AR9ayN2Y7+vB9VHb3E7J/UM7RI8mO44zH+ufUKD6HbG7JitLheT7zRcuenjBCnuthr2OhBIGXN6WKp6cK7V5O+QaIDOrF/icMDwAAAABJRU5ErkJggg==)\*\*under **Alarm** section. **Add Alarm** dialog box appears.
-8. Select **Alarm Class** from the configured **Alarm Classes** in the list box\*\*. (\*\*To see how to configure Alarm Classes, please refer to [**Alarm Classes**](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Classes\_1) section)
-9. Select the relevant **Alarm Severity** from the Alarm Severity box. Alarm Severities should be configured beforehand.
-10. If the **Data Type** of the selected Point is “**Value**”;
-11. In the ‘**Alarm When’** dropdown box, select the relevant condition. (Equals, Is Not Equal To, Greater, Greater or Equal, Less, Less or Equal, Between, Between or Equal and Controller Based Alarms).
-12. Type in the relevant value/values in **Alarm When** textbox according to the selected above logical expression. E.g. If you have selected “Between” for “Alarm When”, you need to type two values to denote the range.
-13. In the ‘**Alarm When**’ dropdown box, select ‘Controller Based Alarm’ if the respective alarm is based on controllers.
-14. If the **Data Type** of the selected Point is “**Binary**”;
-15. If the alarm is a ‘Controller based alarm’, select the ‘Controller based Alarm’ from **Alarm When** dropdown box.
-16. If the alarm is not a ‘Controller based alarm’, in the **Alarm When** textbox, type the relevant binary value (0 or 1) of the Alarm point.
-17. If the **Data Type** of the selected Point is “**Text**”;
-18. In the **Alarm Value** box, type the required text to be checked as the condition.
-19. In the **Text Compare Mode** box, select the mode that you want to compare the text with. (e.g. Whether to see the given **Alarm Value** is **‘Not in’ or** whether to see it **Contains** the **Alarm Value**)
-20. If the **Data Type** is ‘**Multi-State**’;
-21. In the Alarm Value box, type the relevant value which is 0 – N.
-22. Enter Alarm Deadband, Clearance Deadband, Alarm Delay and Clearance Delay accordingly. ([See the relevant details below](chapter-3-configuration-of-prerequisites.md#AlarmTriggerPeriodandDeadband))
-23. Select Enable only for working hours/ Enable only for non-working hours checkboxes accordingly. ( [See the relevant detail below](chapter-3-configuration-of-prerequisites.md#AlarmTriggerPeriodandDeadband))
-24. In the **Alarm Message** box, type the required alarm message to be relayed.
-25. Click **Add.** Click  icon to abort operation.
+   1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates Search** page will appear.
+   2. Click the relevant **Equipment Template** which has the required **Point Template.**
+   3. Click the **Point Templates** tab.
+2. Access Point Template via Point Template Search page. (Settings🡪 View🡪 Point Templates)
+3. Click the name of the **Point Template** you want and navigate to Point Template details page. Scroll down and go to the **Alarm** section.
+4. Click on **Add** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAfhJREFUSEu1lllPg1AQhXvZGkNBW6lafTEucYkm/v9fYaKpGpf0ydZQaGWJadk8CF4LBUKhNn0AMvPNYe5cziWGMWr8z48UoH3ft23bNKzZbO55nuu4HM+xLNtsCpLcEkWRYZgCVdlogMaqPplMG0GQm0xIu72ldDsolhmTgTYMczT88D2/TJ8IQ3r7e7IsLQen0aqqaapWBroYs610ujtKKivRrGpcELWxjtxctGmaFfRSHHLRyUV6rNp13eH7x6p9SMVjhcChD2O0rk2K1+3s/Pry6gZ/wmTPA4gggJNAY351fVpTcpQODmjRdajasuyi+V2pZhCYprWA/r1ZCZIXbEMoVf31NVsLNIJQWrhlnh6fAz+xobFWF5fXZeo99O8C31uMxP48Oz+Ne53iliEWxFBauIyoUxOXSCcxLWzI68vAmc+L6Zhrlgsnun9/WxzJC8LxyWHckI2N5hpVU1rYELElrhFNaSFaklqN3wbVrUFISKNzDR+CX9SF/uSDQ10ttgJ8sd5eByWdJU8EwzJHx4ccx/2pxhXu93q7NYWDQLnxhERE+Bt8qDIduSmHTBgY/K2z3a5AR9ayN2Y7+vB9VHb3E7J/UM7RI8mO44zH+ufUKD6HbG7JitLheT7zRcuenjBCnuthr2OhBIGXN6WKp6cK7V5O+QaIDOrF/icMDwAAAABJRU5ErkJggg==) under **Alarm** section. **Add Alarm** dialog box appears.
+5. Select **Alarm Class** from the configured **Alarm Classes** in the list box (To see how to configure Alarm Classes, please refer to [**Alarm Classes**](chapter-3-configuration-of-prerequisites.md#\_Alarm\_Classes\_1) section).
+6. Select the relevant **Alarm Severity** from the Alarm Severity box. Alarm Severities should be configured beforehand.
+7. If the **Data Type** of the selected Point is “**Value**”;
+   1. In the ‘**Alarm When’** dropdown box, select the relevant condition. (Equals, Is Not Equal To, Greater, Greater or Equal, Less, Less or Equal, Between, Between or Equal and Controller Based Alarms).
+   2. Type in the relevant value/values in **Alarm When** textbox according to the selected above logical expression. E.g. If you have selected “Between” for “Alarm When”, you need to type two values to denote the range.
+   3. In the ‘**Alarm When**’ dropdown box, select ‘Controller Based Alarm’ if the respective alarm is based on controllers.
+8. If the **Data Type** of the selected Point is “**Binary**”;
+   1. If the alarm is a ‘Controller based alarm’, select the ‘Controller based Alarm’ from **Alarm When** dropdown box.
+   2. If the alarm is not a ‘Controller based alarm’, in the **Alarm When** textbox, type the relevant binary value (0 or 1) of the Alarm point.
+9. If the **Data Type** of the selected Point is “**Text**”;
+   1. In the **Alarm Value** box, type the required text to be checked as the condition.
+   2. In the **Text Compare Mode** box, select the mode that you want to compare the text with. (e.g. Whether to see the given **Alarm Value** is **‘Not in’ or** whether to see it **Contains** the **Alarm Value**)
+10. If the **Data Type** is ‘**Multi-State**’;
+    1. In the Alarm Value box, type the relevant value which is 0 – N.
+11. Enter Alarm Deadband, Clearance Deadband, Alarm Delay and Clearance Delay accordingly. ([See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
+12. Select Enable only for working hours/ Enable only for non-working hours checkboxes accordingly. ([See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
+13. In the **Alarm Message** box, type the required alarm message to be relayed.
+14. Click **Add.** Click  icon to abort operation.
 
-**Alarm Observation Period/ Alarm Trigger Period and Deadband for Alarms**
+#### **Alarm Observation Period/ Alarm Trigger Period and Deadband for Alarms**
 
-|   | _Note – If the alarm is a ‘**Controller based alarm**’, you are not required to enter the_ _**alarm**_ _**value**._ |
-| - | ------------------------------------------------------------------------------------------------------------------- |
 
-| <ol><li>Field</li></ol>           | <ol><li>Description</li></ol>                                                                                                                                                                                                                             |
-| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Alarm Deadband                    | <p>Alarm will be triggered only if the Alarm Value goes above this value (Alarm Deadband).<br>E.g. If alarm trigger value is >24 and Deadband is 0.5 then the alarm should get triggered only if the value goes above 24.5.<br></p>                       |
-| Clearance Deadband                | <p>Alarm will be cleared only if the Alarm value goes below this Value named as “Clearance Deadband”.</p><p>E.g. if alarm trigger value is >24 and Clearance Deadband is -0.5 then the alarm should get cleared only if the value goes below 23.5<br></p> |
-| Alarm Delay                       | <p>Alarm will be triggered only after the time configured as ‘Alarm Delay’ even though the Alarm conditions are met.<br></p>                                                                                                                              |
-| Clearance Delay                   | <p>Alarm will be cleared only after the time configured as ‘Clearance Delay’.<br></p>                                                                                                                                                                     |
-| Enable only for Working Hours     | Alarm will be triggered only during the period configured as ‘Working Hours’.                                                                                                                                                                             |
-| Enable only for non-working hours | Alarm will be triggered only during the period configured as ‘non-working hours’.                                                                                                                                                                         |
+
+{% hint style="info" %}
+_Note – If the alarm is a ‘**Controller based alarm**’, you are not required to enter the_ _**alarm**_ _**value**._
+{% endhint %}
+
+<table><thead><tr><th width="212">Field</th><th></th></tr></thead><tbody><tr><td>Alarm Deadband</td><td>Alarm will be triggered only if the Alarm Value goes above this value (Alarm Deadband).<br>E.g. If alarm trigger value is >24 and Deadband is 0.5 then the alarm should get triggered only if the value goes above 24.5.</td></tr><tr><td>Clearance Deadband</td><td><p>Alarm will be cleared only if the Alarm value goes below this Value named as “Clearance Deadband”.</p><p>E.g. if alarm trigger value is >24 and Clearance Deadband is -0.5 then the alarm should get cleared only if the value goes below 23.5<br></p></td></tr><tr><td>Alarm Delay</td><td>Alarm will be triggered only after the time configured as ‘Alarm Delay’ even though the Alarm conditions are met.</td></tr><tr><td>Clearance Delay</td><td>Alarm will be cleared only after the time configured as ‘Clearance Delay’.<br></td></tr><tr><td>Enable only for Working Hours</td><td>Alarm will be triggered only during the period configured as ‘Working Hours’.</td></tr><tr><td>Enable only for non-working hours</td><td>Alarm will be triggered only during the period configured as ‘non-working hours’.</td></tr></tbody></table>
 
 #### Edit Alarm on Point Template
 
@@ -389,7 +381,7 @@ _**Prerequisites: Alarm Class and Alarm Severity**_
 2. Click the name of the **Point Template** you want and go to its details page.
 3. Scroll down to Alarms section and click on ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon on the far right corner of the alarm.
 4. Edit the Alarm details as required.
-5. Click **Update.** Click  icon to discard changes.
+5. Click **Update.** Click ![](<.gitbook/assets/icon\_3 (1).png>) icon to discard changes.
 
 #### Add/Change Alarm Condition
 
@@ -429,7 +421,7 @@ To delete a **Point Template;**
 
 1. Go to the relevant Equipment Template detail page 🡪**Point Templates** tab.
 2. Click the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) to the right of the **Point Template** name.
-3. A message box to confirm deletion appears. Click **OK** to confirm deletion of the Point Template\*\*,\*\* or to close the message box without deleting, click **Cancel**.
+3. A message box to confirm deletion appears. Click **OK** to confirm deletion of the Point Template, or to close the message box without deleting, click **Cancel**.
 
 ### Search Point Templates
 
@@ -445,8 +437,10 @@ To delete a **Point Template;**
 
 **Interface Driver Type** contains the common protocol configuration settings for a particular protocol for an interface.
 
-|   | <p><em>Note –By default the Interface Driver Types will be configured with the Interface installation.</em><br><em>Interface Driver Type Configuration is provided for configuring parameters for Custom Interfaces.</em></p> |
-| - | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note –By default the Interface Driver Types will be configured with the Interface installation._\
+_Interface Driver Type Configuration is provided for configuring parameters for Custom Interfaces._
+{% endhint %}
 
 \
 This section describes the following:
@@ -456,7 +450,7 @@ This section describes the following:
 3. Delete an Interface Driver Type
 
 **Path**\
-**Settings** icon\*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)\*\* 🡪 **Configure** section 🡪 **Interface Driver Type 🡪 Interface Driver Types** search page
+**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)🡪 **Configure** section 🡪 **Interface Driver Type 🡪 Interface Driver Types** search page
 
 ### Configure Interface Driver Types
 
