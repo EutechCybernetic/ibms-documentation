@@ -304,16 +304,19 @@ You can configure Point Templates for Equipment Templates from here. These Point
    2. Type a description about **Point Template** under the **Point Template Description** box.
    3. Click **Save** to save the changes in the **General** section.
 5. **Properties:** Click on the **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) next to **Properties** section on the page and configure the following attributes of the **Point Template** and click **Save**.
+6. **Reset Value Configuration**: Click the **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon next to the **Reset Value Configuration** section to edit the following details.
 
 <table><thead><tr><th width="262">Properties of Point Template</th><th>Description</th></tr></thead><tbody><tr><td>Data Type</td><td>Data Type of the Point</td></tr><tr><td>Read/Write State</td><td>Select Read or Write from the list box to denote the <strong>Point</strong> as read-only or write-only.</td></tr><tr><td>Units</td><td>Select the unit of measurement from the supported units in the combo box. (e.g. Point Template : Return Air Temperature, Units: Celsius (C) )</td></tr><tr><td>Valid Range (L:H)</td><td>This range will be the Valid Range (Low: High) of Point values. SSIF will send only Point Values within this valid range and rest of the Point values will be ignored.<br>E.g. 0.01 :1)</td></tr><tr><td>Display Range (L:H)</td><td>Display Range shows the formatted ‘Valid Range’ to give a proper look to the Point Values sent by SSIF to make it more convenient in usage (e.g. Valid Range is multiplied by 100 to make it ‘Display Range’).<br>Display Range (Low: High) e.g. 1:100</td></tr><tr><td>Round Off</td><td>Point Value will be rounded off up to this decimal point e.g. Round Off value is 1 --> if the real value is 2.46, the value will be rounded off to 1 decimal point and make it 2.5</td></tr><tr><td>Deadband</td><td>If the difference between the new Point Value and the existing Point value is plus or minus the Deadband, the new Point Value will be ignored. If the difference of the new Value falls between the deadband, the new Point value will be ignored. E.g. 0.5 and -0.5</td></tr><tr><td>Polling Frequency</td><td>Frequency of polling in seconds for the value you monitor from Sub System Interface.</td></tr><tr><td>Also apply for overridden points</td><td>Select this check box to apply the settings under <strong>Properties</strong> for overridden points</td></tr></tbody></table>
 
 
 
-|   | _Note –_ _Reset Value Configuration section will be displayed under Point Template details only if the point’s_ **Read\_/Write State is ’Write’.\_** |
-| - | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note –_ _Reset Value Configuration section will be displayed under Point Template details only if the point’s_ **Read\_/Write State is ’Write’.**
+{% endhint %}
 
-1. **Reset Value Configuration**: Click the **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon next to the **Reset Value Configuration** section to edit the following details.
-   1. **Reset Value** – This is used to configure the Consultant recommended default value for Point Template.
+**Reset Value Configuration**: Click the **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon next to the **Reset Value Configuration** section to edit the following details.
+
+1. **Reset Value** – This is used to configure the Consultant recommended default value for Point Template.
 
 **Note**: You can override this consultant recommended Reset value at each Point level in the respective Point Template according to your requirement.
 
