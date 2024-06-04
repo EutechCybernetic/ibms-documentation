@@ -667,22 +667,23 @@ A **Trend Group** is a collection of **Trend Points** with same unit of measurem
 1. On the Trend Groups search page, click the **Add New Trend Group** link. **New** **Trend Group** configuration page opens.
 2. In the **Trend Group Name** box, type a unique and appropriate name for the new **Trend Group**.
 3. In the **Location** box, select the relevant Location where the **Trend Group** is configured for.
-4. To select Location from the Location list box, click on the **Location** box and select the location from the populated list.
-5. To select the location from the Location search page, click the **Search** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAsZJREFUSEu1ltlv2kAQh+MLUuGDy2AX0lAljSOVPPT/f+tLq0rtQ6tWhAQlqUi5A75IYnvtjjEyxqzBQcpKSGh35tvZ387smNC0/sHrDPJ1sD6V2BK167qGYeqaYVnPCLm2ZTMZhqLITCbL8SzL5khyW2R4NEJoPJpMp6rnuknHIkiyUBDKYomiKKwNBq2q2qA/RA5KoxVJkZJcFQR+0ziOHo0m4+E4DTRqA7GLlXLMa02s/bhABPXANxGtafoe8YY48AUlo/Rl1I7j9HuDl+oQs4cbAk44udR6OACNH5LQYlXOCwWaYeamMRz2H+dmkmWpXKxUxWDVR0P+ti872DwD3JnykWVXCeB53t+7zqD/D59wJHmmnAT57v903UjK38b7U+CORv0f3798+/q59een49jHjVOOF7Bo4MCdBUs+2tDxB8xmD4tF0TC0m07bsW2w1LTZ9XUL/lSqcpImpjFfoZ+enrF22cM3MK+qs+iqrs4QcnI5Ngkd0vyo4Yz403l+ldP0Wh2T8IiQlL04BHaENB/tIvxDoeuabVuiKAXhB6NebxAEoarTJHRIW1wllfCAed7tzRXE2Lz49O74pCLJyvmFJNfARRAKED6WDs/WSmuaZpJCmD5Mrtq/YRWIjcYHIV8IpOA4QTlvYukMs6T5eX3f7WnrNbq5U45l4ZmeP85ty1KUJiSfaRqXrV9B5kQHL/C1up8/Pno2U3v3L2hjEOzRUaPbvcU+vHJNyuf9rPd14XkuFChJmei8i9DdbQfLBQ7QVlpDXUK/SAPdaQOcsKstbxOeFWo9f3dSNg2AAJxwfommaboqVfbARV2AAJw4epGqPPShvengG+uQa8UC/S16ovTbgNdmb8R3dOg4SdUf2w9SQn6brqMHnlBy0EY1Vd/yHXJAEEKeF8VSWH7xXVN+PTkOcmyHZuCeKIbJ8AK38+vpP95zTfwP85EsAAAAAElFTkSuQmCC) icon and select the location you want from the Location search window that appears.
-6. To select the Location from the pin board, click the **Pin** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAIAAABbkFLLAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsIBw3GpnQAAAnpJREFUSEu1lttu2kAQhuMTEPAhAUxCW9pEiZJUanPR3PT9X6FRBYlaJBoIxxB7zSH41D/aysbG3mKk+M72P9/Mzs7sLGea/b03e/g3I7+Cuf/G7nmeZc2Iaa1WL67r2StbykmCwOdyeUWVZbnE86khsuiu645Hk+nU8D0vbYkczx8ealW9IgjCpiaVbhjmoD90HXeb1PECf1w/0jQ1Jk6mj0aT8XC8DXddgxXoter6l4SU7YYGFGmELYtummSHqAMibJHS4DUSu+M4/cdB1oTE9NgtcOjHCP1pMt1yGxkRgAAOFYS7irq+a/1iFB/UsqI2Gieyoi0Xi16vg61PdIMyvbg8Qx+EsRNisdH7xdLV52tFPeA4br9YPDu/qtXqiXRwsH+RzFhkxlgvwnn/4WOsLRufTtNMZtY8Ql8uX9KksqJ8u/leLusxgSCI8JpoRWnhP8ex0+gWId1uZ/PvYjFPSyalhXTPTT1MoBsOHjud3+sOfN9/+NNOC4jSQjrOijRpuaJ/vb55nk4CB4QYzeaP6VOkM9fNacZCoihKifRKtYbyyOcLF5df+o9dOEDU93c/ifHMqAJJeqWF9EIhn6g+OT1HCaIb2u37Pd/v9x5azVvHTt0kCqG0kF6Si5t0LBCFsVzOW63bIFjT+NeKjNgpLVuvMnCxpMd7FZ2CKbOlPVsGDu27SJ1UqmVBTBhgmVyCAA41idBFUTw6rmVibYpBACeBjk+YjRhgOzuA7fp0TeggzMZgaZncwCo2V1l3Aswp9vEQ+Ebh1t9tfSegZrZtYwqbBmGd+xynHai6XqHNGXuy3cUcx3VsR5SwbYIk5VRN2f0ulinpieK/3HY0Z0N+lZ4AAAAASUVORK5CYII=) and select from the pinned item list.
-7. Click **Create** to create the new **Trend Group**. Configured Trend Group name will be displayed on the **Trend Groups** page. Trend Group Detail page will open. Trend Group detail page will consists of the following tabs.
-8. Details – shows the main details such as **Trend Group Name** and **Location**
-9. Points – shows the **Configured Points** in the **Trend Group.** Type the required Point name in the **Search Points** search box, to filter Points by Point name.
-10. Trend – shows the Trends associated with the Trend Group
+   1. To select Location from the Location list box, click on the **Location** box and select the location from the populated list.
+   2. To select the location from the Location search page, click the **Search** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAsZJREFUSEu1ltlv2kAQh+MLUuGDy2AX0lAljSOVPPT/f+tLq0rtQ6tWhAQlqUi5A75IYnvtjjEyxqzBQcpKSGh35tvZ387smNC0/sHrDPJ1sD6V2BK167qGYeqaYVnPCLm2ZTMZhqLITCbL8SzL5khyW2R4NEJoPJpMp6rnuknHIkiyUBDKYomiKKwNBq2q2qA/RA5KoxVJkZJcFQR+0ziOHo0m4+E4DTRqA7GLlXLMa02s/bhABPXANxGtafoe8YY48AUlo/Rl1I7j9HuDl+oQs4cbAk44udR6OACNH5LQYlXOCwWaYeamMRz2H+dmkmWpXKxUxWDVR0P+ti872DwD3JnykWVXCeB53t+7zqD/D59wJHmmnAT57v903UjK38b7U+CORv0f3798+/q59een49jHjVOOF7Bo4MCdBUs+2tDxB8xmD4tF0TC0m07bsW2w1LTZ9XUL/lSqcpImpjFfoZ+enrF22cM3MK+qs+iqrs4QcnI5Ngkd0vyo4Yz403l+ldP0Wh2T8IiQlL04BHaENB/tIvxDoeuabVuiKAXhB6NebxAEoarTJHRIW1wllfCAed7tzRXE2Lz49O74pCLJyvmFJNfARRAKED6WDs/WSmuaZpJCmD5Mrtq/YRWIjcYHIV8IpOA4QTlvYukMs6T5eX3f7WnrNbq5U45l4ZmeP85ty1KUJiSfaRqXrV9B5kQHL/C1up8/Pno2U3v3L2hjEOzRUaPbvcU+vHJNyuf9rPd14XkuFChJmei8i9DdbQfLBQ7QVlpDXUK/SAPdaQOcsKstbxOeFWo9f3dSNg2AAJxwfommaboqVfbARV2AAJw4epGqPPShvengG+uQa8UC/S16ovTbgNdmb8R3dOg4SdUf2w9SQn6brqMHnlBy0EY1Vd/yHXJAEEKeF8VSWH7xXVN+PTkOcmyHZuCeKIbJ8AK38+vpP95zTfwP85EsAAAAAElFTkSuQmCC) icon and select the location you want from the Location search window that appears.
+   3. To select the Location from the pin board, click the **Pin** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAIAAABbkFLLAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsIBw3GpnQAAAnpJREFUSEu1lttu2kAQhuMTEPAhAUxCW9pEiZJUanPR3PT9X6FRBYlaJBoIxxB7zSH41D/aysbG3mKk+M72P9/Mzs7sLGea/b03e/g3I7+Cuf/G7nmeZc2Iaa1WL67r2StbykmCwOdyeUWVZbnE86khsuiu645Hk+nU8D0vbYkczx8ealW9IgjCpiaVbhjmoD90HXeb1PECf1w/0jQ1Jk6mj0aT8XC8DXddgxXoter6l4SU7YYGFGmELYtummSHqAMibJHS4DUSu+M4/cdB1oTE9NgtcOjHCP1pMt1yGxkRgAAOFYS7irq+a/1iFB/UsqI2Gieyoi0Xi16vg61PdIMyvbg8Qx+EsRNisdH7xdLV52tFPeA4br9YPDu/qtXqiXRwsH+RzFhkxlgvwnn/4WOsLRufTtNMZtY8Ql8uX9KksqJ8u/leLusxgSCI8JpoRWnhP8ex0+gWId1uZ/PvYjFPSyalhXTPTT1MoBsOHjud3+sOfN9/+NNOC4jSQjrOijRpuaJ/vb55nk4CB4QYzeaP6VOkM9fNacZCoihKifRKtYbyyOcLF5df+o9dOEDU93c/ifHMqAJJeqWF9EIhn6g+OT1HCaIb2u37Pd/v9x5azVvHTt0kCqG0kF6Si5t0LBCFsVzOW63bIFjT+NeKjNgpLVuvMnCxpMd7FZ2CKbOlPVsGDu27SJ1UqmVBTBhgmVyCAA41idBFUTw6rmVibYpBACeBjk+YjRhgOzuA7fp0TeggzMZgaZncwCo2V1l3Aswp9vEQ+Ebh1t9tfSegZrZtYwqbBmGd+xynHai6XqHNGXuy3cUcx3VsR5SwbYIk5VRN2f0ulinpieK/3HY0Z0N+lZ4AAAAASUVORK5CYII=) and select from the pinned item list.
+4. Click **Create** to create the new **Trend Group**. Configured Trend Group name will be displayed on the **Trend Groups** page. Trend Group Detail page will open. Trend Group detail page will consists of the following tabs.
+   * Details – shows the main details such as **Trend Group Name** and **Location**
+   * Points – shows the **Configured Points** in the **Trend Group.** Type the required Point name in the **Search Points** search box, to filter Points by Point name.
+   * Trend – shows the Trends associated with the Trend Group
 
 #### Add Points to the Trend Group
 
 You can add configured points to the created Trend Group.
 
-*
-  *
-    *
-      1. Go to the Trend Group Detail page. 2. On the Trend Group details page, click the **Points** tab. 3. Click the **Add** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAIAAABbkFLLAAAAAXNSR0IArs4c6QAAAfJJREFUSEu1lltPwmAMht2RRMZQmAh3RIhR1ITE//8TTEzUaAwY7jhsHNyGCWwjvmHLN9jY57cNCTeM9mlpS99ypjk6+bcXR6dvNpul/WOa1nq99jzPcRxJkgRBkGVZVUtF5ZTneUpuiXSwDGO2mC8QIMkf6LPzM02rIN5Bm8N089sajSae57LUTOCFeuNSLZfixgfohj7VdYOFu2ujadWLmhbxilYtGxpQw5jCl0a3TDtD1oQIX5R0N0CYO9o4HI7TFiRiv+2WRx6G9Ol0Rm9jp9O9f3jEG21MSgIEcKJ0jN18tsiZuO8ODhniIHfbWlLmOlVUcNA/3yWgW1bwORUoydi2l3v01Wp1FK4PIbTg3/T50fM2Ya9hgdbd3nVZQr6/Pcd9r2/aYWUiX7NAKTaEFtSdMmQZIpHFGVTmqz/4s/SYd367C19fnughC4XCVasZVgafM+SY5EJoQWUUpXhEOqEF9JKq0FWGPTY4oO3Nu68y7AiKJTjRrsIau63fGzDqURJdEMRWu0mEMNyReFSv13KmD8Kuxu5pE7QRApY5AHwj6hpVPmhjVatkCACvuK4m3wTDMeN6QA8bjTrrTeAn7rquPjFwJ1H2Psdx5bKKlEVRPPhzU9xiruu5riOKkigKkiyX89xiGUofd6FdgfkD/ALqge7Ur+LfggAAAABJRU5ErkJggg==) icon. Points search window will open to add configured Points to the respective **Trend Group.** Point configuration should be done first in order to list the configured points in the Point Search Window. Refer **Configure Point Templates** section for more details on configuring points. 4. Select the **Point Name** from the **Points** search page. **Points** can be added from the pin-board as well. 5. Click the **Point Name** to add the selected **Point**.
+1. Go to the Trend Group Detail page.&#x20;
+2. On the Trend Group details page, click the **Points** tab.&#x20;
+3. Click the **Add** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAIAAABbkFLLAAAAAXNSR0IArs4c6QAAAfJJREFUSEu1lltPwmAMht2RRMZQmAh3RIhR1ITE//8TTEzUaAwY7jhsHNyGCWwjvmHLN9jY57cNCTeM9mlpS99ypjk6+bcXR6dvNpul/WOa1nq99jzPcRxJkgRBkGVZVUtF5ZTneUpuiXSwDGO2mC8QIMkf6LPzM02rIN5Bm8N089sajSae57LUTOCFeuNSLZfixgfohj7VdYOFu2ujadWLmhbxilYtGxpQw5jCl0a3TDtD1oQIX5R0N0CYO9o4HI7TFiRiv+2WRx6G9Ol0Rm9jp9O9f3jEG21MSgIEcKJ0jN18tsiZuO8ODhniIHfbWlLmOlVUcNA/3yWgW1bwORUoydi2l3v01Wp1FK4PIbTg3/T50fM2Ya9hgdbd3nVZQr6/Pcd9r2/aYWUiX7NAKTaEFtSdMmQZIpHFGVTmqz/4s/SYd367C19fnughC4XCVasZVgafM+SY5EJoQWUUpXhEOqEF9JKq0FWGPTY4oO3Nu68y7AiKJTjRrsIau63fGzDqURJdEMRWu0mEMNyReFSv13KmD8Kuxu5pE7QRApY5AHwj6hpVPmhjVatkCACvuK4m3wTDMeN6QA8bjTrrTeAn7rquPjFwJ1H2Psdx5bKKlEVRPPhzU9xiruu5riOKkigKkiyX89xiGUofd6FdgfkD/ALqge7Ur+LfggAAAABJRU5ErkJggg==) icon. Points search window will open to add configured Points to the respective **Trend Group.** Point configuration should be done first in order to list the configured points in the Point Search Window. Refer **Configure Point Templates** section for more details on configuring points.&#x20;
+4. Select the **Point Name** from the **Points** search page. **Points** can be added from the pin-board as well.&#x20;
+5. Click the **Point Name** to add the selected **Point**.
 
 #### Edit Points on Trend Group
 
@@ -723,8 +724,11 @@ You can add configured points to the created Trend Group.
 9. Click the **Time** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAxZJREFUSEu9lf9PEnEYx5Gbt7u8cfMCYaDGCWoySq3luuHKWrbZF13/aG1uzrWmrdJBP7isGATBMAgmHh0BHxQPyY67z+fuOCB0ZZ/xA/fc87zu/Xme5/N8+u7M3TP969XXA9pvsTq8DGHCGQoXADABIZMu1Gp/ltENSljH57lpB0NiHeIbopCJBUO7hfqvjvQOULM98HjBy+A9kyIK4a21D5l2MHbFxeqizdbZlWXOSen0NUTwY1/4WQGVCjg+JQnCbIYBGDnETjnxdCJ33CpAr1QiLi/6aVUiyEaC73dz1XpLiHnQOTXH3XBQyCoKsVdroYLOSafUvvCEsxPwHUhsrL78tFdpz9pprcIno3FADY9KBZQWRlqdJB/NVlSsCnUHlqbt/Yr9KLb+PJgXkdOI/z53nfWOsd5Lh8mDqmw+KWZiPOnxWOV94ZdHqHwkUz1VQmB+iKszXlKxNPZD0mb02addLgf8DegzkQut7+w3FAvunZ2BkhB00DdBQ/dSKvhVEXOGVQsHowD62dhrFvhXVjowOYqYfHynfAaa6lIOp3j4QI16BnXbtzOazmSP02L8Yj2iUmmrS4NaGNQeYklo7Z8ziK4JZVRSilYS0Nw+pra62FBL3hHnuPXIg5pOdRAbsFgqqQnVjDjW6XCmEln0Ldw2v2Lk4pooSGpCywKqIE4zal9oUqvJzdWtrlyCsSAloKQUWa5+XihBBM22b6/5qju338faYHCpkNVVvxpLI6pt4ibqNkNWW7kiKMltYvGrTJBOFnVQUzES17Ry4y3nRsdGXJBae/G2OUEIPzeFOodPfUYdDs/+SaFGTbjlhJqpYZbMRb8fwoPcKrheTIU/fvl22LQ6bz+dd8NmEBPbG3uGs28y7W2/Sx9BADm59Czg7KZXdiI8geXFSaQSxN9s57VxoRt91XQec7uHCLlrcWbM57XipQPeOP2keeq7+/CBz4EaVpqnm6+jsna4DNeJcU5LXtLkF3igNCpO2Rhaa0vJ0j6hJeOF3FH/6zZtKTe695Hxr+59Q+ef7xFdt+eL6uF9IdDfCqNMwzB+bu8AAAAASUVORK5CYII=) icon and select the **To Time, which** denotes the end time to stop plotting data.
 10. Trends will be filtered according to the selected time range.
 
-|   | _Tip – You can view respective_ _**User Activities**_ _associated with a_ _**Trend Group**_ _such as Trend Group creation, Point addition, Point Deletion, etc. on the right pane in the respective Trend Group detail page under_ _**Activities**_ _section._ |
-| - | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+
+{% hint style="success" %}
+_Tip – You can view respective_ _**User Activities**_ _associated with a_ _**Trend Group**_ _such as Trend Group creation, Point addition, Point Deletion, etc. on the right pane in the respective Trend Group detail page under_ _**Activities**_ _section._
+{% endhint %}
 
 ### Real-Time Trends of Trend Groups
 
@@ -743,7 +747,7 @@ You can create Trend Groups which are dynamic and which will be used only for th
 
 To configure a Dynamic Trend Group;
 
-1. Go to **Settings** icon\*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)\*\* 🡪Configure🡪 Trend Groups.
+1. Go to **Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)🡪Configure🡪 Trend Groups.
 2. On the Trend Groups search page, click the **Create New Dynamic Trend Group** link on the top right corner.
 3. Select the **Location** that you are interested in to filter the **Equipment** based on the selected Location and click **Create**. Dynamic Trend Groups page will be opened.
 4. Click the **Add** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAfhJREFUSEu1lllPg1AQhXvZGkNBW6lafTEucYkm/v9fYaKpGpf0ydZQaGWJadk8CF4LBUKhNn0AMvPNYe5cziWGMWr8z48UoH3ft23bNKzZbO55nuu4HM+xLNtsCpLcEkWRYZgCVdlogMaqPplMG0GQm0xIu72ldDsolhmTgTYMczT88D2/TJ8IQ3r7e7IsLQen0aqqaapWBroYs610ujtKKivRrGpcELWxjtxctGmaFfRSHHLRyUV6rNp13eH7x6p9SMVjhcChD2O0rk2K1+3s/Pry6gZ/wmTPA4gggJNAY351fVpTcpQODmjRdajasuyi+V2pZhCYprWA/r1ZCZIXbEMoVf31NVsLNIJQWrhlnh6fAz+xobFWF5fXZeo99O8C31uMxP48Oz+Ne53iliEWxFBauIyoUxOXSCcxLWzI68vAmc+L6Zhrlgsnun9/WxzJC8LxyWHckI2N5hpVU1rYELElrhFNaSFaklqN3wbVrUFISKNzDR+CX9SF/uSDQ10ttgJ8sd5eByWdJU8EwzJHx4ccx/2pxhXu93q7NYWDQLnxhERE+Bt8qDIduSmHTBgY/K2z3a5AR9ayN2Y7+vB9VHb3E7J/UM7RI8mO44zH+ufUKD6HbG7JitLheT7zRcuenjBCnuthr2OhBIGXN6WKp6cK7V5O+QaIDOrF/icMDwAAAABJRU5ErkJggg==) icon on the top right corner.
@@ -811,10 +815,11 @@ This section describes the following:
 2. Edit a Message Template
 3. Delete a Message Template
 4. Export a Message Template
-5.
+
+
 
 **Path**\
-**Settings** icon\*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)\*\* on the Application Dashboard 🡪 **Configure** section 🡪 **Escalated Alarm** **Message Templates 🡪 Escalated Alarm Message Templates** search page
+**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)on the Application Dashboard 🡪 **Configure** section 🡪 **Escalated Alarm** **Message Templates 🡪 Escalated Alarm Message Templates** search page
 
 _Setting under App Configuration_\
 _**Escalated Alarm Message Templates** configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “**Assignee Message Template**” and “**Un-assignee Message Template**” Drop down boxes in_ _**App Configuration page**, which enable user to select accordingly._
@@ -831,8 +836,9 @@ To configure an Escalated Alarm Message Template;
 
 1. In the **Message** box, configure the message using message text and relevant **Placeholders.**
 
-|   | _Note –The default message that created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates._ |
-| - | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note –The default message that created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates._
+{% endhint %}
 
 | Place Holder                                 | Description                                                            |
 | -------------------------------------------- | ---------------------------------------------------------------------- |
