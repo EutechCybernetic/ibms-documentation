@@ -39,14 +39,15 @@ After registering an Equipment, you need to configure/edit the other details rel
 To make changes to Asset Details;
 
 1. Go to the Equipment detail page.
-2. To go to the Edit mode click on **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAMNJREFUOE+tkzEOgkAQRTmilR7DSjs7vYQlN7DEitCAjdHEhMSEknOM8zG7YZfd2QEtHvk7O/81ZDMi+hvBoUTfvynPz7RZr+h0PFBVFTz+3k2WJdr2Pkh8rsWFr2fIYiIDdoJFn5QIYC9YHqMR7XdbXk3INCJwa0peF2RaUfJvLhEBRwKWioBz+EUEnINGFhOB4YMnApAloSQCNuCdScKUCNiAQkyoEQEbTNEXakXABiPzhXOw4fmoaUzXvXg8LcSh7AMGradB7HJYsgAAAABJRU5ErkJggg==)icon on **Details** tab.
+2. To go to the Edit mode, click on **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAMNJREFUOE+tkzEOgkAQRTmilR7DSjs7vYQlN7DEitCAjdHEhMSEknOM8zG7YZfd2QEtHvk7O/81ZDMi+hvBoUTfvynPz7RZr+h0PFBVFTz+3k2WJdr2Pkh8rsWFr2fIYiIDdoJFn5QIYC9YHqMR7XdbXk3INCJwa0peF2RaUfJvLhEBRwKWioBz+EUEnINGFhOB4YMnApAloSQCNuCdScKUCNiAQkyoEQEbTNEXakXABiPzhXOw4fmoaUzXvXg8LcSh7AMGradB7HJYsgAAAABJRU5ErkJggg==)icon on **Details** tab.
 3. You can change **Description** while in edit mode.
 4. Selecting **Disable Subsystem Communication** checkbox would stop data acquisition for points on this Equipment.
 
 #### Points Tab
 
-|   | _Tip –_ [_Point templates_](chapter-5-registering-new-items.md#\_Configure\_Point\_Templates\_1) _configured in IBMS, will be the points for equipment, registered using the respective Equipment Template and those points will be listed here._ |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="success" %}
+_Tip –_ [_Point templates_](chapter-5-registering-new-items.md#\_Configure\_Point\_Templates\_1) _configured in IBMS, will be the points for equipment, registered using the respective Equipment Template and those points will be listed here._
+{% endhint %}
 
 You can configure point details on **Points** tab on Equipment details page;
 
