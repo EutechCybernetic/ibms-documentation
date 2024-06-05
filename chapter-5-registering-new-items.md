@@ -123,13 +123,13 @@ To configure **Points** for **System**:
 1. Go to System Detail page. Click the **Points** tab.
 2. Click the Add ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAhCAIAAAA6Wk5BAAAAAXNSR0IArs4c6QAAAgxJREFUSEvFl1tPwkAQhe2VRKAgVCxvRIhR1ITE//8TTEzUaAwY3riVi20xgbbEI00MLtvdbSFAfGPmfDOzs+xRcpz+yWE/8mFxv7QjICXBwa5Wq7n37TjucrkMw9D3fU3TFEXRdd0w8tncqSyLVs9HAmDbk9l0BmrcKYBXPCuaZglFcE+Kg3S+3H5/GIYBVwgBiqxY1QujkGcHs5D2aDwa2SKwzRjTLJ9XTEZW7AGk44Fk22PkJka6jpeivz8McnEisQe//QX2pdcbJJ0nEb/egJAqQhnseDxh70uz2bq7f8Af9iWuMihARwiJmzCdzHZsMUqHDvVekV167pxx/xKVAh3sxHYKiXRdSlAi0maw5835yMVikRqwnUhVI38KPt7b4erfpmFHbm5bInW8vT5t515dN4hccrBEjgiJEUNVI5GMvU+Bpz4v5GA/O13uceJeyusX4+X5kV1HJpO5rNc4g0VQim7iUqhq5GBzuewekVQ1Epk3cuLvO7s46ECNfy+j930vjUJHaH0AwwvQaXcFnUBccYqi1hs1qi+hvCSIs6zKjo1CIc4H0V0B/Av8RGoqchkOKNaIwL+UzVIKKrLY3kfA4fUGgr+CWJZq1drJ4UUtBkEwGtowzYx3VJKkQsFAc6qqcgfDt86RxKZbD4IwCHxV1VRV0XS9sHe3zq06aYDoPxJJdRnxR0D+ADP57toCmA9FAAAAAElFTkSuQmCC) icon. Add Point window will appear.
 3. Select the required **Equipment** and **Point**.
+4. Type a relevant name under **Display Name** as the display name of the Point. This name will be displayed as the name of the Point.
+5. Click **Add**.
+6. To delete an already configured point, click the respective **Delete** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAfCAIAAADm9jPlAAAAAXNSR0IArs4c6QAAAnBJREFUSEvdVt9r01AUzr03SZMmdbZru1XnXia+CK0iQt0UfRk+yEDwyX/PF0EQfPHNl7EKImpwoshgoFa6ttNtZWnzo0mutwSSNLlL2nR9MQ8h5J57vvud79xzDtC0E2bOD5yz/5H7/wUDJOrhaIb5u2O1/zh9jTFMPLSAnAUsi8oFbqXMFRYSox2HYfVUfXfPPjiM8QIkSahd5VeW42zoPDDuK9+t/SaDceIxR6ouXszeqaKsSDWm8CDRUN8qTvdoEu+eDcjwwvoNvpSP7grnFbZtdfvjtADELzZMvaEMj3pRjDCP/vsv1o8WlQGXXyhsPXSXus9f4aFJMROF3GYdCpng0hiG2epqDSW4jCSp+ORRfNBCeOxqRapXg1sCscJY/7w3lQZUY6vZDkXM52H8OtDf7c6OQTygy2V546afDl7uqjufolcBAMjmE26ZddzD2Bk7HIS5rfsww7s/fR69l28Y2w7xABxffvp4Kj1cY3G95l3MgB4RgFniZp2o3vaJ6i42h51nL5zBwP0gb+/PWefAA206jBSEsOWHfSIeKTAAi+bOAwTqY4AHPE9ObD5H4UF6ToqY0LdAyC0VKRjcauW8MNDSYlAP/w6Sqn76egfrRhAp3R0U793iKzQeAKFM9drsVNByMQgwVktc72pDsVvd1EikG0qb9VDTDecSKf0gJ6XEAJC022hXD2MQreQHt2FSrY0eAnCcuEHv5/TZh+g/+PDN+klvuhQAWc7erbEXZGoA4uYrs3VofN13jiljgOeLCMBfXxPWrjAAnBXh5DmRTHJms213/o7K7Wl/lCdkJOA5VCpwlSJ/qZQo3j+fgwVtBcxpQAAAAABJRU5ErkJggg==) icon.
 
-|   | _Tip – If you select the_ _**Point**_ _first, respective_ _**Equipment**_ _will be automatically selected under the_ _**Equipment**_ _field._ |
-| - | --------------------------------------------------------------------------------------------------------------------------------------------- |
-
-1. Type a relevant name under **Display Name** as the display name of the Point. This name will be displayed as the name of the Point.
-2. Click **Add**.
-3. To delete an already configured point, click the respective **Delete** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAfCAIAAADm9jPlAAAAAXNSR0IArs4c6QAAAnBJREFUSEvdVt9r01AUzr03SZMmdbZru1XnXia+CK0iQt0UfRk+yEDwyX/PF0EQfPHNl7EKImpwoshgoFa6ttNtZWnzo0mutwSSNLlL2nR9MQ8h5J57vvud79xzDtC0E2bOD5yz/5H7/wUDJOrhaIb5u2O1/zh9jTFMPLSAnAUsi8oFbqXMFRYSox2HYfVUfXfPPjiM8QIkSahd5VeW42zoPDDuK9+t/SaDceIxR6ouXszeqaKsSDWm8CDRUN8qTvdoEu+eDcjwwvoNvpSP7grnFbZtdfvjtADELzZMvaEMj3pRjDCP/vsv1o8WlQGXXyhsPXSXus9f4aFJMROF3GYdCpng0hiG2epqDSW4jCSp+ORRfNBCeOxqRapXg1sCscJY/7w3lQZUY6vZDkXM52H8OtDf7c6OQTygy2V546afDl7uqjufolcBAMjmE26ZddzD2Bk7HIS5rfsww7s/fR69l28Y2w7xABxffvp4Kj1cY3G95l3MgB4RgFniZp2o3vaJ6i42h51nL5zBwP0gb+/PWefAA206jBSEsOWHfSIeKTAAi+bOAwTqY4AHPE9ObD5H4UF6ToqY0LdAyC0VKRjcauW8MNDSYlAP/w6Sqn76egfrRhAp3R0U793iKzQeAKFM9drsVNByMQgwVktc72pDsVvd1EikG0qb9VDTDecSKf0gJ6XEAJC022hXD2MQreQHt2FSrY0eAnCcuEHv5/TZh+g/+PDN+klvuhQAWc7erbEXZGoA4uYrs3VofN13jiljgOeLCMBfXxPWrjAAnBXh5DmRTHJms213/o7K7Wl/lCdkJOA5VCpwlSJ/qZQo3j+fgwVtBcxpQAAAAABJRU5ErkJggg==) icon.
+{% hint style="success" %}
+_Tip – If you select the_ _**Point**_ _first, respective_ _**Equipment**_ _will be automatically selected under the_ _**Equipment**_ _field._
+{% endhint %}
 
 ### Alarms Tab of System
 
