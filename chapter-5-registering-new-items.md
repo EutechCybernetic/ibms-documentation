@@ -59,7 +59,7 @@ You can configure point details on **Points** tab on Equipment details page;
    5. **Enable Trend –** Select **Enable Trend** check box to enable the trending of this point. (Depends on other configuration prerequisites)
    6. **Enable Value Subscription** and **Disable comments in command** options are discussed under the section [Details Tab on Point Detail Page.](chapter-6-viewing-items.md#details-tab-on-point-details-page)
    7. **Interface –** This is the Sub System Interface with which this point communicates to acquire the data.
-   8. Click **Update** to confirm the changes. Click **Clear** to reset all data to initial values. Click  icon to discard changes and close dialog.
+   8. Click **Update** to confirm the changes. Click **Clear** to reset all data to initial values. Click![](<.gitbook/assets/icon\_3 (7).png>)  icon to discard changes and close dialog.
 
 {% hint style="info" %}
 _Note –**Point Address**_ _of a_ _**Point ID**_ _of an_ _**equipment**_ _should be unique. The system will not allow you to enter same_ _**Point Address**_ _for two different Point IDs of an equipment._
@@ -147,7 +147,7 @@ You can save a Filter with filter conditions that will be used often.
 
 To configure **Monitoring Groups** for the **System**:
 
-1. Go to the required System’s detail page\*\*.\*\* Click the **Monitoring** tab.
+1. Go to the required System’s detail page. Click the **Monitoring** tab.
 2. Click the **Add** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAhCAIAAAA6Wk5BAAAAAXNSR0IArs4c6QAAAgxJREFUSEvFl1tPwkAQhe2VRKAgVCxvRIhR1ITE//8TTEzUaAwY3riVi20xgbbEI00MLtvdbSFAfGPmfDOzs+xRcpz+yWE/8mFxv7QjICXBwa5Wq7n37TjucrkMw9D3fU3TFEXRdd0w8tncqSyLVs9HAmDbk9l0BmrcKYBXPCuaZglFcE+Kg3S+3H5/GIYBVwgBiqxY1QujkGcHs5D2aDwa2SKwzRjTLJ9XTEZW7AGk44Fk22PkJka6jpeivz8McnEisQe//QX2pdcbJJ0nEb/egJAqQhnseDxh70uz2bq7f8Af9iWuMihARwiJmzCdzHZsMUqHDvVekV167pxx/xKVAh3sxHYKiXRdSlAi0maw5835yMVikRqwnUhVI38KPt7b4erfpmFHbm5bInW8vT5t515dN4hccrBEjgiJEUNVI5GMvU+Bpz4v5GA/O13uceJeyusX4+X5kV1HJpO5rNc4g0VQim7iUqhq5GBzuewekVQ1Epk3cuLvO7s46ECNfy+j930vjUJHaH0AwwvQaXcFnUBccYqi1hs1qi+hvCSIs6zKjo1CIc4H0V0B/Av8RGoqchkOKNaIwL+UzVIKKrLY3kfA4fUGgr+CWJZq1drJ4UUtBkEwGtowzYx3VJKkQsFAc6qqcgfDt86RxKZbD4IwCHxV1VRV0XS9sHe3zq06aYDoPxJJdRnxR0D+ADP57toCmA9FAAAAAElFTkSuQmCC) icon. Add Monitoring Group window will appear.
 3. Type a **Monitoring Group ID**.
 4. Select the required **Aggregate Operator**.
@@ -159,9 +159,7 @@ To configure **Monitoring Groups** for the **System**:
    2. Click **Assign**. Point will be added and will be displayed on the page.
    3. Add all the required **Points** to the **Monitoring Group**.
    4. If you need to remove an added **Point**, click the respective **Delete** icon.
-9. Click the **Manual Read** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAAAnCAIAAACDsvFxAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsMB2mqY3AAAAxtJREFUaEPtWE1rGlEUvSn9BSIZO8GdwdWQmNBocJtVprjJtpXowm0hCF0ObgqB4A9wkRRpl4EQqlDqtiRGoimzGpyd1I5BZpFf0PcxY0yiqV6LheReXMTJO/fdd+459w0u3Nw4QIFiYGGYO+P9F1SSZwp68UzP/S+OTdzhWSTuiDs8A3gk6Y64wzOAR5LuiDs8A3gk6Y64wzOAR5LuiDs8A3gk7reAaOZQ1wB6lfL+cV9uru7s5vUAgP05e9rE1zMeGU5+KCybxqdqZ7DGK2Pw3SwVj85n2DuRKuZg8vpn8qyyHlW9UoOr64y4/xCsf3vZIv+UbC23l0nMrwY8d2bLhtDyaljUGo5qIeg57vwKf7jTuWUCLC4F51bDS/xODcuM6dpGsNrpqxvLCti1y4Cie/l8C/OvnpW46eLXLVuLRdhDz+/yofQat0ygJlw5Av63QtWdTTZGzF9ihoi0Cv/LlQmHpspQSXdWAlfDNIHXHYD1swXCtsKwLevqduNgCM4OpJWM+mIuteb/SwOLPTyouIr+ZltqdkSMhT9cq+jp4uEe+7Bp68+7aKYQB+nlkrtVkLuPzDm0MlvuveJNnTxm4Q6aDWHbBDOsWzuxhnbtO7CZF0cq8v4HQj5NZoMv6160e4/VOBb+ECTmXYW5FVoV76Jg9YD9XV5i3MiRFT4ER+XkK13zQl53/erp/HQnKwts5eKK0766vf6k46BmeLp7lKYRFE4Pt75VXIjp8qJQl9itFXkrOyfeB9gQHJlTrMTHTLqTtmXRu7S692twHTll+CgcH53+tT/g114PW2YyuJ+4e/y15oCWSrJ7X4iajTnRuWz5wCj6L1L3c3aPz1jv2cgWaYLbqTl6lm3YPKmzQn3Ze0cRJ/E6/051H9Udl4ycWStdlorHNPBBV4TjQvH8x6Ta+bFvtLWC1F06X9hlg3VMTuvIqIM3MdPK7+k8i3s3xuv8KSFn9OxTomLqsxB3U1M2ABB3xB2eATySdEfc4RnAI0l3xB2eATySdEfc4RnAI0l3xB2eATySdIfn7s7vKPg0zxJJusO3/Q9J+3Wmah2rswAAAABJRU5ErkJggg==) button, to manually read a monitoring value.\
-   \
-
+9. Click the **Manual Read** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAAAnCAIAAACDsvFxAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsMB2mqY3AAAAxtJREFUaEPtWE1rGlEUvSn9BSIZO8GdwdWQmNBocJtVprjJtpXowm0hCF0ObgqB4A9wkRRpl4EQqlDqtiRGoimzGpyd1I5BZpFf0PcxY0yiqV6LheReXMTJO/fdd+459w0u3Nw4QIFiYGGYO+P9F1SSZwp68UzP/S+OTdzhWSTuiDs8A3gk6Y64wzOAR5LuiDs8A3gk6Y64wzOAR5LuiDs8A3gk7reAaOZQ1wB6lfL+cV9uru7s5vUAgP05e9rE1zMeGU5+KCybxqdqZ7DGK2Pw3SwVj85n2DuRKuZg8vpn8qyyHlW9UoOr64y4/xCsf3vZIv+UbC23l0nMrwY8d2bLhtDyaljUGo5qIeg57vwKf7jTuWUCLC4F51bDS/xODcuM6dpGsNrpqxvLCti1y4Cie/l8C/OvnpW46eLXLVuLRdhDz+/yofQat0ygJlw5Av63QtWdTTZGzF9ihoi0Cv/LlQmHpspQSXdWAlfDNIHXHYD1swXCtsKwLevqduNgCM4OpJWM+mIuteb/SwOLPTyouIr+ZltqdkSMhT9cq+jp4uEe+7Bp68+7aKYQB+nlkrtVkLuPzDm0MlvuveJNnTxm4Q6aDWHbBDOsWzuxhnbtO7CZF0cq8v4HQj5NZoMv6160e4/VOBb+ECTmXYW5FVoV76Jg9YD9XV5i3MiRFT4ER+XkK13zQl53/erp/HQnKwts5eKK0766vf6k46BmeLp7lKYRFE4Pt75VXIjp8qJQl9itFXkrOyfeB9gQHJlTrMTHTLqTtmXRu7S692twHTll+CgcH53+tT/g114PW2YyuJ+4e/y15oCWSrJ7X4iajTnRuWz5wCj6L1L3c3aPz1jv2cgWaYLbqTl6lm3YPKmzQn3Ze0cRJ/E6/051H9Udl4ycWStdlorHNPBBV4TjQvH8x6Ta+bFvtLWC1F06X9hlg3VMTuvIqIM3MdPK7+k8i3s3xuv8KSFn9OxTomLqsxB3U1M2ABB3xB2eATySdEfc4RnAI0l3xB2eATySdEfc4RnAI0l3xB2eATySdIfn7s7vKPg0zxJJusO3/Q9J+3Wmah2rswAAAABJRU5ErkJggg==) button, to manually read a monitoring value.
 
 ### Configure Controlling Groups for the System
 
@@ -169,7 +167,7 @@ To configure **Monitoring Groups** for the **System**:
 
 To configure **Controlling Groups** for the **System**:
 
-1. Go to the required System’s Detail page\*\*.\*\* Click the **Controlling** tab.
+1. Go to the required System’s Detail page. Click the **Controlling** tab.
 2. Click the **Add** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAhCAIAAAA6Wk5BAAAAAXNSR0IArs4c6QAAAgxJREFUSEvFl1tPwkAQhe2VRKAgVCxvRIhR1ITE//8TTEzUaAwY3riVi20xgbbEI00MLtvdbSFAfGPmfDOzs+xRcpz+yWE/8mFxv7QjICXBwa5Wq7n37TjucrkMw9D3fU3TFEXRdd0w8tncqSyLVs9HAmDbk9l0BmrcKYBXPCuaZglFcE+Kg3S+3H5/GIYBVwgBiqxY1QujkGcHs5D2aDwa2SKwzRjTLJ9XTEZW7AGk44Fk22PkJka6jpeivz8McnEisQe//QX2pdcbJJ0nEb/egJAqQhnseDxh70uz2bq7f8Af9iWuMihARwiJmzCdzHZsMUqHDvVekV167pxx/xKVAh3sxHYKiXRdSlAi0maw5835yMVikRqwnUhVI38KPt7b4erfpmFHbm5bInW8vT5t515dN4hccrBEjgiJEUNVI5GMvU+Bpz4v5GA/O13uceJeyusX4+X5kV1HJpO5rNc4g0VQim7iUqhq5GBzuewekVQ1Epk3cuLvO7s46ECNfy+j930vjUJHaH0AwwvQaXcFnUBccYqi1hs1qi+hvCSIs6zKjo1CIc4H0V0B/Av8RGoqchkOKNaIwL+UzVIKKrLY3kfA4fUGgr+CWJZq1drJ4UUtBkEwGtowzYx3VJKkQsFAc6qqcgfDt86RxKZbD4IwCHxV1VRV0XS9sHe3zq06aYDoPxJJdRnxR0D+ADP57toCmA9FAAAAAElFTkSuQmCC) icon. **Add a Control Group** window will appear.
 3. Type a **Control Group ID**.
 4. Click **Add**.
@@ -189,9 +187,9 @@ To configure **Controlling Groups** for the **System**:
 
 This section describes the following;
 
-* [Register a new Dashboard](chapter-5-registering-new-items.md#\_Register\_a\_New)
-* [Edit Dashboard](chapter-5-registering-new-items.md#\_Edit\_Dashboard)
-* [Delete Dashboard](chapter-5-registering-new-items.md#\_Delete\_Dashboard)
+* [Register a new Dashboard](chapter-5-registering-new-items.md#register-a-new-dashboard)
+* [Edit Dashboard](chapter-5-registering-new-items.md#edit-dashboard)
+* [Delete Dashboard](chapter-5-registering-new-items.md#delete-dashboard)
 
 **Path**\
 **Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)**🡪Register** section🡪**New Dashboard**
@@ -206,13 +204,15 @@ This section describes the following;
    3. Click on the **Search** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAYAAAC5UQwxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAhpJREFUSEu9lolSwjAQhnn/d1GxoKiAFhDQ8aCKOiPqeKDjeOCB4yigrP0XU5N0NYhHZr622d3s35CwaYKI/hXRKDG7nqNUNUOT5TSNLST5jj7sduxXiEZFbmOBxgseC7hAHOLtHDaiEUyUUmJiFxNFLxwu5wQxQ36rKCb6Lvl6IUxn5gZG57fEFMin5wdGRxr0U/T8IHoYdc1cIK/SAHzJb/pisM3abkCnl2d0dXdN+80Dyq7Mi3E2yG8IurZ+ujxNrfsbDDLaa/+VgsamOEYH+cP2ISgF6TTDWaEdnR9TKhSHrVgr01Pnie1+rRQbYxO2gSAqhRSgyFTnEBzOsBXzFYJF9p1cNGM+G1WREl5l8MafUQoqnHTnaFf0d3tdaj+2RZ8OdFgQlUEKUODnQts7PYj5ksU09ft93kS2z0ZVIOf6jfser1Xv5YUyS1nD12ju88tsH+4Y9s9gQdcMQaW+xInx80FkvRHQReuSbWiYIWYrjVWonepcQ0W1vkydXocFVHvuPr8/uUWjNXTtUpv8qs/iM8s5Fri6vWbBm4fb6C8jEe1SXKSAYYEoqo5XmhL9CuhEgsMesqMSqzQ4qaXA30L/EuAL+NfTQiEN+Cl6fmB08FkgDRoV6TPD6IBhz0YX+hmoEzMohqlAEvqOlBCNitnaPCeQEsfwJwnxdg4b0SiBSoEv7eTioHzhjv7MWjZ0y2MkROPfQYk35NLt6kQhiTgAAAAASUVORK5CYII=) to bring up the location search popup window. Select a location from the location search page.
 4. In the **Description** box, type any description related to the **Dashboard**.
 5. Click **Create**. New Dashboard will be registered and its detail page will appear.
+6. Go to Details tab,
+   1. **Upload Real-Time GUI** section: To add a relevant RT page to the Dashboard, drag and drop the respective RT page onto the given area and click **Upload**.
 
-Go to Details tab,
+{% hint style="info" %}
+_Note –“Enable Summary Dashboard (Appear on Equipment and System Real Time GUI)” field on Dashboard Details tab will be ‘Yes’ by default. This will show the respective Summary dashboard as a banner on the associated Equipment and System Real Time GUIs._
 
-1. **Upload Real-Time GUI** section: To add a relevant RT page to the Dashboard, drag and drop the respective RT page onto the given area and click **Upload**.
-
-|   | <p><em>Note –“Enable Summary Dashboard (Appear on Equipment and System Real Time GUI)” field on Dashboard Details tab will be ‘Yes’ by default. This will show the respective Summary dashboard as a banner on the associated Equipment and System Real Time GUIs.</em><br><em>To disable the feature, go to the</em> <em><strong>Edit</strong></em> <em>mode.</em></p> |
-| - | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+\
+_To disable the feature, go to the_ _**Edit**_ _mode._
+{% endhint %}
 
 #### Adding Configured points to Dashboard
 
@@ -241,5 +241,6 @@ Go to Details tab,
 3. Click **Delete this Dashboard link** or **Delete** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAfCAIAAADm9jPlAAAAAXNSR0IArs4c6QAAAnBJREFUSEvdVt9r01AUzr03SZMmdbZru1XnXia+CK0iQt0UfRk+yEDwyX/PF0EQfPHNl7EKImpwoshgoFa6ttNtZWnzo0mutwSSNLlL2nR9MQ8h5J57vvud79xzDtC0E2bOD5yz/5H7/wUDJOrhaIb5u2O1/zh9jTFMPLSAnAUsi8oFbqXMFRYSox2HYfVUfXfPPjiM8QIkSahd5VeW42zoPDDuK9+t/SaDceIxR6ouXszeqaKsSDWm8CDRUN8qTvdoEu+eDcjwwvoNvpSP7grnFbZtdfvjtADELzZMvaEMj3pRjDCP/vsv1o8WlQGXXyhsPXSXus9f4aFJMROF3GYdCpng0hiG2epqDSW4jCSp+ORRfNBCeOxqRapXg1sCscJY/7w3lQZUY6vZDkXM52H8OtDf7c6OQTygy2V546afDl7uqjufolcBAMjmE26ZddzD2Bk7HIS5rfsww7s/fR69l28Y2w7xABxffvp4Kj1cY3G95l3MgB4RgFniZp2o3vaJ6i42h51nL5zBwP0gb+/PWefAA206jBSEsOWHfSIeKTAAi+bOAwTqY4AHPE9ObD5H4UF6ToqY0LdAyC0VKRjcauW8MNDSYlAP/w6Sqn76egfrRhAp3R0U793iKzQeAKFM9drsVNByMQgwVktc72pDsVvd1EikG0qb9VDTDecSKf0gJ6XEAJC022hXD2MQreQHt2FSrY0eAnCcuEHv5/TZh+g/+PDN+klvuhQAWc7erbEXZGoA4uYrs3VofN13jiljgOeLCMBfXxPWrjAAnBXh5DmRTHJms213/o7K7Wl/lCdkJOA5VCpwlSJ/qZQo3j+fgwVtBcxpQAAAAABJRU5ErkJggg==), to delete the selected Dashboard.
 4. A message will appear to confirm the deletion.
 
-|   | _Note –If the selected_ _**Dashboard**_ _is in use, system will not allow you to delete it._ |
-| - | -------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note –If the selected_ _**Dashboard**_ _is in use, system will not allow you to delete it._
+{% endhint %}
