@@ -13,9 +13,7 @@ This section describes the following:
 3. Delete a Notification Group
 4. Search Notification Group
 
-<mark style="color:blue;">Setting under App Configuration</mark>
-
-\
+<mark style="color:blue;">Setting under App Configuration</mark>\
 _<mark style="color:blue;">**Alarm Notification Groups**</mark>_ _<mark style="color:blue;">configured under this (Settings🡪Alarm Escalation🡪Alarm Notification Groups) will be displayed under the “Alarm Escalation Disable Notification Group” Drop Down box in App Configuration page (Settings🡪Manage🡪App Configuration🡪Alarm Escalation) to be selected as the respective Alarm Notification Group.</mark>_
 
 **Path**\
