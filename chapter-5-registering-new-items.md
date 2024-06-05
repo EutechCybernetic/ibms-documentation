@@ -4,9 +4,9 @@ Registering **Equipment**, **Systems** and **Dashboard** have to be done after t
 
 This section describes the following;
 
-* [Register New Equipment](chapter-5-registering-new-items.md#\_Register\_New\_Equipment)
-* [Register New Systems](chapter-5-registering-new-items.md#\_Register\_New\_Systems)
-* [Register New Dashboard](chapter-5-registering-new-items.md#\_Register\_New\_Dashboard)
+* [Register New Equipment](chapter-5-registering-new-items.md#register-new-equipment)
+* [Register New Systems](chapter-5-registering-new-items.md#register-new-systems)
+* [Register New Dashboard](chapter-5-registering-new-items.md#register-new-dashboard)
 
 ## Register New Equipment
 
