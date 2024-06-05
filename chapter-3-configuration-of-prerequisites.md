@@ -31,11 +31,11 @@ In IBMS application, the following tasks have to be carried out beforehand:
 * [Configure Escalated Alarm Message Templates](chapter-3-configuration-of-prerequisites.md#escalated-alarm-message-templates)
 * [Configure Alarm Escalation Disable Message Templates](chapter-3-configuration-of-prerequisites.md#alarm-escalation-disable-message-templates)
 * [Configure Link Templates & Links](chapter-3-configuration-of-prerequisites.md#link-templates-and-links)
-* Configure Alarm Notification Groups ( Described under Chapter 4 – Escalations)
-* Configure Alarm Escalation Matrix (Described under Chapter 4 –Escalations)
-* Register Equipment ( Described under Chapter 5 – Register)
-* Register Systems ( Described under Chapter 5 –Register)
-* Register Dashboards ( Described under Chapter 5 –Register)
+* [Configure Alarm Notification Groups](chapter-4-alarm-escalation.md#alarm-notification-groups) ( Described under Chapter 4 – Escalations)
+* [Configure Alarm Escalation Matrix](chapter-4-alarm-escalation.md#alarm-escalation-matrix) (Described under Chapter 4 –Escalations)
+* [Register Equipment](chapter-5-registering-new-items.md#register-new-equipment) ( Described under Chapter 5 – Register)
+* [Register Systems](chapter-5-registering-new-items.md#register-new-systems) ( Described under Chapter 5 –Register)
+* [Register Dashboards](chapter-5-registering-new-items.md#register-new-dashboard) ( Described under Chapter 5 –Register)
 
 ## Zones
 
