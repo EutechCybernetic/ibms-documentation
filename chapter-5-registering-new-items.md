@@ -57,7 +57,7 @@ You can configure point details on **Points** tab on Equipment details page;
    3. **Enabled –** Determines whether this **Point** is enabled or disabled during runtime.
    4. **Enable Alarm –** Select **Enable Alarm** check box to enable alarms from this particular point. (Depends on other configuration prerequisites)
    5. **Enable Trend –** Select **Enable Trend** check box to enable the trending of this point. (Depends on other configuration prerequisites)
-   6. **Enable Value Subscription** and **Disable comments in command** options are discussed under the section [Details Tab on Point Detail Page](chapter-5-registering-new-items.md#\_Details\_Tab\_on).
+   6. **Enable Value Subscription** and **Disable comments in command** options are discussed under the section [Details Tab on Point Detail Page.](chapter-6-viewing-items.md#details-tab-on-point-details-page)
    7. **Interface –** This is the Sub System Interface with which this point communicates to acquire the data.
    8. Click **Update** to confirm the changes. Click **Clear** to reset all data to initial values. Click  icon to discard changes and close dialog.
 
