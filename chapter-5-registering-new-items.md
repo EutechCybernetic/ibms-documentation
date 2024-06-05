@@ -44,7 +44,7 @@ To make changes to Asset Details;
 #### Points Tab
 
 {% hint style="success" %}
-_Tip –_ [_Point templates_](chapter-5-registering-new-items.md#\_Configure\_Point\_Templates\_1) _configured in IBMS, will be the points for equipment, registered using the respective Equipment Template and those points will be listed here._
+_Tip –_ _Point templates configured in IBMS, will be the points for equipment, registered using the respective Equipment Template and those points will be listed here._
 {% endhint %}
 
 You can configure point details on **Points** tab on Equipment details page;
@@ -54,18 +54,16 @@ You can configure point details on **Points** tab on Equipment details page;
 3. You can configure following attributes of a **Point** using the **Point Details** dialog box under **General** tab;
    1. **Type –** Determines the type of the point, whether it is ‘Sub system’, ‘Calculated’ or ‘Custom’.
    2. **Address –** Point Address is used to resolve the address, type and format of data to be acquired from the SCADA system. A Point Address is made up of Equipment Name, Point Name, Point Type, default value, etc. A point address should be left to be configured by a trained commissioning engineer for iviva.
+   3. **Enabled –** Determines whether this **Point** is enabled or disabled during runtime.
+   4. **Enable Alarm –** Select **Enable Alarm** check box to enable alarms from this particular point. (Depends on other configuration prerequisites)
+   5. **Enable Trend –** Select **Enable Trend** check box to enable the trending of this point. (Depends on other configuration prerequisites)
+   6. **Enable Value Subscription** and **Disable comments in command** options are discussed under the section [Details Tab on Point Detail Page](chapter-5-registering-new-items.md#\_Details\_Tab\_on).
+   7. **Interface –** This is the Sub System Interface with which this point communicates to acquire the data.
+   8. Click **Update** to confirm the changes. Click **Clear** to reset all data to initial values. Click  icon to discard changes and close dialog.
 
-|   | _Note –**Point Address**_ _of a_ _**Point ID**_ _of an_ _**equipment**_ _should be unique. The system will not allow you to enter same_ _**Point Address**_ _for two different Point IDs of an equipment._ |
-| - | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-*
-  1. **Enabled –** Determines whether this **Point** is enabled or disabled during runtime.
-  2. **Enable Alarm –** Select **Enable Alarm** check box to enable alarms from this particular point. (Depends on other configuration prerequisites)
-  3. **Enable Trend –** Select **Enable Trend** check box to enable the trending of this point. (Depends on other configuration prerequisites)
-  4. **Enable Value Subscription** and **Disable comments in command** options are discussed under the section [Details Tab on Point Detail Page](chapter-5-registering-new-items.md#\_Details\_Tab\_on).
-  5. **Interface –** This is the Sub System Interface with which this point communicates to acquire the data.
-
-1. Click **Update** to confirm the changes. Click **Clear** to reset all data to initial values. Click  icon to discard changes and close dialog.
+{% hint style="info" %}
+_Note –**Point Address**_ _of a_ _**Point ID**_ _of an_ _**equipment**_ _should be unique. The system will not allow you to enter same_ _**Point Address**_ _for two different Point IDs of an equipment._
+{% endhint %}
 
 #### Links Tab
 
@@ -122,7 +120,7 @@ Refer Configure Point Templates section for more details on configuring points.
 
 To configure **Points** for **System**:
 
-1. Go to System Detail page\*\*.\*\* Click the **Points** tab\*\*.\*\*
+1. Go to System Detail page. Click the **Points** tab.
 2. Click the Add ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAhCAIAAAA6Wk5BAAAAAXNSR0IArs4c6QAAAgxJREFUSEvFl1tPwkAQhe2VRKAgVCxvRIhR1ITE//8TTEzUaAwY3riVi20xgbbEI00MLtvdbSFAfGPmfDOzs+xRcpz+yWE/8mFxv7QjICXBwa5Wq7n37TjucrkMw9D3fU3TFEXRdd0w8tncqSyLVs9HAmDbk9l0BmrcKYBXPCuaZglFcE+Kg3S+3H5/GIYBVwgBiqxY1QujkGcHs5D2aDwa2SKwzRjTLJ9XTEZW7AGk44Fk22PkJka6jpeivz8McnEisQe//QX2pdcbJJ0nEb/egJAqQhnseDxh70uz2bq7f8Af9iWuMihARwiJmzCdzHZsMUqHDvVekV167pxx/xKVAh3sxHYKiXRdSlAi0maw5835yMVikRqwnUhVI38KPt7b4erfpmFHbm5bInW8vT5t515dN4hccrBEjgiJEUNVI5GMvU+Bpz4v5GA/O13uceJeyusX4+X5kV1HJpO5rNc4g0VQim7iUqhq5GBzuewekVQ1Epk3cuLvO7s46ECNfy+j930vjUJHaH0AwwvQaXcFnUBccYqi1hs1qi+hvCSIs6zKjo1CIc4H0V0B/Av8RGoqchkOKNaIwL+UzVIKKrLY3kfA4fUGgr+CWJZq1drJ4UUtBkEwGtowzYx3VJKkQsFAc6qqcgfDt86RxKZbD4IwCHxV1VRV0XS9sHe3zq06aYDoPxJJdRnxR0D+ADP57toCmA9FAAAAAElFTkSuQmCC) icon. Add Point window will appear.
 3. Select the required **Equipment** and **Point**.
 
