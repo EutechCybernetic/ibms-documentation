@@ -834,21 +834,21 @@ To configure an Escalated Alarm Message Template;
 
 #### Configure Plain Text Message Template (plain text e-mail)
 
-1. In the **Message** box, configure the message using message text and relevant **Placeholders.**
+1.  In the **Message** box, configure the message using message text and relevant **Placeholders.**
+
+
+
+    Note –The default message that created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates.
 2. Select the **From Address**.
-3. Add Recipients
-4. Click the **Add Recipient** link.
-5. Click the **Info** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAnBJREFUSEutll2P0kAUhrfTD5aPQqEFWdyP4I2bTbwwJsZL/4GJP9UL/4DJZuONF2s26g2RrAtuC5RCQeiHvmUQWOhMK3EuSpN536dnzmHOjPCpe33wv4fAgoZhOHUn7sidz7wwDPy5LykSIaKSkfNqPpvPEUJYwcRAgyCwrYFjj36HIdNGSFFTNaMsiuKuZhs6dkbWz17oB2lSQkRi1I1CUd0SP1hC3xrc/7hPSQQoDELo+2afCQXR3plOEy9yBe+mchmpOxrvR6QseJG3FTeC+r5vdi1+UC/On799/QZPlgyVAIfORlCnP+TnsVo2zuqnUOKpqaVYLgjgLKH4Pw4HDj/M8a/JSjDzPZYYHNAwK3z4dokKJhYkm80166etbns6XX9g11Vt1NSSSiZjngg2WZaxfLzctL7widBgE0aRvrt8783mrEhfPXvZ0I/o7F2vc3X9kb8mOaOcPDkhwd+SxarvrO7V5yUIdFaVVl5KI9gVnI+3O21zuP63capEIZSGvsNsNlRXLUUJxfB8LzGnwqJ1EVGS+GkyFlWKcmp1+ErMSnJEI5lDhS9t6HUqMIe9RCilEbRbvjR3uBSYdsJWBofSCNo4TQRrIJV06uLs6UXzHLuApQQHtAiKgR7Ogd58/0q5DeMom8lyagUOPWOizo/uctu6Td+bYyMgknjcPJYWZY/AeDMe6YlF4AtAoMQlFD84Z3CK7c2Fd/OkWpeoUq1ourYHFy54N40P6l6p6bXHtcQ9tvKj3NDDtRVKzLnved7Asl1nzDn3DwShUFLLhobGuLu4VDcUXC8CzxdlCVcHWZEKxcI/31D2SOuW5Q95LhHUjesAJwAAAABJRU5ErkJggg==) and select the relevant recipient from the window that appears.
-6. To add multiple recipients, repeat the step 6.
-7. To remove a recipient which is already added, click the respective **Delete** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC).
-8. Add recipients under **CC List** and **BCC List**.
-9. Click **Create** to create the new message template. Detailed page of the created Message template will appear. Observe that there are 5 tabs, **Notification Template, Message, Rich Message, Short Message** and **Attachments.**
+3. Add Recipients.
+   1. Click the **Add Recipient** link.
+   2. Click the **Info** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAnBJREFUSEutll2P0kAUhrfTD5aPQqEFWdyP4I2bTbwwJsZL/4GJP9UL/4DJZuONF2s26g2RrAtuC5RCQeiHvmUQWOhMK3EuSpN536dnzmHOjPCpe33wv4fAgoZhOHUn7sidz7wwDPy5LykSIaKSkfNqPpvPEUJYwcRAgyCwrYFjj36HIdNGSFFTNaMsiuKuZhs6dkbWz17oB2lSQkRi1I1CUd0SP1hC3xrc/7hPSQQoDELo+2afCQXR3plOEy9yBe+mchmpOxrvR6QseJG3FTeC+r5vdi1+UC/On799/QZPlgyVAIfORlCnP+TnsVo2zuqnUOKpqaVYLgjgLKH4Pw4HDj/M8a/JSjDzPZYYHNAwK3z4dokKJhYkm80166etbns6XX9g11Vt1NSSSiZjngg2WZaxfLzctL7widBgE0aRvrt8783mrEhfPXvZ0I/o7F2vc3X9kb8mOaOcPDkhwd+SxarvrO7V5yUIdFaVVl5KI9gVnI+3O21zuP63capEIZSGvsNsNlRXLUUJxfB8LzGnwqJ1EVGS+GkyFlWKcmp1+ErMSnJEI5lDhS9t6HUqMIe9RCilEbRbvjR3uBSYdsJWBofSCNo4TQRrIJV06uLs6UXzHLuApQQHtAiKgR7Ogd58/0q5DeMom8lyagUOPWOizo/uctu6Td+bYyMgknjcPJYWZY/AeDMe6YlF4AtAoMQlFD84Z3CK7c2Fd/OkWpeoUq1ourYHFy54N40P6l6p6bXHtcQ9tvKj3NDDtRVKzLnved7Asl1nzDn3DwShUFLLhobGuLu4VDcUXC8CzxdlCVcHWZEKxcI/31D2SOuW5Q95LhHUjesAJwAAAABJRU5ErkJggg==) and select the relevant recipient from the window that appears.
+4. To add multiple recipients, repeat the step 6.
+5. To remove a recipient which is already added, click the respective **Delete** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC).
+6. Add recipients under **CC List** and **BCC List**.
+7. Click **Create** to create the new message template. Detailed page of the created Message template will appear. Observe that there are 5 tabs, **Notification Template, Message, Rich Message, Short Message** and **Attachments.**
 
-{% hint style="info" %}
-_Note –The default message that created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates._
-{% endhint %}
-
-| Place Holder                                 | Description                                                            |
+| Placeholder                                  | Description                                                            |
 | -------------------------------------------- | ---------------------------------------------------------------------- |
 | AlarmDateTime                                | This is the time stamp of alarm occurrence.                            |
 | ClearedDateTime                              | Alarm cleared Date Time                                                |
@@ -889,8 +889,6 @@ _Note –The default message that created here is the plain text e-mail message.
 | Type                                         | Returns the type of the recipient. This is usually the 'User'          |
 | Key                                          | Returns the Key associated with the recipient in the System            |
 
-
-
 #### Configure Rich Text Message Template (HTML e-mail)
 
 Rich Text Message Template allows you to configure a message template for HTML e-mail messages. A Rich Text Message can contain tables, different fonts, HTML formatting and styles. If you know HTML coding, you can go to the code level and make changes to format your template.
@@ -898,7 +896,7 @@ Rich Text Message Template allows you to configure a message template for HTML e
 1. On the Message Template detailed page, click the **Rich Message** tab.
 2. In the text box, use given tools and **Placeholders** (Click the **Show Placeholders** link to bring up **Placeholders** list and select from it) to format your message template.
 3. Click the **Apply Template** button to select a format out of preset template formats.
-4. Click on \</> link to switch between code editor and form editor modes.
+4. Click on **\</>** link to switch between code editor and form editor modes.
 5. Once you are done formatting the message, click the **Update** button to save the template or **Cancel** button to discard all your changes.
 
 #### Configure Short Message Template
@@ -923,7 +921,7 @@ You can attach attachments related to the Message to be sent.
 
 ### Edit Message Templates
 
-1. On the **Escalated Alarm** **Message Templates** search page\*\*,\*\* select the Message template you want to edit and click on it to go to its detail page (inside Notification Template tab).
+1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to edit and click on it to go to its detail page (inside Notification Template tab).
 2. Edit the message template as you want. (See above).
 3. Click **Update**.
 
@@ -943,25 +941,16 @@ To export a Message Template;
 
 ## Alarm Escalation Disable Message Templates
 
-\
-\
-\
-\
-\
-\
-\
+**Path**\
+**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **Alarm Escalation Disable Message Templates 🡪 Escalation Disable Message Templates** search page\
 \
 To configure an Alarm Escalation Disable Message Template;
-
-**Path**\
-**Settings** icon\*\*![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)\*\* on the Application Dashboard 🡪 **Configure** section 🡪 **Alarm Escalation Disable Message Templates 🡪 Escalation Disable Message Templates** search page
 
 1. On the Escalation Disable Message Templates search page, click the **Add** **New Message Template** link. New Point Message Template configuration page will appear.
 2. Follow the relevant steps under the section named “**Create a New Escalated Alarm Message Template”** described above.
 
-_Setting under App Configuration_\
-_**Alarm Escalation Disable Message Templates** configured here (Settings🡪Configure🡪Alarm Escalation Disable Message Templates) will be populated in “**Alarm Escalation Disable Message Template**” Drop down box in_ _**App Configuration page**_\_, which enables user to select a relevant message template.\
-\_
+_<mark style="color:blue;">Setting under App Configuration</mark>_\
+_<mark style="color:blue;">**Alarm Escalation Disable Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Alarm Escalation Disable Message Templates) will be populated in “</mark><mark style="color:blue;">**Alarm Escalation Disable Message Template**</mark><mark style="color:blue;">” Drop down box in</mark>_ _<mark style="color:blue;">**App Configuration page,**</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">which enables user to select a relevant message template.</mark>
 
 ## Link Templates & Links
 
@@ -969,7 +958,7 @@ Controls (e.g. button) on Real-Time (RT) Pages of Equipment can be linked to oth
 
 Before providing links to Controls on RT pages, you need to perform the following operations;
 
-1. [Create **Link Templates** under **Equipment Template**](chapter-3-configuration-of-prerequisites.md#\_Create\_Link\_Templates\_2) Configuration.\
+1. [Create **Link Templates** under **Equipment Template** ](chapter-3-configuration-of-prerequisites.md#create-link-templates-on-equipment-template)Configuration.\
    This is used to create a template for links. Created **Link Template** will be applied to the **Equipment** configured using the respective **Equipment Template.**
 2. Create **Links** accordingly, for **Equipment** under respective **Equipment** configuration page. When you configure RT pages, you shall add the pre-configured **Links** to **Controls** on RT page.
 
@@ -983,8 +972,9 @@ To create Link Templates on an Equipment Template;
 4. In the **Link Name** box, type a name for the **Link** template.
 5. Click **Add**.
 
-|   | _Note – Created_ _**Link Template**_ _will be applied to_ _**Equipment**_ _configured using the respective_ _**Equipment Template**. Under_ _**Equipment**_ _configuration, required_ _**Links**_ _can be configured according to the requirements._ |
-| - | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note – Created_ _**Link Template**_ _will be applied to_ _**Equipment**_ _configured using the respective_ _**Equipment Template**. Under_ _**Equipment**_ _configuration, required_ _**Links**_ _can be configured according to the requirements._
+{% endhint %}
 
 ### Configure Links on Equipment Configuration page
 
@@ -1000,5 +990,6 @@ To configure **Links** under **Equipment** configuration page;
 6. On the **Link Details** window, type the required URL of the destination page, which will be linked using the respective **Link**.
 7. Click **Update**.
 
-|   | _Note – You can apply the pre-configured_ _**Links**_ _to the_ _**Controls**_ _on respective RT Pages._ |
-| - | ------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note – You can apply the pre-configured_ _**Links**_ _to the_ _**Controls**_ _on respective RT Pages._
+{% endhint %}
