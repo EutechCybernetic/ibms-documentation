@@ -2,76 +2,107 @@
 
 This chapter describes the following:
 
-* [Alarm Transaction Report](chapter-8-reports.md#\_Alarm\_Transaction\_Report)
-* [OPCAE Transaction Report](chapter-8-reports.md#\_OPCAE\_Transaction\_Report)
+* [Alarm Transaction Report](chapter-8-reports.md#alarm-transaction-report)
+* [OPCAE Transaction Report](chapter-8-reports.md#opcae-transaction-report)
 * Alarm Reports
-  * [Location-wise Alarm Summary Report](chapter-8-reports.md#\_Location-wise\_Alarm\_Summary)
-  * [Severity-wise Alarm Summary Report](chapter-8-reports.md#\_Severity-wise\_Alarm\_Summary)
-  * [Driver Type-wise Alarm Summary Report](chapter-8-reports.md#\_Protocol-wise\_Alarm\_Summary)
-* [Real-Time Reports](chapter-8-reports.md#\_Real-Time\_Reports)
-  * [Configure a Real-Time Report](chapter-8-reports.md#\_Configure\_a\_Real-Time)
-  * [View Real-Time Report](chapter-8-reports.md#\_View\_Real\_Time)
+  * [Location-wise Alarm Summary Report](chapter-8-reports.md#location-wise-alarm-summary-report)
+  * [Severity-wise Alarm Summary Report](chapter-8-reports.md#severity-wise-alarm-summary-report)
+  * [Driver Type-wise Alarm Summary Report](chapter-8-reports.md#driver-type-wise-alarm-summary-report)
+* [Real-Time Reports](chapter-8-reports.md#real-time-reports)
+  * [Configure a Real-Time Report](chapter-8-reports.md#configure-a-real-time-report)
+  * [View Real-Time Report](chapter-8-reports.md#view-real-time-reports)
 
 ## Alarm Transaction Report
 
-1. Alarm Transaction report allows you to;
-2. Filter alarm transactions based on selected **alarmed Equipment** and occurred associated to a particular **Location** within a given time range.
+Alarm Transaction report allows you to;
 
-* Sort the filtered Alarm Transactions by Equipment/Transaction Time/ Alarm and arrange the sorted transactions in ascending or descending order.
+* Filter alarm transactions based on selected **alarmed Equipment** and occurred associated to a particular **Location** within a given time range.
+* Sort the filtered Alarm Transactions by Transaction Time/ Equipment/Point/Transaction Message/ User and arrange the sorted transactions in ascending or descending order.
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) 🡪 **Generate** section 🡪 **Alarm Transactions Report**
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) <mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Generate**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Transactions Report**</mark>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)on the Home page and select **Alarm Transaction Report** under **Generate** section. **Alarm Transactions** **Report** page will appear.
 2. Apply the following **Search filters** to filter the alarm transactions using;
-3. **Location:**
-4. Clear the current **location** by pressing![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
-5. Click **Location** text box and select a location from the drop down to filter the alarms for that particular location. You may type in a location to filter accordingly.
-6. **Asset Category:**
-7. Clear the current **Asset Category** by pressing![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
-8. Select the required Asset Category to filter the alarms by the selected Asset Category.
-9. **Equipment:**
-10. Clear the current **Equipment** by pressing![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
-11. Select the required Equipment to filter the alarms by the selected Equipment.
-12. **Date Range:**
-13. **From:** Click **Calendar icon** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFuSURBVEhLzVbtjoIwEOz7v9Wd94EK+O15In/Ud9DkTGoGl2jDsKXQHzfJhJTuzoS2bNf8a5zPhf3Zzuxintg8+7Lj77fqiTHeY15Ch6PYL+1kPKpMfEQc4iU1HKfT3qbTDyru43QyssgXqW4oyw0VC2V5WHczjmVYE3oizYHDwBKHUl1qbQ8B9r6mNg9dsXBxKFY0oaYmCvrmoS9WT7T9Fn3AdKAvVg9gzVkg2AdMBzwef5/GqCgsCOwDpgPCRyyNmeUJDYpN+IilMaggLAgMxfV6oTogfMTSGBZQ83b7c8aANtZMQbHUvzSmqXOCtT0NhWbq7Kl2erUvRaV5HYOaqXN68f+wIDCmqfOfArEqUptpoyIBuPFZcCjaTFs7CnbLrFdZEJeLtKHRessAWg0eQm/rghaDJfZl55bFd7d2Jb1DNWBJtEqlESfVu6Qadrt5JcLEG0zeLeIldTheO/ws/axM8MR4u8njdvjxYcwdzu4DnO2k+acAAAAASUVORK5CYII=) or click on the **From** text box and select a start date, month and year starting from when you want to see the Alarm Transactions. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAhxJREFUOE+tlf0rQ1EYxzljNpPkbpbsRXkpSmze8gOF8vKLlJ/kfxB/lPyk5BdSCEleMjV5ndr1kma7MplphO/1XMd12J0fdrvbznnO9/mc5zznPGe5cjiU8/NJJpNXYXlzbV2wU7ejq9NV6bVarcJorh6USqWuLy7Xl5b/ROiNnb09FR632Wzmxm8QKHtb26eHR3zM5fW4vV5LoTr581PyUpav5As+Wltf529v4ywNJFAa/L6qmurikhIhtIf7+/OzUHAvQHY9SwMFdnb58ODwkMPpNFhdNBKZn50jAab0tbagwfDBQDoKQsCK8KLB0ZgGk1EXjnDXQMHAPlm7B/qEWOLx+MrCIl409DFCBrHG+nRnd4rCU+gsLzdYkTDExXAHhCm3UVJgR/XbmZEIMVxIBghTYjHqSHYpo7Mg4C6AMH5wfm92Ri53AUTdtf88yHfi8dFAmQFUKn2vd2Zq2oDFcDppHv1J4TPbiopGxkZ5V2BxF0CYZLdrmY8pf0ZuwFK+XABhUpmD/FH0qLj/sEgDMb8nAGHIAqqcxiI3N+nSSXFBiW+09WIYAVGT3eBrIn9sDRVOurh6BvqJAhnEJCN3FYTCQRGTFWVtwCKNUP1UnqbJiXH8SA471qxE1VMeOj55e3+32QoLLBYhNGzTYfBgY2WV7Nisxma/yWRCO9s3JM2QnTubryIL/yK/M5JIPL2+vsCel5ePrBkU9gfZgzJkBRkhrAAAAABJRU5ErkJggg==) and select the **From Time**.
-14. **To:** Click **Calendar icon** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFuSURBVEhLzVbtjoIwEOz7v9Wd94EK+O15In/Ud9DkTGoGl2jDsKXQHzfJhJTuzoS2bNf8a5zPhf3Zzuxintg8+7Lj77fqiTHeY15Ch6PYL+1kPKpMfEQc4iU1HKfT3qbTDyru43QyssgXqW4oyw0VC2V5WHczjmVYE3oizYHDwBKHUl1qbQ8B9r6mNg9dsXBxKFY0oaYmCvrmoS9WT7T9Fn3AdKAvVg9gzVkg2AdMBzwef5/GqCgsCOwDpgPCRyyNmeUJDYpN+IilMaggLAgMxfV6oTogfMTSGBZQ83b7c8aANtZMQbHUvzSmqXOCtT0NhWbq7Kl2erUvRaV5HYOaqXN68f+wIDCmqfOfArEqUptpoyIBuPFZcCjaTFs7CnbLrFdZEJeLtKHRessAWg0eQm/rghaDJfZl55bFd7d2Jb1DNWBJtEqlESfVu6Qadrt5JcLEG0zeLeIldTheO/ws/axM8MR4u8njdvjxYcwdzu4DnO2k+acAAAAASUVORK5CYII=) or click on the **To** text box and select an end date, month and year up to when you want to see the Alarm Transactions. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAhxJREFUOE+tlf0rQ1EYxzljNpPkbpbsRXkpSmze8gOF8vKLlJ/kfxB/lPyk5BdSCEleMjV5ndr1kma7MplphO/1XMd12J0fdrvbznnO9/mc5zznPGe5cjiU8/NJJpNXYXlzbV2wU7ejq9NV6bVarcJorh6USqWuLy7Xl5b/ROiNnb09FR632Wzmxm8QKHtb26eHR3zM5fW4vV5LoTr581PyUpav5As+Wltf529v4ywNJFAa/L6qmurikhIhtIf7+/OzUHAvQHY9SwMFdnb58ODwkMPpNFhdNBKZn50jAab0tbagwfDBQDoKQsCK8KLB0ZgGk1EXjnDXQMHAPlm7B/qEWOLx+MrCIl409DFCBrHG+nRnd4rCU+gsLzdYkTDExXAHhCm3UVJgR/XbmZEIMVxIBghTYjHqSHYpo7Mg4C6AMH5wfm92Ri53AUTdtf88yHfi8dFAmQFUKn2vd2Zq2oDFcDppHv1J4TPbiopGxkZ5V2BxF0CYZLdrmY8pf0ZuwFK+XABhUpmD/FH0qLj/sEgDMb8nAGHIAqqcxiI3N+nSSXFBiW+09WIYAVGT3eBrIn9sDRVOurh6BvqJAhnEJCN3FYTCQRGTFWVtwCKNUP1UnqbJiXH8SA471qxE1VMeOj55e3+32QoLLBYhNGzTYfBgY2WV7Nisxma/yWRCO9s3JM2QnTubryIL/yK/M5JIPL2+vsCel5ePrBkU9gfZgzJkBRkhrAAAAABJRU5ErkJggg==)and select the **To Time**.
-15. To sort the filtered records
-    1. To sort the filtered records based on e.g. Transaction Time/ Equipment, select the required field from the Sort drop down box.
-16. To display the sorted records in ascending or descending order, click the ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAIAAADZ8fBYAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsUBR2zs/wAAAdhJREFUSEtjfPrkAQMNABMNzAQZOWouJGAZIfH28uWr9IwsfT09SoKbkZGhoaEOYgIL3CBXV+fsrExKzG1oaIJrxxlvvX0T6usR6tDsu3r1Gn4X4DT3+PETV6+haF6zdh3cLKCtjx8/wWM0sekMaEd+fhHcoE+fPiWnpFHB3PXrN06c2IfsZGBQ4AkootwLCZBNm7b09U1AduOcufOOHT+B1dVM/2GA4T8DnA1kADlwvpubV2CA/8IFc4FGxMUnQWXB5qWkpH348BGqkQFhAlHuffL4vpaWJtCUo0cOQkwHAj4+XksLcy1NTaDRmE4mylysPtXW0lq9egUEETYXmLyOnzgJRJ8+f6Ykj6C7FxjLoaERQISc8uMTkmVkFYHI2saeSMvQzU1JSXJ3c0XTXF5WAgxiZ2cnYPiSaS5QW19fDzBOkPUDI23t2nV+vt5EGgpUhiXe+Pn55s6ZhWzEtWvXN23eGhwcRJG5QM2WlhZFhflwU1LTMvbu3UdR+MLNKioq0NLWgnCBwQoMXyCiKHzhRjfCCmlM7wNthRfh2PMx8UGGrBIYUNow32A1gRHoO6DE58+fe3r7ybMDrgtomYe7G4QLNZdCE7HkY+QyjIps8ssd/F6klbkAOIgsycZTJq4AAAAASUVORK5CYII=) icon adjacent to the **Sort** drop down box accordingly.
-17. Click the  icon on the toolbar, to display the column names of the Alarm Transaction report. You will observe that alarm list has **Transaction Time, Equipment, Point, Transaction Message** and **User** columns.
-18. **Search Alarms** bar allows to search for Alarms using the following fields on report
-    * Asset ID (Equipment)
-    * Point Name
-    * User (Action Taken User)
-19. Select the type of the Report format from the **Format** list box and click **Generate** **Report** to generate the report with filtered data.
+   * **Location:**
+     1. Clear the current **location** by clicking![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
+     2. Click **Location** text box and select a location from the drop down to filter the alarms for that particular location. You may type in a location to filter accordingly.
+   * **Asset Category:**
+     1. Clear the current **Asset Category** by clicking![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
+     2. Select the required Asset Category to filter the alarms by the selected Asset Category.
+   * **Equipment:**
+     1. Clear the current **Equipment** by clicking![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
+     2. Select the required Equipment to filter the alarms by the selected Equipment.
+   * **Alarm Class:**
+     1. By default, “Any” will be selected.
+     2. Select the required Alarm Class or multiple Alarm Classes to filter alarms by the selected Alarm Class or Alarm Classes.
+   * **Alarm Severity:**
+     1. By default, “Any” will be selected.
+     2. Select the required Alarm Severity or multiple Alarm Severities to filter alarms by the selected Alarm Severity or Alarm Severities.
+   * Use the following filter conditions accordingly.
+     1. **Show Cleared alarms**: Shows the alarms that are not in alarmed status and have been cleared.
+     2. **Show Disabled alarms**: Shows the alarms that have been disabled manually.
+     3. **Show Active alarms:** Shows the active alarms
+   * **Date Range:**
+     1. **From:** Click **Calendar icon** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFuSURBVEhLzVbtjoIwEOz7v9Wd94EK+O15In/Ud9DkTGoGl2jDsKXQHzfJhJTuzoS2bNf8a5zPhf3Zzuxintg8+7Lj77fqiTHeY15Ch6PYL+1kPKpMfEQc4iU1HKfT3qbTDyru43QyssgXqW4oyw0VC2V5WHczjmVYE3oizYHDwBKHUl1qbQ8B9r6mNg9dsXBxKFY0oaYmCvrmoS9WT7T9Fn3AdKAvVg9gzVkg2AdMBzwef5/GqCgsCOwDpgPCRyyNmeUJDYpN+IilMaggLAgMxfV6oTogfMTSGBZQ83b7c8aANtZMQbHUvzSmqXOCtT0NhWbq7Kl2erUvRaV5HYOaqXN68f+wIDCmqfOfArEqUptpoyIBuPFZcCjaTFs7CnbLrFdZEJeLtKHRessAWg0eQm/rghaDJfZl55bFd7d2Jb1DNWBJtEqlESfVu6Qadrt5JcLEG0zeLeIldTheO/ws/axM8MR4u8njdvjxYcwdzu4DnO2k+acAAAAASUVORK5CYII=) or click on the **From** text box and select a start date, month and year starting from when you want to see the Alarm Transactions. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAhxJREFUOE+tlf0rQ1EYxzljNpPkbpbsRXkpSmze8gOF8vKLlJ/kfxB/lPyk5BdSCEleMjV5ndr1kma7MplphO/1XMd12J0fdrvbznnO9/mc5zznPGe5cjiU8/NJJpNXYXlzbV2wU7ejq9NV6bVarcJorh6USqWuLy7Xl5b/ROiNnb09FR632Wzmxm8QKHtb26eHR3zM5fW4vV5LoTr581PyUpav5As+Wltf529v4ywNJFAa/L6qmurikhIhtIf7+/OzUHAvQHY9SwMFdnb58ODwkMPpNFhdNBKZn50jAab0tbagwfDBQDoKQsCK8KLB0ZgGk1EXjnDXQMHAPlm7B/qEWOLx+MrCIl409DFCBrHG+nRnd4rCU+gsLzdYkTDExXAHhCm3UVJgR/XbmZEIMVxIBghTYjHqSHYpo7Mg4C6AMH5wfm92Ri53AUTdtf88yHfi8dFAmQFUKn2vd2Zq2oDFcDppHv1J4TPbiopGxkZ5V2BxF0CYZLdrmY8pf0ZuwFK+XABhUpmD/FH0qLj/sEgDMb8nAGHIAqqcxiI3N+nSSXFBiW+09WIYAVGT3eBrIn9sDRVOurh6BvqJAhnEJCN3FYTCQRGTFWVtwCKNUP1UnqbJiXH8SA471qxE1VMeOj55e3+32QoLLBYhNGzTYfBgY2WV7Nisxma/yWRCO9s3JM2QnTubryIL/yK/M5JIPL2+vsCel5ePrBkU9gfZgzJkBRkhrAAAAABJRU5ErkJggg==) and select the **From Time**.
+     2. **To:** Click **Calendar icon** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFuSURBVEhLzVbtjoIwEOz7v9Wd94EK+O15In/Ud9DkTGoGl2jDsKXQHzfJhJTuzoS2bNf8a5zPhf3Zzuxintg8+7Lj77fqiTHeY15Ch6PYL+1kPKpMfEQc4iU1HKfT3qbTDyru43QyssgXqW4oyw0VC2V5WHczjmVYE3oizYHDwBKHUl1qbQ8B9r6mNg9dsXBxKFY0oaYmCvrmoS9WT7T9Fn3AdKAvVg9gzVkg2AdMBzwef5/GqCgsCOwDpgPCRyyNmeUJDYpN+IilMaggLAgMxfV6oTogfMTSGBZQ83b7c8aANtZMQbHUvzSmqXOCtT0NhWbq7Kl2erUvRaV5HYOaqXN68f+wIDCmqfOfArEqUptpoyIBuPFZcCjaTFs7CnbLrFdZEJeLtKHRessAWg0eQm/rghaDJfZl55bFd7d2Jb1DNWBJtEqlESfVu6Qadrt5JcLEG0zeLeIldTheO/ws/axM8MR4u8njdvjxYcwdzu4DnO2k+acAAAAASUVORK5CYII=) or click on the **To** text box and select an end date, month and year up to when you want to see the Alarm Transactions. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAhxJREFUOE+tlf0rQ1EYxzljNpPkbpbsRXkpSmze8gOF8vKLlJ/kfxB/lPyk5BdSCEleMjV5ndr1kma7MplphO/1XMd12J0fdrvbznnO9/mc5zznPGe5cjiU8/NJJpNXYXlzbV2wU7ejq9NV6bVarcJorh6USqWuLy7Xl5b/ROiNnb09FR632Wzmxm8QKHtb26eHR3zM5fW4vV5LoTr581PyUpav5As+Wltf529v4ywNJFAa/L6qmurikhIhtIf7+/OzUHAvQHY9SwMFdnb58ODwkMPpNFhdNBKZn50jAab0tbagwfDBQDoKQsCK8KLB0ZgGk1EXjnDXQMHAPlm7B/qEWOLx+MrCIl409DFCBrHG+nRnd4rCU+gsLzdYkTDExXAHhCm3UVJgR/XbmZEIMVxIBghTYjHqSHYpo7Mg4C6AMH5wfm92Ri53AUTdtf88yHfi8dFAmQFUKn2vd2Zq2oDFcDppHv1J4TPbiopGxkZ5V2BxF0CYZLdrmY8pf0ZuwFK+XABhUpmD/FH0qLj/sEgDMb8nAGHIAqqcxiI3N+nSSXFBiW+09WIYAVGT3eBrIn9sDRVOurh6BvqJAhnEJCN3FYTCQRGTFWVtwCKNUP1UnqbJiXH8SA471qxE1VMeOj55e3+32QoLLBYhNGzTYfBgY2WV7Nisxma/yWRCO9s3JM2QnTubryIL/yK/M5JIPL2+vsCel5ePrBkU9gfZgzJkBRkhrAAAAABJRU5ErkJggg==)and select the **To Time**.
+3. To sort the filtered records:
+   1. To sort the filtered records based on e.g. Transaction Time/ Equipment, select the required field from the Sort drop down box.
+4. To display the sorted records in ascending or descending order, click the ![](.gitbook/assets/Screenshot\_22.png) icon adjacent to the **Sort** drop down box accordingly.
+   1. &#x20;![](.gitbook/assets/Screenshot\_22.png): Shows that the records are in ascending order as per the selected field from the drop down box.
+   2. ![](.gitbook/assets/Screenshot\_21.png): Shows that the records are in descending order as per the selected field in the drop down box.
+5. Click the![](.gitbook/assets/Screenshot\_14.png)  icon on the toolbar, to display the column names of the Alarm Transaction report. You will observe that alarm list has **Transaction Time, Equipment, Point, Transaction Message** and **User** columns.
+6. **Search Alarms** bar allows to search for Alarms using the following fields on report
+   * Asset ID (Equipment)
+   * Point Name
+   * User (Action Taken User)
+7. Select the type of the Report format from the **Format** list box and click **Generate** **Report** to generate the report with filtered data.
 
 ## OPCAE Transaction Report
 
-OPCAE transaction report is used to view OPCAE event transactions. The data can be filtered using the following;
+OPCAE transaction report is used to view OPCAE event transactions.&#x20;
 
-* Source – Source is the ID of the device from which the event triggered
-* Condition Name – OPC Event Condition Name
-* Server ProgID - Program ID of the OPC server
-* From and To – These fields are used to filter the transactions occurred during a given time range
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) <mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Generate**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**OPCAE Transactions Report**</mark>
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) 🡪 **Generate** section 🡪 **OPCAE Transactions Report**
+1. The data can be filtered using the following;
+   * **Source** – Source is the ID of the device from which the event triggered
+   * **Condition Name** – OPC Event Condition Name
+   * **Server ProgID** - Program ID of the OPC server
+   * **From and To** – These fields are used to filter the transactions occurred during a given time range
+2. To sort the filtered records:
+   * To sort the filtered records based on e.g. Source/Transaction Time/ Message, select the required field from the Sort drop down box.
+3. To display the sorted records in ascending or descending order, click the![](.gitbook/assets/Screenshot\_22.png)  icon adjacent to the Sort drop down box accordingly.
+   * &#x20;![](.gitbook/assets/Screenshot\_22.png): Shows that the records are in ascending order as per the selected field from the drop down box.
+   * ![](.gitbook/assets/Screenshot\_21.png): Shows that the records are in descending order as per the selected field in the drop down box.
+4. **Export to Exce**l link: Click this link to export OPCAE transaction report to a excel sheet based on the filtered data.
 
 ## IBMS Reports
 
-This section explains the following reports which allow you to generate IBMS reports in PDF/Word/Excel/Excel-raw formats.
+This section explains the following reports which allow you to generate some predefined IBMS reports in PDF/Word/Excel/Excel-raw formats.
 
-1. Location-wise Alarm Summary Report
-2. Severity-wise Alarm Summary Report
-3. Driver Type-wise Alarm Summary Report
+1. **Location-wise Alarm Summary Report**
+2. **Severity-wise Alarm Summary Report**
+3. **Driver Type-wise Alarm Summary Report**
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) 🡪 **Generate** section 🡪 **Alarm Reports**
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) <mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Generate**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Reports**</mark>
 
 ### Location-wise Alarm Summary Report
 
 This report shows summary of alarms triggered location-wise, within a given time range. Report data will be grouped by the immediate child location of the selected **Site**. After applying the required filters, you can select the report format and click **Generate** to generate the report in selected format.
+
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) <mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Generate**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**🡪Location-wise Alarm Summary Report**</mark>
+
+1. Click the **Settings** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)icon on the Home page and select **Alarm Reports** under **Generate** section. Reports page will open.
+2. On the Reports page, click the **Location Wise Alarm Summary Report** link.
+3. Select the appropriate **Site** to filter report data.
+4. **From Date:** Select the starting date from which you want the report to include data.
+5. **To Date:** Select the ending date up to which you want the report to include data.
+6. Select the required **Alarm Stage** _e.g., Escalated._
+7. In the **Format** box, select the required format of the report. (E.g. PDF, Word, etc.)
+8. Click **Generate Report.** Respective Report will be displayed.
 
 ### Severity-wise Alarm Summary Report
 
