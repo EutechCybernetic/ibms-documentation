@@ -2,8 +2,8 @@
 
 Chapter 6 describes viewing the details of the following using respective Search pages.
 
-* [View Equipment](chapter-6-viewing-items.md#\_View\_Equipment)
-* [View Systems](chapter-6-viewing-items.md#\_View\_Systems)
+* [View Equipment](chapter-6-viewing-items.md#view-equipment)
+* [View Systems](chapter-6-viewing-items.md#view-systems)
 * [View Points](chapter-6-viewing-items.md#\_View\_Points)
 * [View Point Templates](chapter-6-viewing-items.md#\_View\_Point\_Templates)
 * [View Link Templates](chapter-6-viewing-items.md#\_View\_Link\_Templates\_2)
@@ -92,8 +92,9 @@ This is explained under[ **Register New Equipment**](chapter-5-registering-new-i
 
 e.g. If Subsystem Communication is disabled for an equipment with 5 points, exclamation marks will be displayed for all the points of the equipment.
 
-|   | _Note –If SSIF is inactive for a point, you will not see an exclamation mark._ |
-| - | ------------------------------------------------------------------------------ |
+{% hint style="info" %}
+_Note –If SSIF is inactive for a point, you will not see an exclamation mark._
+{% endhint %}
 
 #### Equipment - Details Tab
 
@@ -101,21 +102,19 @@ e.g. If Subsystem Communication is disabled for an equipment with 5 points, excl
 \
 The right pane on the **Details tab** provides links to the following;
 
-* [Real-Time Values](chapter-6-viewing-items.md#\_View\_Real-Time\_Point)
-* [Real-Time GUI](chapter-6-viewing-items.md#\_View\_Real-Time\_GUI)
-* [Delete this Equipment](chapter-6-viewing-items.md#\_Delete\_Equipment)
+* [Real-Time Values](chapter-6-viewing-items.md#equipment-real-time-values-page)
+* [Real-Time GUI](chapter-6-viewing-items.md#equipment-real-time-gui-page)
+* [Delete this Equipment](chapter-6-viewing-items.md#delete-equipment)
 
 #### Equipment - Points Tab
 
-\*\*\
-Points Tab\*\*
+\
+Points Tab
 
 This section shows the configured Subsystem points and allows user to edit the configured subsystem point details.
 
-**Points**
-
-\*\*\
-Points\*\* section shows the Subsystem points and the following details of the configured points:
+**Points**\
+Points section shows the Subsystem points and the following details of the configured points:
 
 * Point name
 * Point Description
@@ -178,8 +177,6 @@ To view Equipment Real-Time Values page, which shows real-time points with its p
 * Point : Name of the Subsystem point
 * Point Description: A description about the Point
 
-\
-\
 
 
 _Setting under App Configuration_\
