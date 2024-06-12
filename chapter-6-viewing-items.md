@@ -106,10 +106,7 @@ The right pane on the **Details tab** provides links to the following;
 * [Real-Time GUI](chapter-6-viewing-items.md#equipment-real-time-gui-page)
 * [Delete this Equipment](chapter-6-viewing-items.md#delete-equipment)
 
-#### Equipment - Points Tab
-
-\
-Points Tab
+#### Equipment - Points Tab Points Tab
 
 This section shows the configured Subsystem points and allows user to edit the configured subsystem point details.
 
