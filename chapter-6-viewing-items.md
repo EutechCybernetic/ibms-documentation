@@ -756,8 +756,6 @@ The following functionalities can be used in Real-Time and Historical Trend Char
     * To undo all the zooming steps, click **Reset Zoom**.
 2.  **Print Charts**
 
-
-
     To print a chart;
 
     * Click the Chart Context menu ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAIAAADQR7l6AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsYBpx1smQAAAGdJREFUOE9j/P//PwNlgIky7SDdjBBXvHv3btq0aY8fPybSRFlZ2aysLCEhIaB6qCsuXbpEvH6gNqBioBaIfVAj9PT0pKSkiHQCUBlQMVALRD3UI8RrxlQ5GpyjwQlLFcMydVIhgQMAEI9T005g7REAAAAASUVORK5CYII=) and select **Print chart** menu option.
@@ -830,10 +828,10 @@ The section consists of the following sub topics.
 * [Alarm Bell Icon on Toolbar](chapter-6-viewing-items.md#alarm-bell-icon-on-toolbar)
 * [Alarm Viewer Pop-up](chapter-6-viewing-items.md#alarm-viewer-pop-up)
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)**🡪** **View** section🡪 **Alarms**
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarms**</mark>
 
-**Or App Home page🡪 Alarms** tab
+<mark style="color:blue;">**Or App Home page🡪 Alarms**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">tab</mark>
 
 ### Alarms Search
 
