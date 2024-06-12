@@ -36,12 +36,12 @@ If it is required to show the Alarm Viewer Pop-up;
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **App Configuration** under **Manage** Section.
 2. On the App Configuration page, go to the **Alarm Viewer** section.\
    Alarm Viewer Pop-up setting allows to configure the following.
-   1. **Show Pop-up Alarm Viewer**
-   2. **Show Acked Alarms in Alarm History Viewer**
-   3. **Alarm confirmation required**
-   4. **Apply Filters for New Alarms**
-   5. **Show Only Active and Cleared Alarm Tabs**
-   6. **Show Alarm Summary Tab in Alarm Viewer**
+   * **Show Pop-up Alarm Viewer**
+   * **Show Acked Alarms in Alarm History Viewer**
+   * **Alarm confirmation required**
+   * **Apply Filters for New Alarms**
+   * **Show Only Active and Cleared Alarm Tabs**
+   * **Show Alarm Summary Tab in Alarm Viewer**
 
 #### “Show Pop-up Alarm Viewer” Check box
 
