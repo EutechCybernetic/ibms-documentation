@@ -209,7 +209,7 @@ To view Equipment Real-Time Values page, which shows real-time points with its p
 
 
 {% hint style="info" %}
-_Note –If the Equipment is offline due to a failure in SSIF, exclamation marks in red will be displayed. Mouse hover Tooltip text will be displayed stating ‘There is a communication failure between iviva and Subsystem Interface”._
+_Note –If the Equipment is offline due to a failure in SSIF, exclamation marks in red will be displayed. Mouse hover Tooltip text will be displayed stating ‘There is a communication failure between iviva and Subsystem Interface'._
 {% endhint %}
 
 {% hint style="success" %}
