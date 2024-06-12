@@ -4,23 +4,27 @@ Chapter 6 describes viewing the details of the following using respective Search
 
 * [View Equipment](chapter-6-viewing-items.md#view-equipment)
 * [View Systems](chapter-6-viewing-items.md#view-systems)
-* [View Points](chapter-6-viewing-items.md#\_View\_Points)
-* [View Point Templates](chapter-6-viewing-items.md#\_View\_Point\_Templates)
-* [View Link Templates](chapter-6-viewing-items.md#\_View\_Link\_Templates\_2)
-* [Point Write History](chapter-6-viewing-items.md#\_Point\_Write\_History)
-* [View Trends](chapter-6-viewing-items.md#\_View\_Trends)
-* [View Trend Groups](chapter-6-viewing-items.md#\_View\_Trend\_Groups)
-* [View Alarms & Alarm History](chapter-6-viewing-items.md#\_View\_Alarms\_and)
-  * [Alarm Search](chapter-6-viewing-items.md#\_Alarms\_Search)
-  * [Alarm Viewer](chapter-6-viewing-items.md#\_Alarm\_Viewer)
-  * [Alarm History](chapter-6-viewing-items.md#\_Alarm\_History)
-  * [Alarm History Viewer](chapter-6-viewing-items.md#\_Alarm\_History\_Viewer)
-  * [Alarm Icon on Toolbar](chapter-6-viewing-items.md#\_Alarm\_Icon\_on)
-  * [Alarm Viewer Pop-up](chapter-6-viewing-items.md#\_Alarm\_Viewer\_Pop-up)
-* [View Interface Gateways](chapter-6-viewing-items.md#\_View\_Interface\_Gateways)
-* [View Interface Transaction History](chapter-6-viewing-items.md#\_View\_Interface\_Transaction)
-* [View Overridden Points](chapter-6-viewing-items.md#\_View\_Overridden\_Points)
-* [Alarm History Download From BACnet Controllers](chapter-6-viewing-items.md#\_Alarm\_History\_Download)
+* [View Dashboards](chapter-6-viewing-items.md#view-dashboards)
+* [View Points](chapter-6-viewing-items.md#view-points)
+* [View Point Templates](chapter-6-viewing-items.md#view-point-templates)
+* [View Link Templates](chapter-6-viewing-items.md#view-link-templates)
+* [View Trends](chapter-6-viewing-items.md#view-trends)
+* [View Trend Groups](chapter-6-viewing-items.md#view-trend-groups)
+* [View Alarms & Alarm History](chapter-6-viewing-items.md#view-alarms-and-alarm-history)
+  * [Alarm Search](chapter-6-viewing-items.md#alarms-search)
+  * [Alarm Viewer](chapter-6-viewing-items.md#alarm-viewer)
+  * [Alarm History](chapter-6-viewing-items.md#alarm-history)
+  * [Alarm History Viewer](chapter-6-viewing-items.md#alarm-history-viewer)
+  * [Alarm Bell Icon on Toolbar](chapter-6-viewing-items.md#alarm-bell-icon-on-toolbar)
+  * [Alarm Viewer Pop-up](chapter-6-viewing-items.md#alarm-viewer-pop-up)
+* [Point Write History](chapter-6-viewing-items.md#point-write-history)
+* [View Real-time Reports](chapter-6-viewing-items.md#view-real-time-reports)
+* [View Interface Gateways](chapter-6-viewing-items.md#view-interface-gateways)
+* [View Interface Transaction History](chapter-6-viewing-items.md#view-interface-transaction-history)
+* [View Overridden Points](chapter-6-viewing-items.md#view-overridden-points)
+* [View Health Status](chapter-6-viewing-items.md#view-health-status)
+* [Alarm History Download From BACnet Controllers](chapter-6-viewing-items.md#alarm-history-download-from-bacnet-controllers)
+  * [View BACnet Devices](chapter-6-viewing-items.md#view-bacnet-devices)
 
 ## View Equipment
 
@@ -1202,6 +1206,10 @@ To view **Point Write History**;
 | wRIV7uYGk4Qk | <p><em>Tip –</em></p><ul><li><em><strong>Filtering Option -Equipment</strong> list box displays <strong>Equipment name</strong> along with the respective <strong>Equipment Category</strong> of the Equipment in the list</em></li><li><em><strong>Filtering Option -Point Template</strong> list box displays <strong>Point name</strong> along with the respective <strong>Equipment Name</strong> of the <strong>Points</strong> in the list</em></li><li><em><strong>New Value</strong> : This shows the new Point Value.</em><br><em>E.g. If Binary it will display the State text of the Point (e.g. ON, OFF) or Value + State text. E.g. 1(ON)</em></li></ul><p><em>For Multi-state : the State text will be displayed as well.</em><br><em>For Analog points, the analog value and the unit of the value will be displayed. E.g. 8 m3</em></p> |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
+## View Real-time Reports
+
+
+
 ## View Interface Gateways
 
 This is used to view the Interfaces running Gateway servers.
@@ -1247,6 +1255,10 @@ Overridden Points search page lists the Points that have been manually overridde
 3. Use the given search filters on the Side bar accordingly.
 4. Use the Sort option to sort the search results by the given fields.
 
+## View Health Status
+
+
+
 ## Alarm History Download from BACnet Controllers
 
 |   | _Note –_ This _section is applicable only for BACnet Controller based Alarms._ |
@@ -1283,5 +1295,10 @@ After the Alarm History is downloaded from the BACnet Controller;
 * If the alarm events in the downloaded Alarm History are already cleared in the BACnet Controller, these details will be written under the **Subsystem Event History** tab of the respective Point’s detail page in iviva system. This tab will show all alarm events of Point, which are downloaded via “Alarm History Download” function.\
   To view **Subsystem Event History** of a BACnet Controller Point, go to the respective BACnet Controller Point’s detail page 🡪 Subsystem Event History tab.
 
-|   | _Note –The alarm events that are not associated with any existing data In_ iviva _can be viewed by clicking on “Exceptions” checkbox on the side bar._ |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+{% hint style="info" %}
+_Note –The alarm events that are not associated with any existing data In_ iviva _can be viewed by clicking on “Exceptions” checkbox on the side bar._
+{% endhint %}
+
+
+
+### View BACnet Devices
