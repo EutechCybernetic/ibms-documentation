@@ -417,23 +417,26 @@ View **Points** allows you to view the Configured **Points** in the application.
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Points**</mark>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Points** under **View** section. **Points Search** page will appear.
-2. Type the name of the **Point** in to the **Search Points** input box to search for the **Point** desired\*\*.\*\*
+2. Type the name of the **Point** in to the **Search Points** input box to search for the **Point** desired.
 3. Refine search using given **Search filters**;
-4. **Location:** Clear the current location by pressing![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==). You will observe that all the **Points** are displaying. Click on the **Location** text box and type in a new location to filter or select one from the drop down list.
-5. **Equipment:** Click on the **Equipment** text and type in a new Equipment name or select one from the drop down list. This will further filter the **points** by Equipment.
-6. **Data Type:** Use to filter the Points based on the Data Type of the Points
-7. By default the Points search page shows the Points without filtering based on Alarm Enabled/Disabled, Trend Enabled/Disabled or Value Subscription Enabled/Disabled. You can select the given check boxes to filter Points accordingly.\
-   **Note**: Alarm Enabled/Disabled, Trend Enabled/Disabled and Value Subscription Enabled/Disabled features are described under the ‘Details tab on the Point Details page” section below.
-8. ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAVCAIAAAAW+SPgAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsEBPgUZQwAAANNJREFUOE9jfPXqOQPRgIlolSCFVFP96fG161euPfmIZDses18enD5j0vTNt74hlJPtkvubKusbK3sPPMbtcSSz/3x/++7d25fvfhOlGqbo9+9vIPD7D6YuFqAQUBZoHivMzAtrK3uPMnA62JtiKAe65O2x6ZUF5U3rrhOOKNLChPHVq0dvbt958ZuBn4/346fPDAy8/HyfP35iYODj5f/0+SMDi4Sqqggr1FrG5MwMwi4AqlANrI3RY5ZXVvpODODT8zCVBLpk8KdYLJ4nLbxJUw0AvFhw/KlNLZ4AAAAASUVORK5CYII=) **Historical Trend** icon opens the **Historical Trend** tab on the Point detail page of the respective Point.
-9. ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAaFJREFUOE9jfPjgDgO5gIlcjSB9+DT//v0bv9E4NX86M7ukpr5x/zM8+hmx+fnzpVXTF5798Aesj0XJvyrdXBibGVhsfrl/9lyYTqCWP/c2tq27h9V+TM33Dux5g6b0z8mD575j0Y6h+d3rpxDnooDHD14To/nL61dYlP149xlLyKPZ/P7oplPYHMhwed3OBxiGIoX252tLp6449R6Lo6G6WBTDilOthRBmwGz+fm/lhCX4dILC/f6q3vnnPiM0s0CYby/uPPYFwmThFOQRElWSF4RK/Xn/+M7r95/e/wA56c/tVfsfGfnJQZVCqHfPHjNwyNoH+rtoS/GxgkQ+3Ty4/ep7TnV7P21BsJLfL+8eW7do543X778xyHGBhZgLC/KAFCf37xunL19//p6BU1hAkI39+d62WfvuPn16/+Kpd1ImKryfnl69dnDf3qufRE08bY3FOCFWIifPz09uXjt38dqNe68/ff7wGR5wLDxCvLxiSrKqSkaG+nLCYHdhakaIMjB8vr5pxapr74WUnAN9jWWgNiErQLcZXY4gn6LCAABpfLHC5tk4twAAAABJRU5ErkJggg==) **Alarm History** icon opens the Alarm History tab on the Point detail page of the respective Point.
-10. ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAdCAIAAABE/PnQAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAxxJREFUSEuNVtly2kAQ1H0gJAG2gzEBp/zo8vH/H5KknMqDQ6XikFiA7tWF0kLEBqFdGD+ZnZ3eme6ZEf/j+TtHtyzNSEKyNF9XVnA8L25MU1VVU3meZ9ytj/hWgLIs45hEYZgkaZ5nRbFel9Ufx3MCLwiCKMuSJEu6rne7BvAYMC0AaZL6QRhFUZIQruQA1nofz5dkWdNUyzQ7RoeGITQOCCGL5dJzXRITPJkWHbdwlKVp4AWOs/B9n+a5B4Doy+UqDMI8zxHhaH0rGK6s3uQsgiBo9X8HAJ+rlRuGIdg8JfSuT5pmzusiCqPDi1sAJOgFATwqJik2HI1u7+4/3dzIinzokmWZ4yyLvGgcbQHiOEZ0qIUWXdc74/HHy8vRZHLdNS3o9dATgvaDJhn/AaI4TRJm3UtVqYSvKIooiO36L0vXdRsVrgCgS0IShmDgg9d9e3r6OZt9/fLZc1cU6XJoySiKd5OrAGJC0E0MADzZ0A3wP5s9z3+/pGlKyxVBGlRXAHmW5QfkvL1iNB7fPT7e3j/cPz5MpteixOrbOtdmBgXILan0rotitVyBAMuyR1dj07R5gTWC8gw99G5VBqCFL6l3HMeZv/zK8gyekiQdHXANoVcAmF+MzkIBFVXBhIMPck1IfKTH94NtAESBY0FwhmnVI9N1V2gott4kUWqWSETm+782Eur1bHjgR9/1kAR7kCj7fV69XEXvMGe6rnX4TRldz83p3V4Do+ebGWi6hvHCYK/ALtvYcDicTqeGYdKcITCjewAAArGbsD1ouf+ZzwmJUfr+4Myy7aKg0tDtmqj3bpztRsMC+PvqBH6APXIIgwICvhYyNL3p5BbDKv04ucK2bpaoFrhtmg1+3vw26twaLTqcB4M+RmED+V2eekfv2VDLXoJsweyeWjC7hZt3APBm2RZe0bpP2Eh2zz6/OGuV4l6D1RgfLi40VePxiXKCQTbnlbVHR4D27yIMLM/3PdcD+YzPFsPo9Ad9sMqQeDsAkBF3w20SBPXnV45/Ieiq6WW5a3TAGQirZxTDqAAnlOcklyP4J8VgOv0D8tOsQ0qGgE8AAAAASUVORK5CYII=) **Quick Info** icon opens the pop-up window with the important features of the respective Point.
-11. Click on the required **Point** name to go to its detailed page.
-12. **Details** tab shows the important details of the respective Point along with its alarm and trend details.
-13. On the Point Detail page, click the **Alarm History** tab to view the alarms generated by the point.
-14. Alarms can be filtered by **User**, **Start Time –End Time**, **Alarm Class** and **Alarm Severity.**
-15. To generate reports in PDF/Word/Excel/Excel Raw formats, select the required report format and click **Generate Report**.
-16. Click the **Historical Trend** tab to view trend history.
-17. Click the **Real Time Trend** tab to view the graphical representation of real time trend. This will be refreshed automatically with the current values.
+   1. **Location:** Clear the current location by pressing![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==). You will observe that all the **Points** are displaying. Click on the **Location** text box and type in a new location to filter or select one from the drop down list.
+   2. **Equipment Template:** Click on the **Equipment Template** text and type in a new Equipment Template name or select one from the drop down list. This will further filter the points by Equipment Template.
+   3. **Equipment:** Click on the **Equipment** text and type in a new Equipment name or select one from the drop down list. This will further filter the **points** by Equipment.
+   4. **Interface:** Click on the Interface text and type in a new Interface name or select one from the drop down list. This will further filter the points by Interface.
+   5.  **Data Type:** Used to filter the Points based on the Data Type of the Points.&#x20;
+
+       By default, the Points search page shows the Points without filtering based on Alarm Enabled/Disabled, Trend Enabled/Disabled or Value Subscription Enabled/Disabled. You can select the given check boxes to filter Points accordingly.\
+       _**Note**: Alarm Enabled/Disabled, Trend Enabled/Disabled and Value Subscription Enabled/Disabled features are described under the ‘Details tab on the Point Details page” section below._
+4. ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAVCAIAAAAW+SPgAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsEBPgUZQwAAANNJREFUOE9jfPXqOQPRgIlolSCFVFP96fG161euPfmIZDses18enD5j0vTNt74hlJPtkvubKusbK3sPPMbtcSSz/3x/++7d25fvfhOlGqbo9+9vIPD7D6YuFqAQUBZoHivMzAtrK3uPMnA62JtiKAe65O2x6ZUF5U3rrhOOKNLChPHVq0dvbt958ZuBn4/346fPDAy8/HyfP35iYODj5f/0+SMDi4Sqqggr1FrG5MwMwi4AqlANrI3RY5ZXVvpODODT8zCVBLpk8KdYLJ4nLbxJUw0AvFhw/KlNLZ4AAAAASUVORK5CYII=) **Historical Trend** icon opens the **Historical Trend** tab on the Point detail page of the respective Point.
+5. ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAaFJREFUOE9jfPjgDgO5gIlcjSB9+DT//v0bv9E4NX86M7ukpr5x/zM8+hmx+fnzpVXTF5798Aesj0XJvyrdXBibGVhsfrl/9lyYTqCWP/c2tq27h9V+TM33Dux5g6b0z8mD575j0Y6h+d3rpxDnooDHD14To/nL61dYlP149xlLyKPZ/P7oplPYHMhwed3OBxiGIoX252tLp6449R6Lo6G6WBTDilOthRBmwGz+fm/lhCX4dILC/f6q3vnnPiM0s0CYby/uPPYFwmThFOQRElWSF4RK/Xn/+M7r95/e/wA56c/tVfsfGfnJQZVCqHfPHjNwyNoH+rtoS/GxgkQ+3Ty4/ep7TnV7P21BsJLfL+8eW7do543X778xyHGBhZgLC/KAFCf37xunL19//p6BU1hAkI39+d62WfvuPn16/+Kpd1ImKryfnl69dnDf3qufRE08bY3FOCFWIifPz09uXjt38dqNe68/ff7wGR5wLDxCvLxiSrKqSkaG+nLCYHdhakaIMjB8vr5pxapr74WUnAN9jWWgNiErQLcZXY4gn6LCAABpfLHC5tk4twAAAABJRU5ErkJggg==) **Alarm History** icon opens the **Alarm History** tab on the Point detail page of the respective Point.
+6. ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAdCAIAAABE/PnQAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAxxJREFUSEuNVtly2kAQ1H0gJAG2gzEBp/zo8vH/H5KknMqDQ6XikFiA7tWF0kLEBqFdGD+ZnZ3eme6ZEf/j+TtHtyzNSEKyNF9XVnA8L25MU1VVU3meZ9ytj/hWgLIs45hEYZgkaZ5nRbFel9Ufx3MCLwiCKMuSJEu6rne7BvAYMC0AaZL6QRhFUZIQruQA1nofz5dkWdNUyzQ7RoeGITQOCCGL5dJzXRITPJkWHbdwlKVp4AWOs/B9n+a5B4Doy+UqDMI8zxHhaH0rGK6s3uQsgiBo9X8HAJ+rlRuGIdg8JfSuT5pmzusiCqPDi1sAJOgFATwqJik2HI1u7+4/3dzIinzokmWZ4yyLvGgcbQHiOEZ0qIUWXdc74/HHy8vRZHLdNS3o9dATgvaDJhn/AaI4TRJm3UtVqYSvKIooiO36L0vXdRsVrgCgS0IShmDgg9d9e3r6OZt9/fLZc1cU6XJoySiKd5OrAGJC0E0MADzZ0A3wP5s9z3+/pGlKyxVBGlRXAHmW5QfkvL1iNB7fPT7e3j/cPz5MpteixOrbOtdmBgXILan0rotitVyBAMuyR1dj07R5gTWC8gw99G5VBqCFL6l3HMeZv/zK8gyekiQdHXANoVcAmF+MzkIBFVXBhIMPck1IfKTH94NtAESBY0FwhmnVI9N1V2gott4kUWqWSETm+782Eur1bHjgR9/1kAR7kCj7fV69XEXvMGe6rnX4TRldz83p3V4Do+ebGWi6hvHCYK/ALtvYcDicTqeGYdKcITCjewAAArGbsD1ouf+ZzwmJUfr+4Myy7aKg0tDtmqj3bpztRsMC+PvqBH6APXIIgwICvhYyNL3p5BbDKv04ucK2bpaoFrhtmg1+3vw26twaLTqcB4M+RmED+V2eekfv2VDLXoJsweyeWjC7hZt3APBm2RZe0bpP2Eh2zz6/OGuV4l6D1RgfLi40VePxiXKCQTbnlbVHR4D27yIMLM/3PdcD+YzPFsPo9Ad9sMqQeDsAkBF3w20SBPXnV45/Ieiq6WW5a3TAGQirZxTDqAAnlOcklyP4J8VgOv0D8tOsQ0qGgE8AAAAASUVORK5CYII=) **Quick Info** icon opens the pop-up window with the important features of the respective Point.
+7. Click on the required **Point** name to go to its detailed page.
+8. **Details** tab shows the important details of the respective Point along with its alarm and trend details.
+9. On the Point Detail page, click the **Alarm History** tab to view the alarms generated by the point.
+   1. Alarms can be filtered by **Start Time –End Time**, **Alarm Class** and **Alarm Severity.**
+   2. To generate reports in PDF/Word/Excel/Excel Raw formats, select the required report format and click **Generate Report**.
+10. Click the **Historical Trend** tab to view trend history.
+11. Click the **Real Time Trend** tab to view the graphical representation of real time trend. This will be refreshed automatically with the current values.
 
 ### Point Details Page
 
@@ -443,26 +446,25 @@ Detail page of a Point has the following tabs;
 2. Alarm History Tab
 3. Historical Trend Tab
 4. Real Time Trend Tab
-5. Write History – This tab will be visible only for the Points with ‘Write’ state
+5. Write History – This tab will be visible only for the Points with ‘Write’ state.
 6. States Text Details – Only for Binary and Multi-State Points
-7. Subsystem Event History Tab – This tab will be visible only for BACnet Controller Points
+7. Subsystem Event History Tab – This tab will be visible only for BACnet Controller Points.
 
 #### Details Tab on Point Details Page
 
 | Section on Details Tab    |                                                                                                                                                                                                                                                                                                                                                    |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Details                   | <p>Shows the details of the respective Point. Clicking on the <strong>Edit</strong> icon allows user to edit the Point details.<br><br><strong>Note:</strong> You can select the “<strong>Disable comments in Command</strong>” checkbox to disable the requirement of comments when resetting Point Values (e.g. On Real-time GUI page, etc.)</p> |
-| Properties                | Shows the properties of the respective Point. Clicking on the **Edit** icon allows user to edit the Point Properties                                                                                                                                                                                                                               |
+| Properties                | Shows the properties of the respective Point. Clicking on the **Edit** icon allows user to edit the Point Properties.                                                                                                                                                                                                                              |
 | Reset Value Configuration | This section is to enter the consultant recommended default Point value. When resetting, the current Point Value will be reset by the Value entered under this. The section captures the User who configured the Value, Date/Time and the previous Point Value and display under this section.                                                     |
-| Trend                     | This section shows the trend details of the respective Point. Clicking the **Edit** icon allows user to edit the trend details                                                                                                                                                                                                                     |
+| Trend                     | This section shows the trend details of the respective Point. Clicking the **Edit** icon allows user to edit the trend details.                                                                                                                                                                                                                    |
 | Alarm                     | This section shows the alarm details of the respective Point.                                                                                                                                                                                                                                                                                      |
 | Alarm Instructions        | Alarm Instructions added under this section will be displayed in the respective Alarm’s Operator Note window.                                                                                                                                                                                                                                      |
 
 **Details Section on Details Tab**
 
-\*\*\
 Type:\
-\*\*On the **Edit** mode of Point Detail page, you get 3 options (Subsystem, Calculated and Custom) in the ‘Type’ box to select the relevant Point Type.
+On the **Edit** mode of Point Detail page, you get 3 options (Subsystem, Calculated and Custom) in the ‘Type’ box to select the relevant Point Type.
 
 **“Disable Comments in Command” checkbox**
 
@@ -471,8 +473,9 @@ You can select the “**Disable comments in Command**” checkbox to disable the
 App Configuration has a setting named “Comment required for Write commands”. If this checkbox is selected, you need to enter Comment, whenever a point value is reset manually on Real-time value pages and Real-time GUI pages. Since this is a global configuration, this setting will be applied to all the Points associated with “Write” commands.\
 “Disable Comments in Command” checkbox on Point detail page🡪Details tab, can override the above Global configuration and disable the Comment popup when Point value is reset.
 
-|   | _Note –“Disable Comments in Command” checkbox will be available on Point Detail page, only for the ‘Writable Points’ (Read/ Write State = Write). This checkbox is not available for “Read Only” Points._ |
-| - | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note –“**Disable Comments in Command**” checkbox will be available on Point Detail page, only for the ‘Writable Points’ (Read/ Write State = Write). This checkbox is not available for “Read Only” Points._
+{% endhint %}
 
 **Alarm Enable** checkbox – If Alarm is disabled (if the checkbox is not selected), and if there are no Alarms, the **Alarm History** tab on the Point detail page will be hidden.
 
@@ -483,6 +486,8 @@ App Configuration has a setting named “Comment required for Write commands”.
 **Enable Value Subscription** - If enabled, SSIF will update the respective point value (RT value) frequently based on its polling frequency. Users are allowed to enable or disable this checkbox according to their requirement. Purpose of this feature is to update the database frequently which helps to return real-time point data when API calls or Lucy models request data from SSIF.\
 \
 **Enable Trigger Event for Value Changes** –This option will be displayed only if **Enable Value Subscription** is enabled in point details. If **Enable Trigger Event for Value Changes** option is enabled, SSIF will send that flag with value changes to trigger an event in Lucy.
+
+**Enable Override –**
 
 #### Alarm History Tab on Point Details Page
 
