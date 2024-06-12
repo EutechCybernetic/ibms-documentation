@@ -493,15 +493,16 @@ _Note –“**Disable Comments in Command**” checkbox will be available on Poi
 
 All the alarms associated with the respective Point will be displayed under the Alarm History tab on the Point Details page.
 
-1. **Note:** If the **Alarm Enable** check box is not selected (Alarm is disabled) and if there are no Alarms, the **Alarm History** tab on the Point detail page will be hidden.
-2. Use the filters on the right side panel to filter alarms as required (e.g. Alarm Class).
+_**Note:** If the **Alarm Enable** check box is not selected (Alarm is disabled) and if there are no Alarms, the **Alarm History** tab on the Point detail page will be hidden_.
+
+Use the filters on the right side panel to filter alarms as required (e.g. Alarm Class).
 
 **Group by Date:** If you enable this filter, it will group alarms by Today Alarms, Yesterday Alarms and Older Alarms in the alarm history.
 
 **Generate Report**: This is used to generate the current report for point alarm history in PDF/Word/Excel/Excel Raw formats.
 
-1. In the Format box, select the type of format you want.
-2. Click Generate Report.
+1. In the **Format** box, select the type of format you want.
+2. Click **Generate Report.**
 
 #### Historical Trend Tab
 
@@ -511,10 +512,8 @@ Historical Trends associated with the respective Point will be displayed under t
 
 Real- Time trends of the respective Point will be displayed under this tab.
 
-\*\*\
-Note:\*\* If the **Trend Enable** check box is not selected (Trend is disabled) and if there are no real-time trends, the **Real Time Trend** tab on the Point detail page will be hidden.\
 \
-
+_Note: If the **Trend Enable** check box is not selected (Trend is disabled) and if there are no real-time trends, the **Real Time Trend** tab on the Point detail page will be hidden._
 
 #### Write History Tab
 
@@ -528,15 +527,28 @@ Points with ‘**Write’** state will have an extra tab named ‘**Write Histor
 
 To configure State Texts;
 
-1. _**Configure State Text Display Format**_
+1.  _**Configure State Text Display Format**_
 
-**\_**\
-**States Text Display Format\_**: This field is used to configure the format of the State text displayed on RT pages.
 
-Under **State Text Configuration** Section,
 
-*
-  1. Click the **Edit** icon and select the required format of the State text from the **State Texts Display Format** box.
+    _**States Text Display Format**:_ This field is used to configure the format of the State text displayed on RT pages.
+
+    Under **State Text Configuration** Section,
+
+    1. Click the **Edit** icon and select the required format of the State text from the **State Texts Display Format** box.
+    2. Click **Save**.
+2.  _**Configure a new State Text**_
+
+    Under **State Text** section,
+
+    1. Click the **Add** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAIAAADZ8fBYAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsUBR2zs/wAAAeZJREFUSEu1lttOwkAQhu2RRKBFqAh3RIhR1ITE938EExM1GgOGO04tYFtMgN3Gf9mGQ6GlFGy4aMvMN9OZ6fwVbLt79g+HEMH1PG/i/tq2M5vNKKXz+VxRFEmSVFXVtGw6cy6KYlhKu7mgmOZwPBoDHeYJaO4iZxh5RNq22cG1f5xut08piVMeSZRK5StNzwaMg1xzYA0GZhziuo1hFC6LxvqdjQIlgwJnmhZ8d3Md202Q6ZIFXxRweenni0Z1Or1DHz9gv+gK5Td9rmUNoxtVrzceHp/wQ6PCwoMAzoqLYRoNx0cmy93B4aPJ8nWdScScHhQPHPTJ5zoOOzvV4boTnzudTk8FBYfT2Hvx9dmknt9HHgDNubtvxAn28f6y7XtzW2P1DfwRBxdhw2mMGzE6CWLwJcfq8N1q7y0x5ldc7K231+foYKlU6rpaYWycJcgrzIXTGDeTSZ+Qy2mMm9UyEZv/oJDggOZz+eY/yD/MGJxV39ioUdpqtmNqRBhUkuRqrcJlyd9nuCiVikemDMJS61Z6AY2CnCRGw3dd5TZ0CBpVMPIJ0PAK6FuIHnd6MV9udKlcLu3XY54sIWTQN/FFErGXBUHQdQ1pyrK8/Yhxv3cIoYTMZVmRZUlRVT3Z906CEgdc/gAT3+7SNfKYwQAAAABJRU5ErkJggg==) to open the State Text configuration window
+    2. In the **State Text Value** box, type the value of the **State**.
+    3. In the State Text box, type the text to show the State. E.g. ON
+    4. Click **Add**.
+3. _**Enable States Text**_
+   1. Under State Text Configuration section, Click the **Edit** icon.
+   2. Select the **Enable States Text** check box, to enable State Text feature.
+   3. Click **Save**.
 
 | State Text Display Format | Description                                              | E.g.    |
 | ------------------------- | -------------------------------------------------------- | ------- |
@@ -545,25 +557,13 @@ Under **State Text Configuration** Section,
 | Value and Text            | First Value and then Text will be displayed              | 1 ON    |
 | Text and Value            | First Text and then Value of the State will be displayed | ON 1    |
 
-*
-  1. Click **Save**.
 
-1. _**Configure a new State Text**_
 
-Under **State Text** section,
+{% hint style="info" %}
+_Note – If you need to disable the_ _**State Text**_ _Feature, clear the_ _**Enable States Text**_ _check box._
+{% endhint %}
 
-*
-  1. Click the **Add** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAIAAADZ8fBYAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsUBR2zs/wAAAeZJREFUSEu1lttOwkAQhu2RRKBFqAh3RIhR1ITE938EExM1GgOGO04tYFtMgN3Gf9mGQ6GlFGy4aMvMN9OZ6fwVbLt79g+HEMH1PG/i/tq2M5vNKKXz+VxRFEmSVFXVtGw6cy6KYlhKu7mgmOZwPBoDHeYJaO4iZxh5RNq22cG1f5xut08piVMeSZRK5StNzwaMg1xzYA0GZhziuo1hFC6LxvqdjQIlgwJnmhZ8d3Md202Q6ZIFXxRweenni0Z1Or1DHz9gv+gK5Td9rmUNoxtVrzceHp/wQ6PCwoMAzoqLYRoNx0cmy93B4aPJ8nWdScScHhQPHPTJ5zoOOzvV4boTnzudTk8FBYfT2Hvx9dmknt9HHgDNubtvxAn28f6y7XtzW2P1DfwRBxdhw2mMGzE6CWLwJcfq8N1q7y0x5ldc7K231+foYKlU6rpaYWycJcgrzIXTGDeTSZ+Qy2mMm9UyEZv/oJDggOZz+eY/yD/MGJxV39ioUdpqtmNqRBhUkuRqrcJlyd9nuCiVikemDMJS61Z6AY2CnCRGw3dd5TZ0CBpVMPIJ0PAK6FuIHnd6MV9udKlcLu3XY54sIWTQN/FFErGXBUHQdQ1pyrK8/Yhxv3cIoYTMZVmRZUlRVT3Z906CEgdc/gAT3+7SNfKYwQAAAABJRU5ErkJggg==) to open the State Text configuration window
-  2. In the **State Text Value** box, type the value of the **State**.
-  3. In the State Text box, type the text to show the State. E.g. ON
-  4. Click **Add**.
 
-1. _**Enable States Text**_
-
-Select the **Enable States Text** check box, to enable State Text feature.
-
-|   | _Note – If you need to disable the_ _**State Text**_ _Feature, clear the_ _**Enable States Text**_ _check box._ |
-| - | --------------------------------------------------------------------------------------------------------------- |
 
 #### Subsystem Event History tab
 
@@ -576,7 +576,7 @@ The alarm event history details of BACnet controller based alarms will be displa
 1. Go to the Point Search page and click the required Point name to go to its detailed page.
 2. On the **Details** tab, go to the **Alarm** section.
 3. Click the **Add** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAiCAIAAADDHy4eAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsIB3nSZJQAAAfRJREFUSEvVlstPwkAQxu1uW4hAK/IQPBHR+Iox8f+/eTGaYIxRTxpv8kbaYoB2q9+6hEeFWtp6sIEUmpnffjuzM1PJMOobcV8kbiDn/QlUWrV913Uta2Aa1ng8Ysy1x7aiKpQSVU1ktHQ6nSJkpaAlUMZYu9Xp9fqfrrsqOBIh2ayeL+QopT9tvNB+32jUm8xhQWJNKCmVd3Rd8xgvQFutTrvZDoKbt4HeQjE//2QWl3BEsBAr+C6BGoYZQuMUBF/EbfqXK3Ucp/7WWHfXHntkAhzxkEO7nZ5/Zo5Pzk/PLvAhy3ItQCCAM4HiPHa77xFlCndwQONKTdPyOY9rLQYOcsOhljlYy9PfeGB9cOhwOIoRKmjSzfWlyxbKEdlAZoKs9PR457KF2kONHR4dEA8xCMvHRtAI2BFB8+5oNHz7t7Wr8eiXsCIa4oQ+3Nf8FaiJRHW/QpLJRIxKBY2k0psxQgWNaFpGBCL6BQ5o34n67uHRiSCAI2YMb9LoLi/PrwG7/arlqUz3qhVZlrlSfPFrp1SMKBYEQZxAccOcwVQIzYXv/KSapQhzJpffDsGFl2dGLZmmmAIBaxfpLu/+Nk2FTNu2MciMvunXZyVJ39IKhZyiKD83F+gNxXGYYzuygkxQRVE1PbP2G0qIsHpc4qmlfwv9Av6m6NeferCCAAAAAElFTkSuQmCC) to go to the **Add Alarm** window.
-4. Follow the ‘[’Add Alarm to Point Template](chapter-6-viewing-items.md#\_Add\_Alarm\_to)” section for details on Adding an Alarm.
+4. Follow the ‘’[Add Alarm to Point Template](chapter-3-configuration-of-prerequisites.md#add-alarm-to-point-template)” section for details on Adding an Alarm.
 
 ### Change Alarm Severity at Point Level
 
