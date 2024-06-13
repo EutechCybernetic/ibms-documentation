@@ -1059,17 +1059,19 @@ You can either acknowledge individual Alarms or multiple number of alarms at onc
 
 **Acknowledge a single alarm**
 
-1. Go to the **New Alarms** tab and click on **Ack** button of the respective alarm. After acknowledging an Alarm, its status will not be changed. Acknowledged alarm will be displayed under **Acknowledged Alarms** tab.
-2. e.g. (1) Status : Alarm Action: Ack
-3. (2) Status : Cleared Action: Ack
+1.  Go to the **New Alarms** tab and click on **Ack** button of the respective alarm. After acknowledging an Alarm, its status will not be changed. Acknowledged alarm will be displayed under **Acknowledged Alarms** tab.
+
+    e.g. (1) Status: Alarm Action: Ack
+
+    &#x20;      (2) Status: Cleared Action: Ack
 
 **Acknowledge multiple/all alarms at once**
 
 1. On the Alarm Viewer, go to the **New Alarms** tab.
 2. Select the check boxes of the required multiple Alarms you need to acknowledge and click **Ack All**. If you need to acknowledge all the alarms under New Alarms tab at once, click the **Select All** check box and then click **Ack All** button.
 
-_Setting under App Configuration_\
-_Acknowledged alarms will_ _**not**_ _be displayed under the “**Acknowledged**_ _**Alarms**” tab in Alarm Viewer, if the “Show acked alarms in Alarm History Viewer” checkbox is selected in Settings🡪Manage🡪App Configuration page. If that checkbox is selected, the acked alarms will be displayed in_ _**Alarm History Viewer**._
+_<mark style="color:blue;">Setting under App Configuration</mark>_\
+_<mark style="color:blue;">Acknowledged alarms will</mark>_ _<mark style="color:blue;">**not**</mark>_ _<mark style="color:blue;">be displayed under the “</mark><mark style="color:blue;">**Acknowledged**</mark>_ _<mark style="color:blue;">**Alarms**</mark><mark style="color:blue;">” tab in Alarm Viewer, if the “Show acked alarms in Alarm History Viewer” checkbox is selected in</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Settings🡪Manage🡪App Configuration page**</mark><mark style="color:blue;">. If that checkbox is selected, the acked alarms will be displayed in</mark>_ _<mark style="color:blue;">**Alarm History Viewer**</mark><mark style="color:blue;">.</mark>_
 
 #### Add Operator Notes
 
@@ -1086,11 +1088,13 @@ To add an Operator Note;
 7. **Operator Notes page**: Expand the **Alarm Instructions** section to view the instructions added related to Alarm on the respective Point’s Point Details page.
 8. To close the window, click![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAIAAAAT2oadAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsIBw3GpnQAABF5JREFUSEu1VllMU2kUtguB3lJUKBETM9LF2oqFumYmDrhEMShgQ6XiEn3ANfpMfHEe9MF5mHmbB50MMw8mo7IILlGpZVVM1KDVFjBKwSii0gK2bCUtZb7rbW4v/21LNU7T3PzLOd/3n/+c858jcLlc86L/gsGg09ljt9ve9PW6h9wBfwCy4gSxPE2uUKj02TlKpVooFMZAwJYgGoff729usjY2WsbHx2JASKXJW7fmb96yTSwWRxOLzGGzPa2tuToyMgy1RYsycgyrs7L0MpmMoqRYmZgYHx31dnU6nj3rGBz8hJXU1DSTyQyxiDQkx/T0dFXVv+0P2iCtVmt2GU0KhTKGHX19vfV1NU7na8hs+DnPbN4nEokI+VkcMzMzlX9dgBGQKykx523cLBAIYt81dqHV0mytq6uB8wyr1pSXHyO0RBUVFSzKrZv17e1tFEUdPXpy7br18RDQLhUI4P9MhdJhf97/7u1MMKhZruWeLBwSOL7FcgcWHD5yQqtbMefxCQGdLqv88HGoNzTctr+wReAIBALXaqtgNS5Uo5l1ivjJtNoVu3eXAaS6+goAWcWQHY1Wy/DwEEyG3+IH5Uvm5m1SKlWAamq8N4sDvmpusWJpZ2ExoYawOXXyCL58uGhbBTuKINzSYoVBjBZtR0/Pq7HR0YyMxTCWiwWU3387jxV8CZoYW3AMUsrr9TIBHeJwOF5gpM82EId9/Oghu8KlwVUw3MzP0nCbUFypz8GK3U7Dhjh6nU6MtFodIVq8y5Sbu5GgAcEvZ05zJUvNewlF3Zf76HX2hDlcrkFMFi5MJUQlEgmfhiA4e+5XPCSEIgPldodeW9ofPt8kvvPnLyBEMeXTcGUiEtBQC2ioycmJsB14ozBJTEzkc8SgiUYAlaSkJHzZFKHtYJ7lqampiBzMie7fbyV2PR5PNHmfz8fCYkBzJEkk+Hqj6PCdzEDzA5ql9Hg+Y0xJ6UIQ4kiXp2PEVAvixyfgRxpfa2SYhkKtDHOo1Msw6exyzEkAH0QMaEKRgVKpNWGO7OxVmDy3PSVEq6suc1cYJ/MjjZ+DDJT+SyaG7iozU5EskyGcX3Z3cUG5ycWNIoKGyMHurk7ccEpKCltA6RqFIiMUCLu7O/v73+HdZUuTREL9+NOGQMCPikIkWkJCgkq1TCQUHjxUzt1CGlz884/xsbHi4hJUrbAdGKGsQnRg4H1raxPXFCzuKTvAz2TIwJrCIiOxhaL76eNHLHJrRKh+IEVKTGZYgAaAuDF+2ERbwU1cv34NIKWlZdxWKFxrDYbV+fkFMLay8sI30IDg78qLKEXbt+8gnvBZPQOq7IeB9/BKR8cTSkItXZoZT9vA9CWXLv2Dtg99yZ6y/YQW2V9B4caNOuu9uxgsWfKD0WiK3T/Q91Nfi2MBd1t+QVGRkX+suftEuTwdkY4SiUGanE5dRDn+QEdxG3K7sfJ1fSLrz/+932WZiL4dgY8taXLy9+nb4w/ZOSX/A4a9L1sfZyXSAAAAAElFTkSuQmCC).
 
-|   | _Tip – After the first Operator Note is entered, the Operator Note icon of the respective alarm will be changed to_ ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAkZJREFUOE+dlG1r01AUx5s0fYCmZKURR1lfT+hnUV+qr5XpGKioo6NjdXEgDHE4UXycH2Hb+/lVZHNTRL2hy5q2aZsH/ycnqdmWF+KFltN78zv//z3npNL3b4d35hcyp1cQBJIkYW/tyWqtVkNgmma1Wk0GiKWD/S+PFpuvX70cDofFYhFblmVpmobAMNYOj442X2w4zkDXL2BHiN8c9Hq9Uqkk+74/PX3RdV0mO50Ok0KIXD6H4O69+2dIHIHEkQyHmSCTy9FzlnVcqVSY1HUdQRD4kiTfvDU30RRmdEQwNDPh9UBq2hSR8fHVK5dBcorm0nKUtEpJB4MBvhXWhNszmpBqNBpbH9+zZihOmghg9tPWB1LGx/e8iIw1/5qMK7S+/rT92AC58fwZN4Jgu2fL2WzS0nkSmq3WCtoBzQcPF2GHLgtYLanJCqWQpmgtr3iex80HiSzZUI9su+6Ya5uq2W4bSdJxnHw+z87lbrerKFSzVLK51GK3rDkejwuFAmJqMOByuZxOmmJ7ZzfsU0RCU1EUJqM7x7ZPTR8qdLD/FXkvzc6y5tzt+YkmSG5wmu2wYW/evtvb+zxTn+EK4dqsiZjJVNtCD2cIzxmr7RvXr3GFeGc0GvErgBTJarPtaG4xcJiher0+qRBOQcI5jeNxhwO53+8LYRIZjxdeSR64ZIXwk4GTE6syRadY0q+fP8JxpbdnUls+Sy7cnDWZtG1bVVWCHfwNhFlhjK+H8siyzBVCjA7xJg8WLswuCD6v8487ZPW/1x+p1KzaiqquVwAAAABJRU5ErkJggg==) |
-| - | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="success" %}
+_Tip – After the first Operator Note is entered, the **Operator Note** icon of the respective alarm will be changed to_ ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAkZJREFUOE+dlG1r01AUx5s0fYCmZKURR1lfT+hnUV+qr5XpGKioo6NjdXEgDHE4UXycH2Hb+/lVZHNTRL2hy5q2aZsH/ycnqdmWF+KFltN78zv//z3npNL3b4d35hcyp1cQBJIkYW/tyWqtVkNgmma1Wk0GiKWD/S+PFpuvX70cDofFYhFblmVpmobAMNYOj442X2w4zkDXL2BHiN8c9Hq9Uqkk+74/PX3RdV0mO50Ok0KIXD6H4O69+2dIHIHEkQyHmSCTy9FzlnVcqVSY1HUdQRD4kiTfvDU30RRmdEQwNDPh9UBq2hSR8fHVK5dBcorm0nKUtEpJB4MBvhXWhNszmpBqNBpbH9+zZihOmghg9tPWB1LGx/e8iIw1/5qMK7S+/rT92AC58fwZN4Jgu2fL2WzS0nkSmq3WCtoBzQcPF2GHLgtYLanJCqWQpmgtr3iex80HiSzZUI9su+6Ya5uq2W4bSdJxnHw+z87lbrerKFSzVLK51GK3rDkejwuFAmJqMOByuZxOmmJ7ZzfsU0RCU1EUJqM7x7ZPTR8qdLD/FXkvzc6y5tzt+YkmSG5wmu2wYW/evtvb+zxTn+EK4dqsiZjJVNtCD2cIzxmr7RvXr3GFeGc0GvErgBTJarPtaG4xcJiher0+qRBOQcI5jeNxhwO53+8LYRIZjxdeSR64ZIXwk4GTE6syRadY0q+fP8JxpbdnUls+Sy7cnDWZtG1bVVWCHfwNhFlhjK+H8siyzBVCjA7xJg8WLswuCD6v8487ZPW/1x+p1KzaiqquVwAAAABJRU5ErkJggg==).
+{% endhint %}
 
-|   | _Note –Alarm Instructions are added in the Alarm Instructions section on the Details tab in the respective Point Detail page. Added Alarm Instructions will be displayed in the Operator Note page._ |
-| - | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note –Alarm Instructions are added in the Alarm Instructions section on the Details tab in the respective Point Detail page. Added Alarm Instructions will be displayed in the Operator Note page._
+{% endhint %}
 
 #### Add Assignees on Alarm Viewer
 
@@ -1102,28 +1106,28 @@ Alarm Viewer has “Assignee” option to assign alarms to specific users.
 
 To assign a user as an Assignee;
 
-1. Go to the Alarm Viewer and click on the **Assignee** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAIAAAB/UwMIAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADscBaF++xQAAASlJREFUOE9jfPXyOQOJgBFZz7v3789euPDt23dFeXk9HW1cRqHomTp79sXLVyBKK4oLleQVsGpjQhaFa/B2dxcVFgZa+/3Hd0xtLHChz18+Q9j6ujpO9raLlq+AGFGUm62hqoasE2EPCwtUv562zv0Hj+B29k2eimYVQg8nByfQSKA0Px8f/oBE8Q/QDUCHATW8fP0KWRvQY9jdBlR3+NhxoJOADOSABoaHkKAguh5g4ABV1za3Ll6xAii3ev0GIAlUClFnYWaCxT+79u6HqIYAiGpjQwMgaW9jLS4qhqYHFKfIrmdlYf32/fvBI0cOHjkKVxobEWFiZAAMJIgISjoA8oGORLYT2YaOxgaIx1DC7cbtW7g0AJVW1DdgtwfN6Vi5KPYQowGoBgB5q3j/Gs6yzAAAAABJRU5ErkJggg==) . Assignee window will appear.
+1. Go to the **Alarm Viewer** and click on the **Assignee** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAIAAAB/UwMIAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADscBaF++xQAAASlJREFUOE9jfPXyOQOJgBFZz7v3789euPDt23dFeXk9HW1cRqHomTp79sXLVyBKK4oLleQVsGpjQhaFa/B2dxcVFgZa+/3Hd0xtLHChz18+Q9j6ujpO9raLlq+AGFGUm62hqoasE2EPCwtUv562zv0Hj+B29k2eimYVQg8nByfQSKA0Px8f/oBE8Q/QDUCHATW8fP0KWRvQY9jdBlR3+NhxoJOADOSABoaHkKAguh5g4ABV1za3Ll6xAii3ev0GIAlUClFnYWaCxT+79u6HqIYAiGpjQwMgaW9jLS4qhqYHFKfIrmdlYf32/fvBI0cOHjkKVxobEWFiZAAMJIgISjoA8oGORLYT2YaOxgaIx1DC7cbtW7g0AJVW1DdgtwfN6Vi5KPYQowGoBgB5q3j/Gs6yzAAAAABJRU5ErkJggg==) . Assignee window will appear.
 2. In the **Assignee** list box, select the required user to be selected as Assignee.
 3. In the **Comment** box, type a comment required.
 4. Click **Add Assignee**. Added Assignee will be displayed on the bottom of the window along with the time entered, name of the Assignee and the comments entered.
 5. Click the ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOyAAADsIBtLNp5gAAASVJREFUKFNjvH79OgNxgAlZ2Y8f3y9dPH/69MkPH95jameEm/r69atFC+d+/vwJqIiVlTUoOFxTUxtZA8LUbds2QdQBwe/fvzduWPP371/sSp8/e4rqmB/v3r3BrlRAQBBFgomJj08Ai9KfP384OrowMjLC5axt7BkY/iMrBXnrxYvny5YtNDW1kJOTv3Tpwt8/f5SVVTk4OdeuWenrF6itrQvRwHjq1MmZMyZ/+fIFyJGSklFVVWNiYn7y5NGdO7f+///PxMQUn5AiL68IlGVWVJB9/PgRRB8wBB4+vP/gwb13795CRICqHz16YGZmCXQbs4SEyL9///DE1/fv3xXkFQUFhZj+/PlDMF6fgcORcc7sGQSVAv2gqKSMiFiCGlCSC37VAER3fGPXY3UpAAAAAElFTkSuQmCC) icon displayed next to the name of the Assignee to view his/her Quick info page.
 6. To delete the added note, click the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAlJJREFUSEu1lstu00AUhufMxHGiJDR240JUqbBAJW0F9IIoSN3xCqzYdMeKV2HHjhVPwY4VLCAsimiaVghBEVBw0ybgQpN6PMM4dh07vpBL60XkjM/5zu/fZy5Qr9dRzMXaHf6jgfZb/LiNOianFHJZlCKgTsClEi4W4hLFOERymfGHb39G+mFCJhI1rl0mZS0yJsTl3Kx9hC97wJOY3jOuFPBSBWczfdE48J9S8/V7vDso1H7fpsFebtDDViyXWxZ9s4kPfg2k0xcEJyZ6u8Vahj+x5wN9twNf9UioXFKurt93HtWfPGOdk3AYy6TJ2hKW084jl2v9PBA1/dFSITf78EGy9v4a0xpZrDgpXX85Z9ufhn39cDz/vu+5Yeul33TY2BmfKwjsoirdWnB9sKq1iFYFlJkqJRdr6w0UbEeGgdxbxWmpq/f5K2Csv1Hk9Nyj9eH8daKXK2Ky2P6GoWN5Yvw9/W7xGNFStcdPzd+GcyN+vZG4JHsxcfthLHn9yZxa58KFFDkfbncNsr+baI4zdAIu5FwuniyeFVdIBE059aH8n/4fvCouKUBsf+15IVZI60XVXu58l1iZRpkXtxeIprp6RQWoXBlcVGykpjhQV69zR6uboDdHpvO0hNcWvQ2ptw+R5TmWz47IFR21EtjlelzhBlm9jor5YdFcImhlPqUGmiqwb+KMjO/c4NPRW3d0vXwW371JplxbvZjo84MlTg4fdlHrKEG7MBTNzqRmyggiplU018HZp5O9Bm80uUnx0bEYsVmyhCYnQFPDGv0i/gE7Ye5rMYIxRQAAAABJRU5ErkJggg==).
-7. To close the window, click![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAIAAAAT2oadAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsIBw3GpnQAABF5JREFUSEu1VllMU2kUtguB3lJUKBETM9LF2oqFumYmDrhEMShgQ6XiEn3ANfpMfHEe9MF5mHmbB50MMw8mo7IILlGpZVVM1KDVFjBKwSii0gK2bCUtZb7rbW4v/21LNU7T3PzLOd/3n/+c858jcLlc86L/gsGg09ljt9ve9PW6h9wBfwCy4gSxPE2uUKj02TlKpVooFMZAwJYgGoff729usjY2WsbHx2JASKXJW7fmb96yTSwWRxOLzGGzPa2tuToyMgy1RYsycgyrs7L0MpmMoqRYmZgYHx31dnU6nj3rGBz8hJXU1DSTyQyxiDQkx/T0dFXVv+0P2iCtVmt2GU0KhTKGHX19vfV1NU7na8hs+DnPbN4nEokI+VkcMzMzlX9dgBGQKykx523cLBAIYt81dqHV0mytq6uB8wyr1pSXHyO0RBUVFSzKrZv17e1tFEUdPXpy7br18RDQLhUI4P9MhdJhf97/7u1MMKhZruWeLBwSOL7FcgcWHD5yQqtbMefxCQGdLqv88HGoNzTctr+wReAIBALXaqtgNS5Uo5l1ivjJtNoVu3eXAaS6+goAWcWQHY1Wy/DwEEyG3+IH5Uvm5m1SKlWAamq8N4sDvmpusWJpZ2ExoYawOXXyCL58uGhbBTuKINzSYoVBjBZtR0/Pq7HR0YyMxTCWiwWU3387jxV8CZoYW3AMUsrr9TIBHeJwOF5gpM82EId9/Oghu8KlwVUw3MzP0nCbUFypz8GK3U7Dhjh6nU6MtFodIVq8y5Sbu5GgAcEvZ05zJUvNewlF3Zf76HX2hDlcrkFMFi5MJUQlEgmfhiA4e+5XPCSEIgPldodeW9ofPt8kvvPnLyBEMeXTcGUiEtBQC2ioycmJsB14ozBJTEzkc8SgiUYAlaSkJHzZFKHtYJ7lqampiBzMie7fbyV2PR5PNHmfz8fCYkBzJEkk+Hqj6PCdzEDzA5ql9Hg+Y0xJ6UIQ4kiXp2PEVAvixyfgRxpfa2SYhkKtDHOo1Msw6exyzEkAH0QMaEKRgVKpNWGO7OxVmDy3PSVEq6suc1cYJ/MjjZ+DDJT+SyaG7iozU5EskyGcX3Z3cUG5ycWNIoKGyMHurk7ccEpKCltA6RqFIiMUCLu7O/v73+HdZUuTREL9+NOGQMCPikIkWkJCgkq1TCQUHjxUzt1CGlz884/xsbHi4hJUrbAdGKGsQnRg4H1raxPXFCzuKTvAz2TIwJrCIiOxhaL76eNHLHJrRKh+IEVKTGZYgAaAuDF+2ERbwU1cv34NIKWlZdxWKFxrDYbV+fkFMLay8sI30IDg78qLKEXbt+8gnvBZPQOq7IeB9/BKR8cTSkItXZoZT9vA9CWXLv2Dtg99yZ6y/YQW2V9B4caNOuu9uxgsWfKD0WiK3T/Q91Nfi2MBd1t+QVGRkX+suftEuTwdkY4SiUGanE5dRDn+QEdxG3K7sfJ1fSLrz/+932WZiL4dgY8taXLy9+nb4w/ZOSX/A4a9L1sfZyXSAAAAAElFTkSuQmCC).
+7. To close the window, click![](<.gitbook/assets/Screenshot\_10 (2).png>).
 
 #### Confirm Alarms
 
 After an alarm is acknowledged, it can to be confirmed by an authorized user (Only if required setting is applied under **App Configuration** by selecting the **Alarm Confirmation Required** checkbox). When confirming alarms, individual alarms can be confirmed or else multiple alarms can be confirmed together.
 
-_Setting under App Configuration_\
-_Acknowledged alarms can be confirmed_ _**only**_ _if the “Alarm Confirmation Required” checkbox is selected which is under the_ _**Alarm Viewer Settings**_ _section on App Configuration page._
+_<mark style="color:blue;">Setting under App Configuration</mark>_\
+_<mark style="color:blue;">Acknowledged alarms can be confirmed</mark>_ _<mark style="color:blue;">**only**</mark>_ _<mark style="color:blue;">if the “</mark><mark style="color:blue;">**Alarm Confirmation Required**</mark><mark style="color:blue;">” checkbox is selected which is under the</mark>_ _<mark style="color:blue;">**Alarm Viewer Settings**</mark>_ _<mark style="color:blue;">section on App Configuration page.</mark>_
 
 To confirm a single alarm;
 
 1. On the **Acknowledged Alarm** tab, search for the required Alarm.
 2. Click **Confirm**. The system will pop-up a window with several options.
-   * **Create Corrective WO**: To create a Corrective Work Order for the respective alarm
-   * **Create Corrective Job Card**: To create a new Job Card for the respective alarm
-   * **Create an Incident:** To create an Incident for the alarm
+   * **Register a CWO**: To create a Corrective Work Order for the respective alarm
+   * **Register a Corrective Job Card**: To create a new Job Card for the respective alarm
+   * **Register an Incident:** To create an Incident for the alarm
    * **Add Comment:** To add comments for the respective alarm
 
 To confirm multiple alarms/ all alarms together;
@@ -1141,14 +1145,25 @@ Alarms that are confirmed will be displayed under the **Confirmed Alarms** tab. 
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Alarm History** under **View** section. **Alarm History** search page will appear.
 2. Apply the following **Search filters** to filter the alarms using;
-3. **Location:**
-4. Clear the current **location** by pressing![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==). You will observe that all the **alarms** from diverse locations are displaying.
-5. Click **location** text box and select a location from the drop down to filter the alarms for that particular location. You may type in a new location as well.
-   * **Equipment**:
-     1. Select the **Equipment** of the equipment that triggered alarms, to filter alarms by **Equipment**.
-6. **From –To Alarm Date**: Select the Date range to filter alarms generated during the selected Time period.
+   * **Location:**
+     1. Clear the current **location** by clicking![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==). You will observe that all the **alarms** from diverse locations are displaying.
+     2. Click **location** text box and select a location from the drop down to filter the alarms for that particular location. You may type in a new location as well.
+   * **Asset Category:**
+     1. Select the required Asset Category to filter alarms by the selected Asset Category.
+   * **Alarm Class:**
+     1. By default, "Any" will be selected.
+     2. Select the required alarm class or multiple alarm classes to filter alarms by the selected alarm class or alarm classes.
+   * **Alarm Stage:**
+     1. Select the required Alarm Stage to filter alarms by the selected Alarm Stage.
+   * **Alarm Severity:**
+     1. Select the required Alarm Severity to filter alarms by the selected **Alarm Severity.**
+   * **Equipment:**&#x20;
+     1. Select the Equipment of the equipment that triggered alarms, to filter alarms by Equipment.
+   * **From –To Alarm Date:** Select the Date range to filter alarms generated during the selected Time period.
    * **Pending Action**: Used to filter the Alarms with pending actions.
-7. **Show Only Active Alarms:** Used to filter the alarms that are New/Acked/Confirmed/Escalated. .
+   * **Show Only Active Alarms:** Used to filter the alarms that are&#x20;
+
+
 
 ### Alarm History Viewer
 
