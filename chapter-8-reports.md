@@ -194,8 +194,8 @@ _Note –Configured Real-Time Reports will be displayed under **View🡪Real-Tim
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Real-Time Reports** under **Configure** section.
 2. Click the name of the configured Real-Time Report to go to its detailed page.
-3. To delete the selected Real-Time report, click the **Delete** icon ![](.gitbook/assets/Screenshot\_11.png) or click the **Delete this Real-Time Report** link on the Side bar.
-4. Confirmation message box appears. Click **Delete** or click ![](.gitbook/assets/Screenshot\_10.png)to close the message box.
+3. To delete the selected Real-Time report, click the **Delete** icon ![](<.gitbook/assets/Screenshot\_11 (1).png>) or click the **Delete this Real-Time Report** link on the Side bar.
+4. Confirmation message box appears. Click **Delete** or click ![](<.gitbook/assets/Screenshot\_10 (1).png>)to close the message box.
 5. If the respective report is in use by the system, you will not be allowed to delete it.
 
 ### View Real Time Reports

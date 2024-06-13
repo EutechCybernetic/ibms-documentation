@@ -602,7 +602,7 @@ This allows you to override the **Alarm Severity** configured at **Point Templat
    1. In the **Format** box, select the type of format you want.
    2. Click **Generate Report**.
 5. Click a point template name to open its detail page.
-6. If you need to edit details of the Point Template, click the **Edit**![](<.gitbook/assets/Screenshot 2024-06-07 132020.png>) icon on relevant sections on **Details** tab.
+6. If you need to edit details of the Point Template, click the **Edit**![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) icon on relevant sections on **Details** tab.
 
 For more details on editing a Point Template, please refer to [Edit Point Template](chapter-3-configuration-of-prerequisites.md#edit-point-template) section.
 
