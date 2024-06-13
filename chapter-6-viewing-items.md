@@ -892,55 +892,73 @@ To access the Alarm details page of a selected Alarm;
 
 Alarm Details page consists of the following tabs;
 
-<table data-header-hidden><thead><tr><th width="145"></th><th></th></tr></thead><tbody><tr><td>Tab</td><td>Description</td></tr><tr><td>Alarm</td><td><p>Tab contains 2 sections named <strong>General</strong> and <strong>Confirmation</strong></p><p><strong>General</strong> : Displays the following general details related to the respective Alarm;<br>Equipment, Point Name, Alarm Class, Alarm Severity, Alarm Message, Alarm Value and Clear Value ( Value when Alarm is cleared)</p><p><br><strong>Confirmation</strong>: Displays the details related to alarm confirmation such as User who confirmed the alarm (<strong>Confirmed by</strong>), <strong>Comment</strong> and date commented (<strong>Commented on</strong>).</p><p><br><em><strong>Alarm Tab’s side bar</strong></em></p><ul><li>Alarm Details : Shows the Alarm Status</li><li>View Map : link to the respective Equipment Alarm map</li><li>Real-Time Value : link to the Real-Time Value page</li><li>Real-Time GUI : link to the Real-Time GUI page</li><li>Send a Message: Use to send alarm related messages to recipients</li><li>Activities : Activity log related to the alarm</li><li>Report : Use to generate crystal reports based on the alarm details including alarm transactions. Report format can be PDF/MS Word/ MS Excel.</li></ul></td></tr><tr><td>Transactions</td><td><p>Transactions tab displays the details of alarms that have been triggered. Transaction Time, Point Value and Transaction Message and Alarm Status of particular alarm will be displayed.</p><p>You can generate a report of the Alarm Transactions by using Generate Report functionality.</p></td></tr><tr><td>CWOs</td><td><p>CWOs tab will be displayed <strong>only</strong> if the IBMS-CWO bridge app is enabled.</p><p><br>A link named “Register CWO” is found on the Side bar on the right, which allows user to create a CWO for the respective alarm.</p></td></tr><tr><td>Job Cards</td><td>Job Card tab will be displayed <strong>only</strong> if the IBMS-Job Card bridge app is enabled.<br><br>A link named “Register Corrective Job Card” is found on the Side bar, which allows user to create a Corrective Job Card for the respective alarm.<br></td></tr><tr><td>Incidents</td><td><p>Incident tab will be displayed <strong>only</strong> if the IBMS-Incident bridge app is enabled.<br></p><p>A link named “Register an Incident” is found on the Side bar on the right, which allows user to register an Incident for the respective alarm.</p></td></tr><tr><td>Operator Notes</td><td>Displays the Operator Notes entered by users related to the respective Alarm along with the time (timestamp) for each Operator Note added.</td></tr><tr><td>Assignees</td><td><p>Assignees tab on Alarm detail page is used to re-assign alarms and display the users who are assigned to the respective Alarm along with the following details;</p><ul><li>Assigned Time, Comment and Assigned by</li></ul><p><strong>Manage Assignees</strong> link on the side bar opens Assignee page to add assignees to Alarms.</p><p><br>Note: Re-assigning alarms can be done on <strong>Alarm Viewer</strong> as well using the <strong>Assignee</strong> icon <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAXCAIAAABmo+ONAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAVdJREFUOE9jfPXqOQNZgIksXSBNQ0snI0YIfXt0fM+Rq2+/MXCJmDoE6IvjCgh0f/68uHPL+ecffgHBh2dHN2y+jTME0XV+/vANrpZTykBb5NunT99+YtPOgib46dt3qAinsr7ggx3LL0C4whZh4UaCyIrR7eTj5YRIM0swPL36Aa707bmzj1AtQdcpYmOuyAxSwsbF9hdZ6d+/f/DrZGBQsTcVBqrh+/P3M4rODy8/oWhFs/Pz03P7t199C1Ty5pe4NlKMsEkZ6PPh0Pnt0f5lM5dtPHHrJdiuv/fPf5ZSYIMFl6KROhd21z7dv3LLrQ9IPuMVlxJW1FKEhBevipEceszA0tDPb59+IofIt0cnDp++8xYWRUBtnMLqVp7OKnAnY6Y+BoYXx5atu4yIEBTLhC0iQyDxipnLnh3cffMbGy7w+dyuYy/AZmGzE91H2PlDK2eT71oAEbJ/bS66ZXkAAAAASUVORK5CYII=" alt=""></p><p><br></p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="145"></th><th></th></tr></thead><tbody><tr><td>Tab</td><td>Description</td></tr><tr><td>Alarm</td><td><p>Tab contains 2 sections named <strong>General</strong> and <strong>Confirmation</strong></p><p><strong>General</strong> : Displays the following general details related to the respective Alarm;<br>Equipment, Point Name, Alarm Class, Alarm Severity, Alarm Message, Alarm Value and Clear Value ( Value when Alarm is cleared)</p><p><br><strong>Confirmation</strong>: Displays the details related to alarm confirmation such as User who confirmed the alarm (<strong>Confirmed by</strong>), <strong>Comment</strong> and date commented (<strong>Commented on</strong>).</p><p><br><em><strong>Alarm Tab’s side bar</strong></em></p><ul><li>Alarm Details : Shows the Alarm Status</li><li>View Map : link to the respective Equipment Alarm map</li><li>Real-Time Value : link to the Real-Time Value page</li><li>Real-Time GUI : link to the Real-Time GUI page</li><li>Send a Message: Use to send alarm related messages to recipients</li><li>Activities : Activity log related to the alarm</li><li>Report : Use to generate crystal reports based on the alarm details including alarm transactions. Report format can be PDF/MS Word/ MS Excel.</li></ul></td></tr><tr><td>Transactions</td><td>Transactions tab displays the details of alarms that have been triggered. Transaction Time, Point Value and Transaction Message and Alarm Status of particular alarm will be displayed.</td></tr><tr><td>CWOs</td><td><p>CWOs tab will be displayed <strong>only</strong> if the IBMS-CWO bridge app is enabled.</p><p><br>A link named “Register CWO” is found on the Side bar on the right, which allows user to create a CWO for the respective alarm.</p></td></tr><tr><td>Job Cards</td><td>Job Card tab will be displayed <strong>only</strong> if the IBMS-Job Card bridge app is enabled.<br><br>A link named “Register Corrective Job Card” is found on the Side bar, which allows user to create a Corrective Job Card for the respective alarm.<br></td></tr><tr><td>Incidents</td><td><p>Incident tab will be displayed <strong>only</strong> if the IBMS-Incident bridge app is enabled.<br></p><p>A link named “Register an Incident” is found on the Side bar on the right, which allows user to register an Incident for the respective alarm.</p></td></tr><tr><td>Operator Notes</td><td>Displays the Operator Notes entered by users related to the respective Alarm along with the time (timestamp) for each Operator Note added.</td></tr><tr><td>Assignees</td><td><p>Assignees tab on Alarm detail page is used to re-assign alarms and display the users who are assigned to the respective Alarm along with the following details;</p><ul><li>Assigned Time</li><li>Assignee</li><li>Comment</li><li>Assigned by</li></ul><p><strong>Manage Assignees</strong> link on the side bar opens Assignee page to add assignees to Alarms.</p><p><br>Note: Re-assigning alarms can be done on <strong>Alarm Viewer</strong> as well using the <strong>Assignee</strong> icon <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAXCAIAAABmo+ONAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAVdJREFUOE9jfPXqOQNZgIksXSBNQ0snI0YIfXt0fM+Rq2+/MXCJmDoE6IvjCgh0f/68uHPL+ecffgHBh2dHN2y+jTME0XV+/vANrpZTykBb5NunT99+YtPOgib46dt3qAinsr7ggx3LL0C4whZh4UaCyIrR7eTj5YRIM0swPL36Aa707bmzj1AtQdcpYmOuyAxSwsbF9hdZ6d+/f/DrZGBQsTcVBqrh+/P3M4rODy8/oWhFs/Pz03P7t199C1Ty5pe4NlKMsEkZ6PPh0Pnt0f5lM5dtPHHrJdiuv/fPf5ZSYIMFl6KROhd21z7dv3LLrQ9IPuMVlxJW1FKEhBevipEceszA0tDPb59+IofIt0cnDp++8xYWRUBtnMLqVp7OKnAnY6Y+BoYXx5atu4yIEBTLhC0iQyDxipnLnh3cffMbGy7w+dyuYy/AZmGzE91H2PlDK2eT71oAEbJ/bS66ZXkAAAAASUVORK5CYII=" alt="">.</p><p><br></p></td></tr></tbody></table>
 
-|   | _Attention – CWOs/ Job Cards/Incidents tabs will be displayed_ _**only**_ _if the respective bridge apps are enabled. If any of these tabs are not displayed, please refer to the iviva Installation Guide’s Prerequisites🡪 iviva Apps 🡪 Bridge Applications section._ |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+{% hint style="info" %}
+_Attention – CWOs/ Job Cards/Incidents tabs will be displayed_ _**only**_ _if the respective bridge apps are enabled. If any of these tabs are not displayed, please refer to the iviva Installation Guide’s Prerequisites🡪 iviva Apps 🡪 Bridge Applications section._
+{% endhint %}
 
 **Re-Assign Alarms from Alarm Detail Page – Assignee Tab**
 
-1. Go to the Alarm Detail page 🡪Assignee tab.
+1. Go to the **Alarm Detail page 🡪Assignee tab**.
 2. Click the **Manage Assignee** link on the side bar. **Assignee** pop-up will appear.
 3. Click in the **Assignee** drop down box and select a User to assign Alarms.
-4. On the Comment box add a comment which is mandatory.
+4. On the **Comment** box add a comment which is mandatory.
 5. Click **Add Assignee**. New Assignee record will be displayed bottom of the page along with **Assignee**, **Assigned Time** and **Comment**.
 6. Close the **Assignee** pop-up page. Assignee record will be displayed under the **Assignee** tab, including the person who did the assignment. ( Assigned by)
 
-**Note**: To delete an Assignee, click Manage Assignee link. On the Assignee window, click the **Delete** button of the respective **Assignee** which you need to remove from the **Assignees** tab.
+_**Note**: To delete an Assignee, click **Manage Assignee** link. On the Assignee window, click the **Delete** button of the respective **Assignee** which you need to remove from the **Assignees** tab._
 
-####
+#### Accessing Equipment Map from Point Detail Page
+
+Point Detail page gives links to respective Real Time GUI page and Real-Time Values page.
+
+Access Real Time GUI page:
+
+1. Go to Alarm Detail page (View**🡪**Alarms**🡪**Alarm Detail page of a selected Alarm**🡪**Alarm Tab**🡪**Side Bar.
+2. Click **Real Time GUI** link on the Side bar on the right.
+
+Access Real Time Values page:
+
+1. Go to Alarm Detail page (View**🡪**Alarms**🡪**Alarm Detail page of a selected Alarm**🡪**Alarm Tab**🡪**Side Bar.
+2. Click **Real Time Values** link on the Side bar on the right.
 
 ### Alarm Viewer
 
-\*\*\
-Alarm Viewer\*\* consists of three tabs which help to group the alarms as **New Alarms**, **Acknowledged Alarms** and **Confirmed Alarms**.
+\
+**Alarm Viewe**r consists of three tabs which help to group the alarms as **New Alarms**, **Acknowledged Alarms** and **Confirmed Alarms**.
 
-|   | <p><em>Note –</em> <em><strong>Filtered Alarm Count as a fraction</strong></em><br><br><br><br><em>Each tab on Alarm Viewer shows the tab name along with the alarm count on the respective tab as a fraction based on the filter used.</em><br><em>E.g. 12/25, where 12 is the count of the filtered records shown on the tab and 25 is the total alarms.</em></p> |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-* “New Alarms” tab:
-
-New alarms (alarms that are not acknowledged) generated by **Equipment** and **Systems** in diverse **locations**. (Even alarms that have been cleared before acknowledging will be displayed under **New Alarms**)
-
-* “Acknowledged Alarms” tab:
-
-Alarms that are acknowledged will be displayed under this tab.
-
-* “Confirmed Alarms” tab:
-
-Alarms that are confirmed by users will be displayed under this tab.
+{% hint style="info" %}
+_Note –_ _**Filtered Alarm Count as a fraction**_\
+_Each tab on Alarm Viewer shows the tab name along with the alarm count on the respective tab as a fraction based on the filter used._\
+_E.g. 12/25, where 12 is the count of the filtered records shown on the tab and 25 is the total alarms._
+{% endhint %}
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Alarm Viewer** under **View** section. **Alarm Viewer** page will appear.
 2. **Search Alarms** box can be used to search for a specific alarm as per Equipment ID, Alarm Message and Point name.
+3.  “New Alarms” tab:
+
+    New alarms (alarms that are not acknowledged) generated by **Equipment** and **Systems** in diverse **locations**. (Even alarms that have been cleared before acknowledging will be displayed under **New Alarms**)
+4.  “Acknowledged Alarms” tab:
+
+    Alarms that are acknowledged will be displayed under this tab.
+5.  “Confirmed Alarms” tab:
+
+    Alarms that are confirmed by users will be displayed under this tab.
+6. "Alarm Summary” tab:
 
 #### Alarm Filter
 
+_<mark style="color:blue;">Setting under App Configuration</mark>_
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAM5JREFUSEtj/PTpBQNVARNVTQMZNmoidYJ0KIQj46dPx3fN23nrG+Ve5lLzjHNTZgCa+ILh5f4JrSuvUmQol3Z4RYGrGCw9ijsWVIdrc5HtTIRxSCmcfENRjEPNM+QYim4cRi4kzVAsxmHL18Qait04HCUFYUNxGoe77MFnKD7j8JZmIEN9FDFSlKIvNN3hSmt487U4N2Ya5eICJWM8YCiUFKNuJLvsQdFIXDiycYnIa9l4RKaVNKe4ErAYXOLiBA9O7XjIqKClqSHKQ7QHANKNO7yrapL6AAAAAElFTkSuQmCC)_<mark style="color:blue;">Filter will be displayed at the top right corner of the</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**New Alarms**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">tab on Alarm Viewer,</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**only**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">if the “Apply filters for New Alarms” check box is selected on App Configuration page.</mark>_
+
 1. Use **Filter**![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAM5JREFUSEtj/PTpBQNVARNVTQMZNmoidYJ0KIQj46dPx3fN23nrG+Ve5lLzjHNTZgCa+ILh5f4JrSuvUmQol3Z4RYGrGCw9ijsWVIdrc5HtTIRxSCmcfENRjEPNM+QYim4cRi4kzVAsxmHL18Qait04HCUFYUNxGoe77MFnKD7j8JZmIEN9FDFSlKIvNN3hSmt487U4N2Ya5eICJWM8YCiUFKNuJLvsQdFIXDiycYnIa9l4RKaVNKe4ErAYXOLiBA9O7XjIqKClqSHKQ7QHANKNO7yrapL6AAAAAElFTkSuQmCC) to filter group of alarms using location, alarm class, alarm severity, asset category and alarmed time range.
 2. Click the **Filter** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAM5JREFUSEtj/PTpBQNVARNVTQMZNmoidYJ0KIQj46dPx3fN23nrG+Ve5lLzjHNTZgCa+ILh5f4JrSuvUmQol3Z4RYGrGCw9ijsWVIdrc5HtTIRxSCmcfENRjEPNM+QYim4cRi4kzVAsxmHL18Qait04HCUFYUNxGoe77MFnKD7j8JZmIEN9FDFSlKIvNN3hSmt487U4N2Ya5eICJWM8YCiUFKNuJLvsQdFIXDiycYnIa9l4RKaVNKe4ErAYXOLiBA9O7XjIqKClqSHKQ7QHANKNO7yrapL6AAAAAElFTkSuQmCC).
-3. Use **Location** search criteria as required\*\*:\*\*
-4. Clear the current **location** by pressing![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
+3. Use **Location** search criteria as required.
+4. Clear the current **location** by clicking![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
 5. Click **location** text box and select a location from the drop down to filter the alarms for that particular location. You may type in a new location as well.
-6. Use **Alarm Class** search criteria as required\*\*:\*\*
+6. Use **Alarm Class** search criteria as required.
 7. Clear the current **Alarm Class** by unticking the checkbox relevant to Alarm Class. You will observe that all the alarms belonging to different alarm classes for the selected location are displaying.
 8. Click **Alarm Class** filter and select an **Alarm Class** from the drop down to filter the alarms for a particular **Alarm Class.**
 9. Use **Alarm Severity** and **Asset Group** search criteria as required\*\*.\*\*
