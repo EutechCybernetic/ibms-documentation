@@ -953,40 +953,33 @@ _<mark style="color:blue;">Setting under App Configuration</mark>_
 
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAM5JREFUSEtj/PTpBQNVARNVTQMZNmoidYJ0KIQj46dPx3fN23nrG+Ve5lLzjHNTZgCa+ILh5f4JrSuvUmQol3Z4RYGrGCw9ijsWVIdrc5HtTIRxSCmcfENRjEPNM+QYim4cRi4kzVAsxmHL18Qait04HCUFYUNxGoe77MFnKD7j8JZmIEN9FDFSlKIvNN3hSmt487U4N2Ya5eICJWM8YCiUFKNuJLvsQdFIXDiycYnIa9l4RKaVNKe4ErAYXOLiBA9O7XjIqKClqSHKQ7QHANKNO7yrapL6AAAAAElFTkSuQmCC)_<mark style="color:blue;">Filter will be displayed at the top right corner of the</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**New Alarms**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">tab on Alarm Viewer,</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**only**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">if the “Apply filters for New Alarms” check box is selected on App Configuration page.</mark>_
 
-1. Use **Filter**![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAM5JREFUSEtj/PTpBQNVARNVTQMZNmoidYJ0KIQj46dPx3fN23nrG+Ve5lLzjHNTZgCa+ILh5f4JrSuvUmQol3Z4RYGrGCw9ijsWVIdrc5HtTIRxSCmcfENRjEPNM+QYim4cRi4kzVAsxmHL18Qait04HCUFYUNxGoe77MFnKD7j8JZmIEN9FDFSlKIvNN3hSmt487U4N2Ya5eICJWM8YCiUFKNuJLvsQdFIXDiycYnIa9l4RKaVNKe4ErAYXOLiBA9O7XjIqKClqSHKQ7QHANKNO7yrapL6AAAAAElFTkSuQmCC) to filter group of alarms using location, alarm class, alarm severity, asset category and alarmed time range.
+1. Use the **Filter**![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAM5JREFUSEtj/PTpBQNVARNVTQMZNmoidYJ0KIQj46dPx3fN23nrG+Ve5lLzjHNTZgCa+ILh5f4JrSuvUmQol3Z4RYGrGCw9ijsWVIdrc5HtTIRxSCmcfENRjEPNM+QYim4cRi4kzVAsxmHL18Qait04HCUFYUNxGoe77MFnKD7j8JZmIEN9FDFSlKIvNN3hSmt487U4N2Ya5eICJWM8YCiUFKNuJLvsQdFIXDiycYnIa9l4RKaVNKe4ErAYXOLiBA9O7XjIqKClqSHKQ7QHANKNO7yrapL6AAAAAElFTkSuQmCC) to filter groups of alarms using Location, Alarm Class, Alarm Severity, Asset Group, Occupant, Unit, Asset Category and alarmed time range etc.
 2. Click the **Filter** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAM5JREFUSEtj/PTpBQNVARNVTQMZNmoidYJ0KIQj46dPx3fN23nrG+Ve5lLzjHNTZgCa+ILh5f4JrSuvUmQol3Z4RYGrGCw9ijsWVIdrc5HtTIRxSCmcfENRjEPNM+QYim4cRi4kzVAsxmHL18Qait04HCUFYUNxGoe77MFnKD7j8JZmIEN9FDFSlKIvNN3hSmt487U4N2Ya5eICJWM8YCiUFKNuJLvsQdFIXDiycYnIa9l4RKaVNKe4ErAYXOLiBA9O7XjIqKClqSHKQ7QHANKNO7yrapL6AAAAAElFTkSuQmCC).
 3. Use **Location** search criteria as required.
-4. Clear the current **location** by clicking![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
-5. Click **location** text box and select a location from the drop down to filter the alarms for that particular location. You may type in a new location as well.
-6. Use **Alarm Class** search criteria as required.
-7. Clear the current **Alarm Class** by unticking the checkbox relevant to Alarm Class. You will observe that all the alarms belonging to different alarm classes for the selected location are displaying.
-8. Click **Alarm Class** filter and select an **Alarm Class** from the drop down to filter the alarms for a particular **Alarm Class.**
-9. Use **Alarm Severity** and **Asset Group** search criteria as required\*\*.\*\*
+   1. Clear the current **location** by clicking![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAC/SURBVDhPxZDRCoJAFET7/w8J/0G2N7ewD4h6ELMH2cDWT2h0YLl79xLlSzAMOs5huO7mOM3za5uv8Fb9eTnX7Xp5DL1M8IpQJpSGUaqqPZR4PDAp+Qy+9x17FLBEUijIvl4+tyfZlsInVTZuNvmShBY4rk/SvW8kefRN2YEby+pOKv0/Kb08WCQFXi9/IHFnm9+v+Gz5GUbnavZAMk/8wdUhjLKfLcPJJ5IOviThC6yEkkogM9TLP7mx/K3i9AaSjbTKKfkKuwAAAABJRU5ErkJggg==).
+   2. Click **location** text box and select a location from the drop down to filter the alarms for that particular location. You may type in a new location as well.
+4. Use **Alarm Class** search criteria as required.
+   1. By default, "Any" option will be selected. You will observe that all the alarms belonging to different alarm classes for the selected location are displaying.
+   2. Click **Alarm Class** filter and select an **Alarm Class** or multiple Alarm Classes from the drop down to filter the alarms for a particular **Alarm Class or multiple Alarm Classes.**
+5. Use **Alarm Severity** and **Asset Group** search criteria as required.
+6. Use **Occupant** and **Unit** search criteria as required. These fields help to filter alarms, related to locations occupied by different tenants.
+7. Use **Asset Category** search criteria as required:
+   1. Select the required Asset Category to filter alarms generated for the Assets belong to the respective Asset Category.
+8. Select the **Date** and **Time** accordingly to filter the alarms which are alarmed between the required time period. Use **Alarmed Between** filters.
+9. Select the following filters accordingly
+   1. **Cleared Alarms Only** checkbox – to view only the cleared alarms
+   2. **Escalated Alarm Only –** to view only escalated alarms
+   3. **Non-Escalated Alarms Only –** to view only the alarms which are not escalated
+   4. **Assigned Alarms Only –** to view only the Assigned alarms
+   5. **Operator Note Added Alarms Only –** to view only the Alarms with Operator Notes
+   6. **Repeated Alarms Only–** to view only the Alarms that are repeated
+10. Click **Apply** to apply the selected search criteria and filter records.
+11. If you need to clear the current filter, click **Clear Filter.**
 
-|   | <p><em>Tip –</em> <em><strong>Alarm Class</strong>,</em> <em><strong>Alarm Severity</strong></em> <em>and</em> <em><strong>Asset Group</strong></em> <em>have multi-select list boxes for you to select even more one selections in order to filter by the selected multi-selection values.</em><br><em>e.g. Asset Group – You can select more than one Asset Groups to filter records.</em></p> |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-1. Use **Occupant** and **Unit** search criteria as required. These fields help to filter alarms, related to locations occupied by different tenants.
-2. Use **Asset Category** search criteria as required:
-   *
-     1. Select the required Asset Category to filter alarms generated for the Assets belong to the respective Asset Category.
-3. Select the **Date** and **Time** accordingly to filter the alarms which are alarmed between the required time period. Use **Alarmed Between** filters.
-4. Select the following filters accordingly
-   *
-     1. **Cleared Alarms Only** checkbox – to view only the cleared alarms
-     2. **Escalated Alarm Only –** to view only escalated alarms
-     3. **Non-Escalated Alarms Only –** to view only the alarms which are not escalated
-     4. **Assigned Alarms Only –** to view only the Assigned alarms
-     5. **Operator Note Added Alarms Only –** to view only the Alarms with Operator Notes
-5. Click **Apply** to apply the selected search criteria and filter records.
-6. If you need to clear the current filter, click **Clear Filter.**
-
-_Setting under App Configuration_
-
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAM5JREFUSEtj/PTpBQNVARNVTQMZNmoidYJ0KIQj46dPx3fN23nrG+Ve5lLzjHNTZgCa+ILh5f4JrSuvUmQol3Z4RYGrGCw9ijsWVIdrc5HtTIRxSCmcfENRjEPNM+QYim4cRi4kzVAsxmHL18Qait04HCUFYUNxGoe77MFnKD7j8JZmIEN9FDFSlKIvNN3hSmt487U4N2Ya5eICJWM8YCiUFKNuJLvsQdFIXDiycYnIa9l4RKaVNKe4ErAYXOLiBA9O7XjIqKClqSHKQ7QHANKNO7yrapL6AAAAAElFTkSuQmCC)_**Filter**_ _will be displayed at the top right corner of the_ _**New Alarms**_ _tab on Alarm Viewer,_ _**only**_ _if the “Apply filters for New Alarms” check box is selected on App Configuration page._
-
-\
-
+{% hint style="success" %}
+_Tip –_ _**Alarm Class**,_ _**Alarm Severity**_ _and_ _**Asset Group**_ _have multi-select list boxes for you to select even more than one selection in order to filter by the selected multi-selection values._\
+_e.g. Asset Group – You can select more than one Asset Groups to filter records._
+{% endhint %}
 
 #### Alarm Viewer – GUI details
 
