@@ -1227,22 +1227,35 @@ To view **Point Write History**;
 3. If you need to filter by the person who took actions, select the required user under “**Action Taken By**”.
 4. Data can be filtered by **Equipment** and **Point Template** as well.
 5. You can use the **Commands** filtering option to filter data using **Point Override** and **Point Reset.**
-   * **Point Override :** use to filter the Points which were manually changed
+   * **Point Override:** used to filter the Points which were manually changed
    * **Point Reset:** use to filter the Points in which the values were reset to the configured default value.
 6. Set duration filters.
-7. Under **Written between**, click **Calendar icon and** select the start date of the duration. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFxSURBVEhLzZbdSgMxEIXz/s8hFFQoonilFFGsYEEUFbEXLfRmr/sCKd86o2M6m4w/FQ8cWJIz5+wmk7Dp32H++phnt9N8c33Vk2fGZPpnWK3meXJ+lkd7oyrRoJWyOLpukS8vJq5pjdRQKzZ1IDwaj7dMDvcP+jfXpeOZsVJHbTPMCzk9Pun3Yr3uXDKHxtY0w8qCh/uZa+4Rra3FS2w/oxR6Iby9Lp33lZ6H2H/ArjdGpQlk/CsaPMX+Dc9Pd++TkPVtmQwFUWu98JaYlOxZoUU9AxgJgvZo4C0xKdlOq3VYNAgP1eEtMSnpIPQKldEgaD0l5ntBcLl4cXXQ6iQmHoSx1cKhMKuRmPgewUjY4B5Fu07ZChvsuug5sizDNKh6jkDkZiiJOXX2a2zDbN0MIHLXtRi668Cf3N6A9bUdqAW1TmSufEE88BJbH14YZL3pIPYA8mz3VRkKUSC0LRolNeEQi53/BXlgL3b2X/d7SGkDLGRqxaBrFBoAAAAASUVORK5CYII=)and select the start time.
-8. Under **and**, click **Calendar icon** and select the end date of the duration. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFxSURBVEhLzZbdSgMxEIXz/s8hFFQoonilFFGsYEEUFbEXLfRmr/sCKd86o2M6m4w/FQ8cWJIz5+wmk7Dp32H++phnt9N8c33Vk2fGZPpnWK3meXJ+lkd7oyrRoJWyOLpukS8vJq5pjdRQKzZ1IDwaj7dMDvcP+jfXpeOZsVJHbTPMCzk9Pun3Yr3uXDKHxtY0w8qCh/uZa+4Rra3FS2w/oxR6Iby9Lp33lZ6H2H/ArjdGpQlk/CsaPMX+Dc9Pd++TkPVtmQwFUWu98JaYlOxZoUU9AxgJgvZo4C0xKdlOq3VYNAgP1eEtMSnpIPQKldEgaD0l5ntBcLl4cXXQ6iQmHoSx1cKhMKuRmPgewUjY4B5Fu07ZChvsuug5sizDNKh6jkDkZiiJOXX2a2zDbN0MIHLXtRi668Cf3N6A9bUdqAW1TmSufEE88BJbH14YZL3pIPYA8mz3VRkKUSC0LRolNeEQi53/BXlgL3b2X/d7SGkDLGRqxaBrFBoAAAAASUVORK5CYII=)and select the end time.
-9. **Generate Report**: This is used to generate the current report in PDF/Word/Excel/Excel Raw formats.
-10. In the **Format** box, select the type of format you want.
-11. Click **Generate Report.**
-12. In the ‘Point Write History ‘search results page, each Point name is clickable, which navigates to the Details page. Then you can navigate to **Write History** tab of the respective Point.
+   1. Under **Written between**, click **Calendar icon** and select the start date of the duration. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFxSURBVEhLzZbdSgMxEIXz/s8hFFQoonilFFGsYEEUFbEXLfRmr/sCKd86o2M6m4w/FQ8cWJIz5+wmk7Dp32H++phnt9N8c33Vk2fGZPpnWK3meXJ+lkd7oyrRoJWyOLpukS8vJq5pjdRQKzZ1IDwaj7dMDvcP+jfXpeOZsVJHbTPMCzk9Pun3Yr3uXDKHxtY0w8qCh/uZa+4Rra3FS2w/oxR6Iby9Lp33lZ6H2H/ArjdGpQlk/CsaPMX+Dc9Pd++TkPVtmQwFUWu98JaYlOxZoUU9AxgJgvZo4C0xKdlOq3VYNAgP1eEtMSnpIPQKldEgaD0l5ntBcLl4cXXQ6iQmHoSx1cKhMKuRmPgewUjY4B5Fu07ZChvsuug5sizDNKh6jkDkZiiJOXX2a2zDbN0MIHLXtRi668Cf3N6A9bUdqAW1TmSufEE88BJbH14YZL3pIPYA8mz3VRkKUSC0LRolNeEQi53/BXlgL3b2X/d7SGkDLGRqxaBrFBoAAAAASUVORK5CYII=)and select the start time.
+   2. Under **and**, click **Calendar icon** and select the end date of the duration. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFxSURBVEhLzZbdSgMxEIXz/s8hFFQoonilFFGsYEEUFbEXLfRmr/sCKd86o2M6m4w/FQ8cWJIz5+wmk7Dp32H++phnt9N8c33Vk2fGZPpnWK3meXJ+lkd7oyrRoJWyOLpukS8vJq5pjdRQKzZ1IDwaj7dMDvcP+jfXpeOZsVJHbTPMCzk9Pun3Yr3uXDKHxtY0w8qCh/uZa+4Rra3FS2w/oxR6Iby9Lp33lZ6H2H/ArjdGpQlk/CsaPMX+Dc9Pd++TkPVtmQwFUWu98JaYlOxZoUU9AxgJgvZo4C0xKdlOq3VYNAgP1eEtMSnpIPQKldEgaD0l5ntBcLl4cXXQ6iQmHoSx1cKhMKuRmPgewUjY4B5Fu07ZChvsuug5sizDNKh6jkDkZiiJOXX2a2zDbN0MIHLXtRi668Cf3N6A9bUdqAW1TmSufEE88BJbH14YZL3pIPYA8mz3VRkKUSC0LRolNeEQi53/BXlgL3b2X/d7SGkDLGRqxaBrFBoAAAAASUVORK5CYII=)and select the end time.
+7. **Generate Report**: This is used to generate the current report in PDF/Word/Excel/Excel Raw formats based on the filtered data.
+   1. In the **Format** box, select the type of format you want.
+   2. Click **Generate Report.**
+8. In the ‘Point Write History ‘search results page, each Point name is clickable, which navigates to the Details page. Then you can navigate to **Write History** tab of the respective Point.
 
-| wRIV7uYGk4Qk | <p><em>Tip –</em></p><ul><li><em><strong>Filtering Option -Equipment</strong> list box displays <strong>Equipment name</strong> along with the respective <strong>Equipment Category</strong> of the Equipment in the list</em></li><li><em><strong>Filtering Option -Point Template</strong> list box displays <strong>Point name</strong> along with the respective <strong>Equipment Name</strong> of the <strong>Points</strong> in the list</em></li><li><em><strong>New Value</strong> : This shows the new Point Value.</em><br><em>E.g. If Binary it will display the State text of the Point (e.g. ON, OFF) or Value + State text. E.g. 1(ON)</em></li></ul><p><em>For Multi-state : the State text will be displayed as well.</em><br><em>For Analog points, the analog value and the unit of the value will be displayed. E.g. 8 m3</em></p> |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="success" %}
+_Tip –On the Point Write History search page,_
+
+* _**Filtering Option -Equipment** list box displays **Equipment name** along with the respective **Equipment Category** of the Equipment in the list._
+* _**Filtering Option -Point Template** list box displays **Point name** along with the respective **Equipment Name** of the **Points** in the list._
+* _**New Value** : This shows the new Point Value._\
+  _E.g. If Binary, it will display the State text of the Point (e.g. ON, OFF) or Value + State text. E.g. 1(ON)._
+
+_For Multi-state : the State text will be displayed as well._\
+_For Analog points, the analog value and the unit of the value will be displayed. E.g. 8 m3._
+{% endhint %}
 
 ## View Real-time Reports
 
+**Real Time Reports page** lists the Real Time Reports configured by users in the IBMS application.
 
+Real-Time Reports allow you to view Real-Time point values of a selected set of equipment. Before you view a Real-Time report, you need to configure the required Real-Time Report, by selecting the required set of equipment points.
+
+Refer to the [Real Time Reports](chapter-8-reports.md#real-time-reports) section for a detailed explanation.
 
 ## View Interface Gateways
 
