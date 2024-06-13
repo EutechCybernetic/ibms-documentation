@@ -1228,7 +1228,7 @@ To view **Point Write History**;
 4. Data can be filtered by **Equipment** and **Point Template** as well.
 5. You can use the **Commands** filtering option to filter data using **Point Override** and **Point Reset.**
    * **Point Override:** used to filter the Points which were manually changed
-   * **Point Reset:** use to filter the Points in which the values were reset to the configured default value.
+   * **Point Reset:** used to filter the Points in which the values were reset to the configured default value.
 6. Set duration filters.
    1. Under **Written between**, click **Calendar icon** and select the start date of the duration. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFxSURBVEhLzZbdSgMxEIXz/s8hFFQoonilFFGsYEEUFbEXLfRmr/sCKd86o2M6m4w/FQ8cWJIz5+wmk7Dp32H++phnt9N8c33Vk2fGZPpnWK3meXJ+lkd7oyrRoJWyOLpukS8vJq5pjdRQKzZ1IDwaj7dMDvcP+jfXpeOZsVJHbTPMCzk9Pun3Yr3uXDKHxtY0w8qCh/uZa+4Rra3FS2w/oxR6Iby9Lp33lZ6H2H/ArjdGpQlk/CsaPMX+Dc9Pd++TkPVtmQwFUWu98JaYlOxZoUU9AxgJgvZo4C0xKdlOq3VYNAgP1eEtMSnpIPQKldEgaD0l5ntBcLl4cXXQ6iQmHoSx1cKhMKuRmPgewUjY4B5Fu07ZChvsuug5sizDNKh6jkDkZiiJOXX2a2zDbN0MIHLXtRi668Cf3N6A9bUdqAW1TmSufEE88BJbH14YZL3pIPYA8mz3VRkKUSC0LRolNeEQi53/BXlgL3b2X/d7SGkDLGRqxaBrFBoAAAAASUVORK5CYII=)and select the start time.
    2. Under **and**, click **Calendar icon** and select the end date of the duration. Click the **Clock** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbCAYAAABiFp9rAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAAFxSURBVEhLzZbdSgMxEIXz/s8hFFQoonilFFGsYEEUFbEXLfRmr/sCKd86o2M6m4w/FQ8cWJIz5+wmk7Dp32H++phnt9N8c33Vk2fGZPpnWK3meXJ+lkd7oyrRoJWyOLpukS8vJq5pjdRQKzZ1IDwaj7dMDvcP+jfXpeOZsVJHbTPMCzk9Pun3Yr3uXDKHxtY0w8qCh/uZa+4Rra3FS2w/oxR6Iby9Lp33lZ6H2H/ArjdGpQlk/CsaPMX+Dc9Pd++TkPVtmQwFUWu98JaYlOxZoUU9AxgJgvZo4C0xKdlOq3VYNAgP1eEtMSnpIPQKldEgaD0l5ntBcLl4cXXQ6iQmHoSx1cKhMKuRmPgewUjY4B5Fu07ZChvsuug5sizDNKh6jkDkZiiJOXX2a2zDbN0MIHLXtRi668Cf3N6A9bUdqAW1TmSufEE88BJbH14YZL3pIPYA8mz3VRkKUSC0LRolNeEQi53/BXlgL3b2X/d7SGkDLGRqxaBrFBoAAAAASUVORK5CYII=)and select the end time.
@@ -1257,15 +1257,19 @@ Real-Time Reports allow you to view Real-Time point values of a selected set of 
 
 Refer to the [Real Time Reports](chapter-8-reports.md#real-time-reports) section for a detailed explanation.
 
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Real Time Reports**</mark>
+
 ## View Interface Gateways
 
 This is used to view the Interfaces running Gateway servers.
 
-|   | _Note –SubsystemInterfaceUpdater Service should be installed for you to view the data in Interface Gateways._ |
-| - | ------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+_Note –SubsystemInterfaceUpdater Service should be installed for you to view the data in Interface Gateways._
+{% endhint %}
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)**🡪** **View** section🡪 **Interface Gateways**
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Interface Gateways**</mark>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Interface Gateways** under **View** section. **Interface Gateways Search** page will appear.
 2. Type the name of the **Interface Gateway** in the **Search Interface Gateways** input box to search for the **Interface Gateway** you want.
@@ -1274,8 +1278,8 @@ This is used to view the Interfaces running Gateway servers.
 
 **Interface Transaction History** page lists the Interfaces which were activated/refreshed along with the Time stamp of each transaction, Description of transaction (either Activated or Refreshed) and User who took the action (If the action is taken manually, User who took the action may not be captured by iviva. So **Action Taken by** data will not be available).
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)**🡪** **View** section🡪 **Interface Transaction History**
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Interface Transaction History**</mark>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Interface Transaction History** under **View** section. **Interface Transaction History** page will appear.
 2. Type the **Interface ID** in the **Search Interface Transaction History** input box to search for the transaction history of the **Interface ID** you want.
@@ -1286,16 +1290,16 @@ This is used to view the Interfaces running Gateway servers.
 
 Overridden Points search page lists the Points that have been manually overridden by authorized users on iviva Equipment Real-time Values page and System Real-time Values page. Each record on the Overridden Points search page shows each Overridden Point’s last overridden details as follows;
 
-* New Value Updated Time : Date & Time of latest Point Value update
-* Point
-* Equipment : Associated Equipment
-* New Value : Point’s new Value after overridden
+* New Value Updated Time: Date & Time of latest Point Value update
+* Point Name
+* Equipment: Associated Equipment
+* New Value: Point’s new Value after overridden
 * Overridden By: By whom the overridden done
-* User Comment : Comment entered by user who did overridden when the action was taken
-* Reset Button : use to reset the Point value back to the default value
+* User Comment: Comment entered by user who did the override when the action was taken
+* Reset Button: used to reset the Point value back to the default value
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)**🡪** **View** section🡪 **Overridden Points**
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Overridden Points**</mark>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Overridden Points** under **View** section.
 2. Type required Point/ Equipment/ Overridden by in the **Search Overridden Points** input box to search for the required Point(s) you want.
@@ -1304,12 +1308,14 @@ Overridden Points search page lists the Points that have been manually overridde
 
 ## View Health Status
 
-
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Health Status**</mark>
 
 ## Alarm History Download from BACnet Controllers
 
-|   | _Note –_ This _section is applicable only for BACnet Controller based Alarms._ |
-| - | ------------------------------------------------------------------------------ |
+{% hint style="info" %}
+_Note –_ This _section is applicable only for BACnet Controller based Alarms._
+{% endhint %}
 
 Alarm events initiated at **Controllers** will not be captured when there are situations such as;
 
@@ -1318,21 +1324,21 @@ Alarm events initiated at **Controllers** will not be captured when there are si
 
 Due to ‘onetime Alarm Event transition’ from Controllers to SSIF, the alarm events occur during any alarm event transmission failure can cause losing them without being transmitted to SSIFs. This can create alarm discrepancies between iviva system (as SSIFs send captured data to iviva) and the real-time data from Controllers.
 
-**Possible alarm discrepancies between Controllers and iviva**
+**Possible Alarm Discrepancies between Controllers and iviva**
 
-* New alarm in Controller but iviva does not indicate it
-* Cleared alarm in Controller while iviva shows it as an event in “alarmed” stage
+* New alarm in Controller but iviva does not indicate it.
+* Cleared alarm in Controller while iviva shows it as an event in the “alarmed” stage.
 
 **Troubleshooting**
 
-1. ‘SSIF Restart’ which occurs after a transmission failure (between Controllers and SSIFs) will fetch Alarm history from Controller and update iviva system. This will happen automatically on each SSIF Restart.
-2. **Download Alarm History manually**
+1. ‘SSIF Restart’,,which occurs after a transmission failure (between Controllers and SSIFs), will fetch Alarm history from Controller and update iviva system. This will happen automatically on each SSIF Restart.
+2.  **Download Alarm History Manually**
 
-User can make an ‘Alarm History Download’ request using iviva system and send it to relevant SSIF to fetch Alarm History from each BACnet Controller device. SSIF will fetch data from BACnet controller and update the iviva system.
+    User can make an ‘Alarm History Download’ request using iviva system and send it to relevant SSIF to fetch Alarm History from each BACnet Controller device. SSIF will fetch data from BACnet controller and update the iviva system.
 
-**Download Alarm History manually from BACnet Controllers**
+**Download Alarm History Manually from BACnet Controllers**
 
-1. Go to Settings 🡪Building Management System 🡪BACnet Devices.
+1. Go to **Settings 🡪Building Management System 🡪BACnet Devices.**
 2. Select the relevant BACnet Device from the Search page and click the relevant **Device** **ID** to go to its detail page.
 3. Click the **Download Alarm History** link on the Side bar to download the alarm history manually from the Controller in order to update the iviva System.
 
@@ -1340,12 +1346,35 @@ After the Alarm History is downloaded from the BACnet Controller;
 
 * If any Alarm event in the downloaded Alarm History is still found in “Alarmed” state in the Controller, it will be shown as an Alarm on the Alarm icon/ Alarm Viewer in iviva system.
 * If the alarm events in the downloaded Alarm History are already cleared in the BACnet Controller, these details will be written under the **Subsystem Event History** tab of the respective Point’s detail page in iviva system. This tab will show all alarm events of Point, which are downloaded via “Alarm History Download” function.\
-  To view **Subsystem Event History** of a BACnet Controller Point, go to the respective BACnet Controller Point’s detail page 🡪 Subsystem Event History tab.
+  To view **Subsystem Event History** of a BACnet Controller Point, go to the respective **BACnet Controller Point’s detail page 🡪 Subsystem Event History** tab.
 
 {% hint style="info" %}
 _Note –The alarm events that are not associated with any existing data In_ iviva _can be viewed by clicking on “Exceptions” checkbox on the side bar._
 {% endhint %}
 
-
-
 ### View BACnet Devices
+
+This section describes how to view BACnet Devices.
+
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**BACnet Devices**</mark>
+
+To view BACnet Devices;
+
+1. Click the **Settings** icon  and select **BACnet Devices** under **Building Management System** section.
+2. Type the **BACnet Device ID/BACnet Device Name/Description** in to the Search BACnet Devices input box to search for the BACnet Device desired.
+3. To view BACnet Devices for a selected iViva BACnet Agent ID, use the iViva BACnet Agent ID filter box on the right-side panel.
+4. Click a **BACnet Device ID** to open the respective device’s detailed page.
+5. Links in the right-side panel
+   * Scan Devices:
+   * Initialize Devices:
+   * View Transactions:
+   * Weekly Schedule Templates:
+   * Export Schedule Upload Report:
+6. On the device’s detailed page, the following tabs will be available;
+   * Scan Devices:
+   * Details tab:
+   * Trend Logs tab:
+   * Schedules tab:
+   * Alarms tab:
+   * Transactions tab:
