@@ -1240,10 +1240,12 @@ To view **Point Write History**;
 {% hint style="success" %}
 _Tip –On the Point Write History search page,_
 
-* _**Filtering Option -Equipment** list box displays **Equipment name** along with the respective **Equipment Category** of the Equipment in the list._
-* _**Filtering Option -Point Template** list box displays **Point name** along with the respective **Equipment Name** of the **Points** in the list._
-* _**New Value** : This shows the new Point Value._\
-  _E.g. If Binary, it will display the State text of the Point (e.g. ON, OFF) or Value + State text. E.g. 1(ON)._
+_**Filtering Option -Equipment** list box displays **Equipment name** along with the respective **Equipment Category** of the Equipment in the list._
+
+_**Filtering Option -Point Template** list box displays **Point name** along with the respective **Equipment Name** of the **Points** in the list._
+
+_**New Value** : This shows the new Point Value._\
+_E.g. If Binary, it will display the State text of the Point (e.g. ON, OFF) or Value + State text. E.g. 1(ON)._
 
 _For Multi-state : the State text will be displayed as well._\
 _For Analog points, the analog value and the unit of the value will be displayed. E.g. 8 m3._
@@ -1331,7 +1333,7 @@ Due to ‘onetime Alarm Event transition’ from Controllers to SSIF, the alarm 
 
 **Troubleshooting**
 
-1. ‘SSIF Restart’,,which occurs after a transmission failure (between Controllers and SSIFs), will fetch Alarm history from Controller and update iviva system. This will happen automatically on each SSIF Restart.
+1. ‘SSIF Restart’, which occurs after a transmission failure (between Controllers and SSIFs), will fetch Alarm history from Controller and update iviva system. This will happen automatically on each SSIF Restart.
 2.  **Download Alarm History Manually**
 
     User can make an ‘Alarm History Download’ request using iviva system and send it to relevant SSIF to fetch Alarm History from each BACnet Controller device. SSIF will fetch data from BACnet controller and update the iviva system.
