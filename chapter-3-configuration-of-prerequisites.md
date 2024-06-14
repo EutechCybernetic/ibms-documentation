@@ -348,10 +348,8 @@ Alarm configuration under Point Templates varies due to the **Data Type** (e.g. 
 _**Prerequisites: Alarm Class and Alarm Severity**_
 
 {% hint style="info" %}
-_Note – Before you add_ _**Alarms**_ _to_ _**Point Template**, the required_ _**Alarm Classes**_ _should be configured under Alarm Class Configuration. (Settings🡪Configure🡪Alarm Classes) and_ _**Alarm Severity**_ _should be configured as well._
+_Note – Before you add_ _**Alarms**_ _to a **Point Template**, the required_ _**Alarm Classes**_ _should be configured under Alarm Class Configuration. (**Settings🡪Configure🡪Alarm Classes**) and_ _**Alarm Severity**_ _should be configured as well._
 {% endhint %}
-
-
 
 1. Access Point Template search page via Equipment Template Search page.
    1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates Search** page will appear.
@@ -359,8 +357,8 @@ _Note – Before you add_ _**Alarms**_ _to_ _**Point Template**, the required_ _
    3. Click the **Point Templates** tab.
 2. Access Point Template via Point Template Search page. (Settings🡪 View🡪 Point Templates)
 3. Click the name of the **Point Template** you want and navigate to Point Template details page. Scroll down and go to the **Alarm** section.
-4. Click on **Add** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAfhJREFUSEu1lllPg1AQhXvZGkNBW6lafTEucYkm/v9fYaKpGpf0ydZQaGWJadk8CF4LBUKhNn0AMvPNYe5cziWGMWr8z48UoH3ft23bNKzZbO55nuu4HM+xLNtsCpLcEkWRYZgCVdlogMaqPplMG0GQm0xIu72ldDsolhmTgTYMczT88D2/TJ8IQ3r7e7IsLQen0aqqaapWBroYs610ujtKKivRrGpcELWxjtxctGmaFfRSHHLRyUV6rNp13eH7x6p9SMVjhcChD2O0rk2K1+3s/Pry6gZ/wmTPA4gggJNAY351fVpTcpQODmjRdajasuyi+V2pZhCYprWA/r1ZCZIXbEMoVf31NVsLNIJQWrhlnh6fAz+xobFWF5fXZeo99O8C31uMxP48Oz+Ne53iliEWxFBauIyoUxOXSCcxLWzI68vAmc+L6Zhrlgsnun9/WxzJC8LxyWHckI2N5hpVU1rYELElrhFNaSFaklqN3wbVrUFISKNzDR+CX9SF/uSDQ10ttgJ8sd5eByWdJU8EwzJHx4ccx/2pxhXu93q7NYWDQLnxhERE+Bt8qDIduSmHTBgY/K2z3a5AR9ayN2Y7+vB9VHb3E7J/UM7RI8mO44zH+ufUKD6HbG7JitLheT7zRcuenjBCnuthr2OhBIGXN6WKp6cK7V5O+QaIDOrF/icMDwAAAABJRU5ErkJggg==) under **Alarm** section. **Add Alarm** dialog box appears.
-5. Select **Alarm Class** from the configured **Alarm Classes** in the list box (To see how to configure Alarm Classes, please refer to [**Alarm Classes** ](chapter-3-configuration-of-prerequisites.md#alarm-classes)section).
+4. Click on **Add** icon![](<.gitbook/assets/Screenshot\_12 (1).png>) under **Alarm** section. **Add Alarm** dialog box appears.
+5. Select **Alarm Class** from the configured **Alarm Classes** in the list box (To see how to configure Alarm Classes, please refer to [**Alarm Classes** ](chapter-3-configuration-of-prerequisites.md#configure-alarm-classes)section).
 6. Select the relevant **Alarm Severity** from the Alarm Severity box. Alarm Severities should be configured beforehand.
 7. If the **Data Type** of the selected Point is “**Value**”;
    1. In the ‘**Alarm When’** dropdown box, select the relevant condition. (Equals, Is Not Equal To, Greater, Greater or Equal, Less, Less or Equal, Between, Between or Equal and Controller Based Alarms).
@@ -371,13 +369,13 @@ _Note – Before you add_ _**Alarms**_ _to_ _**Point Template**, the required_ _
    2. If the alarm is not a ‘Controller based alarm’, in the **Alarm When** textbox, type the relevant binary value (0 or 1) of the Alarm point.
 9. If the **Data Type** of the selected Point is “**Text**”;
    1. In the **Alarm Value** box, type the required text to be checked as the condition.
-   2. In the **Text Compare Mode** box, select the mode that you want to compare the text with. (e.g. Whether to see the given **Alarm Value** is **‘Not in’ or** whether to see it **Contains** the **Alarm Value**)
+   2. In the **Text Compare Mode** box, select the mode that you want to compare the text with. (e.g. Whether to see the given **Alarm Value** is **‘Not in’** or whether to see it **Contains** the **Alarm Value**)
 10. If the **Data Type** is ‘**Multi-State**’;
-    1. In the Alarm Value box, type the relevant value which is 0 – N.
-11. Enter Alarm Deadband, Clearance Deadband, Alarm Delay and Clearance Delay accordingly. ([See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
-12. Select Enable only for working hours/ Enable only for non-working hours checkboxes accordingly. ([See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
+    1. In the **Alarm Value** box, type the relevant value which is 0 – N.
+11. Enter Alarm Deadband, Clearance Deadband, Alarm Delay and Clearance Delay accordingly. [(See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
+12. Select **Enable only for working hours/ Enable only for non-working hours** checkboxes accordingly. (See the relevant details below)
 13. In the **Alarm Message** box, type the required alarm message to be relayed.
-14. Click **Add.** Click ![](<.gitbook/assets/icon\_3 (4).png>) icon to abort operation.
+14. Click **Add.** Click ![](<.gitbook/assets/Screenshot\_10 (4).png>)icon to abort operation.
 
 #### **Alarm Observation Period/ Alarm Trigger Period and Deadband for Alarms**
 
