@@ -310,7 +310,7 @@ This section helps you to configure Point Templates for Equipment Templates. The
 
 ### Edit a Point Template
 
-1. Go to the relevant **Point Template detail** page 🡪**Point Template** tab.
+1. Go to the relevant **Equipment Template detail** page 🡪**Point Template** tab.
 2. Click the name of the **Point Template** you want to edit. Details page of the selected **Point Template** will appear.
 3. Go to **Details** tab.
 4. **General**: To edit the **General** section, which contains the general data of the Point Template, hover over the **General** section click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>).
@@ -355,7 +355,7 @@ _Note – Before you add_ _**Alarms**_ _to a **Point Template**, the required_ _
    1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates Search** page will appear.
    2. Click the relevant **Equipment Template** which has the required **Point Template.**
    3. Click the **Point Templates** tab.
-2. Access Point Template via Point Template Search page. (Settings🡪 View🡪 Point Templates)
+2. Access Point Template via Point Template Search page. (**Settings🡪 View🡪 Point Templates**)
 3. Click the name of the **Point Template** you want and navigate to Point Template details page. Scroll down and go to the **Alarm** section.
 4. Click on **Add** icon![](<.gitbook/assets/Screenshot\_12 (1).png>) under **Alarm** section. **Add Alarm** dialog box appears.
 5. Select **Alarm Class** from the configured **Alarm Classes** in the list box (To see how to configure Alarm Classes, please refer to [**Alarm Classes** ](chapter-3-configuration-of-prerequisites.md#configure-alarm-classes)section).
@@ -389,11 +389,11 @@ _Note – If the alarm is a ‘**Controller based alarm**’, you are not requir
 
 #### Edit Alarm on Point Template
 
-1. Go to the relevant Equipment Template detail page 🡪**Point Templates** tab.
+1. Go to the relevant **Equipment Template** detail page 🡪**Point Templates** tab.
 2. Click the name of the **Point Template** you want and go to its details page.
 3. Scroll down to Alarms section and click on ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon on the far right corner of the alarm.
 4. Edit the Alarm details as required.
-5. Click **Update.** Click ![](<.gitbook/assets/icon\_3 (1) (1) (1).png>) icon to discard changes.
+5. Click **Update.** Click![](<.gitbook/assets/Screenshot\_10 (4).png>) icon to discard changes.
 
 #### Add/Change Alarm Condition
 
@@ -401,17 +401,17 @@ When an Alarm Condition is added or changed at **Point Template level** or **Poi
 
 Validation confirmation messages will be popped- up due to the following situations;
 
-* **when changing an alarm condition while there are active alarms**
+* **When changing an alarm condition while there are active alarms**
 
 It is required to check whether there are active alarms in the system for the respective alarm condition. If available, user should be notified and get the confirmation to disable the active alarms.
 
-* **when adding Controller based alarms while having iviva alarms enabled**
+* **When adding Controller based alarms while having iviva alarms enabled**
 
 When a Controller Based Alarm is added/enabled for a particular point template or point, it is required to have all other iviva based alarms to be disabled.\
 E.g.\
 _Validation Confirmation message at Point Template level_: “There are enabled iviva alarms for this point template. Please disable/remove them before adding a controller based alarm.”
 
-* **when adding an iviva alarm while having enabled Controller based alarms**
+* **When adding an iviva alarm while having enabled Controller based alarms**
 
 System will allow to add/enable iviva based alarms, only if there are **no** Controller Based alarms or if the Controller Based alarms are disabled.
 
@@ -422,28 +422,28 @@ The above steps should be carried out to prevent the following issues;
 
 #### Delete Alarm on Point Template
 
-1. Go to the relevant Equipment Template detail page 🡪**Point Templates** tab.
+1. Go to the relevant **Equipment Template detail** page 🡪**Point Templates** tab.
 2. Click the name of the **Point Template** you want and go to its details page.
-3. Scroll down to Alarms section and click on the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) of the alarm that you want to delete.
-4. A message box to confirm deletion appears. Click **OK** to confirm deletion of the **Alarm,** or to close the message box without deleting, click **Cancel**. If the respective alarm is in use, the system will not allow the user to delete it.
+3. Scroll down to **Alarms** section and click on the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) of the alarm that you want to delete.
+4. If the respective alarm is in use, the system will not allow the user to delete it.
 
 ### Delete a Point Template
 
 To delete a **Point Template;**
 
-1. Go to the relevant Equipment Template detail page 🡪**Point Templates** tab.
+1. Go to the relevant **Equipment Template detail** page 🡪**Point Templates** tab.
 2. Click the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) to the right of the **Point Template** name.
 3. A message box to confirm deletion appears. Click **OK** to confirm deletion of the Point Template, or to close the message box without deleting, click **Cancel**.
 
 ### Search Point Templates
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates** Search page will appear.
-2. Click the name of the **Equipment Template, which** contains the **Point Template.**
+2. Click the name of the **Equipment Template**, which contains the **Point Template.**
 3. Click the **Point** **Templates** tab and click a name of a Point Template to go to the detailed page.
 4. Alternatively, click the **Settings** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) icon on the Home Page and select the **Point Templates** link under the **View** section. Point Templates search page will open.
-5. To search by the Point Template name, in the **Search Point Templates** box, type the name of the required Point Template. Matching result/results will be displayed as you type.
-6. To filter by any Equipment Template that Point Template belongs to, select the relevant Equipment Template name in the **Equipment Template** box.
-7. Click the name of a **Point Template** to go to its detailed page.
+   1. To search by the Point Template name, in the **Search Point Templates** box, type the name of the required Point Template. Matching result/results will be displayed as you type.
+   2. To filter by any Equipment Template that Point Template belongs to, select the relevant Equipment Template name in the **Equipment Template** box.
+   3. Click the name of a **Point Template** to go to its detailed page.
 
 ## Interface Driver Types
 
@@ -457,36 +457,37 @@ _Interface Driver Type Configuration is provided for configuring parameters for 
 \
 This section describes the following:
 
-1. Configure Interface Driver Types
-2. Edit an Interface Driver Type
-3. Delete an Interface Driver Type
+1. [Configure Interface Driver Types](chapter-3-configuration-of-prerequisites.md#configure-interface-driver-types)
+2. [Edit an Interface Driver Type](chapter-3-configuration-of-prerequisites.md#edit-interface-driver-type-basic-details)
+3. [Delete an Interface Driver Type](chapter-3-configuration-of-prerequisites.md#delete-an-interface-driver-type)
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)🡪 **Configure** section 🡪 **Interface Driver Type 🡪 Interface Driver Types** search page
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Interface Driver Type 🡪 Interface Driver Types**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
 ### Configure Interface Driver Types
 
 1. On the Interface Driver Types search page, click **Add Interface Driver Type** link.
 2. In the **Driver Type** box, type a unique and appropriate name for the new **Interface Driver Type**.
 3. In the **Parameter List** box, type the relevant comma separated parameters.
-4. Click **Create**. New Interface Driver Type will be created and its detailed page will appear.
+4. Click **Create**. New Interface Driver Type will be created and its detailed page will open.
 
 ### Edit Interface Driver Type Basic Details
 
-1. On the Interface Driver Type search page, click the required **Driver Type** to be edited. Its detailed page will appear.
+1. On the Interface Driver Type search page, click the required **Driver Type** to be edited. Its detailed page will open.
 2. On the **Driver Type Details** tab, hover over the **Basic** **Details** section and click the **Edit** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAaCAIAAADE9MDgAAAAAXNSR0IArs4c6QAAARJJREFUSEtj/PTpBQMNABMNzAQZOWouJGAZSY+3b4+Orl656cK9jwz8ypYxiWE6IljiiFRzv11Z3DDx4CckkxRjOsrtMYwmKd4wDQWaf3/tnnuYDibeXKyGggz8/u072ebiNBRoooSEMHnm4jOUgc823EGCDHMJGJpfH63DhSU94A9fIgzlx14Q4DGXfEPxlA8UGYrH3O/fPuIo6fhsQWGKw/twPZjh8PvNc6CRwmY55akGfOhmE2coVvd+ujq/uu3AWyxGE20ornD4c39JPbrRpBiKJ3xRjI4xdSImTJEDDU86Qxhtnx5GMKLQYgJLOfn727ffcFUfP30TkRBhJbkWJLX8JdYC4stJYk2EqBtq5gIAW6OJ7GpOF98AAAAASUVORK5CYII=).
 3. Edit other necessary details.
 4. Click **Save**.
 
-The following table shows the fields under Basic Details section.
+The following table shows the fields under **Basic Details** section.
 
-| Field                                               | Description |
-| --------------------------------------------------- | ----------- |
-| Enable Downloading States Text checkbox             |             |
-| Enable Downloading Default Values checkbox          |             |
-| Parameters                                          |             |
-| Point Address Decode Format (Real-Time GUI Tooltip) |             |
-| Custom Actions                                      |             |
+| Field                                               | Description                                                                                |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Driver Type                                         | Displays the name given for the Interface Driver Type. You can edit the name if necessary. |
+| Enable Downloading States Text checkbox             |                                                                                            |
+| Enable Downloading Default Values checkbox          |                                                                                            |
+| Parameters                                          | Displays the parameter list of the Interface Driver Type Edit the list if necessary.       |
+| Point Address Decode Format (Real-Time GUI Tooltip) |                                                                                            |
+| Custom Actions                                      |                                                                                            |
 
 ### Upload Binary Files to Interface Driver Type
 
@@ -495,15 +496,16 @@ On the Interface Driver Type details page, **Binaries** tab is used to upload th
 To upload a Binary File;
 
 1. On the Interface Driver Type detail page, click the **Binaries** tab.
-2. Drag and drop the relevant SSIF Binary file (.Zip file) onto the given area on the page above the **Upload** button; or click on the given area and browse for the relevant Binary file.
+2. Drag and drop the relevant SSIF Binary file (.Zip file) onto the given area on the page above the **Upload** button; or click on the given area to search and select for the relevant Binary file.
 3. Click **Upload**.
 4. **Assembly Name** (.exe name of the Interface), **Interface Version** and **Description** (if available in the Binary file) fields on the GUI will be automatically filled up by obtaining the respective details from the uploaded Binary file.
 
 ### Delete an Interface Driver Type
 
 1. On the Interface Driver Type Search page, click the name of the Interface Driver Type that you need to delete, to go to its detailed page.
-2. Click the **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) or click the **Delete this Driver Type** link on the side panel under Driver Type Details tab. A message box to confirm deletion appears.
-3. Click **Delete** to confirm deletion of the **Interface Driver Type**, or to close the message box without deleting, click the![](<.gitbook/assets/icon\_3 (1).png>)  icon.
+2. Click the **Delete** icon![](<.gitbook/assets/Screenshot\_11 (4).png>) or click the **Delete this Driver Type** link on the side panel under Driver Type Details tab. A message box to confirm deletion appears.
+3. Click **Delete** to confirm deletion of the **Interface Driver Type**, or to close the message box without deleting, click the icon![](<.gitbook/assets/Screenshot\_10 (4).png>).
+4. If the Interface Driver Type is in use, you cannot delete it.
 
 ## Interfaces
 
@@ -511,13 +513,13 @@ An **Interface** defines a communication channel between a **Point** and a **Sub
 
 This section describes the following:
 
-1. Configure Interfaces
-2. Edit an Interface
-3. Delete an Interface
-4. List Interfaces
+1. [Configure Interfaces](chapter-3-configuration-of-prerequisites.md#configure-interfaces)
+2. [Edit an Interface](chapter-3-configuration-of-prerequisites.md#edit-an-interface)
+3. [Delete an Interface](chapter-3-configuration-of-prerequisites.md#delete-an-interface)
+4. [View Interfaces List](chapter-3-configuration-of-prerequisites.md#view-interfaces-list)
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)🡪 **Configure** section 🡪 **Interfaces 🡪 Interfaces** search page
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Interfaces 🡪 Interfaces**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
 ### Configure Interfaces
 
@@ -529,16 +531,16 @@ _Note –You need to configure_ _**Interface Driver Types**_ _and_ _**Zones**_ _
 2. In the **Interface ID** box, type a unique and appropriate name for the new **Interface**.
 3. In the **Driver Type** box, select the relevant Interface Driver Type. **Interface** will be created based on the selected **Interface Driver Type**.
 4. In the **IBMS Zone** box, select the **Zone**, which is associated with the respective **Interface**.
-5. Click **Create** to create the new **Interface**. A new Interface will be created and its detailed page will appear. Except Proxy Server details, other fields on the Interface Details page will be filled with default values.
+5. Click **Create** to create the new **Interface**. A new Interface will be created and its detailed page will open. Except Proxy Server details, other fields on the Interface Details page will be filled with default values.
 
 The following table shows the fields that appear on the **Interface Details** page. These are the values that will be applied to **Interface**.
 
-<table><thead><tr><th width="345">Field</th><th>Description</th></tr></thead><tbody><tr><td>Configuration Refresh Interval (seconds)</td><td>The period of time in seconds between two events in checking the configuration change in Equipment Point address. This checking will be done by the <strong>Interface</strong>.</td></tr><tr><td>On-Demand (Default Value=0 means On Demand Support is Enabled)</td><td>If <strong>On Demand Support</strong> is enabled, <strong>Interface</strong> requests data from <strong>Subsystem</strong> only when real-time values of equipment are monitored. If it’s not On Demand (On Demand Support is disabled), the <strong>Interface</strong> will continuously request data from <strong>Subsystem</strong>.</td></tr><tr><td>Max Real-Time Queue Limit</td><td>Value Changes in Points will be sent as a batch to the Interface. This “Max Real-Time queue limit” field defines the maximum Value Change count that will be sent at one request. e.g. Max Real-Time Queue Limit= 200 means, though there are more than 200 value changes in the queue, only 200 value changes will be sent to the Interface as 200 is the maximum count.</td></tr><tr><td>Max Resend Queue Limit</td><td><p>There will be a ‘Resend queue’ to queue Value Changes which will be used if there is a failure in sending normal Value Changes. A warning will be logged, if the Value change limit in the queue reaches this ‘Resend “queue limit.</p><p>e.g. 10000. This means if the no. of Value Changes in the queue exceeds 10000, the system will start logging a warning message.</p></td></tr><tr><td>Max Points to be downloaded per request</td><td>Maximum number of points to be requested and downloaded in one request.</td></tr><tr><td>Send Transaction Events (Default value is Disabled)</td><td>This shows whether the Subsystem events are captured or not.</td></tr><tr><td>Proxy Server</td><td>If iviva is hosted in cloud, there may be a Proxy Server to assist in sending calls out to the Interfaces in local machines. These fields will be the Proxy Server settings.</td></tr><tr><td>Proxy User Name</td><td>If iviva is hosted in cloud, there may be a Proxy Server to assist in sending calls out to the Interfaces in local machines. These fields will be the Proxy Server settings.</td></tr><tr><td>Proxy Password</td><td>If iviva is hosted in cloud, there may be a Proxy Server to assist in sending calls out to the Interfaces in local machines. These fields will be the Proxy Server settings.</td></tr><tr><td>Log Level</td><td>e.g 1 = Exceptions 2 = Exceptions+ Additional Transaction Data</td></tr><tr><td>Log Notification Threshold (minutes)</td><td>Time duration that the system waits after a log notification, before sending another error log notification. This helps to wait for the given threshold time, without sending the same error log notification.</td></tr><tr><td>Expiry Duration (minutes)</td><td>SSIF Heartbeat or Points will expire after this Expiry Duration in minutes</td></tr></tbody></table>
+<table><thead><tr><th width="345">Field</th><th>Description</th></tr></thead><tbody><tr><td>Configuration Refresh Interval (seconds)</td><td>The period of time in seconds between two events in checking the configuration change in Equipment Point address. This checking will be done by the <strong>Interface</strong>.</td></tr><tr><td>On-Demand (Default Value=0 means On Demand Support is Enabled)</td><td>If <strong>On Demand Support</strong> is enabled, <strong>Interface</strong> requests data from <strong>Subsystem</strong> only when real-time values of equipment are monitored. If it’s not On Demand (On Demand Support is disabled), the <strong>Interface</strong> will continuously request data from <strong>Subsystem</strong>.</td></tr><tr><td>Max Real-Time Queue Limit</td><td><p>Value Changes in Points will be sent as a batch to the Interface. This “Max Real-Time queue limit” field defines the maximum Value Change count that will be sent at one request. </p><p>e.g. Max Real-Time Queue Limit= 200 means, though there are more than 200 value changes in the queue, only 200 value changes will be sent to the Interface as 200 is the maximum count.</p></td></tr><tr><td>Max Resend Queue Limit</td><td><p>There will be a ‘Resend queue’ to queue Value Changes which will be used if there is a failure in sending normal Value Changes. A warning will be logged, if the Value change limit in the queue reaches this ‘Resend “queue limit.</p><p>e.g. 10000. This means if the no. of Value Changes in the queue exceeds 10000, the system will start logging a warning message.</p></td></tr><tr><td>Max Points to be downloaded per request</td><td>Maximum number of points to be requested and downloaded in one request.</td></tr><tr><td>Send Transaction Events (Default value is Disabled)</td><td>This shows whether the Subsystem events are captured or not.</td></tr><tr><td><p>Proxy Server</p><p></p><p>Proxy User Name</p><p></p><p>Proxy Password</p></td><td>If iviva is hosted in cloud, there may be a Proxy Server to assist in sending calls out to the Interfaces in local machines. These fields will be the Proxy Server settings.</td></tr><tr><td>Log Level</td><td>e.g 1 = Exceptions 2 = Exceptions+ Additional Transaction Data</td></tr><tr><td>Log Notification Threshold (minutes)</td><td>Time duration that the system waits after a log notification, before sending another error log notification. This helps to wait for the given threshold time, without sending the same error log notification.</td></tr><tr><td>Expiry Duration (minutes)</td><td>SSIF Heartbeat or Points will expire after this Expiry Duration in minutes.</td></tr><tr><td>Certificate Validation</td><td></td></tr><tr><td>TCP Message Bus</td><td></td></tr><tr><td>Cloud Local URL Validation</td><td></td></tr></tbody></table>
 
-### Edit Interfaces
+### Edit an Interface
 
 1. On the Interfaces search page, search and click on the Interface ID to navigate to its details page.
-2. Hover over the Interface Details section and click edit icon that appears.Edit the details on **Interface Details** tab as required and click **Save**. Click **Cancel** to discard the changes.
+2. Hover over the Interface Details section and click **edit** icon that appears. Edit the details on **Interface Details** tab as required and click **Save**. Click **Cancel** to discard the changes.
 3. Go to the **Clusters** tab and create a **Cluster**.
 
 #### Clusters
@@ -557,6 +559,7 @@ To create a Cluster;
 6. **Active Status** will be automatically updated, when the respective **Cluster** runs.
 7. Click **Add** to save the Cluster.
 8. Under the “Clusters” tab, the following details of each Cluster will be displayed;
+   * Cluster ID
    * Enabled Status
    * Active Status/IP address of Gateway
    * Last Active Time/Active Since
@@ -619,17 +622,18 @@ Cluster commands will be logged under the **Transaction** tab.
 
 System will log the following details of cluster commands.
 
-* Transaction Time : displays the date & time that the transaction occurred
-* Transaction Description : displays the type of the option(Cluster Commands)
-* User ID : User ID of the user who performed the function
-* Description : displays whether the transaction (command) is successful
+* Transaction Time: Displays the date & time that the transaction occurred
+* Transaction Description: Displays the type of the option (Cluster Commands)
+* User ID: User ID of the user who performed the function
+* Description: Displays whether the transaction (command) is successful
 
 You can filter the transaction records by giving Start Time (Start Date & Time) on the side panel.
 
 To generate a report on Interface Transactions:
 
-1. On the side panel, in the **Format** Box, select the report format (PDF/Word/Excel/Excel-Raw) as you want.
-2. Click **Generate Report.**
+1. On the side panel, filter the transaction records by giving Start Time (Start Date & Time).
+2. In the **Format** Box, select the report format (PDF/Word/Excel/Excel-Raw) as you want.
+3. Click **Generate Report.**
 
 #### Debug Tab
 
@@ -638,41 +642,39 @@ Debug tab displays the debug information which is managed by SSI when troublesho
 ### Delete an Interface
 
 1. On the Interfaces search page, click the name of the **Interface** that you need to delete, to go to its detailed page.
-2. Click the **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) or the **Delete this Interface** link on the side panel.
-3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Interface,** or to close the message box without deleting, click the![](<.gitbook/assets/icon\_3 (5).png>)  icon. If the selected Interface is in use, a message will appear stating that it cannot be deleted.
+2. Click the **Delete** icon![](<.gitbook/assets/Screenshot\_11 (4).png>) or the **Delete this Interface** link on the side panel.
+3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Interface,** or to close the message box without deleting, click the ![](<.gitbook/assets/Screenshot\_10 (4).png>) icon. If the selected Interface is in use, a message will appear stating that it cannot be deleted.
 
 ### View Interfaces List
 
 1. On the Interfaces search page, to search by **IBMS Zone**, select the relevant IBMS Zone from the list box.
 2. To filter **Interfaces** by **Driver Types**, select the required Driver Type.
 3. To filter only the **Interfaces** that are active, select the **Show Active Interfaces** check box.
-4. You can filter the required Interfaces and Update/Restart/Refresh them by clicking the respective button on the Side bar.
-5. **Generate Report**: This is used to generate the current report in PDF/Word/Excel/Excel Raw formats.
+4. You can filter the required Interfaces and **Update/Restart/Refresh** them by clicking the respective button on the Side bar.
+5. **Generate Report**: This is used to generate the current report in PDF/Word/Excel/Excel-raw formats.
    1. In the **Format** box, select the type of format you want.
    2. Click **Generate Report**.
-6. To view the name of each data column in the Interface Search page, click the ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAppJREFUSEu1ll1v0lAYxz0ta2k72QVZ2XbjMm9cBskiA80ibmZGUfDbqd/BXYrOuBtfZowBBRPZpctMYLzJxezaQqWtT3OaFivnwIiDhJTT//M7z/mfl+cg27YvXcyHuRisQ0X0rDOpbeO30Tf6pjmwLNuyTIZhGQaxbIjneG6GOyi9JSVHRGfS25qqaj2NPiwxLIqSdFAc0cFo9M31zV9nim1bk9iFEIrMRj59/RgQj0An42lNVyeBDmskUfr8rTjcEpzG6bhAVDUVYonoG+ubU+Tr4SAWnPT++llnUlvKmXJeHwJ6mCHg4EYfrek6fd6i0ejKylV5Xg6FQqQMgAAc/NadxtvpO51umxQQiUTu38vGYjEsMAxjf//18Y9jkn4+Kr8vvnGzhk1BXPkI5R7mPS7IOI7LZh9I0iwppG/0fEMo6KXFJbACpOVK+cnTx6WSs8LAk8WFBTLa8NGDwYCk6/zs7O4+23u1V6mU4VSADYKVlGwwzTUEDgcSGpxtd9pHR991XV+9tppMboCy2WzWajVSCKa56EmO1uUryzs7dyHr+kn9xcsCJQS/ctHeMEmJQHs8kYBfRVEKhee9njNRlJn30XBUUqT41Um9fnhYBccpE4OVmOZmTdkFXpetVgueu93u2CQwzUXzHEcPYFk2n3+0thbP5fJj0ZjmorkZnh5gmia4jL0ei8Y0/7y+Hk/pOq2mwCaUZbnRaEA3FLogiOVqyc8aniRBRIhWhWGBw1qmc4EAHNzxX1UGTttT5XTseCmCuctzXiULFrCNRBrqxXT0QA37b7VRFKQvVWpthHxBAeOaZH+6niIE+gA36PWwD7dSW5qm6j23ZBAsQkLYuYh8KL37V3Ce25Pp3J8Y5Nyf4MvzYfrt6Q/JKTqnGPi94wAAAABJRU5ErkJggg==) icon on the Toolbar.
+
+To view the name of each data column in the Interface Search page, click the ![](<.gitbook/assets/Screenshot\_14 (4).png>) icon on the Toolbar.
 
 <table><thead><tr><th width="219">Field (Column Name)</th><th>Description</th></tr></thead><tbody><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxwAADscBOJIvdgAAAfNJREFUOE+Vkj9vE0EQxd/6bu8cx04IF5ARwTiJRUWQEAUCCYIUCRpCQZEG8RUiUYCoI/gANCh9RAGIAolUCAosGgIUQSAgCnEioxAby38P27t3t8za5+AiKdh25s1785tlhcI2/uexPoFinsvLK1bxpVn/Aig/fqI9OiNHzio+DBbpju0JAs+sf45tPLTLWVgjsBwqQZQgyjIx5U7eksOnEbF2Bcqsrsa/3+PiF1LXcXwOgQcEMOLYeor8c4/ZjcxdsgIztAOTtaFP81Z7E6cWcGwWjOPVZcgarrzVIQpv8PGOZIna1IMgmtTJeOWDVX2HsWsYuwojqpsa66iv0RowLBy+SJ7c/cpLWq8FtKXOTUnMgT2AkYZmDRyxS69DgWZCWx44uS/eRAbRQ4a7Hgq0NTHpgdtDRiVdpbZOJOKtCVa//WsdTCMxoad0X2MDraIfS4eCtjNDvLH5BH67cxuG9BzGb4aegUT+BZrbwrkUCqRzTgydwdYz5Je1RinkHuPHElQAX2Ani9wjGcsIZ7p3OBXwykp87b4ZNDF+A0dn0drR3YMp/FwmZ0823cnbYnQaEXP3awheeR/LLVr1VUSTxETnaRUpibRTfybmxcHzXeh9n0/5EVHiv7PEu0NQ0ZaUWzgXAjtJs7v79//Wfc/QX/gL4nXRpcsavCsAAAAASUVORK5CYII=" alt=""> New Version is available</td><td>This is to show an Exclamation icon<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxwAADscBOJIvdgAAAfNJREFUOE+Vkj9vE0EQxd/6bu8cx04IF5ARwTiJRUWQEAUCCYIUCRpCQZEG8RUiUYCoI/gANCh9RAGIAolUCAosGgIUQSAgCnEioxAby38P27t3t8za5+AiKdh25s1785tlhcI2/uexPoFinsvLK1bxpVn/Aig/fqI9OiNHzio+DBbpju0JAs+sf45tPLTLWVgjsBwqQZQgyjIx5U7eksOnEbF2Bcqsrsa/3+PiF1LXcXwOgQcEMOLYeor8c4/ZjcxdsgIztAOTtaFP81Z7E6cWcGwWjOPVZcgarrzVIQpv8PGOZIna1IMgmtTJeOWDVX2HsWsYuwojqpsa66iv0RowLBy+SJ7c/cpLWq8FtKXOTUnMgT2AkYZmDRyxS69DgWZCWx44uS/eRAbRQ4a7Hgq0NTHpgdtDRiVdpbZOJOKtCVa//WsdTCMxoad0X2MDraIfS4eCtjNDvLH5BH67cxuG9BzGb4aegUT+BZrbwrkUCqRzTgydwdYz5Je1RinkHuPHElQAX2Ani9wjGcsIZ7p3OBXwykp87b4ZNDF+A0dn0drR3YMp/FwmZ0823cnbYnQaEXP3awheeR/LLVr1VUSTxETnaRUpibRTfybmxcHzXeh9n0/5EVHiv7PEu0NQ0ZaUWzgXAjtJs7v79//Wfc/QX/gL4nXRpcsavCsAAAAASUVORK5CYII=" alt="">, if the updated Interface details are not downloaded by SSIF, after an Interface is updated.</td></tr><tr><td>Interface ID</td><td>Name of the Interface</td></tr><tr><td>Active Cluster</td><td>Name of the Active Cluster. This will be shown only if the Interface is active.</td></tr><tr><td>Driver Type</td><td>Type of the Driver associated with the Interface</td></tr><tr><td>Zone</td><td>Name of the Zone associated with the Interface</td></tr><tr><td>Active Status/ Time</td><td><p></p><p>Status of the Interface and the Date Time if Status is Active.</p><p>If Active 🡪 Active +&#x3C;Last time that the interface was on Active status><br>E.g. Active<br><strong>6-June-2019 11:24 AM LK</strong></p><p>If Inactive 🡪 E.g. Inactive</p></td></tr><tr><td>Service Status/Time</td><td>Status of the associated Service and the last time that the Service’s status returned<br>E.g.<img src=".gitbook/assets/Service StatusTime_s4.png" alt=""></td></tr></tbody></table>
-
-
 
 ## Trend Groups
 
 \
 A **Trend Group** is a collection of **Trend Points** with same unit of measurement. (e.g. Temperatures, percentage, pressure) This section describes the following:
 
-1. Configure Trend Groups
-   1. Add Points to the Trend Group
-   2. Edit Points on Trend Group
-   3. Delete Points from Trend Group
-   4. List Points on Trend Group
-2. Edit a Trend Group
-3. Delete a Trend Group
-4. View Trends of Trend Group
-5. Dynamic Trend Groups
+1. [Configure Trend Groups](chapter-3-configuration-of-prerequisites.md#configure-trend-groups)
+   1. [Add Points to the Trend Group](chapter-3-configuration-of-prerequisites.md#add-points-to-the-trend-group)
+   2. [Edit Points on Trend Group](chapter-3-configuration-of-prerequisites.md#edit-points-on-trend-group)
+   3. [Delete Points from Trend Group](chapter-3-configuration-of-prerequisites.md#delete-points-from-trend-group)
+2. [Edit a Trend Group](chapter-3-configuration-of-prerequisites.md#edit-a-trend-group)
+3. [Delete a Trend Group](chapter-3-configuration-of-prerequisites.md#delete-a-trend-group)
+4. [View Trends of Trend Group](chapter-3-configuration-of-prerequisites.md#view-trends-of-trend-group)
+5. [Dynamic Trend Groups](chapter-3-configuration-of-prerequisites.md#dynamic-trend-groups)
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)🡪 **Configure** section 🡪 **Trend Groups 🡪 Trend Groups** search page
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Trend Groups 🡪 Trend Groups**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
 ### Configure Trend Groups
 
@@ -681,11 +683,11 @@ A **Trend Group** is a collection of **Trend Points** with same unit of measurem
 3. In the **Location** box, select the relevant Location where the **Trend Group** is configured for.
    1. To select Location from the Location list box, click on the **Location** box and select the location from the populated list.
    2. To select the location from the Location search page, click the **Search** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAsZJREFUSEu1ltlv2kAQh+MLUuGDy2AX0lAljSOVPPT/f+tLq0rtQ6tWhAQlqUi5A75IYnvtjjEyxqzBQcpKSGh35tvZ387smNC0/sHrDPJ1sD6V2BK167qGYeqaYVnPCLm2ZTMZhqLITCbL8SzL5khyW2R4NEJoPJpMp6rnuknHIkiyUBDKYomiKKwNBq2q2qA/RA5KoxVJkZJcFQR+0ziOHo0m4+E4DTRqA7GLlXLMa02s/bhABPXANxGtafoe8YY48AUlo/Rl1I7j9HuDl+oQs4cbAk44udR6OACNH5LQYlXOCwWaYeamMRz2H+dmkmWpXKxUxWDVR0P+ti872DwD3JnykWVXCeB53t+7zqD/D59wJHmmnAT57v903UjK38b7U+CORv0f3798+/q59een49jHjVOOF7Bo4MCdBUs+2tDxB8xmD4tF0TC0m07bsW2w1LTZ9XUL/lSqcpImpjFfoZ+enrF22cM3MK+qs+iqrs4QcnI5Ngkd0vyo4Yz403l+ldP0Wh2T8IiQlL04BHaENB/tIvxDoeuabVuiKAXhB6NebxAEoarTJHRIW1wllfCAed7tzRXE2Lz49O74pCLJyvmFJNfARRAKED6WDs/WSmuaZpJCmD5Mrtq/YRWIjcYHIV8IpOA4QTlvYukMs6T5eX3f7WnrNbq5U45l4ZmeP85ty1KUJiSfaRqXrV9B5kQHL/C1up8/Pno2U3v3L2hjEOzRUaPbvcU+vHJNyuf9rPd14XkuFChJmei8i9DdbQfLBQ7QVlpDXUK/SAPdaQOcsKstbxOeFWo9f3dSNg2AAJxwfommaboqVfbARV2AAJw4epGqPPShvengG+uQa8UC/S16ovTbgNdmb8R3dOg4SdUf2w9SQn6brqMHnlBy0EY1Vd/yHXJAEEKeF8VSWH7xXVN+PTkOcmyHZuCeKIbJ8AK38+vpP95zTfwP85EsAAAAAElFTkSuQmCC) icon and select the location you want from the Location search window that appears.
-   3. To select the Location from the pin board, click the **Pin** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAIAAABbkFLLAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsIBw3GpnQAAAnpJREFUSEu1lttu2kAQhuMTEPAhAUxCW9pEiZJUanPR3PT9X6FRBYlaJBoIxxB7zSH41D/aysbG3mKk+M72P9/Mzs7sLGea/b03e/g3I7+Cuf/G7nmeZc2Iaa1WL67r2StbykmCwOdyeUWVZbnE86khsuiu645Hk+nU8D0vbYkczx8ealW9IgjCpiaVbhjmoD90HXeb1PECf1w/0jQ1Jk6mj0aT8XC8DXddgxXoter6l4SU7YYGFGmELYtummSHqAMibJHS4DUSu+M4/cdB1oTE9NgtcOjHCP1pMt1yGxkRgAAOFYS7irq+a/1iFB/UsqI2Gieyoi0Xi16vg61PdIMyvbg8Qx+EsRNisdH7xdLV52tFPeA4br9YPDu/qtXqiXRwsH+RzFhkxlgvwnn/4WOsLRufTtNMZtY8Ql8uX9KksqJ8u/leLusxgSCI8JpoRWnhP8ex0+gWId1uZ/PvYjFPSyalhXTPTT1MoBsOHjud3+sOfN9/+NNOC4jSQjrOijRpuaJ/vb55nk4CB4QYzeaP6VOkM9fNacZCoihKifRKtYbyyOcLF5df+o9dOEDU93c/ifHMqAJJeqWF9EIhn6g+OT1HCaIb2u37Pd/v9x5azVvHTt0kCqG0kF6Si5t0LBCFsVzOW63bIFjT+NeKjNgpLVuvMnCxpMd7FZ2CKbOlPVsGDu27SJ1UqmVBTBhgmVyCAA41idBFUTw6rmVibYpBACeBjk+YjRhgOzuA7fp0TeggzMZgaZncwCo2V1l3Aswp9vEQ+Ebh1t9tfSegZrZtYwqbBmGd+xynHai6XqHNGXuy3cUcx3VsR5SwbYIk5VRN2f0ulinpieK/3HY0Z0N+lZ4AAAAASUVORK5CYII=) and select from the pinned item list.
+   3. To select the Location from the pinboard, click the **Pin** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAIAAABbkFLLAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsIBw3GpnQAAAnpJREFUSEu1lttu2kAQhuMTEPAhAUxCW9pEiZJUanPR3PT9X6FRBYlaJBoIxxB7zSH41D/aysbG3mKk+M72P9/Mzs7sLGea/b03e/g3I7+Cuf/G7nmeZc2Iaa1WL67r2StbykmCwOdyeUWVZbnE86khsuiu645Hk+nU8D0vbYkczx8ealW9IgjCpiaVbhjmoD90HXeb1PECf1w/0jQ1Jk6mj0aT8XC8DXddgxXoter6l4SU7YYGFGmELYtummSHqAMibJHS4DUSu+M4/cdB1oTE9NgtcOjHCP1pMt1yGxkRgAAOFYS7irq+a/1iFB/UsqI2Gieyoi0Xi16vg61PdIMyvbg8Qx+EsRNisdH7xdLV52tFPeA4br9YPDu/qtXqiXRwsH+RzFhkxlgvwnn/4WOsLRufTtNMZtY8Ql8uX9KksqJ8u/leLusxgSCI8JpoRWnhP8ex0+gWId1uZ/PvYjFPSyalhXTPTT1MoBsOHjud3+sOfN9/+NNOC4jSQjrOijRpuaJ/vb55nk4CB4QYzeaP6VOkM9fNacZCoihKifRKtYbyyOcLF5df+o9dOEDU93c/ifHMqAJJeqWF9EIhn6g+OT1HCaIb2u37Pd/v9x5azVvHTt0kCqG0kF6Si5t0LBCFsVzOW63bIFjT+NeKjNgpLVuvMnCxpMd7FZ2CKbOlPVsGDu27SJ1UqmVBTBhgmVyCAA41idBFUTw6rmVibYpBACeBjk+YjRhgOzuA7fp0TeggzMZgaZncwCo2V1l3Aswp9vEQ+Ebh1t9tfSegZrZtYwqbBmGd+xynHai6XqHNGXuy3cUcx3VsR5SwbYIk5VRN2f0ulinpieK/3HY0Z0N+lZ4AAAAASUVORK5CYII=) and select from the pinned item list.
 4. Click **Create** to create the new **Trend Group**. Configured Trend Group name will be displayed on the **Trend Groups** page. Trend Group Detail page will open. Trend Group detail page will consists of the following tabs.
-   * Details – shows the main details such as **Trend Group Name** and **Location**
-   * Points – shows the **Configured Points** in the **Trend Group.** Type the required Point name in the **Search Points** search box, to filter Points by Point name.
-   * Trend – shows the Trends associated with the Trend Group
+   * Details – Shows the main details such as **Trend Group Name** and **Location**
+   * Points – Shows the **Configured Points** in the **Trend Group.** Type the required Point name in the **Search Points** search box, to filter Points by Point name.
+   * Trend – Shows the Trends associated with the Trend Group
 
 #### Add Points to the Trend Group
 
@@ -693,35 +695,39 @@ You can add configured points to the created Trend Group.
 
 1. Go to the Trend Group Detail page.&#x20;
 2. On the Trend Group details page, click the **Points** tab.&#x20;
-3. Click the **Add** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAeCAIAAABbkFLLAAAAAXNSR0IArs4c6QAAAfJJREFUSEu1lltPwmAMht2RRMZQmAh3RIhR1ITE//8TTEzUaAwY7jhsHNyGCWwjvmHLN9jY57cNCTeM9mlpS99ypjk6+bcXR6dvNpul/WOa1nq99jzPcRxJkgRBkGVZVUtF5ZTneUpuiXSwDGO2mC8QIMkf6LPzM02rIN5Bm8N089sajSae57LUTOCFeuNSLZfixgfohj7VdYOFu2ujadWLmhbxilYtGxpQw5jCl0a3TDtD1oQIX5R0N0CYO9o4HI7TFiRiv+2WRx6G9Ol0Rm9jp9O9f3jEG21MSgIEcKJ0jN18tsiZuO8ODhniIHfbWlLmOlVUcNA/3yWgW1bwORUoydi2l3v01Wp1FK4PIbTg3/T50fM2Ya9hgdbd3nVZQr6/Pcd9r2/aYWUiX7NAKTaEFtSdMmQZIpHFGVTmqz/4s/SYd367C19fnughC4XCVasZVgafM+SY5EJoQWUUpXhEOqEF9JKq0FWGPTY4oO3Nu68y7AiKJTjRrsIau63fGzDqURJdEMRWu0mEMNyReFSv13KmD8Kuxu5pE7QRApY5AHwj6hpVPmhjVatkCACvuK4m3wTDMeN6QA8bjTrrTeAn7rquPjFwJ1H2Psdx5bKKlEVRPPhzU9xiruu5riOKkigKkiyX89xiGUofd6FdgfkD/ALqge7Ur+LfggAAAABJRU5ErkJggg==) icon. Points search window will open to add configured Points to the respective **Trend Group.** Point configuration should be done first in order to list the configured points in the Point Search Window. Refer **Configure Point Templates** section for more details on configuring points.&#x20;
-4. Select the **Point Name** from the **Points** search page. **Points** can be added from the pin-board as well.&#x20;
+3. Click the **Add** ![](<.gitbook/assets/Screenshot\_12 (2).png>)icon. Points search window will open to add configured Points to the respective **Trend Group.** Point configuration should be done first in order to list the configured points in the Point Search Window. Refer [**Configure Point Templates**](chapter-3-configuration-of-prerequisites.md#point-templates) section for more details on configuring points.&#x20;
+4. Select the **Point Name** from the **Points** search page. **Points** can be added from the pinboard as well.&#x20;
 5. Click the **Point Name** to add the selected **Point**.
 
 #### Edit Points on Trend Group
 
 1. Go to the Trend Group Detail page. Click the **Points** tab.
-2. Click the **Point Name** to go to relevant Point details page.
-3. Click the Equipment name to go to relevant Equipment detail page.
+2. Click the **Point Name** to go to the relevant Point details page.
+3. Edit the respective point details.
+4. You can also access the point details page by
+   1. On the Trend detail page, go to the **Points** tab.
+   2. Click the **Equipment name** to go to the relevant Equipment detail page.
+   3. Go to the **Points** tab and click on the required point name to open the relevant detail page.
 
-#### Delete Points on Trend Group
+#### Delete Points from Trend Group
 
 1. Go to the Trend Group detail page. Click the **Points** tab.
 2. Click the ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) icon on the right hand of the same row of the **Point** that you want to delete.
 3. A message box appears to confirm the deletion of **Point.** Click **OK** to confirm deletion of the **Point.** Click **Cancel** to abort the operation.
 
-### Edit Trend Group
+### Edit a Trend Group
 
 1. On the Trend Groups search page, search for the required **Trend Group**.
-2. Click the required **Trend Group** name that you want to edit. Trend details page will appear.
-3. In the Details tab, hover over the **Details** section and click the **Edit** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon that appears.
+2. Click the required **Trend Group** name that you want to edit. Trend details page will open.
+3. In the **Details** tab, hover over the **Details** section and click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (3).png>)icon that appears.
 4. Edit the **Trend Group** **Name**, **Location** and **Trend Report Name** as required.
 5. Click **Save**. Click **Cancel** to discard the changes.
 
 ### Delete a Trend Group
 
 1. On the Trend Groups search page, search for the **Trend Group**. Click the required **Trend Group** name to go to the Trend detail page.
-2. Click the respective **Delete this Trend Group** link or **Delete** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC)icon in the Sidebar.
-3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Trend Group,** or to close the message box without deleting, click![](.gitbook/assets/icon\_3.png)  . If the **Trend** **Group** is in use, you will not be allowed to delete it.
+2. Click the respective **Delete this Trend Group** link or **Delete** icon![](<.gitbook/assets/Screenshot\_11 (4).png>) in the Sidebar.
+3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Trend Group,** or to close the message box without deleting, click![](<.gitbook/assets/Screenshot\_10 (4).png>) . If the **Trend** **Group** is in use, you will not be allowed to delete it.
 
 ### View Trends of Trend Group
 
@@ -729,17 +735,18 @@ You can add configured points to the created Trend Group.
 2. Or go to **App Dashboard**🡪**Trend Groups** tab.
 3. On the Trend Groups search page, search for the required **Trend Group** and go to its detail page. Trends associated with the configured points will be displayed.
 4. **Trends** can be filtered by time range.
-5. Click the **Filter** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAPCAIAAACEOBM8AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsIBk7w4LgAAALlJREFUOE9j/PTpBQMFgBGk//fb87t3XHlLojHC2p6usmD9QPDt6uKayYc+EW0En21+fbQO/1smqA4u7diWXDs+4vRDNYMUw/QDmUQagaQZVT8xRqBqxtCP3wgMzdj04zICm2Yc+iFGJFkiB6asp4cOP5bQRQo/NFlWFmIiA7d+YnSjxB9xGlBVCZNv/+3bt1NTMojTz8LJx4XuPFVV1dlzZsDSP6bj766vWPfW3spOW11GUoSLFYfvAC9/OXlLeP1XAAAAAElFTkSuQmCC) icon on the top right corner.
-6. Under **From Date Time,** click **Calendar** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAATCAIAAADwLNHcAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAJZJREFUOE9jtDSyYaAAMGHqPXb2MFYDsYpj0U+SaxiR3Y/LZjQTrYxt4SKU2k+pfhT3k+RziGKS/f/yxctA7xC4TSzIdn75/MXNwRMiAgxLeDghs9dvXYOshar+Jyb+SHY/NzfP7kPb4X4ZZO6navipa6gTTEJ/fv++e/ceXBml6Y+JiZF8LwD1MjEzMzMxkWMEUBdQLwCo/zyjXAZcVQAAAABJRU5ErkJggg==)icon and select the **From Date** that you want to start plotting data.
-7. Click the **Time** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAxZJREFUSEu9lf9PEnEYx5Gbt7u8cfMCYaDGCWoySq3luuHKWrbZF13/aG1uzrWmrdJBP7isGATBMAgmHh0BHxQPyY67z+fuOCB0ZZ/xA/fc87zu/Xme5/N8+u7M3TP969XXA9pvsTq8DGHCGQoXADABIZMu1Gp/ltENSljH57lpB0NiHeIbopCJBUO7hfqvjvQOULM98HjBy+A9kyIK4a21D5l2MHbFxeqizdbZlWXOSen0NUTwY1/4WQGVCjg+JQnCbIYBGDnETjnxdCJ33CpAr1QiLi/6aVUiyEaC73dz1XpLiHnQOTXH3XBQyCoKsVdroYLOSafUvvCEsxPwHUhsrL78tFdpz9pprcIno3FADY9KBZQWRlqdJB/NVlSsCnUHlqbt/Yr9KLb+PJgXkdOI/z53nfWOsd5Lh8mDqmw+KWZiPOnxWOV94ZdHqHwkUz1VQmB+iKszXlKxNPZD0mb02addLgf8DegzkQut7+w3FAvunZ2BkhB00DdBQ/dSKvhVEXOGVQsHowD62dhrFvhXVjowOYqYfHynfAaa6lIOp3j4QI16BnXbtzOazmSP02L8Yj2iUmmrS4NaGNQeYklo7Z8ziK4JZVRSilYS0Nw+pra62FBL3hHnuPXIg5pOdRAbsFgqqQnVjDjW6XCmEln0Ldw2v2Lk4pooSGpCywKqIE4zal9oUqvJzdWtrlyCsSAloKQUWa5+XihBBM22b6/5qju338faYHCpkNVVvxpLI6pt4ibqNkNWW7kiKMltYvGrTJBOFnVQUzES17Ry4y3nRsdGXJBae/G2OUEIPzeFOodPfUYdDs/+SaFGTbjlhJqpYZbMRb8fwoPcKrheTIU/fvl22LQ6bz+dd8NmEBPbG3uGs28y7W2/Sx9BADm59Czg7KZXdiI8geXFSaQSxN9s57VxoRt91XQec7uHCLlrcWbM57XipQPeOP2keeq7+/CBz4EaVpqnm6+jsna4DNeJcU5LXtLkF3igNCpO2Rhaa0vJ0j6hJeOF3FH/6zZtKTe695Hxr+59Q+ef7xFdt+eL6uF9IdDfCqNMwzB+bu8AAAAASUVORK5CYII=) icon and select the **Start Time** to plot data.
-8. Under **To Date Time**, click **Calendar** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAATCAIAAADwLNHcAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAJZJREFUOE9jtDSyYaAAMGHqPXb2MFYDsYpj0U+SaxiR3Y/LZjQTrYxt4SKU2k+pfhT3k+RziGKS/f/yxctA7xC4TSzIdn75/MXNwRMiAgxLeDghs9dvXYOshar+Jyb+SHY/NzfP7kPb4X4ZZO6navipa6gTTEJ/fv++e/ceXBml6Y+JiZF8LwD1MjEzMzMxkWMEUBdQLwCo/zyjXAZcVQAAAABJRU5ErkJggg==) icon and select the **To Date** that you want to stop plotting data.
-9. Click the **Time** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAxZJREFUSEu9lf9PEnEYx5Gbt7u8cfMCYaDGCWoySq3luuHKWrbZF13/aG1uzrWmrdJBP7isGATBMAgmHh0BHxQPyY67z+fuOCB0ZZ/xA/fc87zu/Xme5/N8+u7M3TP969XXA9pvsTq8DGHCGQoXADABIZMu1Gp/ltENSljH57lpB0NiHeIbopCJBUO7hfqvjvQOULM98HjBy+A9kyIK4a21D5l2MHbFxeqizdbZlWXOSen0NUTwY1/4WQGVCjg+JQnCbIYBGDnETjnxdCJ33CpAr1QiLi/6aVUiyEaC73dz1XpLiHnQOTXH3XBQyCoKsVdroYLOSafUvvCEsxPwHUhsrL78tFdpz9pprcIno3FADY9KBZQWRlqdJB/NVlSsCnUHlqbt/Yr9KLb+PJgXkdOI/z53nfWOsd5Lh8mDqmw+KWZiPOnxWOV94ZdHqHwkUz1VQmB+iKszXlKxNPZD0mb02addLgf8DegzkQut7+w3FAvunZ2BkhB00DdBQ/dSKvhVEXOGVQsHowD62dhrFvhXVjowOYqYfHynfAaa6lIOp3j4QI16BnXbtzOazmSP02L8Yj2iUmmrS4NaGNQeYklo7Z8ziK4JZVRSilYS0Nw+pra62FBL3hHnuPXIg5pOdRAbsFgqqQnVjDjW6XCmEln0Ldw2v2Lk4pooSGpCywKqIE4zal9oUqvJzdWtrlyCsSAloKQUWa5+XihBBM22b6/5qju338faYHCpkNVVvxpLI6pt4ibqNkNWW7kiKMltYvGrTJBOFnVQUzES17Ry4y3nRsdGXJBae/G2OUEIPzeFOodPfUYdDs/+SaFGTbjlhJqpYZbMRb8fwoPcKrheTIU/fvl22LQ6bz+dd8NmEBPbG3uGs28y7W2/Sx9BADm59Czg7KZXdiI8geXFSaQSxN9s57VxoRt91XQec7uHCLlrcWbM57XipQPeOP2keeq7+/CBz4EaVpqnm6+jsna4DNeJcU5LXtLkF3igNCpO2Rhaa0vJ0j6hJeOF3FH/6zZtKTe695Hxr+59Q+ef7xFdt+eL6uF9IdDfCqNMwzB+bu8AAAAASUVORK5CYII=) icon and select the **To Time**, which denotes the end time to stop plotting data.
-10. Trends will be filtered according to the selected time range.
-
-
+   1. Click the **Filter** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAPCAIAAACEOBM8AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsIBk7w4LgAAALlJREFUOE9j/PTpBQMFgBGk//fb87t3XHlLojHC2p6usmD9QPDt6uKayYc+EW0En21+fbQO/1smqA4u7diWXDs+4vRDNYMUw/QDmUQagaQZVT8xRqBqxtCP3wgMzdj04zICm2Yc+iFGJFkiB6asp4cOP5bQRQo/NFlWFmIiA7d+YnSjxB9xGlBVCZNv/+3bt1NTMojTz8LJx4XuPFVV1dlzZsDSP6bj766vWPfW3spOW11GUoSLFYfvAC9/OXlLeP1XAAAAAElFTkSuQmCC) icon on the top right corner.
+   2. Under **From Date Time,** click **Calendar** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAATCAIAAADwLNHcAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAJZJREFUOE9jtDSyYaAAMGHqPXb2MFYDsYpj0U+SaxiR3Y/LZjQTrYxt4SKU2k+pfhT3k+RziGKS/f/yxctA7xC4TSzIdn75/MXNwRMiAgxLeDghs9dvXYOshar+Jyb+SHY/NzfP7kPb4X4ZZO6navipa6gTTEJ/fv++e/ceXBml6Y+JiZF8LwD1MjEzMzMxkWMEUBdQLwCo/zyjXAZcVQAAAABJRU5ErkJggg==)icon and select the **From Date** that you want to start plotting data.
+   3. Click the **Time** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAxZJREFUSEu9lf9PEnEYx5Gbt7u8cfMCYaDGCWoySq3luuHKWrbZF13/aG1uzrWmrdJBP7isGATBMAgmHh0BHxQPyY67z+fuOCB0ZZ/xA/fc87zu/Xme5/N8+u7M3TP969XXA9pvsTq8DGHCGQoXADABIZMu1Gp/ltENSljH57lpB0NiHeIbopCJBUO7hfqvjvQOULM98HjBy+A9kyIK4a21D5l2MHbFxeqizdbZlWXOSen0NUTwY1/4WQGVCjg+JQnCbIYBGDnETjnxdCJ33CpAr1QiLi/6aVUiyEaC73dz1XpLiHnQOTXH3XBQyCoKsVdroYLOSafUvvCEsxPwHUhsrL78tFdpz9pprcIno3FADY9KBZQWRlqdJB/NVlSsCnUHlqbt/Yr9KLb+PJgXkdOI/z53nfWOsd5Lh8mDqmw+KWZiPOnxWOV94ZdHqHwkUz1VQmB+iKszXlKxNPZD0mb02addLgf8DegzkQut7+w3FAvunZ2BkhB00DdBQ/dSKvhVEXOGVQsHowD62dhrFvhXVjowOYqYfHynfAaa6lIOp3j4QI16BnXbtzOazmSP02L8Yj2iUmmrS4NaGNQeYklo7Z8ziK4JZVRSilYS0Nw+pra62FBL3hHnuPXIg5pOdRAbsFgqqQnVjDjW6XCmEln0Ldw2v2Lk4pooSGpCywKqIE4zal9oUqvJzdWtrlyCsSAloKQUWa5+XihBBM22b6/5qju338faYHCpkNVVvxpLI6pt4ibqNkNWW7kiKMltYvGrTJBOFnVQUzES17Ry4y3nRsdGXJBae/G2OUEIPzeFOodPfUYdDs/+SaFGTbjlhJqpYZbMRb8fwoPcKrheTIU/fvl22LQ6bz+dd8NmEBPbG3uGs28y7W2/Sx9BADm59Czg7KZXdiI8geXFSaQSxN9s57VxoRt91XQec7uHCLlrcWbM57XipQPeOP2keeq7+/CBz4EaVpqnm6+jsna4DNeJcU5LXtLkF3igNCpO2Rhaa0vJ0j6hJeOF3FH/6zZtKTe695Hxr+59Q+ef7xFdt+eL6uF9IdDfCqNMwzB+bu8AAAAASUVORK5CYII=) icon and select the **Start Time** to plot data.
+   4. Under **To Date Time**, click **Calendar** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAATCAIAAADwLNHcAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAJZJREFUOE9jtDSyYaAAMGHqPXb2MFYDsYpj0U+SaxiR3Y/LZjQTrYxt4SKU2k+pfhT3k+RziGKS/f/yxctA7xC4TSzIdn75/MXNwRMiAgxLeDghs9dvXYOshar+Jyb+SHY/NzfP7kPb4X4ZZO6navipa6gTTEJ/fv++e/ceXBml6Y+JiZF8LwD1MjEzMzMxkWMEUBdQLwCo/zyjXAZcVQAAAABJRU5ErkJggg==) icon and select the **To Date** that you want to stop plotting data.
+   5. Click the **Time** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAxZJREFUSEu9lf9PEnEYx5Gbt7u8cfMCYaDGCWoySq3luuHKWrbZF13/aG1uzrWmrdJBP7isGATBMAgmHh0BHxQPyY67z+fuOCB0ZZ/xA/fc87zu/Xme5/N8+u7M3TP969XXA9pvsTq8DGHCGQoXADABIZMu1Gp/ltENSljH57lpB0NiHeIbopCJBUO7hfqvjvQOULM98HjBy+A9kyIK4a21D5l2MHbFxeqizdbZlWXOSen0NUTwY1/4WQGVCjg+JQnCbIYBGDnETjnxdCJ33CpAr1QiLi/6aVUiyEaC73dz1XpLiHnQOTXH3XBQyCoKsVdroYLOSafUvvCEsxPwHUhsrL78tFdpz9pprcIno3FADY9KBZQWRlqdJB/NVlSsCnUHlqbt/Yr9KLb+PJgXkdOI/z53nfWOsd5Lh8mDqmw+KWZiPOnxWOV94ZdHqHwkUz1VQmB+iKszXlKxNPZD0mb02addLgf8DegzkQut7+w3FAvunZ2BkhB00DdBQ/dSKvhVEXOGVQsHowD62dhrFvhXVjowOYqYfHynfAaa6lIOp3j4QI16BnXbtzOazmSP02L8Yj2iUmmrS4NaGNQeYklo7Z8ziK4JZVRSilYS0Nw+pra62FBL3hHnuPXIg5pOdRAbsFgqqQnVjDjW6XCmEln0Ldw2v2Lk4pooSGpCywKqIE4zal9oUqvJzdWtrlyCsSAloKQUWa5+XihBBM22b6/5qju338faYHCpkNVVvxpLI6pt4ibqNkNWW7kiKMltYvGrTJBOFnVQUzES17Ry4y3nRsdGXJBae/G2OUEIPzeFOodPfUYdDs/+SaFGTbjlhJqpYZbMRb8fwoPcKrheTIU/fvl22LQ6bz+dd8NmEBPbG3uGs28y7W2/Sx9BADm59Czg7KZXdiI8geXFSaQSxN9s57VxoRt91XQec7uHCLlrcWbM57XipQPeOP2keeq7+/CBz4EaVpqnm6+jsna4DNeJcU5LXtLkF3igNCpO2Rhaa0vJ0j6hJeOF3FH/6zZtKTe695Hxr+59Q+ef7xFdt+eL6uF9IdDfCqNMwzB+bu8AAAAASUVORK5CYII=) icon and select the **To Time**, which denotes the end time to stop plotting data.
+5. Click **Apply Filter for Graph**. Trends will be filtered according to the selected time range and will be displayed in the graph.
+6. **Generate Report**: This is used to create a report based on the filtered trends.
+   1. After applying the required time range, select the Format.
+   2. Click **Generate Report.**
 
 {% hint style="success" %}
-_Tip – You can view respective_ _**User Activities**_ _associated with a_ _**Trend Group**_ _such as Trend Group creation, Point addition, Point Deletion, etc. on the right pane in the respective Trend Group detail page under_ _**Activities**_ _section._
+_Tip – You can view respective_ _**User Activities**_ _associated with a_ _**Trend Group (on the respective Trend Group detail page)**_ _such as Trend Group creation, Point addition, Point Deletion, etc. on the right pane in the respective Trend Group detail page under_ _**Activities**_ _section._
 {% endhint %}
 
 ### Real-Time Trends of Trend Groups
