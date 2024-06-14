@@ -135,7 +135,7 @@ _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-
 ### Delete an Alarm Class
 
 1. On the **Alarm Classes** search page, search for the required Alarm Class and click the name of it to go to its detailed page.
-2. Click the **Delete this Alarm Class** link or **Delete this item** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) on the side bar.
+2. Click the **Delete this Alarm Class** link or **Delete this item** icon![](<.gitbook/assets/Screenshot\_11 (3).png>)on the side bar.
 
 A message box to confirm deletion appears. Click **Delete** to confirm deletion of the Alarm Class, or to close the message box without deleting, click![](<.gitbook/assets/Screenshot\_10 (1).png>). If the Alarm Class is in use, a message will appear stating that it cannot be deleted.
 
@@ -203,12 +203,12 @@ This section describes the following:
 ### Edit a System Type
 
 1. On the System Types search page, click the required System Type name to go to its detail page.
-2. Hover over the System Type tab and click the **Edit** icon.
+2. Hover over the System Type tab and click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>).
 3. Modify details as required and click **Save.**
 
 ### Delete a System Type
 
-1. On the System Types search page, click the required System Type name to go to its detail page and click the **Delete this System Type** link/**Delete** icon on the side panel.
+1. On the System Types search page, click the required System Type name to go to its detail page and click the **Delete this System Type** link/**Delete** icon![](<.gitbook/assets/Screenshot\_11 (2).png>) on the side panel.
 2. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the System Type, or to close the message box without deleting, click ![](<.gitbook/assets/Screenshot\_10 (1).png>).
 3. &#x20;If the System Type is in use, you will not be allowed to delete it.
 
@@ -218,10 +218,10 @@ This section describes the following:
 
 This section describes the following:
 
-1. Configure Equipment Template
-2. Edit an Equipment Template
-3. Delete an Equipment Template
-4. Search Equipment Templates
+1. [Configure Equipment Template](chapter-3-configuration-of-prerequisites.md#configure-equipment-template)
+2. [Edit an Equipment Template](chapter-3-configuration-of-prerequisites.md#edit-an-equipment-template)
+3. [Delete an Equipment Template](chapter-3-configuration-of-prerequisites.md#delete-an-equipment-template)
+4. [Search Equipment Templates](chapter-3-configuration-of-prerequisites.md#search-equipment-templates)
 
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Templates 🡪 Equipment Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
@@ -231,32 +231,39 @@ This section describes the following:
 1. On the Equipment Templates search page, click the **New Equipment Template** link. **New Equipment Template** dialog box appears.
 2. In the **Equipment Template** box, type a unique and appropriate name for the new Equipment template.
 3. In the **Description** box, type a suitable description on **Equipment template.**
-4. Click **Create** to create the new **Equipment Template**. Click![](<.gitbook/assets/icon\_3 (1) (1) (1) (1) (1).png>)  icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
+4. Click **Create** to create the new **Equipment Template**. Click ![](<.gitbook/assets/Screenshot\_10 (1).png>)icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
 
-* To see how to edit Equipment Template Details, please refer to the [Edit Equipment Template](chapter-3-configuration-of-prerequisites.md#edit-equipment-template) section below.
+* To see how to edit Equipment Template Details, please refer to the [Edit Equipment Template ](chapter-3-configuration-of-prerequisites.md#edit-an-equipment-template)section below.
 * To see how to configure Point Templates, please refer to the [Point Templates](chapter-3-configuration-of-prerequisites.md#point-templates) section.
+* To see how to configure Link Templates, please refer to the [Link Templates](chapter-3-configuration-of-prerequisites.md#link-templates-and-links) section.
+* To see how to configure Equipment, please refer to the [Equipment](chapter-5-registering-new-items.md#register-new-equipment) section.
+* To see how to configure RT GUI, please refer to the [RT GUI ](chapter-3-configuration-of-prerequisites.md#rt-gui-tab-in-equipment-template)section.
 
-### Edit Equipment Template
+### Edit an Equipment Template
 
 1. On the Equipment Templates search page, click on the **Equipment Template** you want to edit.
-2. On the Detail page, move the cursor to the **General** section and click the **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) .
+2. On the Detail page, move the cursor to the **General** section and click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>).
 3. Edit the name of the **Equipment Template** as required.
 4. Edit the **Description** as required.
-5. Click **Save**. Click **Cancel** to discard the changes.
-6. To Upload a Real-Time GUI to the Equipment Template;
-   1. On the **Details** tab, under Upload Real-Time GUI section, click the marked area and select the required Real-Time GUI page; or drag and drop the GUI page onto the given area.
-   2. Click **Upload** to upload the selected Real-Time GUI page.
+5. **Enable Real-time Summary GUI:**
+6. Click **Save**. Click **Cancel** to discard the changes.
 7. Edit the Point Templates tab on the Equipment Template.
    1. [Add Point Templates to the Equipment Template](chapter-3-configuration-of-prerequisites.md#point-templates)
 8. Under the **Link Templates** tab, [add **Link Templates** to the selected **Equipment** **Template.**](chapter-3-configuration-of-prerequisites.md#link-templates-and-links)
+9. Under **Equipment** tab, [configure **Equipment** to the selected **Equipment Template**](chapter-5-registering-new-items.md#register-new-equipment)**.**
+10. Under **RT GUI** tab,
+
+#### RT GUI Tab in Equipment Template
+
+
 
 ### Delete an Equipment Template
 
 To delete an **Equipment Template**;
 
 1. On the Equipment Templates search page, click the **Equipment Template** that you want to delete, to go to its detailed page.
-2. Click the **Delete this Equipment Template** link or **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) on the Side bar.
-3. A message to confirm deletion appears. Click **Delete** to confirm deletion of the **Equipment Template,** or to close the message box without deleting, click ![](<.gitbook/assets/icon\_3 (1) (1) (1) (1).png>) icon on the top left of the message box.
+2. Click the **Delete this Equipment Template** link or **Delete** icon ![](<.gitbook/assets/Screenshot\_11 (4).png>)on the Side bar.
+3. A message to confirm deletion appears. Click **Delete** to confirm deletion of the **Equipment Template,** or to close the message box without deleting, click ![](<.gitbook/assets/Screenshot\_10 (1).png>)icon on the top left of the message box.
 
 #### If the Equipment Template is in use
 
@@ -281,32 +288,32 @@ _Note – You should configure the relevant_ _**Equipment Template**, before you
 
 This section describes the following:
 
-1. Configure a Point Template
-2. Edit a Point Template
-3. Delete a Point Template
-4. Search Point Templates
+1. [Configure a Point Template](chapter-3-configuration-of-prerequisites.md#configure-a-point-templates)
+2. [Edit a Point Template](chapter-3-configuration-of-prerequisites.md#edit-a-point-template)
+3. [Delete a Point Template](chapter-3-configuration-of-prerequisites.md#delete-a-point-template)
+4. [Search Point Templates](chapter-3-configuration-of-prerequisites.md#search-point-templates)
 
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)🡪 **Configure** section 🡪 **Equipment Templates 🡪 Equipment Templates** search page🡪 Relevant Equipment Template 🡪 Equipment Template Detail page🡪**Point Template** tab
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Templates 🡪 Equipment Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page🡪 Relevant</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Template**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Template Detail**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">page🡪</mark><mark style="color:blue;">**Point Template**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">tab</mark>
 
-### Configure Point Templates
+### Configure a Point Templates
 
-You can configure Point Templates for Equipment Templates from here. These Point templates will be the points for equipment registered using the respective Equipment Template in the system.
+This section helps you to configure Point Templates for Equipment Templates. These Point templates will be the points for equipment registered using the respective Equipment Template in the system.
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates search** page will appear.
 2. Search and click the required **Equipment Template** to which you want to add a new **Point Template**.
 3. Then its Point Template detail page will appear. Click the **Point** **Templates** tab.
-4. Click the **Add** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAfhJREFUSEu1lllPg1AQhXvZGkNBW6lafTEucYkm/v9fYaKpGpf0ydZQaGWJadk8CF4LBUKhNn0AMvPNYe5cziWGMWr8z48UoH3ft23bNKzZbO55nuu4HM+xLNtsCpLcEkWRYZgCVdlogMaqPplMG0GQm0xIu72ldDsolhmTgTYMczT88D2/TJ8IQ3r7e7IsLQen0aqqaapWBroYs610ujtKKivRrGpcELWxjtxctGmaFfRSHHLRyUV6rNp13eH7x6p9SMVjhcChD2O0rk2K1+3s/Pry6gZ/wmTPA4gggJNAY351fVpTcpQODmjRdajasuyi+V2pZhCYprWA/r1ZCZIXbEMoVf31NVsLNIJQWrhlnh6fAz+xobFWF5fXZeo99O8C31uMxP48Oz+Ne53iliEWxFBauIyoUxOXSCcxLWzI68vAmc+L6Zhrlgsnun9/WxzJC8LxyWHckI2N5hpVU1rYELElrhFNaSFaklqN3wbVrUFISKNzDR+CX9SF/uSDQ10ttgJ8sd5eByWdJU8EwzJHx4ccx/2pxhXu93q7NYWDQLnxhERE+Bt8qDIduSmHTBgY/K2z3a5AR9ayN2Y7+vB9VHb3E7J/UM7RI8mO44zH+ufUKD6HbG7JitLheT7zRcuenjBCnuthr2OhBIGXN6WKp6cK7V5O+QaIDOrF/icMDwAAAABJRU5ErkJggg==). **New Point Template** dialog box appears.
+4. Click the **Add** icon![](<.gitbook/assets/Screenshot\_12 (1).png>). **New Point Template** dialog box appears.
 5. In the **Point Name** box, type a unique and appropriate name for the new **Point Template**.
 6. In the **Data Type** list box, select the relevant Data Type of the Point (**Value, Binary, Text** or **MultiState**)**.**
-7. Click **Add** to create the new **Point Template**. Click  icon![](<.gitbook/assets/icon\_3 (2) (1).png>) to close and abort the operation.
+7. Click **Add** to create the new **Point Template**. Click ![](<.gitbook/assets/Screenshot\_10 (1).png>)icon to close and abort the operation.
 
-### Edit Point Template
+### Edit a Point Template
 
-1. Go to the relevant Equipment Template detail page 🡪**Point Template** tab.
+1. Go to the relevant **Point Template detail** page 🡪**Point Template** tab.
 2. Click the name of the **Point Template** you want to edit. Details page of the selected **Point Template** will appear.
-3. Go to Details tab.
-4. **General**: To edit the **General** section, which contains the general data of the Point Template, click the **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) in the **General** section.
+3. Go to **Details** tab.
+4. **General**: To edit the **General** section, which contains the general data of the Point Template, hover over the **General** section click the Edit icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>).
    1. Edit the Point Template name if required.
    2. Type a description about **Point Template** under the **Point Template Description** box.
    3. Click **Save** to save the changes in the **General** section.
