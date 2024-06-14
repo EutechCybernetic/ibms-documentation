@@ -602,7 +602,7 @@ This allows you to override the **Alarm Severity** configured at **Point Templat
    1. In the **Format** box, select the type of format you want.
    2. Click **Generate Report**.
 5. Click a point template name to open its detail page.
-6. If you need to edit details of the Point Template, click the **Edit**![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) icon on relevant sections on **Details** tab.
+6. If you need to edit details of the Point Template, click the **Edit**![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1) (1).png>) icon on relevant sections on **Details** tab.
 
 For more details on editing a Point Template, please refer to [Edit Point Template](chapter-3-configuration-of-prerequisites.md#edit-point-template) section.
 
@@ -1112,7 +1112,7 @@ To assign a user as an Assignee;
 4. Click **Add Assignee**. Added Assignee will be displayed on the bottom of the window along with the time entered, name of the Assignee and the comments entered.
 5. Click the ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOyAAADsIBtLNp5gAAASVJREFUKFNjvH79OgNxgAlZ2Y8f3y9dPH/69MkPH95jameEm/r69atFC+d+/vwJqIiVlTUoOFxTUxtZA8LUbds2QdQBwe/fvzduWPP371/sSp8/e4rqmB/v3r3BrlRAQBBFgomJj08Ai9KfP384OrowMjLC5axt7BkY/iMrBXnrxYvny5YtNDW1kJOTv3Tpwt8/f5SVVTk4OdeuWenrF6itrQvRwHjq1MmZMyZ/+fIFyJGSklFVVWNiYn7y5NGdO7f+///PxMQUn5AiL68IlGVWVJB9/PgRRB8wBB4+vP/gwb13795CRICqHz16YGZmCXQbs4SEyL9///DE1/fv3xXkFQUFhZj+/PlDMF6fgcORcc7sGQSVAv2gqKSMiFiCGlCSC37VAER3fGPXY3UpAAAAAElFTkSuQmCC) icon displayed next to the name of the Assignee to view his/her Quick info page.
 6. To delete the added note, click the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAlJJREFUSEu1lstu00AUhufMxHGiJDR240JUqbBAJW0F9IIoSN3xCqzYdMeKV2HHjhVPwY4VLCAsimiaVghBEVBw0ybgQpN6PMM4dh07vpBL60XkjM/5zu/fZy5Qr9dRzMXaHf6jgfZb/LiNOianFHJZlCKgTsClEi4W4hLFOERymfGHb39G+mFCJhI1rl0mZS0yJsTl3Kx9hC97wJOY3jOuFPBSBWczfdE48J9S8/V7vDso1H7fpsFebtDDViyXWxZ9s4kPfg2k0xcEJyZ6u8Vahj+x5wN9twNf9UioXFKurt93HtWfPGOdk3AYy6TJ2hKW084jl2v9PBA1/dFSITf78EGy9v4a0xpZrDgpXX85Z9ufhn39cDz/vu+5Yeul33TY2BmfKwjsoirdWnB9sKq1iFYFlJkqJRdr6w0UbEeGgdxbxWmpq/f5K2Csv1Hk9Nyj9eH8daKXK2Ky2P6GoWN5Yvw9/W7xGNFStcdPzd+GcyN+vZG4JHsxcfthLHn9yZxa58KFFDkfbncNsr+baI4zdAIu5FwuniyeFVdIBE059aH8n/4fvCouKUBsf+15IVZI60XVXu58l1iZRpkXtxeIprp6RQWoXBlcVGykpjhQV69zR6uboDdHpvO0hNcWvQ2ptw+R5TmWz47IFR21EtjlelzhBlm9jor5YdFcImhlPqUGmiqwb+KMjO/c4NPRW3d0vXwW371JplxbvZjo84MlTg4fdlHrKEG7MBTNzqRmyggiplU018HZp5O9Bm80uUnx0bEYsVmyhCYnQFPDGv0i/gE7Ye5rMYIxRQAAAABJRU5ErkJggg==).
-7. To close the window, click![](<.gitbook/assets/Screenshot\_10 (2).png>).
+7. To close the window, click![](<.gitbook/assets/Screenshot\_10 (2) (1).png>).
 
 #### Confirm Alarms
 

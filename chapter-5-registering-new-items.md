@@ -38,7 +38,7 @@ After registering an Equipment, you need to configure/edit the other details rel
 To make changes to Asset Details;
 
 1. Go to the Equipment detail page.
-2. Mouse hover over the **Details** section and click **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1) (1).png>).
+2. Mouse hover over the **Details** section and click **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1) (1) (1).png>).
 3. You can change **Description** while in edit mode.
 4. Selecting **Disable Subsystem Communication** checkbox would stop data acquisition for points on this Equipment.
 5. Type in the **Trend Report Name** if necessary.
@@ -218,7 +218,7 @@ This section describes the following;
 4. In the **Description** box, type any description related to the **Dashboard**.
 5. Click **Create**. New Dashboard will be registered and its detail page will appear.
 6. Go to **Details** tab,
-   1. Mouse hover over the **Details** section and click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1) (1).png>)icon.
+   1. Mouse hover over the **Details** section and click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1) (1) (1).png>)icon.
    2. Edit the dashboard details while in edit mode and click **Save**.
    3. **Upload Real-time GUI** section: To add a relevant RT page to the Dashboard, drag and drop the respective RT page onto the given area and click **Upload**.
 

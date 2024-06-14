@@ -7,7 +7,7 @@ This chapter describes the configurations of master data that are associated wit
 {% hint style="info" %}
 _Note –_
 
-* _As the initial configuration, you need to do App Configuration, User Role Configuration and Process Configuration_
+* _As the initial configuration, you need to do App Configuration, User Role Configuration and Process Configuration._
 * _Next, **Location** and **Site** Configuration under the Location App and **Asset** Configuration under Asset App should be carried out before you start configuring Master data on IBMS App._
 {% endhint %}
 
@@ -43,26 +43,26 @@ An IBMS **Zone** is a wrapper around a “**Site**” which logically groups equ
 
 This section describes the following:
 
-1. Configure Zones
-2. Edit a Zone
-3. Delete a Zone
-4. Search Zones
+1. [Configure Zones](chapter-3-configuration-of-prerequisites.md#configure-zones)
+2. [Edit a Zone](chapter-3-configuration-of-prerequisites.md#edit-zones)
+3. [Delete a Zone](chapter-3-configuration-of-prerequisites.md#delete-zones)
+4. [Search Zones](chapter-3-configuration-of-prerequisites.md#search-zones)
 
-**Path**\
-**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **Zones 🡪 Zones** Search page
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Zones 🡪 Zones**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">Search page</mark>
 
 ### Configure Zones
 
 1. On the Zones search page, click the **New Zone** link. A dialog box to configure a new **Zone** appears.
 2. Select the **Location** from the **Location** list box.
 3. In the **Zone ID** box, type the name of the **Zone** that you want to configure.
-4. Click **Add** to create the new **Zone**. Click ![](<.gitbook/assets/icon\_3 (3).png>) icon to close and abort the operation.
+4. Click **Add** to create the new **Zone**. Click ![](.gitbook/assets/Screenshot\_10.png)icon to close and abort the operation.
 
 ### Edit Zones
 
 1. On the Zones search page, click the **Zone ID** you want to edit. Detailed page of the selected Zone will appear.
 2. **Zone Details** tab displays IBMS Zone details.
-   1. Move the cursor to the **Zone** **Details** section and click the **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) that appears.
+   1. Move the cursor to the **Zone** **Details** section and click the **Edit** icon ![](<.gitbook/assets/Screenshot 2024-06-07 132020.png>)that appears.
    2. Edit the **Zone ID** as required.
    3. **Location** cannot be changed. If required, create a new **Zone** with desired **Site**.
    4. Click **Save**. Click **Cancel** to discard the changes.
@@ -73,18 +73,19 @@ This section describes the following:
 
 1. Go to the Zones Search page and click the **Zone ID** you want to delete. Detailed page of the selected Zone will appear.
 2. Click the **Delete this Zone** link or **Delete this Item**![](.gitbook/assets/icon\_4.png)  icon on the side bar.
-3. A confirmation box will appear. If the selected **Zone** is already in use, the system will not allow you to delete it.
+3. A message box to confirm deletion appears. Click Delete to confirm deletion of the Zone, or to close the message box without deleting, click Cancel. If the Zone is in use, a message will appear stating that it cannot be deleted.
 
 ### Search Zones
 
 1. On the Zones search page, to search by the **Zone** name, type the name of the **Zone** you want in the **Search Zones** box. Matching record/records will be filtered as you type.
 2. To filter **Zones** by the **Site**, select the required **Site** from the box on the top right.
-3. **Generate Report**: This is used to generate the current report in PDF/Word/Excel/Excel Raw formats.
-   1. In the **Format** box, select the type of format you want.
-   2. Click **Generate Report**.
+3. **Generate Report**: This is used to view the filtered results on a required format as a report.
+   1. In the **Format** box, select the type of format(PDF/Word/Excel/Excel raw) you want.
+   2. Click **Generate Report**. IBMS Zones Report will open with the filtered IBMS zones.
 4. To go to the detailed page of a **Zone** in the search results, click its name.
    1. **Zone Details** tab shows the top-level location (**Site**) that this zone is configured for.
-   2. **Equipment** tab lists all the available equipment, relevant to the selected **Zone**. Clicking on the equipment name will navigate to the quick info page. Clicking on the Equipment name on the quick info page will show the **Asset** **details**.
+   2. **Subsystem Interface Connector** tab displays the IBMS Subsystem Interface configuration details.
+   3. **Equipment** tab lists all the available equipment, relevant to the selected **Zone**. Clicking on the equipment name will navigate to the quick info page. Clicking on the Equipment name on the quick info page will show the **Asset** **details**.
 
 {% hint style="info" %}
 _Note – The_ _**Assets**_ _that have been registered as_ _**Equipment**_ _for the_ _**IBMS Zone,**_ _will be listed under the_ _**Equipment**_ _tab on the_ _**Zone Details**_ _page. To see details on registering an Equipment, please refer to the_ [_Register New Equipment_](chapter-5-registering-new-items.md#register-new-equipment) _section below._
@@ -103,16 +104,16 @@ E.g. If the Severity of an Alarm is Critical, you need to configure times of eac
 
 This section describes the following:
 
-1. Configure Alarm Classes
-2. Edit Alarm Class Details
-3. Delete an Alarm Class
+1. [Configure Alarm Classes](chapter-3-configuration-of-prerequisites.md#configure-alarm-classes)
+2. [Edit Alarm Class Details](chapter-3-configuration-of-prerequisites.md#edit-alarm-class-details)
+3. [Delete an Alarm Class](chapter-3-configuration-of-prerequisites.md#delete-an-alarm-class)
 
 {% hint style="info" %}
 _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-of-prerequisites.md#alarm-severity) _should be configured before configuring_ _**Alarm Classes.**_
 {% endhint %}
 
-**Path**\
-**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) 🡪 **Configure** section 🡪 **Alarm Classes 🡪 Alarm Classes** search page
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Classes 🡪 Alarm Classes**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
 ### Configure Alarm Classes
 
@@ -127,15 +128,16 @@ _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-
 ### Edit Alarm Class Details
 
 1. On the **Alarm Classes** search page, search for the required Alarm Class and click the Alarm Class name that you want to edit. Alarm Class detail page will open.
-2. Edit the Alarm Class details required and click **Save**.
-3. To edit the Working Hour and After Hour escalations, go to the respective tabs.
+2. Move the cursor to the **Details** section and click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) that appears.
+3. Edit the Alarm Class details required and click **Save**.
+4. To edit the Working Hour and After Hour escalations, go to the respective tabs.
 
 ### Delete an Alarm Class
 
 1. On the **Alarm Classes** search page, search for the required Alarm Class and click the name of it to go to its detailed page.
 2. Click the **Delete this Alarm Class** link or **Delete this item** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) on the side bar.
 
-A message box to confirm deletion appears. Click **OK** to confirm deletion of the **Alarm Class,** or to close the message box without deleting, click **Cancel**. If the **Alarm** **Class** is in use, a message will appear stating that it cannot be deleted.
+A message box to confirm deletion appears. Click **Delete** to confirm deletion of the Alarm Class, or to close the message box without deleting, click![](<.gitbook/assets/Screenshot\_10 (1).png>). If the Alarm Class is in use, a message will appear stating that it cannot be deleted.
 
 ## Alarm Severity
 
@@ -149,22 +151,23 @@ Typical Alarm Severities
 
 Alarm Severities are color coded by configuring a color code for each Severity level. This is helpful for easy identification of alarms.
 
-E.g. Severity “Critical” - Color Code: “Red”
+E.g. Severity “Critical” Color Code: “Red”
 
 This section describes the following:
 
-1. Configure Alarm Severity
-2. Edit an Alarm Severity
-3. Delete an Alarm Severity
+1. [Configure an Alarm Severity](chapter-3-configuration-of-prerequisites.md#configure-an-alarm-severity)
+2. [Edit an Alarm Severity](chapter-3-configuration-of-prerequisites.md#edit-an-alarm-severity)
+3. [Delete an Alarm Severity](chapter-3-configuration-of-prerequisites.md#delete-an-alarm-severity)
 
-**Path**\
-**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **Alarm Severity 🡪 Alarm Severities** page
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Severity 🡪 Alarm Severities**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">page</mark>
 
-### Configure Alarm Severity
+### Configure an Alarm Severity
 
-1. On the Alarm Severities page, click the **Add new Alarm Severity** link.
+1. On the Alarm Severities page, click the **Add New Alarm Severity** link.
 2. Type the name of the Alarm Severity and its Color code.
-3. Click **Add**.
+3. Enter the **Severity Weight.**
+4. Click **Add**.
 
 ### Edit an Alarm Severity
 
@@ -173,7 +176,9 @@ This section describes the following:
 
 ### Delete an Alarm Severity
 
-On the Alarm Severities page, click the relevant **Delete** icon displayed along with the Alarm Severity you need to delete.
+1. On the Alarm Severities page, click the relevant **Delete** icon displayed along with the Alarm Severity you need to delete.
+2. Click **Delete**.
+3. If the Alarm Severity is in use, you will not be allowed to delete it.
 
 ## System Types
 
@@ -182,18 +187,18 @@ System Types should be configured before registering Systems.
 
 This section describes the following:
 
-1. Configure System Types
-2. Edit a System Type
-3. Delete a System Type
+1. [Configure a System Types](chapter-3-configuration-of-prerequisites.md#configure-a-system-types)
+2. [Edit a System Type](chapter-3-configuration-of-prerequisites.md#edit-a-system-type)
+3. [Delete a System Type](chapter-3-configuration-of-prerequisites.md#delete-a-system-type)
 
-**Path**\
-**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **System Types🡪 System Types search** page
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**System Types🡪 System Types search**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">page</mark>
 
-### Configure System Types
+### Configure a System Types
 
 1. On the System Types search page, click the **New System Type** link.
 2. On the System Type configuration page, type the name of the System Type and a description about it.
-3. Click **Create**.
+3. Click **Create**. Once created, its detailed page will open.
 
 ### Edit a System Type
 
@@ -203,7 +208,9 @@ This section describes the following:
 
 ### Delete a System Type
 
-1. On the System Types search page, click the required System Type name to go to its detail page and click the Delete this System Type link/**Delete** icon on the side panel. If the System Type is in use, you will not be allowed to delete it.
+1. On the System Types search page, click the required System Type name to go to its detail page and click the **Delete this System Type** link/**Delete** icon on the side panel.
+2. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the System Type, or to close the message box without deleting, click ![](<.gitbook/assets/Screenshot\_10 (1).png>).
+3. &#x20;If the System Type is in use, you will not be allowed to delete it.
 
 ## Equipment Templates
 
@@ -216,8 +223,8 @@ This section describes the following:
 3. Delete an Equipment Template
 4. Search Equipment Templates
 
-**Path**\
-**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) 🡪 **Configure** section 🡪 **Equipment Templates 🡪 Equipment Templates** search page
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Templates 🡪 Equipment Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
 ### Configure Equipment Template
 
