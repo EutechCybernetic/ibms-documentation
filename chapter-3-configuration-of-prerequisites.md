@@ -829,42 +829,45 @@ For details on Real-Time Reports, go to the section [Real-Time Reports.](chapter
 IBMS Message Templates are used to configure E-mail, HTML e-mail (Rich-text) and SMS templates that need to be sent especially in escalated Alarm messages.\
 This section describes the following:
 
-1. Create a New Escalated Alarm Message Template
-2. Edit a Message Template
-3. Delete a Message Template
-4. Export a Message Template
+1. [Create a New Escalated Alarm Message Template](chapter-3-configuration-of-prerequisites.md#create-a-new-escalated-alarm-message-template)
+2. [Edit a Message Template](chapter-3-configuration-of-prerequisites.md#edit-message-templates)
+3. [Delete a Message Template](chapter-3-configuration-of-prerequisites.md#delete-a-message-template)
+4. [Export a Message Template](chapter-3-configuration-of-prerequisites.md#export-a-message-template)
 
-
-
-**Path**\
-**Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)on the Application Dashboard 🡪 **Configure** section 🡪 **Escalated Alarm** **Message Templates 🡪 Escalated Alarm Message Templates** search page
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Escalated Alarm**</mark> <mark style="color:blue;">**Message Templates 🡪 Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
 _<mark style="color:blue;">Setting under App Configuration</mark>_\
-_<mark style="color:blue;">**Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “</mark><mark style="color:blue;">**Assignee Message Template**</mark><mark style="color:blue;">” and “</mark><mark style="color:blue;">**Un-assignee Message Template**</mark><mark style="color:blue;">” Drop down boxes in</mark>_ _<mark style="color:blue;">**App Configuration page**</mark><mark style="color:blue;">, which enable user to select accordingly.</mark>_
+_<mark style="color:blue;">**Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “</mark><mark style="color:blue;">**Assignee Message Template**</mark><mark style="color:blue;">” and “</mark><mark style="color:blue;">**Un-assignee Message Template**</mark><mark style="color:blue;">” Drop-down boxes in</mark>_ _<mark style="color:blue;">**App Configuration page**</mark><mark style="color:blue;">, which enable user to select accordingly.</mark>_
 
 ### Create a New Escalated Alarm Message Template
 
 To configure an Escalated Alarm Message Template;
 
-1. On the Escalated Alarm Message Templates Search page, click the **Add** **New Message Template** link. New Escalated Alarm Message Template configuration page will appear.
+1. On the Escalated Alarm Message Templates Search page, click the **Add** **New Message Template** link. New Escalated Alarm Message Template configuration page will open.
 2. In the **Name** box, type a name for the new message template.
 3. In the **Subject** box, type the subject of the message.
 
-#### Configure Plain Text Message Template (plain text e-mail)
+#### Configure Plain Text Message Template (Plain Text Email)
 
-1.  In the **Message** box, configure the message using message text and relevant **Placeholders.**
+1. In the **Message** box, configure the message using message text and relevant **Placeholders.**
+2.  Click **Show Placeholders** link to view list of placeholder in a pop up window.
 
 
 
-    Note –The default message that created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates.
-2. Select the **From Address**.
-3. Add Recipients.
+    _Note –The default message that will be created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates._
+3. Select the **From Address**.
+4. Add Recipients.
    1. Click the **Add Recipient** link.
    2. Click the **Info** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAIAAAA2M5tmAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsUBkTUP4gAAAnBJREFUSEutll2P0kAUhrfTD5aPQqEFWdyP4I2bTbwwJsZL/4GJP9UL/4DJZuONF2s26g2RrAtuC5RCQeiHvmUQWOhMK3EuSpN536dnzmHOjPCpe33wv4fAgoZhOHUn7sidz7wwDPy5LykSIaKSkfNqPpvPEUJYwcRAgyCwrYFjj36HIdNGSFFTNaMsiuKuZhs6dkbWz17oB2lSQkRi1I1CUd0SP1hC3xrc/7hPSQQoDELo+2afCQXR3plOEy9yBe+mchmpOxrvR6QseJG3FTeC+r5vdi1+UC/On799/QZPlgyVAIfORlCnP+TnsVo2zuqnUOKpqaVYLgjgLKH4Pw4HDj/M8a/JSjDzPZYYHNAwK3z4dokKJhYkm80166etbns6XX9g11Vt1NSSSiZjngg2WZaxfLzctL7widBgE0aRvrt8783mrEhfPXvZ0I/o7F2vc3X9kb8mOaOcPDkhwd+SxarvrO7V5yUIdFaVVl5KI9gVnI+3O21zuP63capEIZSGvsNsNlRXLUUJxfB8LzGnwqJ1EVGS+GkyFlWKcmp1+ErMSnJEI5lDhS9t6HUqMIe9RCilEbRbvjR3uBSYdsJWBofSCNo4TQRrIJV06uLs6UXzHLuApQQHtAiKgR7Ogd58/0q5DeMom8lyagUOPWOizo/uctu6Td+bYyMgknjcPJYWZY/AeDMe6YlF4AtAoMQlFD84Z3CK7c2Fd/OkWpeoUq1ourYHFy54N40P6l6p6bXHtcQ9tvKj3NDDtRVKzLnved7Asl1nzDn3DwShUFLLhobGuLu4VDcUXC8CzxdlCVcHWZEKxcI/31D2SOuW5Q95LhHUjesAJwAAAABJRU5ErkJggg==) and select the relevant recipient from the window that appears.
-4. To add multiple recipients, repeat the step 6.
-5. To remove a recipient which is already added, click the respective **Delete** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC).
-6. Add recipients under **CC List** and **BCC List**.
-7. Click **Create** to create the new message template. Detailed page of the created Message template will appear. Observe that there are 5 tabs, **Notification Template, Message, Rich Message, Short Message** and **Attachments.**
+5. To add multiple recipients, repeat the step 4.
+6. To remove a recipient which is already added, click the respective **Delete** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC).
+7. Add recipients under **CC List** and **BCC List**.
+8. Click **Create** to create the new message template. Detailed page of the created Message template will appear. Observe that there are 5 tabs, **Notification Template, Message, Rich Message, Short Message** and **Attachments.**
+9. In the **Notification Template** tab, edit Name, Subject, and Recipients if required.
+10. In the **Message** tab, edit the message text as required which you need to send to recipients.
+
+List of Placeholders:
 
 | Placeholder                                  | Description                                                            |
 | -------------------------------------------- | ---------------------------------------------------------------------- |
@@ -878,7 +881,7 @@ To configure an Escalated Alarm Message Template;
 | Alarm\_Unassigned                            | Returns the Unassignee                                                 |
 | AssignedBy                                   | Returns the Assigned By User                                           |
 | UnassignedBy                                 | Returns the User who unassigned                                        |
-| AlarmPriority                                | Returns the alarm class                                                |
+| AlarmPriority                                | Returns the Returns the alarm priority                                 |
 | OperatorNote                                 | Returns the operator note                                              |
 | PointValue                                   | Returns the Point Value of the alarmed point                           |
 | PointName                                    | Returns the point name                                                 |
@@ -925,12 +928,22 @@ A short Message Template is meant for the messages to be sent to mobile devices,
 2. In the given box, configure the short message using message text and relevant **Placeholders.**
 3. Click **Update.**
 
+#### Configure Push Notifications
+
+You can configure alternate notification message to be sent as a push notification through mobile apps. To configure a push notification;
+
+1. On the Message Template detailed page, click the **Push Notifications** tab.
+2. Click the **Add New Push Notifications** link.
+3. Select the required **Mobile App Name.**
+4. Type in the message to be sent.
+5. Click **Add**.
+
 #### Add Attachments to Message Template
 
 You can attach attachments related to the Message to be sent.
 
 1. On the Message Template detailed page, click **Attachments** tab.
-2. Click the **Add** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAfhJREFUSEu1lllPg1AQhXvZGkNBW6lafTEucYkm/v9fYaKpGpf0ydZQaGWJadk8CF4LBUKhNn0AMvPNYe5cziWGMWr8z48UoH3ft23bNKzZbO55nuu4HM+xLNtsCpLcEkWRYZgCVdlogMaqPplMG0GQm0xIu72ldDsolhmTgTYMczT88D2/TJ8IQ3r7e7IsLQen0aqqaapWBroYs610ujtKKivRrGpcELWxjtxctGmaFfRSHHLRyUV6rNp13eH7x6p9SMVjhcChD2O0rk2K1+3s/Pry6gZ/wmTPA4gggJNAY351fVpTcpQODmjRdajasuyi+V2pZhCYprWA/r1ZCZIXbEMoVf31NVsLNIJQWrhlnh6fAz+xobFWF5fXZeo99O8C31uMxP48Oz+Ne53iliEWxFBauIyoUxOXSCcxLWzI68vAmc+L6Zhrlgsnun9/WxzJC8LxyWHckI2N5hpVU1rYELElrhFNaSFaklqN3wbVrUFISKNzDR+CX9SF/uSDQ10ttgJ8sd5eByWdJU8EwzJHx4ccx/2pxhXu93q7NYWDQLnxhERE+Bt8qDIduSmHTBgY/K2z3a5AR9ayN2Y7+vB9VHb3E7J/UM7RI8mO44zH+ufUKD6HbG7JitLheT7zRcuenjBCnuthr2OhBIGXN6WKp6cK7V5O+QaIDOrF/icMDwAAAABJRU5ErkJggg==).
+2. Click the **Add** icon![](<.gitbook/assets/Screenshot\_12 (2).png>) .
 3. In the **Name** box, type a name for the attachment.
 4. In the **Type** box, select ‘**File (Attach a File)**’ option.
 5. Select other **Options**.
@@ -946,7 +959,7 @@ You can attach attachments related to the Message to be sent.
 ### Delete a Message Template
 
 1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to delete and click on it to go to its detail page.
-2. Click the **Delete this Template** link or click the **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) on the side bar on the right.
+2. Click the **Delete this Template** link or click the **Delete** icon![](<.gitbook/assets/Screenshot\_11 (4).png>) on the side bar on the right.
 3. A message to confirm the deletion appears. Click **Delete**.
 
 ### Export a Message Template
@@ -954,21 +967,25 @@ You can attach attachments related to the Message to be sent.
 To export a Message Template;
 
 1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to export and click on it to go to its detailed page.
-2. Click **Export** link ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAIAAAA44esqAAAAAXNSR0IArs4c6QAAActJREFUOE9jfPX8FQO5gIlcjSB9I1EzI67Qvre5bvZ5YKAYp9b5K+EIVZwB9vv7u7fvgOjTN9zxMWhC+9ubl2+/ff8GRJ++Q5z7+/snEPfbuxdvoCIIb6AH2Lenuyb2b7r/B82jLDL22SWBqlyowuh+5pJ2yy/0U2RBVoVdJ3ry/P3u9sE9F7+h6Ifq/HZ518E7b3+j2gx29u+3N09tW7fl7P3vIOeyaCS2Zxizgty/7bc1yLW/z82qW3QJ7GUWGbPgcA8LdSFWIIfx9sbqymW3wZrEta0dPKws1MVBEuDA+vablQvKAVmwf8fBI1dfgcNDPry70Jbl9+/fIJ6YeWZyhCFcG0QzXCeILaxuHaJuZnN+9ezpp14y/PkD9AIsZF6dnN5+kkVI097ZzdlMVQRmN8yPv9/cObF3z4GDN14ixwNKsP55d33vaiBi4ZQ3DvL1slIRZnh3+9iObZvP3f6EHnkgY5H8jDsNY8qwyIc3FdpiCW18hrBwKhr5BTlDAxUlhQHj+diOjevOPQBHGUo6AXvE1UpFAjk0sOZnUPBs3rzp9MPvDJwKpj7+HmaqkuhBCPYzvqIXGI2srNh0QR2FNz/j1Qk0gKLCAACfStoYknNA3QAAAABJRU5ErkJggg==) on the Side bar.
+2. Click **Export** link ![](.gitbook/assets/Screenshot\_15.png) on the Side bar.
 3. Save the attachment.
+
+### Localized Messages
+
+Click **Localized Messages** link in the side bar to send the required message in another language. Available language/s will be listed in a QI window. Click the required language.
 
 ## Alarm Escalation Disable Message Templates
 
-**Path**\
-**Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) on the Application Dashboard 🡪 **Configure** section 🡪 **Alarm Escalation Disable Message Templates 🡪 Escalation Disable Message Templates** search page\
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Escalation Disable Message Templates 🡪 Escalation Disable Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>\
 \
 To configure an Alarm Escalation Disable Message Template;
 
-1. On the Escalation Disable Message Templates search page, click the **Add** **New Message Template** link. New Point Message Template configuration page will appear.
-2. Follow the relevant steps under the section named “**Create a New Escalated Alarm Message Template”** described above.
+1. On the Escalation Disable Message Templates search page, click the **Add** **New Message Template** link. New Alarm Escalation Disable Message Template configuration page will open.
+2. Follow the relevant steps under the section named [“**Create a New Escalated Alarm Message Template”** ](chapter-3-configuration-of-prerequisites.md#create-a-new-escalated-alarm-message-template)described above.
 
 _<mark style="color:blue;">Setting under App Configuration</mark>_\
-_<mark style="color:blue;">**Alarm Escalation Disable Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Alarm Escalation Disable Message Templates) will be populated in “</mark><mark style="color:blue;">**Alarm Escalation Disable Message Template**</mark><mark style="color:blue;">” Drop down box in</mark>_ _<mark style="color:blue;">**App Configuration page,**</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">which enables user to select a relevant message template.</mark>
+_<mark style="color:blue;">**Alarm Escalation Disable Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Alarm Escalation Disable Message Templates) will be populated in “</mark><mark style="color:blue;">**Alarm Escalation Disable Message Template**</mark><mark style="color:blue;">” Drop-down box in</mark>_ _<mark style="color:blue;">**App Configuration page,**</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">which enables user to select a relevant message template.</mark>
 
 ## Link Templates & Links
 
@@ -986,7 +1003,7 @@ To create Link Templates on an Equipment Template;
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates** Search page will appear.
 2. Go to the detailed page of the required **Equipment Template**.
-3. On the **Link Templates** tab, click the **Add** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAdCAIAAABE/PnQAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAf9JREFUSEu1lmlPwkAQhtlexJRWgXp/MR4BiST+/19hovGIR/wkmNKCLQ2BXr6klS6lrT204Qubmeedmd3ZWWIYw9p/fiRbwPM8y7JMYzqfL1zXdWyH4zmWZet1QZIboigyDJMdXqoAcCNVH48nNd9PRRDSbO4ouy1IptkkCxiGORx8eq6Xp3iEIYdHB7IsJRonCKiqpqlaHjRt01Zau3vKple8guXo4GojHb6/CJimWSL2FRS+qG1MI8rAcZzBx2fRysTssXPg0IuRgK6Ns3e10+33rq7xI0zqmQEBnAQBnHddn1QMP3AHB7QVKsxgOrWyznshZd83zemGALVUiJZobCHcny/MYDabV+euCDQtbLSnx2ffW7sSsJOXvX4e1Yf7W99zaUv0dqd7EayEGcToebgZNjQtFIBmReiaO4loYYleX97txSJbA33AcssOuL+7ybbkBeHs/GStRFtb9T/MgKaFJRIb4h8K0LRQQJIaNapwlcQIWdJifYDJh9lUifvjDA49R6OBg1vw7fU95xRLC4VhmdOzE47j4hngP1YPDvcrJgECTY8aLeBirmLyldaA7+Zkjo9MzNVWu1lCA16JMzn1VTH4GOa9Pwg5Oi7yqgjCt217NNK/Jkb2u2h7R1aUFs/zaUkXeNnhmLmOi9sC2ygIvLwtVXrZldiGRJdvGAPqxTaNp4oAAAAASUVORK5CYII=).
+3. On the **Link Templates** tab, click the **Add** icon![](<.gitbook/assets/Screenshot\_12 (2).png>).
 4. In the **Link Name** box, type a name for the **Link** template.
 5. Click **Add**.
 
@@ -1000,13 +1017,14 @@ After creating **Link Templates** on **Equipment Template** configuration page, 
 \
 To configure **Links** under **Equipment** configuration page;
 
-1. Click **Equipment** tab on the IBMS home page or go to Settings🡪View🡪Equipment. Equipment search page will appear.
+1. Click **Equipment** tab on the IBMS home page or go to **Settings🡪View🡪Equipment.** Equipment search page will appear.
 2. Search by the respective **Equipment Template** by using the **Equipment Template** filter on the Side bar.
 3. Click the **Equipment** name to go to the Equipment details page.
 4. Click the **Links** tab. Pre-configured Link template name/names will be displayed.
 5. Click the respective **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAIAAAAT2oadAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsIBw3GpnQAAAmxJREFUSEu9lm9zmkAQxsuBWseIpoB/cGKnk07zspPOtN//U3RSx7dN04IaQYICR/ooHTngDtBO4vDCgd3nx+6yuyf5/uObF/6RF9bfy0uVccRx7Hmes3Z3ux2lcRSGSqMhy6TVaqm9bqfTIaTiRcsYlFLbWqxWj89xLApXIuTysq8bmizLQhtRHI7j/Lr/HVNaJ5lEJmNzpKoq15gfh2XZ9h+7jjproxu6MdCLXpxUngeAtG3Z8K1muK57RgRHXfgiyTlMJo4oiu5/PpyQIkkqGqOK0GHvZxjLxapmkTVj8Pn26+2Xb+bkKoeBAnT4DPTBcpl5JgpoMBpPpx+SthiOzM5FN2cJHagdb6ZxbDabkj44OgAwmUxZUUVRcgzooK4chutsKisxGJk5AJq/WGTobFyPw/D9XTnjAMhkPwzD+fzuOeb0KauW5orSsITBBcxm34PtluvFqqWMmAqHkm4MixGUAEBl1VIGZo4oDsddIy3Hp/hfDoAlZiWnHrLc4DImV+/DIIBogqkDgJmipGoprd1ucRlqt3d9fZNgPM+tjCARYdVSxkW3I8pVV1X/Ye6ERc75smrpbEdnzn7Mi23YetsmZD+XgiCg2UEkeicU49PNx+N+ZCpz2GhFt93W95+ecNUEQAE67ALOfEua/o6IV2blFEgMoAAd1jjDwOQZm8OaWiIzKOQmWL4nsJOxMs/GwLe41Tl9h52s6doZGHhx97nw7HM4lzyUDBj2JfAhmZMTzyWJP1rashbO2inbK5LU6/cMQ2s0+GNiP1dOOidGEcUXLKOmitxsNnt99X/PiWeUhOvyGmfq12D8BfHtRsnuqWCOAAAAAElFTkSuQmCC).
 6. On the **Link Details** window, type the required URL of the destination page, which will be linked using the respective **Link**.
-7. Click **Update**.
+7. Click **Clear** to erase the entered text if necessary.
+8. After typing the required URL, click **Update**.
 
 {% hint style="info" %}
 _Note – You can apply the pre-configured_ _**Links**_ _to the_ _**Controls**_ _on respective RT Pages._
