@@ -781,12 +781,12 @@ To configure a Dynamic Trend Group;
 
 The following on **Data Sources** are described below.
 
-1. Configure a Data Source
-2. Edit a Data Source
-3. Delete a Data Source
+1. [Configure a Data Source](chapter-3-configuration-of-prerequisites.md#configure-a-data-source)
+2. [Edit a Data Source](chapter-3-configuration-of-prerequisites.md#edit-a-data-source)
+3. [Delete a Data Source](chapter-3-configuration-of-prerequisites.md#delete-a-data-source)
 
-**Path**\
-**Settings icon**![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) **🡪** **Configure** section🡪 **Data Sources**
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings icon**</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Data Sources**</mark>
 
 ### Configure a Data Source
 
@@ -799,8 +799,7 @@ This describes how to configure a custom point using **Data Source script** writ
 5. In the **Units** box, type the Unit of the point. e.g. ‘C’ if the point is to denote temperature.
 6. In the **Data Protocol** list box, select the data protocol used to write the **Data** **Source script**.
 7. In the **Data Source Script** box, write the **Data Source script** to get the required point.
-8. In the **Data Point Script** box, write the Data Point script, which contains the points used by the Data Source Script.
-9. Click **Create**. A new Data Source will be created and listed under **Data Source** search page.
+8. Click **Create**. A new Data Source will be created and listed under **Data Source** search page.
 
 ### Edit a Data Source
 
@@ -817,8 +816,8 @@ This describes how to edit the configuration details of a selected **Data Source
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Data Sources** under **Configure** section. **Search Data Source** page will appear.
 2. In the **Search Data Sources** box, type the name of the **Data Source** or part of the name that you want. Matching data will be listed.
 3. Click the **Point Name** to go to the detail page of the **Data Source**.
-4. Click the **Delete** icon or **Delete this Data Source** link. A message appears to confirm the deletion.
-5. Click **Delete**. Click  to abort the operation.
+4. Click the **Delete** icon ![](<.gitbook/assets/Screenshot\_11 (4).png>)or **Delete this Data Source** link. A message appears to confirm the deletion.
+5. Click **Delete**. Click ![](<.gitbook/assets/Screenshot\_10 (4).png>) to abort the operation.
 
 ## Real-Time Reports Configuration
 
