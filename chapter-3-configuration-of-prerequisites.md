@@ -833,6 +833,7 @@ This section describes the following:
 2. [Edit a Message Template](chapter-3-configuration-of-prerequisites.md#edit-message-templates)
 3. [Delete a Message Template](chapter-3-configuration-of-prerequisites.md#delete-a-message-template)
 4. [Export a Message Template](chapter-3-configuration-of-prerequisites.md#export-a-message-template)
+5. [Localised Messages](chapter-3-configuration-of-prerequisites.md#localised-messages)
 
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Escalated Alarm**</mark> <mark style="color:blue;">**Message Templates 🡪 Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
@@ -970,9 +971,9 @@ To export a Message Template;
 2. Click **Export** link ![](.gitbook/assets/Screenshot\_15.png) on the Side bar.
 3. Save the attachment.
 
-### Localized Messages
+### Localised Messages
 
-Click **Localized Messages** link in the side bar to send the required message in another language. Available language/s will be listed in a QI window. Click the required language.
+Click **Localised Messages** link in the side bar to send the required message in another language. Available language/s will be listed in a QI window. Click the required language.
 
 ## Alarm Escalation Disable Message Templates
 
