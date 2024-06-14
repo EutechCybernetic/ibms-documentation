@@ -361,11 +361,11 @@ _Note – Before you add_ _**Alarms**_ _to a **Point Template**, the required_ _
 5. Select **Alarm Class** from the configured **Alarm Classes** in the list box (To see how to configure Alarm Classes, please refer to [**Alarm Classes** ](chapter-3-configuration-of-prerequisites.md#configure-alarm-classes)section).
 6. Select the relevant **Alarm Severity** from the Alarm Severity box. Alarm Severities should be configured beforehand.
 7. If the **Data Type** of the selected Point is “**Value**”;
-   1. In the ‘**Alarm When’** dropdown box, select the relevant condition. (Equals, Is Not Equal To, Greater, Greater or Equal, Less, Less or Equal, Between, Between or Equal and Controller Based Alarms).
+   1. In the ‘**Alarm When’** drop-down box, select the relevant condition. (Equals, Is Not Equal To, Greater, Greater or Equal, Less, Less or Equal, Between, Between or Equal and Controller Based Alarms).
    2. Type in the relevant value/values in **Alarm When** textbox according to the selected above logical expression. E.g. If you have selected “Between” for “Alarm When”, you need to type two values to denote the range.
-   3. In the ‘**Alarm When**’ dropdown box, select ‘Controller Based Alarm’ if the respective alarm is based on controllers.
+   3. In the ‘**Alarm When**’ drop-down box, select ‘Controller Based Alarm’ if the respective alarm is based on controllers.
 8. If the **Data Type** of the selected Point is “**Binary**”;
-   1. If the alarm is a ‘Controller based alarm’, select the ‘Controller based Alarm’ from **Alarm When** dropdown box.
+   1. If the alarm is a ‘Controller based alarm’, select the ‘Controller based Alarm’ from **Alarm When** drop-down box.
    2. If the alarm is not a ‘Controller based alarm’, in the **Alarm When** textbox, type the relevant binary value (0 or 1) of the Alarm point.
 9. If the **Data Type** of the selected Point is “**Text**”;
    1. In the **Alarm Value** box, type the required text to be checked as the condition.
