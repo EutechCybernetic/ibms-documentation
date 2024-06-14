@@ -305,7 +305,7 @@ This section helps you to configure Point Templates for Equipment Templates. The
 3. Then its Point Template detail page will appear. Click the **Point** **Templates** tab.
 4. Click the **Add** icon![](<.gitbook/assets/Screenshot\_12 (1).png>). **New Point Template** dialog box appears.
 5. In the **Point Name** box, type a unique and appropriate name for the new **Point Template**.
-6. In the **Data Type** list box, select the relevant Data Type of the Point (**Value, Binary, Text** or **MultiState**)**.**
+6. In the **Data Type** list box, select the relevant Data Type of the Point (**Value, Binary, Text** or **Multi-state**)**.**
 7. Click **Add** to create the new **Point Template**. Click ![](<.gitbook/assets/Screenshot\_10 (1).png>)icon to close and abort the operation.
 
 ### Edit a Point Template
@@ -319,30 +319,27 @@ This section helps you to configure Point Templates for Equipment Templates. The
    3. Click **Save** to save the changes in the **General** section.
 5. **Properties:** Hover over the **Properties** section and click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>). Configure the following attributes of the Point Template and click **Save**.
 
-<table><thead><tr><th width="262">Properties of Point Template</th><th>Description</th></tr></thead><tbody><tr><td>Data Type</td><td><p>Data Type of the Point</p><p>The Data Type can be any of these types (<strong>Value, Binary, Text</strong> or <strong>MultiState)</strong>.</p></td></tr><tr><td>Read/Write State</td><td>Select Read or Write from the list box to denote the <strong>Point</strong> as read-only or write-only.</td></tr><tr><td>Units</td><td>Select the unit of measurement from the supported units in the combo box. (e.g. Point Template : Return Air Temperature, Units: Celsius (C) )</td></tr><tr><td>Valid Range (L:H)</td><td>This range will be the Valid Range (Low: High) of Point values. SSIF will send only Point Values within this valid range and rest of the Point values will be ignored.<br>E.g. 0.01 :1)</td></tr><tr><td>Display Range (L:H)</td><td>Display Range shows the formatted ‘Valid Range’ to give a proper look to the Point Values sent by SSIF to make it more convenient in usage (e.g. Valid Range is multiplied by 100 to make it ‘Display Range’).<br>Display Range (Low: High) e.g. 1:100</td></tr><tr><td>Round Off</td><td>Point Value will be rounded off up to this decimal point e.g. Round Off value is 1 --> if the real value is 2.46, the value will be rounded off to 1 decimal point and make it 2.5</td></tr><tr><td>Deadband</td><td>If the difference between the new Point Value and the existing Point value is plus or minus the Deadband, the new Point Value will be ignored. If the difference of the new Value falls between the deadband, the new Point value will be ignored. E.g. 0.5 and -0.5</td></tr><tr><td>Polling Frequency</td><td>Frequency of polling in seconds for the value you monitor from Sub System Interface.</td></tr><tr><td>Also apply for overridden points</td><td>Select this check box to apply the settings under <strong>Properties</strong> for overridden points</td></tr></tbody></table>
+<table><thead><tr><th width="262">Properties of Point Template</th><th>Description</th></tr></thead><tbody><tr><td>Data Type</td><td><p>Data Type of the Point</p><p>The Data Type can be any of these types (<strong>Value, Binary, Text</strong> or <strong>Multi-state)</strong>.</p></td></tr><tr><td>Read/Write State</td><td>Select Read or Write from the list box to denote the <strong>Point</strong> as read-only or write-only.</td></tr><tr><td>Units</td><td>Select the unit of measurement from the supported units in the combo box. (e.g. Point Template : Return Air Temperature, Units: Celsius (C) )</td></tr><tr><td>Valid Range (L:H)</td><td>This range will be the Valid Range (Low: High) of Point values. SSIF will send only Point Values within this valid range and rest of the Point values will be ignored.<br>E.g. 0.01 :1)</td></tr><tr><td>Display Range (L:H)</td><td>Display Range shows the formatted ‘Valid Range’ to give a proper look to the Point Values sent by SSIF to make it more convenient in usage (e.g. Valid Range is multiplied by 100 to make it ‘Display Range’).<br>Display Range (Low: High) e.g. 1:100</td></tr><tr><td>Round Off</td><td>Point Value will be rounded off up to this decimal point e.g. Round Off value is 1 -> if the real value is 2.46, the value will be rounded off to 1 decimal point and make it 2.5</td></tr><tr><td>Deadband</td><td>If the difference between the new Point Value and the existing Point value is plus or minus the Deadband, the new Point Value will be ignored. If the difference of the new Value falls between the deadband, the new Point value will be ignored. E.g. 0.5 and -0.5</td></tr><tr><td>Polling Frequency</td><td>Frequency of polling in seconds for the value you monitor from Sub System Interface.</td></tr><tr><td>Also apply for overridden points</td><td>Select this check box to apply the settings under <strong>Properties</strong> for overridden points</td></tr></tbody></table>
+
+{% hint style="info" %}
+_Note –_ _Reset Value Configuration section will be displayed under Point Template details only if the point’s_ **Read/Write State is ’Write’.**
+{% endhint %}
 
 **Reset Value Configuration**: Click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) icon next to the **Reset Value Configuration** section to edit the following details.
 
 1.  **Reset Value** – This is used to configure the Consultant recommended default value for Point Template.&#x20;
 
     _**Note**: You can override this consultant recommended Reset value at each Point level in the respective Point Template according to your requirement._
-2. **Also apply for overridden points:**
-3. Enter **Previous Reset Value, Configured User** and **Configured Date Time.**
-4. Click **Save.**
-5. **Trend**: Click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) icon next to the **Trend** section to edit the following details.
+2. **Also apply for overridden points:** Select this check box to apply the settings under Reset Value Configuration for overridden points.
+3. Click **Save.**
+4. **Trend**: Click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) icon next to the **Trend** section to edit the following details.
    1.  **Use Controller Based Trends ­­-** select this check box to use the trends that get recorded at Controller level.&#x20;
 
        _**Note:** If “Use Controller Based Trends” check box is selected, “Sample Interval” and “Change of Value (COV) trending” fields will be hidden._
-   2. **Sample Interval(trending) –** Trending sample interval frequency in minutes.
+   2. **Sample Interval (trending) –** Trending sample interval frequency in minutes
    3. **Change of Value (COV) trending –** Select this checkbox to use COV (Change of Value) of point to trend instead of poling for given trending intervals.
-   4. **Also apply for overridden points** - Select this check box to apply the settings under **Reset Value Configuration** for overridden points.
+   4. **Also apply for overridden points** - Select this check box to apply the settings under **Trend** section for overridden points.
    5. Click **Save**.
-
-
-
-{% hint style="info" %}
-_Note –_ _Reset Value Configuration section will be displayed under Point Template details only if the point’s_ **Read\_/Write State is ’Write’.**
-{% endhint %}
 
 ### Add Alarm to Point Template
 
