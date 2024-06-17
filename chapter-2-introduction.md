@@ -156,6 +156,8 @@ This Weblet shows the alarms that are confirmed by the logged in user along with
 * Click the required **Equipment name** on the Weblet to open a pop-up window with the details of the respective Equipment.
 * Click an **Alarm name** on the Weblet, to open the respective Alarm’s detailed page.
 
+<figure><img src=".gitbook/assets/Screenshot_36.png" alt="" width="440"><figcaption></figcaption></figure>
+
 #### Alarms Assigned to Me Weblet
 
 This weblet shows the alarms that are assigned to the logged in user.
