@@ -60,9 +60,9 @@ Chapter 6 “**View**” describes the following:
   * [Alarms Search](chapter-6-viewing-items.md#alarms-search)
   * [Alarm Viewer](chapter-6-viewing-items.md#alarm-viewer)
   * [Alarm History](chapter-6-viewing-items.md#alarm-history)
-  * [Alarm History Viewer](chapter-6-viewing-items.md#alarm-history-viewer)
-  * [Alarm Bell Icon on Toolbar](chapter-6-viewing-items.md#alarm-bell-icon-on-toolbar)
-  * [Alarm Viewer Pop-up](chapter-6-viewing-items.md#alarm-viewer-pop-up)
+  * Alarm History Viewer
+  * Alarm Bell Icon on Toolbar
+  * Alarm Viewer Pop-up
 * [View Point Write History](chapter-6-viewing-items.md#point-write-history)
 * [View Real-Time Reports](chapter-8-reports.md#view-real-time-reports)
 * [View Interface Gateways](chapter-6-viewing-items.md#view-interface-gateways)
@@ -71,30 +71,6 @@ Chapter 6 “**View**” describes the following:
 * [View Health Status](chapter-6-viewing-items.md#view-health-status)
 * [Alarm History Download From BACnet Controllers](chapter-6-viewing-items.md#alarm-history-download-from-bacnet-controllers)
   * [View BACnet Devices](chapter-6-viewing-items.md#view-bacnet-devices)
-*
-* [View Equipment](chapter-1-how-to-use-this-guide.md#view-equipment)
-* [View Systems](chapter-1-how-to-use-this-guide.md#view-systems)
-* [View Dashboards](chapter-1-how-to-use-this-guide.md#view-dashboards)
-* [View Points](chapter-1-how-to-use-this-guide.md#view-points)
-* [View Point Templates](chapter-1-how-to-use-this-guide.md#view-point-templates)
-* [View Link Templates](chapter-1-how-to-use-this-guide.md#view-link-templates)
-* [View Trends](chapter-1-how-to-use-this-guide.md#view-trends)
-* [View Trend Groups](chapter-1-how-to-use-this-guide.md#view-trend-groups)
-* [View Alarms & Alarm History](chapter-1-how-to-use-this-guide.md#view-alarms-and-alarm-history)
-  * [Alarm Search](chapter-1-how-to-use-this-guide.md#alarms-search)
-  * [Alarm Viewer](chapter-1-how-to-use-this-guide.md#alarm-viewer)
-  * [Alarm History](chapter-1-how-to-use-this-guide.md#alarm-history)
-  * [Alarm History Viewer](chapter-1-how-to-use-this-guide.md#alarm-history-viewer)
-  * [Alarm Bell Icon on Toolbar](chapter-1-how-to-use-this-guide.md#alarm-bell-icon-on-toolbar)
-  * [Alarm Viewer Pop-up](chapter-1-how-to-use-this-guide.md#alarm-viewer-pop-up)
-* [Point Write History](chapter-1-how-to-use-this-guide.md#point-write-history)
-* [View Real-time Reports](chapter-1-how-to-use-this-guide.md#view-real-time-reports)
-* [View Interface Gateways](chapter-1-how-to-use-this-guide.md#view-interface-gateways)
-* [View Interface Transaction History](chapter-1-how-to-use-this-guide.md#view-interface-transaction-history)
-* [View Overridden Points](chapter-1-how-to-use-this-guide.md#view-overridden-points)
-* [View Health Status](chapter-1-how-to-use-this-guide.md#view-health-status)
-* [Alarm History Download From BACnet Controllers](chapter-1-how-to-use-this-guide.md#alarm-history-download-from-bacnet-controllers)
-  * [View BACnet Devices](chapter-1-how-to-use-this-guide.md#view-bacnet-devices)
 
 Chapter 7 “**Manage**” describes managing the following:
 
