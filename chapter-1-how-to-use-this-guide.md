@@ -14,7 +14,7 @@ Chapter 2 consists of the following:
 
 * [Application Overview](chapter-2-introduction.md)
 * [Application Concepts](chapter-2-introduction.md#application-concepts)
-* [Getting Started](chapter-2-introduction.md#getting-started) – This section describes how to access the IBMS App, Application’s Home Page, Dashboard and Toolbar, how to log out from the system and Glossary of IBMS App Terms
+* [Getting Started](chapter-2-introduction.md#getting-started) – This section describes how to access the IBMS App, Application’s Home Page, Dashboard and Toolbar, how to log out from the system and Glossary of IBMS App Terms.
 
 Chapter 3 consists of **Configuration of Prerequisites** section.\
 \
