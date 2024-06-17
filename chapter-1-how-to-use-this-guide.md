@@ -68,7 +68,9 @@ Chapter 6 “**View**” describes the following:
 * [View Interface Gateways](chapter-6-viewing-items.md#view-interface-gateways)
 * [View Interface Transaction History](chapter-6-viewing-items.md#view-interface-transaction-history)
 * [View Overridden Points](chapter-6-viewing-items.md#view-overridden-points)
+* [View Health Status](chapter-6-viewing-items.md#view-health-status)
 * [Alarm History Download From BACnet Controllers](chapter-6-viewing-items.md#alarm-history-download-from-bacnet-controllers)
+  * [View BACnet Devices](chapter-6-viewing-items.md#view-bacnet-devices)
 
 Chapter 7 “**Manage**” describes managing the following:
 
