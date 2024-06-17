@@ -54,10 +54,10 @@ Chapter 6 “**View**” describes the following:
 * [View Points](chapter-6-viewing-items.md#view-points)
 * [View Point Templates](chapter-6-viewing-items.md#view-point-templates)
 * [View Link Templates](chapter-6-viewing-items.md#view-link-templates)
-* View Trends
-* View Trend Groups
-* View Alarms & Alarm History
-  * Alarms Search
+* [View Trends](chapter-6-viewing-items.md#view-trends)
+* [View Trend Groups](chapter-6-viewing-items.md#view-trend-groups)
+* [View Alarms & Alarm History](chapter-6-viewing-items.md#view-alarms-and-alarm-history)
+  * [Alarms Search](chapter-6-viewing-items.md#alarms-search)
   * Alarm Viewer
   * Alarm History
   * Alarm History Viewer
