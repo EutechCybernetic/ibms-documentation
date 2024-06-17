@@ -54,20 +54,20 @@ Chapter 6 “**View**” describes the following:
 * [View Points](chapter-6-viewing-items.md#view-points)
 * [View Point Templates](chapter-6-viewing-items.md#view-point-templates)
 * [View Link Templates](chapter-6-viewing-items.md#view-link-templates)
-* [View Trends](chapter-6-viewing-items.md#view-trends)
-* [View Trend Groups](chapter-6-viewing-items.md#view-trend-groups)
-* [View Alarms & Alarm History](chapter-6-viewing-items.md#view-alarms-and-alarm-history)
-  * [Alarms Search](chapter-6-viewing-items.md#alarms-search)
-  * [Alarm Viewer](chapter-6-viewing-items.md#alarm-viewer)
-  * [Alarm History](chapter-6-viewing-items.md#alarm-history)
+* View Trends
+* View Trend Groups
+* View Alarms & Alarm History
+  * Alarms Search
+  * Alarm Viewer
+  * Alarm History
   * Alarm History Viewer
   * Alarm Bell Icon on Toolbar
   * Alarm Viewer Pop-up
-* [View Point Write History](chapter-6-viewing-items.md#point-write-history)
+* View Point Write History
 * [View Real-Time Reports](chapter-8-reports.md#view-real-time-reports)
-* [View Interface Gateways](chapter-6-viewing-items.md#view-interface-gateways)
-* [View Interface Transaction History](chapter-6-viewing-items.md#view-interface-transaction-history)
-* [View Overridden Points](chapter-6-viewing-items.md#view-overridden-points)
+* View Interface Gateways
+* View Interface Transaction History
+* View Overridden Points
 * [View Health Status](chapter-6-viewing-items.md#view-health-status)
 * [Alarm History Download From BACnet Controllers](chapter-6-viewing-items.md#alarm-history-download-from-bacnet-controllers)
   * [View BACnet Devices](chapter-6-viewing-items.md#view-bacnet-devices)
