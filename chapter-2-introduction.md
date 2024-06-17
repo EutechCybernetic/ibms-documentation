@@ -85,7 +85,7 @@ _Note –Click_ ![](.gitbook/assets/icon\_1.png)_icon on Weblets to expand the a
 
 **Alarm Map** Weblet shows the Building alarms on map that are in “Alarmed’’ status for a given **Site.**
 
-By default, the **Alarm Map** link opens Logged in user’s **Site** with alarms.
+By default, the **Alarm Map** weblet opens Logged in user’s **Site** with alarms.
 
 To view another Site map, select the required Site under **Site Map** box.
 
