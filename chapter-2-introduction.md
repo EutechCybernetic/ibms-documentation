@@ -196,14 +196,14 @@ _Note: Click on the Weblet and drag to zoom-in the graph._ Click Reset Zoom butt
 
 Shows the count of the alarms as per **alarm status** (e.g. New, Acknowledged, etc.) during the selected time range.
 
-_**Note:** Click on a bar on the chart to open Quick Info window. Click the **Alarm Stage** (e.g. Acknowledged) link on the QI popup window. Alarm Viewer will open with relevant tab._
+_**Note:** Click on a bar on the chart to open Quick Info window. Click the **Alarm Stage** (e.g. Acknowledged) link on the QI pop-up window. Alarm Viewer will open with relevant tab._
 
 #### Faulty Equipment Weblet
 
 Shows the percentage of alarmed equipment as per Asset Category (e.g. AHU) for a time range.\
 
 
-_**Note:** Click on an Asset Category (Equipment Category) on the chart to open its Quick Info window. Click the **Equipment Name** link on the popup window. Alarm Viewer will open applying relevant Equipment as the value in "Asset Category" filter._
+_**Note:** Click on an Asset Category (Equipment Category) on the chart to open its Quick Info window. Click the **Equipment Name** link on the pop-up window. Alarm Viewer will open applying relevant Equipment as the value in "Asset Category" filter._
 
 In the weblet, you can select the required Asset Categories you wish to display on the chart and deselect the Asset Categories not required.
 
