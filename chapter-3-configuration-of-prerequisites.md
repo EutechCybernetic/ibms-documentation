@@ -290,8 +290,9 @@ This section describes the following:
 
 1. [Configure a Point Template](chapter-3-configuration-of-prerequisites.md#configure-a-point-templates)
 2. [Edit a Point Template](chapter-3-configuration-of-prerequisites.md#edit-a-point-template)
-3. [Delete a Point Template](chapter-3-configuration-of-prerequisites.md#delete-a-point-template)
-4. [Search Point Templates](chapter-3-configuration-of-prerequisites.md#search-point-templates)
+3. [Add Alarm to Point Template](chapter-3-configuration-of-prerequisites.md#add-alarm-to-point-template)
+4. [Delete a Point Template](chapter-3-configuration-of-prerequisites.md#delete-a-point-template)
+5. [Search Point Templates](chapter-3-configuration-of-prerequisites.md#search-point-templates)
 
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Templates 🡪 Equipment Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page🡪 Relevant</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Template**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Template Detail**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">page🡪</mark><mark style="color:blue;">**Point Template**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">tab</mark>
@@ -330,9 +331,10 @@ _Note –_ _Reset Value Configuration section will be displayed under Point Temp
 1.  **Reset Value** – This is used to configure the Consultant recommended default value for Point Template.&#x20;
 
     _**Note**: You can override this consultant recommended Reset value at each Point level in the respective Point Template according to your requirement._
-2. **Also apply for overridden points:** Select this check box to apply the settings under Reset Value Configuration for overridden points.
-3. Click **Save.**
-4. **Trend**: Click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) icon next to the **Trend** section to edit the following details.
+2. Enter **Previous Reset Value, Configured User** and **Configured Date Time**.
+3. **Also apply for overridden points:** Select this check box to apply the settings under Reset Value Configuration for overridden points.
+4. Click **Save.**
+5. **Trend**: Click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) icon next to the **Trend** section to edit the following details.
    1.  **Use Controller Based Trends ­­-** select this check box to use the trends that get recorded at Controller level.&#x20;
 
        _**Note:** If “Use Controller Based Trends” check box is selected, “Sample Interval” and “Change of Value (COV) trending” fields will be hidden._
