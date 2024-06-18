@@ -1378,7 +1378,7 @@ To view BACnet Devices;
 2. Type the **BACnet Device ID/BACnet Device Name/Description** in to the Search BACnet Devices input box to search for the BACnet Device desired.
 3. To view BACnet Devices for a selected iViva BACnet Agent ID, use the iViva BACnet Agent ID filter box on the right-side panel.
 4. Click a **BACnet Device ID** to open the respective device’s detailed page.
-5. Links in the right-side panel
+5. The following links will be available in the right-side panel:
    * Scan Devices:
    * Initialize Devices:
    * View Transactions:
