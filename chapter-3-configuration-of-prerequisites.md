@@ -475,19 +475,8 @@ This section describes the following:
 
 1. On the Interface Driver Type search page, click the required **Driver Type** to be edited. Its detailed page will open.
 2. On the **Driver Type Details** tab, hover over the **Basic** **Details** section and click the **Edit** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAaCAIAAADE9MDgAAAAAXNSR0IArs4c6QAAARJJREFUSEtj/PTpBQMNABMNzAQZOWouJGAZSY+3b4+Orl656cK9jwz8ypYxiWE6IljiiFRzv11Z3DDx4CckkxRjOsrtMYwmKd4wDQWaf3/tnnuYDibeXKyGggz8/u072ebiNBRoooSEMHnm4jOUgc823EGCDHMJGJpfH63DhSU94A9fIgzlx14Q4DGXfEPxlA8UGYrH3O/fPuIo6fhsQWGKw/twPZjh8PvNc6CRwmY55akGfOhmE2coVvd+ujq/uu3AWyxGE20ornD4c39JPbrRpBiKJ3xRjI4xdSImTJEDDU86Qxhtnx5GMKLQYgJLOfn727ffcFUfP30TkRBhJbkWJLX8JdYC4stJYk2EqBtq5gIAW6OJ7GpOF98AAAAASUVORK5CYII=).
-3. Edit other necessary details.
+3. Edit necessary details.
 4. Click **Save**.
-
-The following table shows the fields under **Basic Details** section.
-
-| Field                                               | Description                                                                                |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Driver Type                                         | Displays the name given for the Interface Driver Type. You can edit the name if necessary. |
-| Enable Downloading States Text checkbox             |                                                                                            |
-| Enable Downloading Default Values checkbox          |                                                                                            |
-| Parameters                                          | Displays the parameter list of the Interface Driver Type Edit the list if necessary.       |
-| Point Address Decode Format (Real-Time GUI Tooltip) |                                                                                            |
-| Custom Actions                                      |                                                                                            |
 
 ### Upload Binary Files to Interface Driver Type
 
