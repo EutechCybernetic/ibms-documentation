@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [IBMS USER GUIDE](README.md)
 * [Chapter 1: How to Use the Guide](chapter-1-how-to-use-this-guide.md)
 * [Chapter 2: Introduction](chapter-2-introduction.md)
 * [Chapter 3: Configuration of Prerequisites](chapter-3-configuration-of-prerequisites.md)
