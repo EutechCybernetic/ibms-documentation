@@ -77,6 +77,7 @@ Chapter 7 “**Manage**” describes managing the following:
 * [App Configuration](chapter-7-managing-the-application.md#app-configuration)
 * [Manage User Roles](chapter-7-managing-the-application.md#manage-user-roles)
 * [Trend Configuration](chapter-7-managing-the-application.md#trend-configuration)
+* Trend Database Configuration
 * [Bulk Import Data](chapter-7-managing-the-application.md#bulk-import-data)
 * [Processes for Alarms](chapter-7-managing-the-application.md#processes-for-alarms)
 
@@ -88,7 +89,7 @@ Chapter 8 “**Reports”** describes the following:
   * [IBMS Reports](chapter-8-reports.md#ibms-reports)
     * [Location-wise Alarm Summary Report](chapter-8-reports.md#location-wise-alarm-summary-report)
     * [Severity-wise Alarm Summary Report](chapter-8-reports.md#severity-wise-alarm-summary-report)
-    * [Driver-type wise Alarm Summary Report](chapter-8-reports.md#driver-type-wise-alarm-summary-report)
+    * [Driver-type-wise Alarm Summary Report](chapter-8-reports.md#driver-type-wise-alarm-summary-report)
 * Real-Time Reports
   * [Configure a Real-Time Report](chapter-8-reports.md#configure-a-real-time-report)
   * [View Real-Time Reports](chapter-8-reports.md#view-real-time-reports)
