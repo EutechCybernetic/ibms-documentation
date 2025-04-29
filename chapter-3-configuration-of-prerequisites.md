@@ -70,13 +70,13 @@ This section describes the following:
 3. **Subsystem Interface Connector** tab displays the IBMS Subsystem Interface configuration details.
 4. **Equipment** tab displays the assets that are associated with the respective **Zone**.
 
-### Delete Zones
+### <mark style="color:purple;">Delete Zones</mark>
 
 1. Go to the Zones Search page and click the **Zone ID** you want to delete. Detailed page of the selected Zone will appear.
-2. Click the **Delete this Zone** link or **Delete this Item**![](.gitbook/assets/icon_4.png)  icon on the side bar.
+2. Click the **Delete this Zone** link or **Delete this Item**![](.gitbook/assets/icon_4.png)  icon on the sidebar.
 3. A message box to confirm deletion appears. Click Delete to confirm deletion of the Zone, or to close the message box without deleting, click Cancel. If the Zone is in use, a message will appear stating that it cannot be deleted.
 
-### Search Zones
+### <mark style="color:purple;">Search Zones</mark>
 
 1. On the Zones search page, to search by the **Zone** name, type the name of the **Zone** you want in the **Search Zones** box. Matching record/records will be filtered as you type.
 2. To filter **Zones** by the **Site**, select the required **Site** from the box on the top right.
