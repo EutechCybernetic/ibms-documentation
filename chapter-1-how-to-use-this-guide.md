@@ -6,7 +6,7 @@ Firstly, you shall refer to the **Introduction** section to have a basic knowled
 
 The next step is to configure all the prerequisites that are required for the IBMS Application.
 
-## Contents of the Guide
+## <mark style="color:purple;background-color:blue;">Contents of the Guide</mark>
 
 Chapter 2 “**Introduction**” is comprised of ‘**Application** **Overview’** which provides users with brief information about iviva IBMS **Application** and details on getting started.\
 \
@@ -94,7 +94,7 @@ Chapter 8 “**Reports”** describes the following:
   * [Configure a Real-Time Report](chapter-8-reports.md#configure-a-real-time-report)
   * [View Real-Time Reports](chapter-8-reports.md#view-real-time-reports)
 
-## Conventions Used in This Guide
+## <mark style="color:purple;background-color:blue;">Conventions Used in This Guide</mark>
 
 The following shows the description of icons and conventions used throughout the guide.
 
