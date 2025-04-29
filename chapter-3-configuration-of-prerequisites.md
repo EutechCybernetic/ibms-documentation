@@ -116,7 +116,7 @@ _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Classes 🡪 Alarm Classes**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
-### Configure Alarm Classes
+### <mark style="color:purple;">Configure Alarm Classes</mark>
 
 1. On the Alarm Classes search page, click the **New Alarm Class** link on the top right corner. New Alarm Class configuration window appears.
 2. In the **Alarm Class Name** box, type a unique and appropriate name for the new **Alarm Class** and type in a description to the alarm class in the **Description** box.
@@ -126,19 +126,22 @@ _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-
    2. Type the required Alarm Escalation times of rest of the Escalation levels and click **Update**.
 5. Configure the ‘After Hour escalation levels’ of each Severity under the “**After Hour Escalations**” tab as you configured the escalation levels under ‘Working Hour Escalations’.
 
-### Edit Alarm Class Details
+### <mark style="color:purple;">Edit Alarm Class Details</mark>
 
 1. On the **Alarm Classes** search page, search for the required Alarm Class and click the Alarm Class name that you want to edit. Alarm Class detail page will open.
-2. Move the cursor to the **Details** section and click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) that appears.
+2. Move the cursor to the **Details** section and click the **Edit** icon <img src=".gitbook/assets/Screenshot 2024-06-07 132020 (1).png" alt="" data-size="line"> that appears.
 3. Edit the Alarm Class details required and click **Save**.
 4. To edit the Working Hour and After Hour escalations, go to the respective tabs.
 
-### Delete an Alarm Class
+### <mark style="color:purple;">Delete an Alarm Class</mark>
 
 1. On the **Alarm Classes** search page, search for the required Alarm Class and click the name of it to go to its detailed page.
-2. Click the **Delete this Alarm Class** link or **Delete this item** icon![](<.gitbook/assets/Screenshot_11 (3).png>)on the side bar.
+2. Click the **Delete this Alarm Class** link or **Delete this item** icon<img src=".gitbook/assets/Screenshot_11 (3).png" alt="" data-size="line">on the sidebar.
 
-A message box to confirm deletion appears. Click **Delete** to confirm deletion of the Alarm Class, or to close the message box without deleting, click![](<.gitbook/assets/Screenshot_10 (1).png>). If the Alarm Class is in use, a message will appear stating that it cannot be deleted.
+A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Alarm Class**, or to close the message box without deleting, click Cancel <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line">. If the **Alarm Class** is in use, a message will appear stating that it cannot be deleted.\
+
+
+***
 
 ## Alarm Severity
 
