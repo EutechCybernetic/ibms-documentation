@@ -24,6 +24,7 @@ In IBMS application, the following tasks have to be carried out beforehand:
 * [Configure Equipment Templates](chapter-3-configuration-of-prerequisites.md#equipment-templates)
 * [Configure Point Templates](chapter-3-configuration-of-prerequisites.md#point-templates)
 * [Configure Interface Driver Types](chapter-3-configuration-of-prerequisites.md#interface-driver-types)
+* Configure Subsystems
 * [Configure Interfaces](chapter-3-configuration-of-prerequisites.md#interfaces)
 * [Configure Trend Groups](chapter-3-configuration-of-prerequisites.md#trend-groups)
 * [Configure Data Sources](chapter-3-configuration-of-prerequisites.md#data-sources)
@@ -37,7 +38,7 @@ In IBMS application, the following tasks have to be carried out beforehand:
 * [Register Systems](chapter-5-registering-new-items.md#register-new-systems) ( Described under Chapter 5 –Register)
 * [Register Dashboards](chapter-5-registering-new-items.md#register-new-dashboard) ( Described under Chapter 5 –Register)
 
-## Zones
+## <mark style="color:purple;background-color:blue;">Zones</mark>
 
 An IBMS **Zone** is a wrapper around a “**Site**” which logically groups equipment on a Site.
 
@@ -51,18 +52,18 @@ This section describes the following:
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Zones 🡪 Zones**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">Search page</mark>
 
-### Configure Zones
+### <mark style="color:purple;">Configure Zones</mark>
 
 1. On the Zones search page, click the **New Zone** link. A dialog box to configure a new **Zone** appears.
 2. Select the **Location** from the **Location** list box.
 3. In the **Zone ID** box, type the name of the **Zone** that you want to configure.
-4. Click **Add** to create the new **Zone**. Click ![](.gitbook/assets/Screenshot\_10.png)icon to close and abort the operation.
+4. Click **Add** to create the new **Zone**. Click the **Close** icon <img src=".gitbook/assets/Screenshot_10.png" alt="" data-size="line"> to close and abort the operation.
 
-### Edit Zones
+### <mark style="color:purple;">Edit Zones</mark>
 
 1. On the Zones search page, click the **Zone ID** you want to edit. Detailed page of the selected Zone will appear.
 2. **Zone Details** tab displays IBMS Zone details.
-   1. Move the cursor to the **Zone** **Details** section and click the **Edit** icon ![](<.gitbook/assets/Screenshot 2024-06-07 132020.png>)that appears.
+   1. Move the cursor to the **Zone** **Details** section and click the **Edit** icon <img src=".gitbook/assets/Screenshot 2024-06-07 132020.png" alt="" data-size="line">that appears.
    2. Edit the **Zone ID** as required.
    3. **Location** cannot be changed. If required, create a new **Zone** with desired **Site**.
    4. Click **Save**. Click **Cancel** to discard the changes.
@@ -72,7 +73,7 @@ This section describes the following:
 ### Delete Zones
 
 1. Go to the Zones Search page and click the **Zone ID** you want to delete. Detailed page of the selected Zone will appear.
-2. Click the **Delete this Zone** link or **Delete this Item**![](.gitbook/assets/icon\_4.png)  icon on the side bar.
+2. Click the **Delete this Zone** link or **Delete this Item**![](.gitbook/assets/icon_4.png)  icon on the side bar.
 3. A message box to confirm deletion appears. Click Delete to confirm deletion of the Zone, or to close the message box without deleting, click Cancel. If the Zone is in use, a message will appear stating that it cannot be deleted.
 
 ### Search Zones
@@ -135,9 +136,9 @@ _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-
 ### Delete an Alarm Class
 
 1. On the **Alarm Classes** search page, search for the required Alarm Class and click the name of it to go to its detailed page.
-2. Click the **Delete this Alarm Class** link or **Delete this item** icon![](<.gitbook/assets/Screenshot\_11 (3).png>)on the side bar.
+2. Click the **Delete this Alarm Class** link or **Delete this item** icon![](<.gitbook/assets/Screenshot_11 (3).png>)on the side bar.
 
-A message box to confirm deletion appears. Click **Delete** to confirm deletion of the Alarm Class, or to close the message box without deleting, click![](<.gitbook/assets/Screenshot\_10 (1).png>). If the Alarm Class is in use, a message will appear stating that it cannot be deleted.
+A message box to confirm deletion appears. Click **Delete** to confirm deletion of the Alarm Class, or to close the message box without deleting, click![](<.gitbook/assets/Screenshot_10 (1).png>). If the Alarm Class is in use, a message will appear stating that it cannot be deleted.
 
 ## Alarm Severity
 
@@ -208,8 +209,8 @@ This section describes the following:
 
 ### Delete a System Type
 
-1. On the System Types search page, click the required System Type name to go to its detail page and click the **Delete this System Type** link/**Delete** icon![](<.gitbook/assets/Screenshot\_11 (2).png>) on the side panel.
-2. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the System Type, or to close the message box without deleting, click ![](<.gitbook/assets/Screenshot\_10 (1).png>).
+1. On the System Types search page, click the required System Type name to go to its detail page and click the **Delete this System Type** link/**Delete** icon![](<.gitbook/assets/Screenshot_11 (2).png>) on the side panel.
+2. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the System Type, or to close the message box without deleting, click ![](<.gitbook/assets/Screenshot_10 (1).png>).
 3. &#x20;If the System Type is in use, you will not be allowed to delete it.
 
 ## Equipment Templates
@@ -231,7 +232,7 @@ This section describes the following:
 1. On the Equipment Templates search page, click the **New Equipment Template** link. **New Equipment Template** dialog box appears.
 2. In the **Equipment Template** box, type a unique and appropriate name for the new Equipment template.
 3. In the **Description** box, type a suitable description on **Equipment template.**
-4. Click **Create** to create the new **Equipment Template**. Click ![](<.gitbook/assets/Screenshot\_10 (1).png>)icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
+4. Click **Create** to create the new **Equipment Template**. Click ![](<.gitbook/assets/Screenshot_10 (1).png>)icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
 
 * To see how to edit Equipment Template Details, please refer to the [Edit Equipment Template ](chapter-3-configuration-of-prerequisites.md#edit-an-equipment-template)section below.
 * To see how to configure Point Templates, please refer to the [Point Templates](chapter-3-configuration-of-prerequisites.md#point-templates) section.
@@ -262,8 +263,8 @@ This section describes the following:
 To delete an **Equipment Template**;
 
 1. On the Equipment Templates search page, click the **Equipment Template** that you want to delete, to go to its detailed page.
-2. Click the **Delete this Equipment Template** link or **Delete** icon ![](<.gitbook/assets/Screenshot\_11 (4).png>)on the Side bar.
-3. A message to confirm deletion appears. Click **Delete** to confirm deletion of the **Equipment Template,** or to close the message box without deleting, click ![](<.gitbook/assets/Screenshot\_10 (1).png>)icon on the top left of the message box.
+2. Click the **Delete this Equipment Template** link or **Delete** icon ![](<.gitbook/assets/Screenshot_11 (4).png>)on the Side bar.
+3. A message to confirm deletion appears. Click **Delete** to confirm deletion of the **Equipment Template,** or to close the message box without deleting, click ![](<.gitbook/assets/Screenshot_10 (1).png>)icon on the top left of the message box.
 
 #### If the Equipment Template is in use
 
@@ -304,10 +305,10 @@ This section helps you to configure Point Templates for Equipment Templates. The
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates search** page will appear.
 2. Search and click the required **Equipment Template** to which you want to add a new **Point Template**.
 3. Then its Point Template detail page will appear. Click the **Point** **Templates** tab.
-4. Click the **Add** icon![](<.gitbook/assets/Screenshot\_12 (1).png>). **New Point Template** dialog box appears.
+4. Click the **Add** icon![](<.gitbook/assets/Screenshot_12 (1).png>). **New Point Template** dialog box appears.
 5. In the **Point Name** box, type a unique and appropriate name for the new **Point Template**.
 6. In the **Data Type** list box, select the relevant Data Type of the Point (**Value, Binary, Text** or **Multi-state**)**.**
-7. Click **Add** to create the new **Point Template**. Click ![](<.gitbook/assets/Screenshot\_10 (1).png>)icon to close and abort the operation.
+7. Click **Add** to create the new **Point Template**. Click ![](<.gitbook/assets/Screenshot_10 (1).png>)icon to close and abort the operation.
 
 ### Edit a Point Template
 
@@ -359,7 +360,7 @@ _Note – Before you add_ _**Alarms**_ _to a **Point Template**, the required_ _
    3. Click the **Point Templates** tab.
 2. Access Point Template via Point Template Search page. (**Settings🡪 View🡪 Point Templates**)
 3. Click the name of the **Point Template** you want and navigate to Point Template details page. Scroll down and go to the **Alarm** section.
-4. Click on **Add** icon![](<.gitbook/assets/Screenshot\_12 (1).png>) under **Alarm** section. **Add Alarm** dialog box appears.
+4. Click on **Add** icon![](<.gitbook/assets/Screenshot_12 (1).png>) under **Alarm** section. **Add Alarm** dialog box appears.
 5. Select **Alarm Class** from the configured **Alarm Classes** in the list box (To see how to configure Alarm Classes, please refer to [**Alarm Classes** ](chapter-3-configuration-of-prerequisites.md#configure-alarm-classes)section).
 6. Select the relevant **Alarm Severity** from the Alarm Severity box. Alarm Severities should be configured beforehand.
 7. If the **Data Type** of the selected Point is “**Value**”;
@@ -377,7 +378,7 @@ _Note – Before you add_ _**Alarms**_ _to a **Point Template**, the required_ _
 11. Enter Alarm Deadband, Clearance Deadband, Alarm Delay and Clearance Delay accordingly. [(See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
 12. Select **Enable only for working hours/ Enable only for non-working hours** checkboxes accordingly. [(See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
 13. In the **Alarm Message** box, type the required alarm message to be relayed.
-14. Click **Add.** Click ![](<.gitbook/assets/Screenshot\_10 (4).png>)icon to abort operation.
+14. Click **Add.** Click ![](<.gitbook/assets/Screenshot_10 (4).png>)icon to abort operation.
 
 #### **Alarm Observation Period/ Alarm Trigger Period and Deadband for Alarms**
 
@@ -395,7 +396,7 @@ _Note – If the alarm is a ‘**Controller based alarm**’, you are not requir
 2. Click the name of the **Point Template** you want and go to its details page.
 3. Scroll down to Alarms section and click on ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon on the far right corner of the alarm.
 4. Edit the Alarm details as required.
-5. Click **Update.** Click![](<.gitbook/assets/Screenshot\_10 (4).png>) icon to discard changes.
+5. Click **Update.** Click![](<.gitbook/assets/Screenshot_10 (4).png>) icon to discard changes.
 
 #### Add/Change Alarm Condition
 
@@ -411,7 +412,7 @@ It is required to check whether there are active alarms in the system for the re
 
 When a Controller Based Alarm is added/enabled for a particular point template or point, it is required to have all other iviva based alarms to be disabled.\
 E.g.\
-_Validation Confirmation message at Point Template level_: “There are enabled iviva alarms for this point template. Please disable/remove them before adding a controller based alarm.”
+&#xNAN;_&#x56;alidation Confirmation message at Point Template level_: “There are enabled iviva alarms for this point template. Please disable/remove them before adding a controller based alarm.”
 
 * **When adding an iviva alarm while having enabled Controller based alarms**
 
@@ -453,7 +454,7 @@ To delete a **Point Template;**
 
 {% hint style="info" %}
 _Note –By default, the Interface Driver Types will be configured with the Interface installation._\
-_Interface Driver Type Configuration is provided for configuring parameters for Custom Interfaces._
+&#xNAN;_&#x49;nterface Driver Type Configuration is provided for configuring parameters for Custom Interfaces._
 {% endhint %}
 
 \
@@ -494,8 +495,8 @@ To upload a Binary File;
 ### Delete an Interface Driver Type
 
 1. On the Interface Driver Type Search page, click the name of the Interface Driver Type that you need to delete, to go to its detailed page.
-2. Click the **Delete** icon![](<.gitbook/assets/Screenshot\_11 (4).png>) or click the **Delete this Driver Type** link on the side panel under Driver Type Details tab. A message box to confirm deletion appears.
-3. Click **Delete** to confirm deletion of the **Interface Driver Type**, or to close the message box without deleting, click the icon![](<.gitbook/assets/Screenshot\_10 (4).png>).
+2. Click the **Delete** icon![](<.gitbook/assets/Screenshot_11 (4).png>) or click the **Delete this Driver Type** link on the side panel under Driver Type Details tab. A message box to confirm deletion appears.
+3. Click **Delete** to confirm deletion of the **Interface Driver Type**, or to close the message box without deleting, click the icon![](<.gitbook/assets/Screenshot_10 (4).png>).
 4. If the Interface Driver Type is in use, you cannot delete it.
 
 ## Interfaces
@@ -633,8 +634,8 @@ Debug tab displays the debug information which is managed by SSI when troublesho
 ### Delete an Interface
 
 1. On the Interfaces search page, click the name of the **Interface** that you need to delete, to go to its detailed page.
-2. Click the **Delete** icon![](<.gitbook/assets/Screenshot\_11 (4).png>) or the **Delete this Interface** link on the side panel.
-3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Interface,** or to close the message box without deleting, click the ![](<.gitbook/assets/Screenshot\_10 (4).png>) icon. If the selected Interface is in use, a message will appear stating that it cannot be deleted.
+2. Click the **Delete** icon![](<.gitbook/assets/Screenshot_11 (4).png>) or the **Delete this Interface** link on the side panel.
+3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Interface,** or to close the message box without deleting, click the ![](<.gitbook/assets/Screenshot_10 (4).png>) icon. If the selected Interface is in use, a message will appear stating that it cannot be deleted.
 
 ### View Interfaces List
 
@@ -646,7 +647,7 @@ Debug tab displays the debug information which is managed by SSI when troublesho
    1. In the **Format** box, select the type of format you want.
    2. Click **Generate Report**.
 
-To view the name of each data column in the Interface Search page, click the ![](<.gitbook/assets/Screenshot\_14 (4).png>) icon on the Toolbar.
+To view the name of each data column in the Interface Search page, click the ![](<.gitbook/assets/Screenshot_14 (4).png>) icon on the Toolbar.
 
 <table><thead><tr><th width="219">Field (Column Name)</th><th>Description</th></tr></thead><tbody><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxwAADscBOJIvdgAAAfNJREFUOE+Vkj9vE0EQxd/6bu8cx04IF5ARwTiJRUWQEAUCCYIUCRpCQZEG8RUiUYCoI/gANCh9RAGIAolUCAosGgIUQSAgCnEioxAby38P27t3t8za5+AiKdh25s1785tlhcI2/uexPoFinsvLK1bxpVn/Aig/fqI9OiNHzio+DBbpju0JAs+sf45tPLTLWVgjsBwqQZQgyjIx5U7eksOnEbF2Bcqsrsa/3+PiF1LXcXwOgQcEMOLYeor8c4/ZjcxdsgIztAOTtaFP81Z7E6cWcGwWjOPVZcgarrzVIQpv8PGOZIna1IMgmtTJeOWDVX2HsWsYuwojqpsa66iv0RowLBy+SJ7c/cpLWq8FtKXOTUnMgT2AkYZmDRyxS69DgWZCWx44uS/eRAbRQ4a7Hgq0NTHpgdtDRiVdpbZOJOKtCVa//WsdTCMxoad0X2MDraIfS4eCtjNDvLH5BH67cxuG9BzGb4aegUT+BZrbwrkUCqRzTgydwdYz5Je1RinkHuPHElQAX2Ani9wjGcsIZ7p3OBXwykp87b4ZNDF+A0dn0drR3YMp/FwmZ0823cnbYnQaEXP3awheeR/LLVr1VUSTxETnaRUpibRTfybmxcHzXeh9n0/5EVHiv7PEu0NQ0ZaUWzgXAjtJs7v79//Wfc/QX/gL4nXRpcsavCsAAAAASUVORK5CYII=" alt=""> New Version is available</td><td>This is to show an Exclamation icon<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxwAADscBOJIvdgAAAfNJREFUOE+Vkj9vE0EQxd/6bu8cx04IF5ARwTiJRUWQEAUCCYIUCRpCQZEG8RUiUYCoI/gANCh9RAGIAolUCAosGgIUQSAgCnEioxAby38P27t3t8za5+AiKdh25s1785tlhcI2/uexPoFinsvLK1bxpVn/Aig/fqI9OiNHzio+DBbpju0JAs+sf45tPLTLWVgjsBwqQZQgyjIx5U7eksOnEbF2Bcqsrsa/3+PiF1LXcXwOgQcEMOLYeor8c4/ZjcxdsgIztAOTtaFP81Z7E6cWcGwWjOPVZcgarrzVIQpv8PGOZIna1IMgmtTJeOWDVX2HsWsYuwojqpsa66iv0RowLBy+SJ7c/cpLWq8FtKXOTUnMgT2AkYZmDRyxS69DgWZCWx44uS/eRAbRQ4a7Hgq0NTHpgdtDRiVdpbZOJOKtCVa//WsdTCMxoad0X2MDraIfS4eCtjNDvLH5BH67cxuG9BzGb4aegUT+BZrbwrkUCqRzTgydwdYz5Je1RinkHuPHElQAX2Ani9wjGcsIZ7p3OBXwykp87b4ZNDF+A0dn0drR3YMp/FwmZ0823cnbYnQaEXP3awheeR/LLVr1VUSTxETnaRUpibRTfybmxcHzXeh9n0/5EVHiv7PEu0NQ0ZaUWzgXAjtJs7v79//Wfc/QX/gL4nXRpcsavCsAAAAASUVORK5CYII=" alt="">, if the updated Interface details are not downloaded by SSIF, after an Interface is updated.</td></tr><tr><td>Interface ID</td><td>Name of the Interface</td></tr><tr><td>Active Cluster</td><td>Name of the Active Cluster. This will be shown only if the Interface is active.</td></tr><tr><td>Driver Type</td><td>Type of the Driver associated with the Interface</td></tr><tr><td>Zone</td><td>Name of the Zone associated with the Interface</td></tr><tr><td>Active Status/ Time</td><td><p></p><p>Status of the Interface and the Date Time if Status is Active.</p><p>If Active 🡪 Active +&#x3C;Last time that the interface was on Active status><br>E.g. Active<br><strong>6-June-2019 11:24 AM LK</strong></p><p>If Inactive 🡪 E.g. Inactive</p></td></tr><tr><td>Service Status/Time</td><td>Status of the associated Service and the last time that the Service’s status returned<br>E.g.<img src=".gitbook/assets/Service StatusTime_s4.png" alt=""></td></tr></tbody></table>
 
@@ -686,7 +687,7 @@ You can add configured points to the created Trend Group.
 
 1. Go to the Trend Group Detail page.&#x20;
 2. On the Trend Group details page, click the **Points** tab.&#x20;
-3. Click the **Add** ![](<.gitbook/assets/Screenshot\_12 (2).png>)icon. Points search window will open to add configured Points to the respective **Trend Group.** Point configuration should be done first in order to list the configured points in the Point Search Window. Refer [**Configure Point Templates**](chapter-3-configuration-of-prerequisites.md#point-templates) section for more details on configuring points.&#x20;
+3. Click the **Add** ![](<.gitbook/assets/Screenshot_12 (2).png>)icon. Points search window will open to add configured Points to the respective **Trend Group.** Point configuration should be done first in order to list the configured points in the Point Search Window. Refer [**Configure Point Templates**](chapter-3-configuration-of-prerequisites.md#point-templates) section for more details on configuring points.&#x20;
 4. Select the **Point Name** from the **Points** search page. **Points** can be added from the pinboard as well.&#x20;
 5. Click the **Point Name** to add the selected **Point**.
 
@@ -717,8 +718,8 @@ You can add configured points to the created Trend Group.
 ### Delete a Trend Group
 
 1. On the Trend Groups search page, search for the **Trend Group**. Click the required **Trend Group** name to go to the Trend detail page.
-2. Click the respective **Delete this Trend Group** link or **Delete** icon![](<.gitbook/assets/Screenshot\_11 (4).png>) in the Sidebar.
-3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Trend Group,** or to close the message box without deleting, click![](<.gitbook/assets/Screenshot\_10 (4).png>) . If the **Trend** **Group** is in use, you will not be allowed to delete it.
+2. Click the respective **Delete this Trend Group** link or **Delete** icon![](<.gitbook/assets/Screenshot_11 (4).png>) in the Sidebar.
+3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Trend Group,** or to close the message box without deleting, click![](<.gitbook/assets/Screenshot_10 (4).png>) . If the **Trend** **Group** is in use, you will not be allowed to delete it.
 
 ### View Trends of Trend Group
 
@@ -807,8 +808,8 @@ This describes how to edit the configuration details of a selected **Data Source
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Data Sources** under **Configure** section. **Search Data Source** page will appear.
 2. In the **Search Data Sources** box, type the name of the **Data Source** or part of the name that you want. Matching data will be listed.
 3. Click the **Point Name** to go to the detail page of the **Data Source**.
-4. Click the **Delete** icon ![](<.gitbook/assets/Screenshot\_11 (4).png>)or **Delete this Data Source** link. A message appears to confirm the deletion.
-5. Click **Delete**. Click ![](<.gitbook/assets/Screenshot\_10 (4).png>) to abort the operation.
+4. Click the **Delete** icon ![](<.gitbook/assets/Screenshot_11 (4).png>)or **Delete this Data Source** link. A message appears to confirm the deletion.
+5. Click **Delete**. Click ![](<.gitbook/assets/Screenshot_10 (4).png>) to abort the operation.
 
 ## Real-Time Reports Configuration
 
@@ -830,7 +831,7 @@ This section describes the following:
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Escalated Alarm**</mark> <mark style="color:blue;">**Message Templates 🡪 Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
 _<mark style="color:blue;">Setting under App Configuration</mark>_\
-_<mark style="color:blue;">**Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “</mark><mark style="color:blue;">**Assignee Message Template**</mark><mark style="color:blue;">” and “</mark><mark style="color:blue;">**Un-assignee Message Template**</mark><mark style="color:blue;">” Drop-down boxes in</mark>_ _<mark style="color:blue;">**App Configuration page**</mark><mark style="color:blue;">, which enable user to select accordingly.</mark>_
+&#xNAN;_<mark style="color:blue;">**Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “</mark><mark style="color:blue;">**Assignee Message Template**</mark><mark style="color:blue;">” and “</mark><mark style="color:blue;">**Un-assignee Message Template**</mark><mark style="color:blue;">” Drop-down boxes in</mark>_ _<mark style="color:blue;">**App Configuration page**</mark><mark style="color:blue;">, which enable user to select accordingly.</mark>_
 
 ### Create a New Escalated Alarm Message Template
 
@@ -935,7 +936,7 @@ You can configure alternate notification message to be sent as a push notificati
 You can attach attachments related to the Message to be sent.
 
 1. On the Message Template detailed page, click **Attachments** tab.
-2. Click the **Add** icon![](<.gitbook/assets/Screenshot\_12 (2).png>) .
+2. Click the **Add** icon![](<.gitbook/assets/Screenshot_12 (2).png>) .
 3. In the **Name** box, type a name for the attachment.
 4. In the **Type** box, select ‘**File (Attach a File)**’ option.
 5. Select other **Options**.
@@ -951,7 +952,7 @@ You can attach attachments related to the Message to be sent.
 ### Delete a Message Template
 
 1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to delete and click on it to go to its detail page.
-2. Click the **Delete this Template** link or click the **Delete** icon![](<.gitbook/assets/Screenshot\_11 (4).png>) on the side bar on the right.
+2. Click the **Delete this Template** link or click the **Delete** icon![](<.gitbook/assets/Screenshot_11 (4).png>) on the side bar on the right.
 3. A message to confirm the deletion appears. Click **Delete**.
 
 ### Export a Message Template
@@ -959,7 +960,7 @@ You can attach attachments related to the Message to be sent.
 To export a Message Template;
 
 1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to export and click on it to go to its detailed page.
-2. Click **Export** link ![](.gitbook/assets/Screenshot\_15.png) on the Side bar.
+2. Click **Export** link ![](.gitbook/assets/Screenshot_15.png) on the Side bar.
 3. Save the attachment.
 
 ### Localised Messages
@@ -977,7 +978,7 @@ To configure an Alarm Escalation Disable Message Template;
 2. Follow the relevant steps under the section named [“**Create a New Escalated Alarm Message Template”** ](chapter-3-configuration-of-prerequisites.md#create-a-new-escalated-alarm-message-template)described above.
 
 _<mark style="color:blue;">Setting under App Configuration</mark>_\
-_<mark style="color:blue;">**Alarm Escalation Disable Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Alarm Escalation Disable Message Templates) will be populated in “</mark><mark style="color:blue;">**Alarm Escalation Disable Message Template**</mark><mark style="color:blue;">” Drop-down box in</mark>_ _<mark style="color:blue;">**App Configuration page,**</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">which enables user to select a relevant message template.</mark>
+&#xNAN;_<mark style="color:blue;">**Alarm Escalation Disable Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Alarm Escalation Disable Message Templates) will be populated in “</mark><mark style="color:blue;">**Alarm Escalation Disable Message Template**</mark><mark style="color:blue;">” Drop-down box in</mark>_ _<mark style="color:blue;">**App Configuration page,**</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">which enables user to select a relevant message template.</mark>
 
 ## Link Templates & Links
 
@@ -995,7 +996,7 @@ To create Link Templates on an Equipment Template;
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates** Search page will appear.
 2. Go to the detailed page of the required **Equipment Template**.
-3. On the **Link Templates** tab, click the **Add** icon![](<.gitbook/assets/Screenshot\_12 (2).png>).
+3. On the **Link Templates** tab, click the **Add** icon![](<.gitbook/assets/Screenshot_12 (2).png>).
 4. In the **Link Name** box, type a name for the **Link** template.
 5. Click **Add**.
 
