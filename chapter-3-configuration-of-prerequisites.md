@@ -138,16 +138,16 @@ _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-
 1. On the **Alarm Classes** search page, search for the required Alarm Class and click the name of it to go to its detailed page.
 2. Click the **Delete this Alarm Class** link or **Delete this item** icon<img src=".gitbook/assets/Screenshot_11 (3).png" alt="" data-size="line">on the sidebar.
 
-A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Alarm Class**, or to close the message box without deleting, click Cancel <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line">. If the **Alarm Class** is in use, a message will appear stating that it cannot be deleted.\
+A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Alarm Class**, or to close the message box without deleting, click **Cancel** <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line">. If the **Alarm Class** is in use, a message will appear stating that it cannot be deleted.\
 
 
 ***
 
-## Alarm Severity
+## <mark style="color:purple;background-color:blue;">Alarm Severity</mark>
 
 **Alarm Severity** is used to define the importance of each Alarm. Each Alarm has its Severity level. You can use the Alarm Severities to help you decide the order in which you should attend (prioritize) and investigate triggered alarms.
 
-Typical Alarm Severities
+<mark style="color:purple;">Typical Alarm Severities</mark>
 
 <figure><img src=".gitbook/assets/Typical Alarm Severities_s3.png" alt=""><figcaption><p>Typical Alarm Severities</p></figcaption></figure>
 
@@ -166,14 +166,15 @@ This section describes the following:
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Severity 🡪 Alarm Severities**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">page</mark>
 
-### Configure an Alarm Severity
+### <mark style="color:purple;">Configure an Alarm Severity</mark>
 
 1. On the Alarm Severities page, click the **Add New Alarm Severity** link.
-2. Type the name of the Alarm Severity and its Color code.
-3. Enter the **Severity Weight.**
-4. Click **Add**.
+2. Type the name of the **Alarm Severity** (e.g. Critical).
+3. Type its **Color code** (e.g. FF0000).
+4. Enter the **Severity Weight** (e.g. 1).
+5. Click **Add**.
 
-### Edit an Alarm Severity
+### <mark style="color:purple;">Edit an Alarm Severity</mark>
 
 1. On the Alarm Severities page, hover over the required Alarm Severity and click the **Edit** icon.
 2. Modify details as required and click **Save.**
