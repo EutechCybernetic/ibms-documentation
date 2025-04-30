@@ -179,13 +179,17 @@ This section describes the following:
 1. On the Alarm Severities page, hover over the required Alarm Severity and click the **Edit** icon.
 2. Modify details as required and click **Save.**
 
-### Delete an Alarm Severity
+### <mark style="color:purple;">Delete an Alarm Severity</mark>
 
 1. On the Alarm Severities page, click the relevant **Delete** icon displayed along with the Alarm Severity you need to delete.
 2. Click **Delete**.
 3. If the Alarm Severity is in use, you will not be allowed to delete it.
 
-## System Types
+
+
+***
+
+## <mark style="color:purple;background-color:blue;">System Types</mark>
 
 **System Types** are used as a grouping method to group IBMS System Pages. **System Type** will be used to filter System Pages based on System Types (e.g. BMC, LCS, ACS, etc.)\
 System Types should be configured before registering Systems.
@@ -199,25 +203,29 @@ This section describes the following:
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**System Types🡪 System Types search**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">page</mark>
 
-### Configure a System Types
+### <mark style="color:purple;">Configure a System Types</mark>
 
 1. On the System Types search page, click the **New System Type** link.
 2. On the System Type configuration page, type the name of the System Type and a description about it.
 3. Click **Create**. Once created, its detailed page will open.
 
-### Edit a System Type
+### <mark style="color:purple;">Edit a System Type</mark>
 
 1. On the System Types search page, click the required System Type name to go to its detail page.
-2. Hover over the System Type tab and click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>).
+2. Hover over the System Type tab and click the **Edit** icon <img src=".gitbook/assets/Screenshot 2024-06-07 132020 (1).png" alt="" data-size="line">.
 3. Modify details as required and click **Save.**
 
-### Delete a System Type
+### <mark style="color:purple;">Delete a System Type</mark>
 
-1. On the System Types search page, click the required System Type name to go to its detail page and click the **Delete this System Type** link/**Delete** icon![](<.gitbook/assets/Screenshot_11 (2).png>) on the side panel.
-2. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the System Type, or to close the message box without deleting, click ![](<.gitbook/assets/Screenshot_10 (1).png>).
-3. &#x20;If the System Type is in use, you will not be allowed to delete it.
+1. On the System Types search page, click the required System Type name to go to its detail page and click the **Delete this System Type** link/**Delete** icon <img src=".gitbook/assets/Screenshot_11 (2).png" alt="" data-size="line"> on the side panel.
+2. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the System Type, or to close the message box without deleting, click <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line">.
+3. &#x20;If the **System Type** is in use, you will not be allowed to delete it.
 
-## Equipment Templates
+
+
+
+
+## <mark style="color:purple;background-color:blue;">Equipment Templates</mark>
 
 **Equipment Template** is a template for a collection of points for a particular type/brand/model of **Equipment.** Equipment Template logically groups points for a particular **Equipment type**.
 
