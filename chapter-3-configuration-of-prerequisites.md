@@ -176,8 +176,9 @@ This section describes the following:
 
 ### <mark style="color:purple;">Edit an Alarm Severity</mark>
 
-1. On the Alarm Severities page, hover over the required Alarm Severity and click the **Edit** icon.
-2. Modify details as required and click **Save.**
+1. Go to the **Settings** icon🡪Configure 🡪Alarm Severity 🡪Alarm Severity page.
+2. On the Alarm Severity page, hover over the required Alarm Severity and click the **Edit** icon.
+3. Modify details as required and click **Save.**
 
 ### <mark style="color:purple;">Delete an Alarm Severity</mark>
 
