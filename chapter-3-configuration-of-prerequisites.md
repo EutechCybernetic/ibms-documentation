@@ -122,7 +122,7 @@ _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-
 2. In the **Alarm Class Name** box, type a unique and appropriate name for the new **Alarm Class** and type in a description to the alarm class in the **Description** box.
 3. Click **Add** to create the new Alarm Class. A new Alarm Class will be created and its detailed page will open.
 4. To configure the Alarm Escalation Levels for each Severity for working hours, (Severity-wise Level configuration) go to the “**Working Hour Escalations**” tab.
-   1. Click the respective **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAIAAAD9MqGbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAZpJREFUOE+dkt1LwmAUxpvfNtxFhsuwbSzNFBJEQvEP6sJb8Sb6k7zpTpRAEJHIC0EmKM6J1Jah5GawxK+OTMTNTaX36t04v/O853kOIsujE4Mzm80KhaIs/yaT9zjuQRBku9BkhC2Xy1qN6fXeJWmczxfbbU5TqU8uFgtB6DscpyRJwn0+n1cqbyyrgnVIUBsMhrncC8uyOI7TNG02m0OhG5K82pZFduccDr9Lpcp4/DOdTjEMoyjK5UIJ4tLpdOybE/yoVmswGyiDlCiKgsBTlE+DQQvVa2Gkcvm13/9SeoOZVqsVjLXbbbtGqkiGafL853ZRPB5zu890/V+ToAbWNRpNi8WyqQsG/YEAbRTbmhyNxGz2meM4SN9kWv0EJhq9U+77NLvdniAInU6n1WpNJhOv9yISCdtsOuNtuqxago31OgMZwJEkiec/EokYiqJGamv/lDwzmScY1e+/DodvCcJHUYRmS3e7rDYBmHT6MZV6wDCXx3N+kFFpgjGQu5Lh/keq5oQPCAOY4zHtDh2pppQZxnWwy//JP6PZs9Poj0lmAAAAAElFTkSuQmCC)of a Severity and type the respective Escalation Time of Level 1.
+   1. Click the respective **Edit** icon <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAIAAAD9MqGbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAZpJREFUOE+dkt1LwmAUxpvfNtxFhsuwbSzNFBJEQvEP6sJb8Sb6k7zpTpRAEJHIC0EmKM6J1Jah5GawxK+OTMTNTaX36t04v/O853kOIsujE4Mzm80KhaIs/yaT9zjuQRBku9BkhC2Xy1qN6fXeJWmczxfbbU5TqU8uFgtB6DscpyRJwn0+n1cqbyyrgnVIUBsMhrncC8uyOI7TNG02m0OhG5K82pZFduccDr9Lpcp4/DOdTjEMoyjK5UIJ4tLpdOybE/yoVmswGyiDlCiKgsBTlE+DQQvVa2Gkcvm13/9SeoOZVqsVjLXbbbtGqkiGafL853ZRPB5zu890/V+ToAbWNRpNi8WyqQsG/YEAbRTbmhyNxGz2meM4SN9kWv0EJhq9U+77NLvdniAInU6n1WpNJhOv9yISCdtsOuNtuqxago31OgMZwJEkiec/EokYiqJGamv/lDwzmScY1e+/DodvCcJHUYRmS3e7rDYBmHT6MZV6wDCXx3N+kFFpgjGQu5Lh/keq5oQPCAOY4zHtDh2pppQZxnWwy//JP6PZs9Poj0lmAAAAAElFTkSuQmCC" alt="" data-size="original">of a Severity and type the respective Escalation Time of Level 1.
    2. Type the required Alarm Escalation times of rest of the Escalation levels and click **Update**.
 5. Configure the ‘After Hour escalation levels’ of each Severity under the “**After Hour Escalations**” tab as you configured the escalation levels under ‘Working Hour Escalations’.
 
@@ -164,7 +164,7 @@ This section describes the following:
 3. [Delete an Alarm Severity](chapter-3-configuration-of-prerequisites.md#delete-an-alarm-severity)
 
 <mark style="color:blue;">**Path**</mark>\
-<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Severity 🡪 Alarm Severities**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">page</mark>
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==" alt="" data-size="original"> <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Severity 🡪 Alarm Severities**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">page</mark>
 
 ### <mark style="color:purple;">Configure an Alarm Severity</mark>
 
@@ -176,15 +176,16 @@ This section describes the following:
 
 ### <mark style="color:purple;">Edit an Alarm Severity</mark>
 
-1. Go to the **Settings** icon🡪Configure 🡪Alarm Severity 🡪Alarm Severity page.
-2. On the Alarm Severity page, hover over the required Alarm Severity and click the **Edit** icon.
+1. Go to the **Settings** icon <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==" alt="" data-size="original">🡪Configure 🡪Alarm Severity 🡪Alarm Severity page.
+2. On the Alarm Severity page, hover over the required Alarm Severity and click the **Edit** icon <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAIAAAD9MqGbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAZpJREFUOE+dkt1LwmAUxpvfNtxFhsuwbSzNFBJEQvEP6sJb8Sb6k7zpTpRAEJHIC0EmKM6J1Jah5GawxK+OTMTNTaX36t04v/O853kOIsujE4Mzm80KhaIs/yaT9zjuQRBku9BkhC2Xy1qN6fXeJWmczxfbbU5TqU8uFgtB6DscpyRJwn0+n1cqbyyrgnVIUBsMhrncC8uyOI7TNG02m0OhG5K82pZFduccDr9Lpcp4/DOdTjEMoyjK5UIJ4tLpdOybE/yoVmswGyiDlCiKgsBTlE+DQQvVa2Gkcvm13/9SeoOZVqsVjLXbbbtGqkiGafL853ZRPB5zu890/V+ToAbWNRpNi8WyqQsG/YEAbRTbmhyNxGz2meM4SN9kWv0EJhq9U+77NLvdniAInU6n1WpNJhOv9yISCdtsOuNtuqxago31OgMZwJEkiec/EokYiqJGamv/lDwzmScY1e+/DodvCcJHUYRmS3e7rDYBmHT6MZV6wDCXx3N+kFFpgjGQu5Lh/keq5oQPCAOY4zHtDh2pppQZxnWwy//JP6PZs9Poj0lmAAAAAElFTkSuQmCC" alt="" data-size="original">.
 3. Modify details as required and click **Save.**
 
 ### <mark style="color:purple;">Delete an Alarm Severity</mark>
 
-1. On the Alarm Severities page, click the relevant **Delete** icon displayed along with the Alarm Severity you need to delete.
-2. Click **Delete**.
-3. If the Alarm Severity is in use, you will not be allowed to delete it.
+1. Go to the **Settings** icon <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==" alt="" data-size="original">🡪Configure 🡪Alarm Severity 🡪Alarm Severity page.
+2. On the Alarm Severity page, click the relevant **Delete** icon displayed along with the Alarm Severity you need to delete.
+3. Click **Delete**.
+4. If the Alarm Severity is in use, you will not be allowed to delete it.
 
 
 
@@ -240,12 +241,12 @@ This section describes the following:
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Templates 🡪 Equipment Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
-### Configure Equipment Template
+### <mark style="color:purple;">Configure Equipment Template</mark>
 
 1. On the Equipment Templates search page, click the **New Equipment Template** link. **New Equipment Template** dialog box appears.
 2. In the **Equipment Template** box, type a unique and appropriate name for the new Equipment template.
 3. In the **Description** box, type a suitable description on **Equipment template.**
-4. Click **Create** to create the new **Equipment Template**. Click ![](<.gitbook/assets/Screenshot_10 (1).png>)icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
+4. Click **Create** to create the new **Equipment Template**. Click <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line">icon to close and abort the operation. Once an Equipment Template is created, its detailed page will be opened. On the detailed page, you can edit **Equipment Template Details** and configure Point Templates of the Equipment Template.
 
 * To see how to edit Equipment Template Details, please refer to the [Edit Equipment Template ](chapter-3-configuration-of-prerequisites.md#edit-an-equipment-template)section below.
 * To see how to configure Point Templates, please refer to the [Point Templates](chapter-3-configuration-of-prerequisites.md#point-templates) section.
@@ -253,21 +254,21 @@ This section describes the following:
 * To see how to configure Equipment, please refer to the [Equipment](chapter-5-registering-new-items.md#register-new-equipment) section.
 * To see how to configure RT GUI, please refer to the [RT GUI ](chapter-3-configuration-of-prerequisites.md#rt-gui-tab-in-equipment-template)section.
 
-### Edit an Equipment Template
+### <mark style="color:purple;">Edit an Equipment Template</mark>
 
 1. On the Equipment Templates search page, click on the **Equipment Template** you want to edit.
-2. On the Detail page, move the cursor to the **General** section and click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>).
+2. On the Detail page, move the cursor to the **General** section and click the **Edit** icon<img src=".gitbook/assets/Screenshot 2024-06-07 132020 (1).png" alt="" data-size="line">.
 3. Edit the name of the **Equipment Template** as required.
 4. Edit the **Description** as required.
-5. **Enable Real-time Summary GUI:**
+5. Enable Real-time Summary GUI.
 6. Click **Save**. Click **Cancel** to discard the changes.
 7. Edit the Point Templates tab on the Equipment Template.
    1. [Add Point Templates to the Equipment Template](chapter-3-configuration-of-prerequisites.md#point-templates)
 8. Under the **Link Templates** tab, [add **Link Templates** to the selected **Equipment** **Template.**](chapter-3-configuration-of-prerequisites.md#link-templates-and-links)
-9. Under **Equipment** tab, [configure **Equipment** to the selected **Equipment Template**](chapter-5-registering-new-items.md#register-new-equipment)**.**
-10. Under **RT GUI** tab,
-
-#### RT GUI Tab in Equipment Template
+9. Under **Equipment** tab, [configure **Equipment**](chapter-5-registering-new-items.md#register-new-equipment) to the selected **Equipment Template.**
+10. RT GUI tab allows users to:
+    1. Download the RT GUI page in raw RT page format and assign the RT page.
+    2. Download the current assigned Real-time GUI page in .json format and in raw Real-time page format.
 
 
 
