@@ -59,7 +59,7 @@ This section describes the following:
 3. In the **Zone ID** box, type the name of the **Zone** that you want to configure.
 4. Click **Add** to create the new **Zone**. Click the **Close** icon <img src=".gitbook/assets/Screenshot_10.png" alt="" data-size="line"> to close and abort the operation.
 
-### <mark style="color:purple;">Edit Zones</mark>
+### <mark style="color:purple;">Edit a Zone</mark>
 
 1. On the Zones search page, click the **Zone ID** you want to edit. Detailed page of the selected Zone will appear.
 2. **Zone Details** tab displays IBMS Zone details.
@@ -70,7 +70,7 @@ This section describes the following:
 3. **Subsystem Interface Connector** tab displays the IBMS Subsystem Interface configuration details.
 4. **Equipment** tab displays the assets that are associated with the respective **Zone**.
 
-### <mark style="color:purple;">Delete Zones</mark>
+### <mark style="color:purple;">Delete a Zone</mark>
 
 1. Go to the Zones Search page and click the **Zone ID** you want to delete. Detailed page of the selected Zone will appear.
 2. Click the **Delete this Zone** link or **Delete this Item**![](.gitbook/assets/icon_4.png)  icon on the sidebar.
