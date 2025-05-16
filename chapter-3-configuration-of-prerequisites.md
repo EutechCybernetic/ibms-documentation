@@ -225,7 +225,7 @@ This section describes the following:
 
 
 
-
+***
 
 ## <mark style="color:purple;background-color:blue;">Equipment Templates</mark>
 
@@ -272,24 +272,29 @@ This section describes the following:
 
 
 
-### Delete an Equipment Template
+### <mark style="color:purple;">Delete an Equipment Template</mark>
 
 To delete an **Equipment Template**;
 
 1. On the Equipment Templates search page, click the **Equipment Template** that you want to delete, to go to its detailed page.
-2. Click the **Delete this Equipment Template** link or **Delete** icon ![](<.gitbook/assets/Screenshot_11 (4).png>)on the Side bar.
-3. A message to confirm deletion appears. Click **Delete** to confirm deletion of the **Equipment Template,** or to close the message box without deleting, click ![](<.gitbook/assets/Screenshot_10 (1).png>)icon on the top left of the message box.
+2. Click the **Delete this Equipment Template** link or **Delete** icon <img src=".gitbook/assets/Screenshot_11 (4).png" alt="" data-size="line">on the Side bar.
+3. A message to confirm deletion appears. Click **Delete** to confirm deletion of the **Equipment Template,** or to close the message box without deleting, click <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line">icon on the top left of the message box.
 
-#### If the Equipment Template is in use
+#### <mark style="color:purple;">If the Equipment Template is in use</mark>
 
 If the selected **Equipment Template** is in use, a popup box appears with the message “**This Equipment Template is in use and cannot be deleted**”.
 
-### Search Equipment Templates
+### <mark style="color:purple;">Search Equipment Templates</mark>
 
 1. On the Equipment Templates search page, type the name of the required **Equipment Template** in the **Search Equipment Templates** box. Matching record/records will be filtered as you type.
-2. To go to the detailed page of an **Equipment Template** in the search results, click its name.
-   1. **Details** tab shows the details of the selected **Equipment Template**.
-   2. **Point Templates** tab lists all the **Point Templates** that have been configured for this **Equipment Template.** (To see how to configure Point Templates for Equipment Template, please refer to the [Point Templates ](chapter-3-configuration-of-prerequisites.md#point-templates)section)
+2.  To go to the detailed page of an **Equipment Template** in the search results, click its name.
+
+    1. **Details** tab shows the details of the selected **Equipment Template**.
+    2. **Point Templates** tab lists all the **Point Templates** that have been configured for this **Equipment Template.** (To see how to configure Point Templates for Equipment Template, please refer to the [Point Templates ](chapter-3-configuration-of-prerequisites.md#point-templates)section)
+
+
+
+***
 
 ## Point Templates
 
@@ -312,28 +317,31 @@ This section describes the following:
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Templates 🡪 Equipment Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page🡪 Relevant</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Template**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Equipment Template Detail**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">page🡪</mark><mark style="color:blue;">**Point Template**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">tab</mark>
 
-### Configure a Point Templates
+### <mark style="color:purple;">Configure a Point Templates</mark>
 
-This section helps you to configure Point Templates for Equipment Templates. These Point templates will be the points for equipment registered using the respective Equipment Template in the system.
+This section helps you to configure Point Templates for Equipment Templates. These Point templates will be the points for equipment registered using the respective Equipment Template in the system.\
+
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates search** page will appear.
 2. Search and click the required **Equipment Template** to which you want to add a new **Point Template**.
 3. Then its Point Template detail page will appear. Click the **Point** **Templates** tab.
-4. Click the **Add** icon![](<.gitbook/assets/Screenshot_12 (1).png>). **New Point Template** dialog box appears.
+4. Click the **Add** icon<img src=".gitbook/assets/Screenshot_12 (1).png" alt="" data-size="line">. **New Point Template** dialog box appears.
 5. In the **Point Name** box, type a unique and appropriate name for the new **Point Template**.
 6. In the **Data Type** list box, select the relevant Data Type of the Point (**Value, Binary, Text** or **Multi-state**)**.**
-7. Click **Add** to create the new **Point Template**. Click ![](<.gitbook/assets/Screenshot_10 (1).png>)icon to close and abort the operation.
+7. Click **Add** to create the new **Point Template**. Click the **Close** icon <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line"> to close and abort the operation.
 
-### Edit a Point Template
+
+
+### <mark style="color:purple;">Edit a Point Template</mark>
 
 1. Go to the relevant **Equipment Template detail** page 🡪**Point Template** tab.
 2. Click the name of the **Point Template** you want to edit. Details page of the selected **Point Template** will appear.
 3. Go to **Details** tab.
-4. **General**: To edit the **General** section, which contains the general data of the Point Template, hover over the **General** section click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>).
+4. **General**: To edit the **General** section, which contains the general data of the Point Template, hover over the **General** section click the **Edit** icon<img src=".gitbook/assets/Screenshot 2024-06-07 132020 (1).png" alt="" data-size="line">.
    1. Edit the Point Template name if required.
    2. Type a description about **Point Template** under the **Point Template Description** box.
    3. Click **Save** to save the changes in the **General** section.
-5. **Properties:** Hover over the **Properties** section and click the **Edit** icon![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>). Configure the following attributes of the Point Template and click **Save**.
+5. **Properties:** Hover over the **Properties** section and click the **Edit** icon <img src=".gitbook/assets/Screenshot 2024-06-07 132020 (1).png" alt="" data-size="line">. Configure the following attributes of the **Point Template** and click **Save**.
 
 <table><thead><tr><th width="262">Properties of Point Template</th><th>Description</th></tr></thead><tbody><tr><td>Data Type</td><td><p>Data Type of the Point</p><p>The Data Type can be any of these types (<strong>Value, Binary, Text</strong> or <strong>Multi-state)</strong>.</p></td></tr><tr><td>Read/Write State</td><td>Select Read or Write from the list box to denote the <strong>Point</strong> as read-only or write-only.</td></tr><tr><td>Units</td><td>Select the unit of measurement from the supported units in the combo box. (e.g. Point Template : Return Air Temperature, Units: Celsius (C) )</td></tr><tr><td>Valid Range (L:H)</td><td>This range will be the Valid Range (Low: High) of Point values. SSIF will send only Point Values within this valid range and rest of the Point values will be ignored.<br>E.g. 0.01 :1)</td></tr><tr><td>Display Range (L:H)</td><td>Display Range shows the formatted ‘Valid Range’ to give a proper look to the Point Values sent by SSIF to make it more convenient in usage (e.g. Valid Range is multiplied by 100 to make it ‘Display Range’).<br>Display Range (Low: High) e.g. 1:100</td></tr><tr><td>Round Off</td><td>Point Value will be rounded off up to this decimal point e.g. Round Off value is 1 -> if the real value is 2.46, the value will be rounded off to 1 decimal point and make it 2.5</td></tr><tr><td>Deadband</td><td>If the difference between the new Point Value and the existing Point value is plus or minus the Deadband, the new Point Value will be ignored. If the difference of the new Value falls between the deadband, the new Point value will be ignored. E.g. 0.5 and -0.5</td></tr><tr><td>Polling Frequency</td><td>Frequency of polling in seconds for the value you monitor from Sub System Interface.</td></tr><tr><td>Also apply for overridden points</td><td>Select this check box to apply the settings under <strong>Properties</strong> for overridden points</td></tr></tbody></table>
 
@@ -341,28 +349,34 @@ This section helps you to configure Point Templates for Equipment Templates. The
 _Note –_ _Reset Value Configuration section will be displayed under Point Template details only if the point’s_ **Read/Write State is ’Write’.**
 {% endhint %}
 
-**Reset Value Configuration**: Click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) icon next to the **Reset Value Configuration** section to edit the following details.
+<mark style="color:purple;">**Reset Value Configuration**</mark><mark style="color:purple;">:</mark>&#x20;
 
-1.  **Reset Value** – This is used to configure the Consultant recommended default value for Point Template.&#x20;
+* Click the **Edit** <img src=".gitbook/assets/Screenshot 2024-06-07 132020 (1).png" alt="" data-size="line"> icon next to the **Reset Value Configuration** section to edit the following details.
+*   **Reset Value** – This is used to configure the Consultant recommended default value for Point Template.&#x20;
 
     _**Note**: You can override this consultant recommended Reset value at each Point level in the respective Point Template according to your requirement._
-2. Enter **Previous Reset Value, Configured User** and **Configured Date Time**.
-3. **Also apply for overridden points:** Select this check box to apply the settings under Reset Value Configuration for overridden points.
-4. Click **Save.**
-5. **Trend**: Click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (1).png>) icon next to the **Trend** section to edit the following details.
-   1.  **Use Controller Based Trends ­­-** select this check box to use the trends that get recorded at Controller level.&#x20;
+* Enter **Previous Reset Value, Configured User** and **Configured Date Time**.
+* **Also apply for overridden points:** Select this check box to apply the settings under Reset Value Configuration for overridden points.
+* Click **Save.**
 
-       _**Note:** If “Use Controller Based Trends” check box is selected, “Sample Interval” and “Change of Value (COV) trending” fields will be hidden._
-   2. **Sample Interval (trending) –** Trending sample interval frequency in minutes
-   3. **Change of Value (COV) trending –** Select this checkbox to use COV (Change of Value) of point to trend instead of poling for given trending intervals.
-   4. **Also apply for overridden points** - Select this check box to apply the settings under **Trend** section for overridden points.
-   5. Click **Save**.
 
-### Add Alarm to Point Template
+
+<mark style="color:purple;">**Trend**</mark><mark style="color:purple;">:</mark> Click the **Edit** <img src=".gitbook/assets/Screenshot 2024-06-07 132020 (1).png" alt="" data-size="line"> icon next to the **Trend** section to edit the following details.
+
+1.  **Use Controller Based Trends ­­-** select this check box to use the trends that get recorded at Controller level.&#x20;
+
+    _**Note:** If “Use Controller Based Trends” check box is selected, “Sample Interval” and “Change of Value (COV) trending” fields will be hidden._
+2. **Sample Interval (trending) –** Trending sample interval frequency in minutes
+3. **Change of Value (COV) trending –** Select this checkbox to use COV (Change of Value) of point to trend instead of poling for given trending intervals.
+4. **Also apply for overridden points** - Select this check box to apply the settings under **Trend** section for overridden points.
+5. Click **Save**.\
+
+
+### <mark style="color:purple;">Add Alarm to Point Template</mark>
 
 Alarm configuration under Point Templates varies due to the **Data Type** (e.g. Binary, Text, Value, Multi-state) of Point Template.
 
-_**Prerequisites: Alarm Class and Alarm Severity**_
+_<mark style="color:purple;">**Prerequisites: Alarm Class and Alarm Severity**</mark>_
 
 {% hint style="info" %}
 _Note – Before you add_ _**Alarms**_ _to a **Point Template**, the required_ _**Alarm Classes**_ _should be configured under Alarm Class Configuration. (**Settings🡪Configure🡪Alarm Classes**) and_ _**Alarm Severity**_ _should be configured as well._
@@ -374,7 +388,7 @@ _Note – Before you add_ _**Alarms**_ _to a **Point Template**, the required_ _
    3. Click the **Point Templates** tab.
 2. Access Point Template via Point Template Search page. (**Settings🡪 View🡪 Point Templates**)
 3. Click the name of the **Point Template** you want and navigate to Point Template details page. Scroll down and go to the **Alarm** section.
-4. Click on **Add** icon![](<.gitbook/assets/Screenshot_12 (1).png>) under **Alarm** section. **Add Alarm** dialog box appears.
+4. Click on **Add** icon <img src=".gitbook/assets/Screenshot_12 (1).png" alt="" data-size="line"> under **Alarm** section. **Add Alarm** dialog box appears.
 5. Select **Alarm Class** from the configured **Alarm Classes** in the list box (To see how to configure Alarm Classes, please refer to [**Alarm Classes** ](chapter-3-configuration-of-prerequisites.md#configure-alarm-classes)section).
 6. Select the relevant **Alarm Severity** from the Alarm Severity box. Alarm Severities should be configured beforehand.
 7. If the **Data Type** of the selected Point is “**Value**”;
@@ -392,9 +406,9 @@ _Note – Before you add_ _**Alarms**_ _to a **Point Template**, the required_ _
 11. Enter Alarm Deadband, Clearance Deadband, Alarm Delay and Clearance Delay accordingly. [(See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
 12. Select **Enable only for working hours/ Enable only for non-working hours** checkboxes accordingly. [(See the relevant details below)](chapter-3-configuration-of-prerequisites.md#alarm-observation-period-alarm-trigger-period-and-deadband-for-alarms)
 13. In the **Alarm Message** box, type the required alarm message to be relayed.
-14. Click **Add.** Click ![](<.gitbook/assets/Screenshot_10 (4).png>)icon to abort operation.
+14. Click **Add.** Click the Close icon  <img src=".gitbook/assets/Screenshot_10 (4).png" alt="" data-size="line"> to abort operation.
 
-#### **Alarm Observation Period/ Alarm Trigger Period and Deadband for Alarms**
+#### <mark style="color:purple;">**Alarm Observation Period/ Alarm Trigger Period and Deadband for Alarms**</mark>
 
 
 
@@ -404,15 +418,15 @@ _Note – If the alarm is a ‘**Controller based alarm**’, you are not requir
 
 <table><thead><tr><th width="212">Field</th><th>Description</th></tr></thead><tbody><tr><td>Alarm Deadband</td><td>Alarm will be triggered only if the Alarm Value goes above this value (Alarm Deadband).<br>E.g. If alarm trigger value is >24 and Deadband is 0.5 then the alarm should get triggered only if the value goes above 24.5.</td></tr><tr><td>Clearance Deadband</td><td><p>Alarm will be cleared only if the Alarm value goes below this Value named as “Clearance Deadband”.</p><p>E.g. If alarm trigger value is >24 and Clearance Deadband is -0.5 then the alarm should get cleared only if the value goes below 23.5.<br></p></td></tr><tr><td>Alarm Delay</td><td>Alarm will be triggered only after the time configured as ‘Alarm Delay’ even though the Alarm conditions are met.</td></tr><tr><td>Clearance Delay</td><td>Alarm will be cleared only after the time configured as ‘Clearance Delay’.<br></td></tr><tr><td>Enable only for Working Hours</td><td>Alarm will be triggered only during the period configured as ‘Working Hours’.</td></tr><tr><td>Enable only for non-working hours</td><td>Alarm will be triggered only during the period configured as ‘non-working hours’.</td></tr></tbody></table>
 
-#### Edit Alarm on Point Template
+#### <mark style="color:purple;">Edit Alarm on Point Template</mark>
 
 1. Go to the relevant **Equipment Template** detail page 🡪**Point Templates** tab.
 2. Click the name of the **Point Template** you want and go to its details page.
 3. Scroll down to Alarms section and click on ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAHFJREFUOE9jfPn0KgO5gIlcjSB9Q1QzI8EASy9qhIfLzL565DAi4GdknZhBi08zfp34QpugTpyasepE8zB2zUTqxKKZeJ3omknSia4Z01eYItjjGWItsmr8OrE7G6KHoE6cAUaMTqBmwmkbT4YfovkZAMP6Krehe7yWAAAAAElFTkSuQmCC) icon on the far right corner of the alarm.
 4. Edit the Alarm details as required.
-5. Click **Update.** Click![](<.gitbook/assets/Screenshot_10 (4).png>) icon to discard changes.
+5. Click **Update.** Click the Close icon <img src=".gitbook/assets/Screenshot_10 (4).png" alt="" data-size="line"> to discard changes.
 
-#### Add/Change Alarm Condition
+#### <mark style="color:purple;">Add/Change Alarm Condition</mark>
 
 When an Alarm Condition is added or changed at **Point Template level** or **Point level**, the system will validate the condition and pop-up validation messages if there are Active alarms for that particular Alarm Condition.
 
@@ -430,14 +444,15 @@ E.g.\
 
 * **When adding an iviva alarm while having enabled Controller based alarms**
 
-System will allow to add/enable iviva based alarms, only if there are **no** Controller Based alarms or if the Controller Based alarms are disabled.
+System will allow to add/enable iviva based alarms, only if there are **no** Controller Based alarms or if the Controller Based alarms are disabled.\
+
 
 The above steps should be carried out to prevent the following issues;
 
 * If you change an alarm condition while there are active alarms, current active alarm(s) gets junked and it may cause the point not to become alarmed again.
 * SSIFs cannot handle both iviva and Controller based alarms at once, because controller based and iviva based alarms are handled in two channels.
 
-#### Delete Alarm on Point Template
+#### <mark style="color:purple;">Delete Alarm on Point Template</mark>
 
 1. Go to the relevant **Equipment Template detail** page 🡪**Point Templates** tab.
 2. Click the name of the **Point Template** you want and go to its details page.
