@@ -296,7 +296,7 @@ If the selected **Equipment Template** is in use, a popup box appears with the m
 
 ***
 
-## Point Templates
+## <mark style="color:purple;background-color:blue;">Point Templates</mark>
 
 **Point Template** is a template for a particular **Point** on **Equipment Template**. After configuring an **Equipment Template**, you need to configure **Point Templates** for it.
 
@@ -456,28 +456,33 @@ The above steps should be carried out to prevent the following issues;
 
 1. Go to the relevant **Equipment Template detail** page 🡪**Point Templates** tab.
 2. Click the name of the **Point Template** you want and go to its details page.
-3. Scroll down to **Alarms** section and click on the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) of the alarm that you want to delete.
-4. If the respective alarm is in use, the system will not allow the user to delete it.
+3. Scroll down to **Alarms** section and click on the respective **Delete** icon <img src=".gitbook/assets/Screenshot_11 (4).png" alt="" data-size="line"> of the alarm that you want to delete.
+4. A message box to confirm deletion appears. Click **OK** to confirm deletion of the **Alarm**, or to close the message box without deleting, click **Cancel**. If the respective alarm is in use, the system will not allow the user to delete it.
 
-### Delete a Point Template
+### <mark style="color:purple;">Delete a Point Template</mark>
 
 To delete a **Point Template;**
 
 1. Go to the relevant **Equipment Template detail** page 🡪**Point Templates** tab.
-2. Click the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) to the right of the **Point Template** name.
+2. Click the respective **Delete** icon <img src=".gitbook/assets/Screenshot_11 (4).png" alt="" data-size="line"> to the right of the **Point Template** name.
 3. A message box to confirm deletion appears. Click **OK** to confirm deletion of the Point Template, or to close the message box without deleting, click **Cancel**.
 
-### Search Point Templates
+### <mark style="color:purple;">Search Point Templates</mark>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates** Search page will appear.
 2. Click the name of the **Equipment Template**, which contains the **Point Template.**
 3. Click the **Point** **Templates** tab and click a name of a Point Template to go to the detailed page.
-4. Alternatively, click the **Settings** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) icon on the Home Page and select the **Point Templates** link under the **View** section. Point Templates search page will open.
-   1. To search by the Point Template name, in the **Search Point Templates** box, type the name of the required Point Template. Matching result/results will be displayed as you type.
-   2. To filter by any Equipment Template that Point Template belongs to, select the relevant Equipment Template name in the **Equipment Template** box.
-   3. Click the name of a **Point Template** to go to its detailed page.
+4.  Alternatively, click the **Settings icon** ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) on the homepage and select the **Point Templates** link under the **View** section. Point Templates search page will open.
 
-## Interface Driver Types
+    1. To search by the Point Template name, in the **Search Point Templates** box, type the name of the required Point Template. Matching result/results will be displayed as you type.
+    2. To filter by any Equipment Template that Point Template belongs to, select the relevant Equipment Template name in the **Equipment Template** box.
+    3. Click the name of a **Point Template** to go to its detailed page.
+
+
+
+***
+
+## <mark style="color:purple;background-color:blue;">Interface Driver Types</mark>
 
 **Interface Driver Type** contains the common protocol configuration settings for a particular protocol for an interface.
 
