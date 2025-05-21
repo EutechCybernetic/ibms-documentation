@@ -488,7 +488,7 @@ To delete a **Point Template;**
 
 {% hint style="info" %}
 _Note –By default, the Interface Driver Types will be configured with the Interface installation._\
-&#xNAN;_&#x49;nterface Driver Type Configuration is provided for configuring parameters for Custom Interfaces._
+_Interface Driver Type Configuration is provided for configuring parameters for Custom Interfaces._
 {% endhint %}
 
 \
@@ -499,23 +499,26 @@ This section describes the following:
 3. [Delete an Interface Driver Type](chapter-3-configuration-of-prerequisites.md#delete-an-interface-driver-type)
 
 <mark style="color:blue;">**Path**</mark>\
-<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Interface Driver Type 🡪 Interface Driver Types**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Interface Driver Type 🡪 Interface Driver Types**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>\
 
-### Configure Interface Driver Types
+
+### <mark style="color:purple;">Configure Interface Driver Types</mark>
 
 1. On the Interface Driver Types search page, click **Add Interface Driver Type** link.
 2. In the **Driver Type** box, type a unique and appropriate name for the new **Interface Driver Type**.
 3. In the **Parameter List** box, type the relevant comma separated parameters.
-4. Click **Create**. New Interface Driver Type will be created and its detailed page will open.
+4. Click **Create**. New Interface Driver Type will be created and its detailed page will appear.\
 
-### Edit Interface Driver Type Basic Details
+
+### <mark style="color:purple;">Edit  an Interface Driver Type</mark>
 
 1. On the Interface Driver Type search page, click the required **Driver Type** to be edited. Its detailed page will open.
 2. On the **Driver Type Details** tab, hover over the **Basic** **Details** section and click the **Edit** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAaCAIAAADE9MDgAAAAAXNSR0IArs4c6QAAARJJREFUSEtj/PTpBQMNABMNzAQZOWouJGAZSY+3b4+Orl656cK9jwz8ypYxiWE6IljiiFRzv11Z3DDx4CckkxRjOsrtMYwmKd4wDQWaf3/tnnuYDibeXKyGggz8/u072ebiNBRoooSEMHnm4jOUgc823EGCDHMJGJpfH63DhSU94A9fIgzlx14Q4DGXfEPxlA8UGYrH3O/fPuIo6fhsQWGKw/twPZjh8PvNc6CRwmY55akGfOhmE2coVvd+ujq/uu3AWyxGE20ornD4c39JPbrRpBiKJ3xRjI4xdSImTJEDDU86Qxhtnx5GMKLQYgJLOfn727ffcFUfP30TkRBhJbkWJLX8JdYC4stJYk2EqBtq5gIAW6OJ7GpOF98AAAAASUVORK5CYII=).
-3. Edit necessary details.
-4. Click **Save**.
+3. Edit necessary details and click **Save**.
 
-### Upload Binary Files to Interface Driver Type
+
+
+### <mark style="color:purple;">Upload Binary Files to Interface Driver Type</mark>
 
 On the Interface Driver Type details page, **Binaries** tab is used to upload the SSIF Binary files relevant to the respective **Interface Driver Type.**
 
@@ -524,16 +527,77 @@ To upload a Binary File;
 1. On the Interface Driver Type detail page, click the **Binaries** tab.
 2. Drag and drop the relevant SSIF Binary file (.Zip file) onto the given area on the page above the **Upload** button; or click on the given area to search and select for the relevant Binary file.
 3. Click **Upload**.
-4. **Assembly Name** (.exe name of the Interface), **Interface Version** and **Description** (if available in the Binary file) fields on the GUI will be automatically filled up by obtaining the respective details from the uploaded Binary file.
+4. **Assembly Name** (.exe name of the Interface), **Interface Version** and **Description** (if available in the Binary file) fields on the GUI will be automatically filled up by obtaining the respective details from the uploaded Binary file.\
 
-### Delete an Interface Driver Type
+
+### <mark style="color:purple;">Delete an Interface Driver Type</mark>
 
 1. On the Interface Driver Type Search page, click the name of the Interface Driver Type that you need to delete, to go to its detailed page.
-2. Click the **Delete** icon![](<.gitbook/assets/Screenshot_11 (4).png>) or click the **Delete this Driver Type** link on the side panel under Driver Type Details tab. A message box to confirm deletion appears.
-3. Click **Delete** to confirm deletion of the **Interface Driver Type**, or to close the message box without deleting, click the icon![](<.gitbook/assets/Screenshot_10 (4).png>).
+2. Click the **Delete** icon <img src=".gitbook/assets/Screenshot_11 (4).png" alt="" data-size="line"> or click the **Delete this Driver Type** link on the side panel under Driver Type Details tab. A message box to confirm deletion appears.
+3. Click **Delete** to confirm deletion of the **Interface Driver Type**, or to close the message box without deleting, click the **Close** icon <img src=".gitbook/assets/Screenshot_10 (4).png" alt="" data-size="line">.
 4. If the Interface Driver Type is in use, you cannot delete it.
 
-## Interfaces
+
+
+***
+
+## <mark style="color:purple;background-color:blue;">Subsystems</mark>
+
+IBMS Subsystems is a way in which equipment, point and alarms are logically grouped based on different systems such as FAS (Fire Alarm System), CCTV, Access Control, BMS,etc.
+
+{% hint style="success" %}
+_Note- An initial set of data will be available under Subsystems when the IBMS application is initially configured._
+{% endhint %}
+
+This section describes the following:
+
+1. [Configure Subsystems](chapter-3-configuration-of-prerequisites.md#configure-subsystems)
+2. [Edit a Subsystem](chapter-3-configuration-of-prerequisites.md#edit-a-subsystem)
+3. [Delete a Subsystem](chapter-3-configuration-of-prerequisites.md#delete-a-subsystem)
+4. [Search Subsystems](chapter-3-configuration-of-prerequisites.md#search-subsystems)
+
+<mark style="color:blue;">**Path**</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Subsystems 🡪 Subsystems**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>\
+
+
+### <mark style="color:purple;">Configure Subsystems</mark>
+
+1. On the Subsystems search page, click the **New Subsystem** link.
+2. In the **Subsystem Name** box, type a unique and appropriate name for the new Subsystem.
+3. In the **Description** box, type a suitable description on the Subsystem.
+4. In the **Point Data Received** box, enter the number of points available for configuration or shared by the client related to the Subsystem.
+5. In the **Point Upload Completio**n date box, select the date when the point upload will be completed for the Subsystem.
+6. Click **Add** to create the new Subsystem. A new Subsystem will be created, and its details page will appear.
+
+
+
+### <mark style="color:purple;">Edit a Subsystem</mark>
+
+1. On the **Subsystems search** page, click the required Subsystem to edit. Its details page will appear.
+2. On the **Subsystem Details** tab, hover over the **General** section and click the **Edit** icon.
+3. Edit the necessary details.
+4. Click **Save**.
+
+
+
+### <mark style="color:purple;">Delete a Subsystem</mark>
+
+1. On the **Subsystems search** page, click the name of the **Subsystem** you want to delete, to open its details page.
+2. Click the **Delete** icon or click the **Delete This Subsystem** link on the side panel under the **Subsystem Details** tab. A confirmation message box will appear.
+3. Click **Delete** to confirm deletion of the Subsystem. To close the message box without deleting, click the **X** icon.\
+
+
+### <mark style="color:purple;">Search Subsystems</mark>
+
+1. Go to the **Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)🡪 **Configure** section 🡪 **Subsystems 🡪 Subsystems** search page.
+2. On the Subsystems search page, type the name of the required **Subsystem** in the ~~Search~~ **Subsystems** box. Matching record/records will be filtered as you type.
+3. To go to the detail page of an **Subsystem** in the search results, click its name.
+
+
+
+***
+
+## <mark style="color:purple;background-color:blue;">Interfaces</mark>
 
 An **Interface** defines a communication channel between a **Point** and a **Sub System Interface**.
 
