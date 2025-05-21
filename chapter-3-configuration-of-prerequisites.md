@@ -24,7 +24,7 @@ In IBMS application, the following tasks have to be carried out beforehand:
 * [Configure Equipment Templates](chapter-3-configuration-of-prerequisites.md#equipment-templates)
 * [Configure Point Templates](chapter-3-configuration-of-prerequisites.md#point-templates)
 * [Configure Interface Driver Types](chapter-3-configuration-of-prerequisites.md#interface-driver-types)
-* Configure Subsystems
+* [Configure Subsystems](chapter-3-configuration-of-prerequisites.md#subsystems)
 * [Configure Interfaces](chapter-3-configuration-of-prerequisites.md#interfaces)
 * [Configure Trend Groups](chapter-3-configuration-of-prerequisites.md#trend-groups)
 * [Configure Data Sources](chapter-3-configuration-of-prerequisites.md#data-sources)
