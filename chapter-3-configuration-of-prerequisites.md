@@ -606,12 +606,12 @@ This section describes the following:
 1. [Configure Interfaces](chapter-3-configuration-of-prerequisites.md#configure-interfaces)
 2. [Edit an Interface](chapter-3-configuration-of-prerequisites.md#edit-an-interface)
 3. [Delete an Interface](chapter-3-configuration-of-prerequisites.md#delete-an-interface)
-4. [View Interfaces List](chapter-3-configuration-of-prerequisites.md#view-interfaces-list)
+4. [View Interface List](chapter-3-configuration-of-prerequisites.md#view-interfaces-list)
 
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Interfaces 🡪 Interfaces**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
-### Configure Interfaces
+### <mark style="color:purple;">Configure Interfaces</mark>
 
 {% hint style="info" %}
 _Note –You need to configure_ _**Interface Driver Types**_ _and_ _**Zones**_ _before configuring_ _**Interfaces**._
@@ -620,35 +620,37 @@ _Note –You need to configure_ _**Interface Driver Types**_ _and_ _**Zones**_ _
 1. On the Interfaces search page, click the **Add a new Interface** link.
 2. In the **Interface ID** box, type a unique and appropriate name for the new **Interface**.
 3. In the **Driver Type** box, select the relevant Interface Driver Type. **Interface** will be created based on the selected **Interface Driver Type**.
-4. In the **IBMS Zone** box, select the **Zone**, which is associated with the respective **Interface**.
-5. Click **Create** to create the new **Interface**. A new Interface will be created and its detailed page will open. Except Proxy Server details, other fields on the Interface Details page will be filled with default values.
+4. In the **IBMS Zone** box, select the **Zone**, that is associated with the respective **Interface**.
+5. In the **Subsystem** box, select the **Subsystem**, that is associated with the respective **Interface**.
+6. Click **Create** to create the new **Interface**. A new Interface will be created and its detailed page will open. Except Proxy Server details, other fields on the Interface Details page will be filled with default values.
 
 The following table shows the fields that appear on the **Interface Details** page. These are the values that will be applied to **Interface**.
 
 <table><thead><tr><th width="345">Field</th><th>Description</th></tr></thead><tbody><tr><td>Configuration Refresh Interval (seconds)</td><td>The period of time in seconds between two events in checking the configuration change in Equipment Point address. This checking will be done by the <strong>Interface</strong>.</td></tr><tr><td>On-Demand (Default Value=0 means On Demand Support is Enabled)</td><td>If <strong>On Demand Support</strong> is enabled, <strong>Interface</strong> requests data from <strong>Subsystem</strong> only when real-time values of equipment are monitored. If it’s not On Demand (On Demand Support is disabled), the <strong>Interface</strong> will continuously request data from <strong>Subsystem</strong>.</td></tr><tr><td>Max Real-Time Queue Limit</td><td><p>Value Changes in Points will be sent as a batch to the Interface. This “Max Real-Time queue limit” field defines the maximum Value Change count that will be sent at one request. </p><p>e.g. Max Real-Time Queue Limit= 200 means, though there are more than 200 value changes in the queue, only 200 value changes will be sent to the Interface as 200 is the maximum count.</p></td></tr><tr><td>Max Resend Queue Limit</td><td><p>There will be a ‘Resend queue’ to queue Value Changes which will be used if there is a failure in sending normal Value Changes. A warning will be logged, if the Value change limit in the queue reaches this ‘Resend “queue limit.</p><p>e.g. 10000. This means if the no. of Value Changes in the queue exceeds 10000, the system will start logging a warning message.</p></td></tr><tr><td>Max Points to be downloaded per request</td><td>Maximum number of points to be requested and downloaded in one request.</td></tr><tr><td>Send Transaction Events (Default value is Disabled)</td><td>This shows whether the Subsystem events are captured or not.</td></tr><tr><td><p>Proxy Server</p><p></p><p>Proxy User Name</p><p></p><p>Proxy Password</p></td><td>If iviva is hosted in cloud, there may be a Proxy Server to assist in sending calls out to the Interfaces in local machines. These fields will be the Proxy Server settings.</td></tr><tr><td>Log Level</td><td>e.g. 1 = Exceptions 2 = Exceptions+ Additional Transaction Data</td></tr><tr><td>Log Notification Threshold (minutes)</td><td>Time duration that the system waits after a log notification, before sending another error log notification. This helps to wait for the given threshold time, without sending the same error log notification.</td></tr><tr><td>Expiry Duration (minutes)</td><td>SSIF Heartbeat or Points will expire after this Expiry Duration in minutes.</td></tr><tr><td>Certificate Validation</td><td><p>Select the <strong>Certificate Validation</strong> checkbox to turn on the HTTPS Certificate validation in the SSIF.  It is the Certificate applied to iviva. By default, certificate validation is turned off.</p><p>If the <strong>Certificate Validation</strong> checkbox is selected (checked), SSIF will validate the certificate when connecting to iviva. There will be an error if the certificate is expired and SSIF cannot be connected to iviva.</p></td></tr><tr><td>TCP Message Bus</td><td><p>SSIF needs to subscribe to iviva to receive on-demand requests to point values, set data commands and alarm acknowledge.</p><p>This happens via two methods:</p><p>1. WebSocket Message Bus (default)</p><p>2. TCP Message Bus</p><p>TCP Message Bus checkbox is used to enable the feature.</p></td></tr><tr><td>Cloud Local URL Validation</td><td><p>This is used by SSIF. The SSIF will connect to iviva using the configured iviva URL and the API key in the SSIF configuration file.</p><p><br>For example, an operator accesses iviva using the domain URL, but the SSIF cannot access the domain URL to send data. Therefore, it uses the IP Address of the domain URL.</p><p>So, at that time, the SSIF thinks that there are two iviva instances and can try to push data to both iviva instances, which is wrong. Because both channels will send data to the same iviva database.</p><p>Therefore, such scenarios can be turned off by this validation, so that the SSIF will push data via only one channel to iviva.</p></td></tr></tbody></table>
 
-### Edit an Interface
+### <mark style="color:purple;">Edit an Interface</mark>
 
 1. On the Interfaces search page, search and click on the Interface ID to navigate to its details page.
-2. Hover over the Interface Details section and click **edit** icon that appears. Edit the details on **Interface Details** tab as required and click **Save**. Click **Cancel** to discard the changes.
+2. Hover over the **Interface Details** section and click the **Edit** icon that appears. Edit the details on **Interface Details** tab as required and click **Save**. Click **Cancel** to discard the changes.
 3. Go to the **Clusters** tab and create a **Cluster**.
 
-#### Clusters
+#### <mark style="color:purple;">Clusters</mark>
 
-After creating an Interface, you need to create Clusters. If there is only one Instance of Interface (one machine), then you shall create only one Cluster. If there are two instances of the same **Interface** to be run on two machines, you shall create 2 Clusters. If the active Cluster stops working, then the other Cluster will become active.
+After creating an Interface, you need to create Clusters. If there is only one Instance of Interface (one machine), then you shall create only one Cluster. If there are two instances of the same **Interface** to be run on two machines, you shall create 2 Clusters. If the active Cluster stops working, then the other Cluster will become active.\
 
-**Create a Cluster**
+
+<mark style="color:purple;">**Create a Cluster**</mark>
 
 To create a Cluster;
 
 1. On the **Interface Details** page, click the **Clusters** tab.
-2. Click the **Add** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAetJREFUSEu1lltPwkAQhe2VREpBqAhvRIhR1ITE//8TTEzUaAwY3ri0BWyLCfQST2mzQKHrUpTwsnTOt8PMdM9yljU8+Z8PR0EHQTB3vi3LXi6Xvu+7ritJkiAIsiyraiGvnPI8T8lqPxogw5jMpjPQ08Tgls5KmlbGZntj9qCtL3s4HPu+x1IngRdq9Qu1WNgNTqIN3dR1gwW6GaNplfOqllBtFSsbF0TDMKFNRduWkyFfgoMWldykx1mjb4PB6NA6JOJXHfLJjzHaNCf0vrXbnbv7B3zRt7QMQABnC40Jm05mR6YcycEh8xpm7dhzyvwetCU46FkkCdG2HS8OoqQFO858jV4sFn8CjSCEFr4yH+9dP1h3Fo/Rq5vbDst+b69Pu9qr61ZckMQzFiIlhtDCWlPmKcM25DgMC/LZ6/9absw1vzrhXp4f6fvlcrnLZiMuCBYZskuTEFpYEEXJ/yGa0EJ0QVXofsG+MTigrec68gt2PSUSnK02IhQnVq/bZ3SWNLQgiM1Wg/hZfPJhXatVj0wchE2fXLsM/A0+lJkObcIhtwwM/lbRyhnoUO16Y4qjD0aMbz+aVq/XmBw9StnzPH1s4HJDOcc5jisWVSQriuLeP8p6e/I83/NcUZREUZBkuZj59pSh3LuSH1dj7tJo6AJVAAAAAElFTkSuQmCC). Cluster configuration page appears.
+2. Click the **Add** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAetJREFUSEu1lltPwkAQhe2VREpBqAhvRIhR1ITE//8TTEzUaAwY3ri0BWyLCfQST2mzQKHrUpTwsnTOt8PMdM9yljU8+Z8PR0EHQTB3vi3LXi6Xvu+7ritJkiAIsiyraiGvnPI8T8lqPxogw5jMpjPQ08Tgls5KmlbGZntj9qCtL3s4HPu+x1IngRdq9Qu1WNgNTqIN3dR1gwW6GaNplfOqllBtFSsbF0TDMKFNRduWkyFfgoMWldykx1mjb4PB6NA6JOJXHfLJjzHaNCf0vrXbnbv7B3zRt7QMQABnC40Jm05mR6YcycEh8xpm7dhzyvwetCU46FkkCdG2HS8OoqQFO858jV4sFn8CjSCEFr4yH+9dP1h3Fo/Rq5vbDst+b69Pu9qr61ZckMQzFiIlhtDCWlPmKcM25DgMC/LZ6/9absw1vzrhXp4f6fvlcrnLZiMuCBYZskuTEFpYEEXJ/yGa0EJ0QVXofsG+MTigrec68gt2PSUSnK02IhQnVq/bZ3SWNLQgiM1Wg/hZfPJhXatVj0wchE2fXLsM/A0+lJkObcIhtwwM/lbRyhnoUO16Y4qjD0aMbz+aVq/XmBw9StnzPH1s4HJDOcc5jisWVSQriuLeP8p6e/I83/NcUZREUZBkuZj59pSh3LuSH1dj7tJo6AJVAAAAAElFTkSuQmCC). Cluster configuration page appears.
 3. In the **Cluster ID** box, type a relevant name for the new **Cluster.**
 4. Select the **Enabled** check box to enable the **Cluster**.
 5. **Gateway IP** will be automatically updated, when the respective **Cluster** runs.
 6. **Active Status** will be automatically updated, when the respective **Cluster** runs.
 7. Click **Add** to save the Cluster.
-8. Under the “Clusters” tab, the following details of each Cluster will be displayed;
+8. Under the **Clusters** tab, the following details of each Cluster will be displayed;
    * Cluster ID
    * Enabled Status
    * Active Status/IP address of Gateway
@@ -660,19 +662,21 @@ To create a Cluster;
 _Note –**Gateway IP**_ _and_ _**Active Status**_ _fields are Read-only and will be automatically updated when the respective Cluster starts running._
 {% endhint %}
 
-**Edit a Cluster**
+<mark style="color:purple;">**Edit a Cluster**</mark>
 
 To edit Cluster details;
 
 1. On the respective **Interface Details** page, click the **Clusters** tab.
-2. Click the **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAIAAADZ8fBYAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsUBR2zs/wAAAkhJREFUSEu11m1vmzAQAOBhICyiQDogL6BmmjqtH6dO2v7/r5i6KF/XdYMkDS8lvJjuKMhQMA5DWlVVSXr3xDn7fOGi6PHNf/jh+tw8z8Mw9I5+HMcY51maCqLI80iSJFVTZFlGCDHWQ3Exxq6zOxwen/O8L5ND6PJyZpg6z/PUmLbred6v+985xkNqg3i0spaqqnaDX7mO47p/3CFiM8YwDXNutLLqGo1DgXMdF3Lpru/7I1ZKLMiFAjbpYr1Zlt3/fPiHj89x3WDYFXDI64W73x0GbpRuzj/ffr398s2yr1o0CODULpzT/b5+zlj1fLlarz+Ux3axtOQLpRUMDmjliygIAsY5JZmA2va6CQmC0HLBgX2qXN8LzlZ2vrRaKDRha6NKJPDDyo2imO2+oK+qmabpdnv3nFN6h2gI45RZUwq62XxPTidqFtFQjnsvAcNcdFfKQOGdiIagx/vW6/lH+Mjkv/CYjUIk3EdVfXlepLr21fs0SQAq6SEohAlCpaHpVKK6qqJdX9+UdBj6Z1daIkRDF4rcVwdFVSv6rnejWrlE48Jwv/mx7baG9HaKUHEPJEmCG43PODxQ3E83H8uGhL/Fzd+Njk9R9PQEvwNREMAhw6mwdeMd6hknZ1uRBIAATv30ZROFlbUYTlAjQWjeGNVxgxkF42Q0DbmtKVc3Bcwo3dBH0JDVnW/UefzAaO7mG8MBsOwB87jMgdZynJ139Fj3MsdpM800dVGkt+ug7ztZhuG08bAvAj+ZTLSZOub7zogSd1P+AiqMQ8NYhVu2AAAAAElFTkSuQmCC)to open the Cluster Details page.
+2. Click the **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAIAAADZ8fBYAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsUBR2zs/wAAAkhJREFUSEu11m1vmzAQAOBhICyiQDogL6BmmjqtH6dO2v7/r5i6KF/XdYMkDS8lvJjuKMhQMA5DWlVVSXr3xDn7fOGi6PHNf/jh+tw8z8Mw9I5+HMcY51maCqLI80iSJFVTZFlGCDHWQ3Exxq6zOxwen/O8L5ND6PJyZpg6z/PUmLbred6v+985xkNqg3i0spaqqnaDX7mO47p/3CFiM8YwDXNutLLqGo1DgXMdF3Lpru/7I1ZKLMiFAjbpYr1Zlt3/fPiHj89x3WDYFXDI64W73x0GbpRuzj/ffr398s2yr1o0CODULpzT/b5+zlj1fLlarz+Ux3axtOQLpRUMDmjliygIAsY5JZmA2va6CQmC0HLBgX2qXN8LzlZ2vrRaKDRha6NKJPDDyo2imO2+oK+qmabpdnv3nFN6h2gI45RZUwq62XxPTidqFtFQjnsvAcNcdFfKQOGdiIagx/vW6/lH+Mjkv/CYjUIk3EdVfXlepLr21fs0SQAq6SEohAlCpaHpVKK6qqJdX9+UdBj6Z1daIkRDF4rcVwdFVSv6rnejWrlE48Jwv/mx7baG9HaKUHEPJEmCG43PODxQ3E83H8uGhL/Fzd+Njk9R9PQEvwNREMAhw6mwdeMd6hknZ1uRBIAATv30ZROFlbUYTlAjQWjeGNVxgxkF42Q0DbmtKVc3Bcwo3dBH0JDVnW/UefzAaO7mG8MBsOwB87jMgdZynJ139Fj3MsdpM800dVGkt+ug7ztZhuG08bAvAj+ZTLSZOub7zogSd1P+AiqMQ8NYhVu2AAAAAElFTkSuQmCC)to open the **Cluster Details** page.
 3. Change the **Cluster ID** or Enabled/Disabled value if required.
 4. The **Parameters** of the respective **Interface Driver Type** will be displayed. You may configure the relevant parameters according to the respective Cluster and the machine that it runs.
    1. To configure a parameter, type the relevant parameter value in the given box.
    2. Click **Set**.
 5. Click **Update** to save the changes.
 
-**Manually Activate/Deactivate/Refresh a Cluster**
+
+
+<mark style="color:purple;">**Manually Activate/Deactivate/Refresh a Cluster**</mark>
 
 1. On the respective **Interface Details** page, click the **Clusters** tab.
 2. Click the respective ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAIAAAD5mpj+AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsMBDDN7wQAAAk1JREFUSEudll1zmkAUhot8ORERFNKIuWg17Q9ILvr//0aTeGUxE7Dy1WZUcPpul1kR2NWBC2eE8z579pzdfVf6+Ig+cZ7j8fgn+5skyW63L4r8cMhVVZFlRdc10zQHxk2v1+Np8V5qRRdFEQSbaBuBzhODa9mW605kWW6NaUEncbpev4EuyIh9knvy1LszR8NmcB0dvIdBEF4DrcY4zuT2s1tTnRWrGxfEMNxAy0WnSdYhX4aDFpWs0susUVnfX4vr8OXr4vHpB355YbUOlWjMSNy34dAcjx1A8XszGLTSQQCHfSJorLDtb+7qpqG73Y5p8kPOSxwctl7JCkGNVqtfF1eFpumO44ZhsN+fhmmqZjNvZJl4T7JO07PyN6MVWUFB8N73V2IuYrIsowSS9evLEluZl/V88d2ybPo1irbL15/i+eEYWDzMy6zzg2jjxQT3THEYg9fDSidKGilIcRShN5sgS5NrekhjGI2gcQ6I52j8LzSRFcXFWrPjkKAV9Vp0HG/FSeArDl4aQ9D9fl8ssO2yjWlyqgxPwmgEbRiGGK2qGg1IK0XnSRiNoIemIfYLdgZ4s3vPu8fe4XHBAe1UEOoXgsTX/orSRyNb03VBJ8FhWZZWAOXL8/JKZ+ElASd7+DZnflaefPg/nd5d7L44AISqT55cBv4GH+pMh7bmkGcGBn+bOOMOdKia3shxdP9NvPvZ8Gia502vcnSqyfM8eA/iOBXcQyRJsizTvXUVpdx+tem2X3FoUPX2hMHwgIJH07VR59tTh3I3Jf8AwMoaRR+VCaYAAAAASUVORK5CYII=)icon.
@@ -680,9 +684,9 @@ To edit Cluster details;
 4. If a Cluster is active and if you want to deactivate it, click the **Deactivate** link on the pop-up.
 5. Click **Refresh** link to re-fresh the details in the Cluster.
 
-(Or you can click ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAoCAIAAAD/iQTwAAAAAXNSR0IArs4c6QAAAuhJREFUWEdj/PTpBQONARONzQcZP2oH8YE8GlY4wur3t48f0aQYCeSP3x8f3bx29fyFmy++f3tz7/5bVlklWU5OPiVDE0MdNSURLlTjfj8/tWzJTf3SWANkcdx2/H575cD6lSvP4MminOpOMeHuZnL8YBNBFkycdfybacakdCLs+Pbo+JKpC0+/JSbtsCh6Zqb5qf0+D7IAqIOTCDt+v7myZdaUnff/EGMBVA2nhPjvFy8hOjDtYEEz6dvdvWgWsChZ+rlYGqgrSvKzghV/e3P3/tXTe7fvuQb35/cXL/G4CCU+fr+5sKRtxrFPcPXidmmZwWYSaDELkf795taexdPXXf2OZjqmP5Dz4Meb21cjLGBRC68sj8VhAdBcVhFFA2ttPiJCFGHH7+cXtx+F+17cLifeXhmrB6DeAKeiMwg/47YMbsfv51eO34LFM59VoJ+OMCT4sQFoMiUq3SHK9t9v7194DDNO3MpeDZLmKbcAaAIszj9end84GRoZEk4lVWHqeMKJiDhAVgINq9+/P338BhPnl8ATTCSaD1IOi4/f377BIoOTj48Vd1RQYAcrFxcsO37/9On3bzKMwqkF6g9WVj5+eAR8fPGWFnYwcAkrScI88uLqlefwyKGCh2DxwSqsaCALM+/lsYO30CsaCuyC50FWSR1LNZhPPh1bvek81QIMUZawSpr4OYjDnPv20MyFB+8SCrHfb88v7myaefwRXoXMlZUlMHNZ+SUE358/8xhSkv57e/XIhY8SKqrS0DIdLbSA5e6uOX2LTr/+9OzisZu/VfVURDiYsYYoel377e6OCd0bkCsoFllLP0/U+uPR/avHUOoPoNES9rklsdpYSyDM+pycelDYND4/1lISR/GDvc3w7dGhJVOXEVufu6SkBRuI4C4a8LVLbh5YvwRvu4RFyTYmJtBajkDxSUr76uO9+y+4ZJUkgO0rWUMTMyztK+yZiJAdFGQ9uNbRNjXxoTgaVsSHFQABfkpQREVKswAAAABJRU5ErkJggg==) icon of a selected Cluster to refresh the details in the Cluster).
+(Or you can click the **Refresh** icon <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAoCAIAAAD/iQTwAAAAAXNSR0IArs4c6QAAAuhJREFUWEdj/PTpBQONARONzQcZP2oH8YE8GlY4wur3t48f0aQYCeSP3x8f3bx29fyFmy++f3tz7/5bVlklWU5OPiVDE0MdNSURLlTjfj8/tWzJTf3SWANkcdx2/H575cD6lSvP4MminOpOMeHuZnL8YBNBFkycdfybacakdCLs+Pbo+JKpC0+/JSbtsCh6Zqb5qf0+D7IAqIOTCDt+v7myZdaUnff/EGMBVA2nhPjvFy8hOjDtYEEz6dvdvWgWsChZ+rlYGqgrSvKzghV/e3P3/tXTe7fvuQb35/cXL/G4CCU+fr+5sKRtxrFPcPXidmmZwWYSaDELkf795taexdPXXf2OZjqmP5Dz4Meb21cjLGBRC68sj8VhAdBcVhFFA2ttPiJCFGHH7+cXtx+F+17cLifeXhmrB6DeAKeiMwg/47YMbsfv51eO34LFM59VoJ+OMCT4sQFoMiUq3SHK9t9v7194DDNO3MpeDZLmKbcAaAIszj9end84GRoZEk4lVWHqeMKJiDhAVgINq9+/P338BhPnl8ATTCSaD1IOi4/f377BIoOTj48Vd1RQYAcrFxcsO37/9On3bzKMwqkF6g9WVj5+eAR8fPGWFnYwcAkrScI88uLqlefwyKGCh2DxwSqsaCALM+/lsYO30CsaCuyC50FWSR1LNZhPPh1bvek81QIMUZawSpr4OYjDnPv20MyFB+8SCrHfb88v7myaefwRXoXMlZUlMHNZ+SUE358/8xhSkv57e/XIhY8SKqrS0DIdLbSA5e6uOX2LTr/+9OzisZu/VfVURDiYsYYoel377e6OCd0bkCsoFllLP0/U+uPR/avHUOoPoNES9rklsdpYSyDM+pycelDYND4/1lISR/GDvc3w7dGhJVOXEVufu6SkBRuI4C4a8LVLbh5YvwRvu4RFyTYmJtBajkDxSUr76uO9+y+4ZJUkgO0rWUMTMyztK+yZiJAdFGQ9uNbRNjXxoTgaVsSHFQABfkpQREVKswAAAABJRU5ErkJggg==" alt="" data-size="line"> of a selected Cluster to refresh the details in the Cluster).
 
-The following additional functional options will be available for each selected Cluster under Cluster options, when the “SubsystemInterfaceUpdate.exe” is running as a background service.
+The following additional functional options will be available for each selected **Cluster** under Cluster options, when the “**SubsystemInterfaceUpdate.exe**” is running as a background service.
 
 * Restart Service
 * Start Service
@@ -693,9 +697,10 @@ The following additional functional options will be available for each selected 
 
 To select an option under a Cluster;
 
-1. Click the respective ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAIAAAD5mpj+AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsMBDDN7wQAAAk1JREFUSEudll1zmkAUhot8ORERFNKIuWg17Q9ILvr//0aTeGUxE7Dy1WZUcPpul1kR2NWBC2eE8z579pzdfVf6+Ig+cZ7j8fgn+5skyW63L4r8cMhVVZFlRdc10zQHxk2v1+Np8V5qRRdFEQSbaBuBzhODa9mW605kWW6NaUEncbpev4EuyIh9knvy1LszR8NmcB0dvIdBEF4DrcY4zuT2s1tTnRWrGxfEMNxAy0WnSdYhX4aDFpWs0susUVnfX4vr8OXr4vHpB355YbUOlWjMSNy34dAcjx1A8XszGLTSQQCHfSJorLDtb+7qpqG73Y5p8kPOSxwctl7JCkGNVqtfF1eFpumO44ZhsN+fhmmqZjNvZJl4T7JO07PyN6MVWUFB8N73V2IuYrIsowSS9evLEluZl/V88d2ybPo1irbL15/i+eEYWDzMy6zzg2jjxQT3THEYg9fDSidKGilIcRShN5sgS5NrekhjGI2gcQ6I52j8LzSRFcXFWrPjkKAV9Vp0HG/FSeArDl4aQ9D9fl8ssO2yjWlyqgxPwmgEbRiGGK2qGg1IK0XnSRiNoIemIfYLdgZ4s3vPu8fe4XHBAe1UEOoXgsTX/orSRyNb03VBJ8FhWZZWAOXL8/JKZ+ElASd7+DZnflaefPg/nd5d7L44AISqT55cBv4GH+pMh7bmkGcGBn+bOOMOdKia3shxdP9NvPvZ8Gia502vcnSqyfM8eA/iOBXcQyRJsizTvXUVpdx+tem2X3FoUPX2hMHwgIJH07VR59tTh3I3Jf8AwMoaRR+VCaYAAAAASUVORK5CYII=)icon and select the required option from the pop-up menu.
+1. Click the respective ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAIAAAD5mpj+AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsMBDDN7wQAAAk1JREFUSEudll1zmkAUhot8ORERFNKIuWg17Q9ILvr//0aTeGUxE7Dy1WZUcPpul1kR2NWBC2eE8z579pzdfVf6+Ig+cZ7j8fgn+5skyW63L4r8cMhVVZFlRdc10zQHxk2v1+Np8V5qRRdFEQSbaBuBzhODa9mW605kWW6NaUEncbpev4EuyIh9knvy1LszR8NmcB0dvIdBEF4DrcY4zuT2s1tTnRWrGxfEMNxAy0WnSdYhX4aDFpWs0susUVnfX4vr8OXr4vHpB355YbUOlWjMSNy34dAcjx1A8XszGLTSQQCHfSJorLDtb+7qpqG73Y5p8kPOSxwctl7JCkGNVqtfF1eFpumO44ZhsN+fhmmqZjNvZJl4T7JO07PyN6MVWUFB8N73V2IuYrIsowSS9evLEluZl/V88d2ybPo1irbL15/i+eEYWDzMy6zzg2jjxQT3THEYg9fDSidKGilIcRShN5sgS5NrekhjGI2gcQ6I52j8LzSRFcXFWrPjkKAV9Vp0HG/FSeArDl4aQ9D9fl8ssO2yjWlyqgxPwmgEbRiGGK2qGg1IK0XnSRiNoIemIfYLdgZ4s3vPu8fe4XHBAe1UEOoXgsTX/orSRyNb03VBJ8FhWZZWAOXL8/JKZ+ElASd7+DZnflaefPg/nd5d7L44AISqT55cBv4GH+pMh7bmkGcGBn+bOOMOdKia3shxdP9NvPvZ8Gia502vcnSqyfM8eA/iOBXcQyRJsizTvXUVpdx+tem2X3FoUPX2hMHwgIJH07VR59tTh3I3Jf8AwMoaRR+VCaYAAAAASUVORK5CYII=)icon and select the required option from the pop-up menu.\
 
-**Delete a Cluster**
+
+<mark style="color:purple;">**Delete a Cluster**</mark>
 
 1. On the respective **Interface Details** page, click the **Clusters** tab.
 2. Click the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) to the right to delete Cluster from the Interface.
@@ -704,7 +709,7 @@ To select an option under a Cluster;
 _Note –If a Cluster is active,_ _**Delete**_ _icon_ ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) _will not be displayed along with the respective Cluster details._
 {% endhint %}
 
-#### Transactions tab
+#### <mark style="color:purple;">Transactions Tab</mark>
 
 Transaction tab is used to log the transactions associated with Cluster related functionalities.
 
@@ -712,12 +717,13 @@ Cluster commands will be logged under the **Transaction** tab.
 
 System will log the following details of cluster commands.
 
-* Transaction Time: Displays the date & time that the transaction occurred
-* Transaction Description: Displays the type of the option (Cluster Commands)
-* User ID: User ID of the user who performed the function
-* Description: Displays whether the transaction (command) is successful
+* **Transaction Time**: Displays the date & time that the transaction occurred
+* **Transaction Description**: Displays the type of the option (Cluster Commands)
+* **User ID**: User ID of the user who performed the function
+* **Description**: Displays whether the transaction (command) is successful
 
-You can filter the transaction records by giving Start Time (Start Date & Time) on the side panel.
+\
+You can filter the transaction records by giving **Start Time** (Start Date & Time) on the side panel.
 
 To generate a report on Interface Transactions:
 
@@ -725,17 +731,20 @@ To generate a report on Interface Transactions:
 2. In the **Format** Box, select the report format (PDF/Word/Excel/Excel-Raw) as you want.
 3. Click **Generate Report.**
 
-#### Debug Tab
+#### <mark style="color:purple;">Debug Tab</mark>
 
-Debug tab displays the debug information which is managed by SSI when troubleshooting.
+Debug tab displays the debug information which is managed by SSI when troubleshooting.\
 
-### Delete an Interface
+
+### <mark style="color:purple;">Delete an Interface</mark>
 
 1. On the Interfaces search page, click the name of the **Interface** that you need to delete, to go to its detailed page.
-2. Click the **Delete** icon![](<.gitbook/assets/Screenshot_11 (4).png>) or the **Delete this Interface** link on the side panel.
-3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Interface,** or to close the message box without deleting, click the ![](<.gitbook/assets/Screenshot_10 (4).png>) icon. If the selected Interface is in use, a message will appear stating that it cannot be deleted.
+2. Click the **Delete** icon <img src=".gitbook/assets/Screenshot_11 (4).png" alt="" data-size="line"> or the **Delete this Interface** link on the side panel.
+3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Interface,** or to close the message box without deleting, click the **Close** icon <img src=".gitbook/assets/Screenshot_10 (4).png" alt="" data-size="line"> . If the selected Interface is in use, a message will appear stating that it cannot be deleted.
 
-### View Interfaces List
+
+
+### <mark style="color:purple;">View Interfaces List</mark>
 
 1. On the Interfaces search page, to search by **IBMS Zone**, select the relevant IBMS Zone from the list box.
 2. To filter **Interfaces** by **Driver Types**, select the required Driver Type.
