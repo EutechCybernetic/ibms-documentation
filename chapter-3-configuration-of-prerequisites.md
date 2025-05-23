@@ -136,7 +136,7 @@ _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-
 ### <mark style="color:purple;">Delete an Alarm Class</mark>
 
 1. On the **Alarm Classes** search page, search for the required Alarm Class and click the name of it to go to its detailed page.
-2. Click the **Delete this Alarm Class** link or **Delete this item** icon<img src=".gitbook/assets/Screenshot_11 (3).png" alt="" data-size="line">on the sidebar.
+2. Click the **Delete this Alarm Class** link or **Delete this item** icon <img src=".gitbook/assets/Screenshot_11 (3).png" alt="" data-size="line"> on the sidebar.
 
 A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Alarm Class**, or to close the message box without deleting, click **Cancel** <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line">. If the **Alarm Class** is in use, a message will appear stating that it cannot be deleted.\
 
