@@ -1091,7 +1091,7 @@ You can attach attachments related to the Message to be sent.
 To export a Message Template;
 
 1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to export and click on it to go to its detailed page.
-2. Click **Export** link ![](.gitbook/assets/Screenshot_15.png) on the Side bar.
+2. Click **Export** link <img src=".gitbook/assets/Screenshot_15.png" alt="" data-size="line"> on the sidebar.
 3. Save the attachment.\
 
 
@@ -1120,7 +1120,9 @@ To configure an Alarm Escalation Disable Message Template;
 _<mark style="color:blue;">Setting under App Configuration</mark>_\
 &#xNAN;_<mark style="color:blue;">**Alarm Escalation Disable Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Alarm Escalation Disable Message Templates) will be populated in “</mark><mark style="color:blue;">**Alarm Escalation Disable Message Template**</mark><mark style="color:blue;">” Drop-down box in</mark>_ _<mark style="color:blue;">**App Configuration page,**</mark>_ <mark style="color:blue;"></mark><mark style="color:blue;">which enables user to select a relevant message template.</mark>
 
-## Link Templates & Links
+
+
+## <mark style="color:purple;background-color:blue;">Link Templates & Links</mark>
 
 Controls (e.g. button) on Real-Time (RT) Pages of Equipment can be linked to other RT pages or to required URLs according to your requirements, (e.g. clicking a button on a RT page, can open another RT page or can direct to another URL).
 
@@ -1130,13 +1132,13 @@ Before providing links to Controls on RT pages, you need to perform the followin
    This is used to create a template for links. Created **Link Template** will be applied to the **Equipment** configured using the respective **Equipment Template.**
 2. Create **Links** accordingly, for **Equipment** under respective **Equipment** configuration page. When you configure RT pages, you shall add the pre-configured **Links** to **Controls** on RT page.
 
-### Create Link Templates on Equipment Template
+### <mark style="color:purple;">Create Link Templates on Equipment Template</mark>
 
 To create Link Templates on an Equipment Template;
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates** Search page will appear.
 2. Go to the detailed page of the required **Equipment Template**.
-3. On the **Link Templates** tab, click the **Add** icon![](<.gitbook/assets/Screenshot_12 (2).png>).
+3. On the **Link Templates** tab, click the **Add** icon <img src=".gitbook/assets/Screenshot_12 (2).png" alt="" data-size="line">.
 4. In the **Link Name** box, type a name for the **Link** template.
 5. Click **Add**.
 
@@ -1144,7 +1146,7 @@ To create Link Templates on an Equipment Template;
 _Note – Created_ _**Link Template**_ _will be applied to_ _**Equipment**_ _configured using the respective_ _**Equipment Template**. Under_ _**Equipment**_ _configuration, required_ _**Links**_ _can be configured according to the requirements._
 {% endhint %}
 
-### Configure Links on Equipment Configuration page
+### <mark style="color:purple;">Configure Links on Equipment Configuration Page</mark>
 
 After creating **Link Templates** on **Equipment Template** configuration page, you shall configure **Links** on the **Equipment** created using the respective **Equipment Template**.\
 \
