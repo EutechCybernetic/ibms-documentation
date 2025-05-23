@@ -777,7 +777,7 @@ A **Trend Group** is a collection of **Trend Points** with same unit of measurem
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Trend Groups 🡪 Trend Groups**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
-### Configure Trend Groups
+### <mark style="color:purple;">Configure Trend Groups</mark>
 
 1. On the Trend Groups search page, click the **Add New Trend Group** link. **New** **Trend Group** configuration page opens.
 2. In the **Trend Group Name** box, type a unique and appropriate name for the new **Trend Group**.
@@ -790,17 +790,17 @@ A **Trend Group** is a collection of **Trend Points** with same unit of measurem
    * Points – Shows the **Configured Points** in the **Trend Group.** Type the required Point name in the **Search Points** search box, to filter Points by Point name.
    * Trend – Shows the Trends associated with the Trend Group
 
-#### Add Points to the Trend Group
+#### <mark style="color:purple;">Add Points to the Trend Group</mark>
 
 You can add configured points to the created Trend Group.
 
 1. Go to the Trend Group Detail page.&#x20;
 2. On the Trend Group details page, click the **Points** tab.&#x20;
-3. Click the **Add** ![](<.gitbook/assets/Screenshot_12 (2).png>)icon. Points search window will open to add configured Points to the respective **Trend Group.** Point configuration should be done first in order to list the configured points in the Point Search Window. Refer [**Configure Point Templates**](chapter-3-configuration-of-prerequisites.md#point-templates) section for more details on configuring points.&#x20;
+3. Click the **Add** <img src=".gitbook/assets/Screenshot_12 (2).png" alt="" data-size="line"> icon. Points search window will open to add configured Points to the respective **Trend Group.** Point configuration should be done first in order to list the configured points in the Point Search Window. Refer [**Configure Point Templates**](chapter-3-configuration-of-prerequisites.md#point-templates) section for more details on configuring points.&#x20;
 4. Select the **Point Name** from the **Points** search page. **Points** can be added from the pinboard as well.&#x20;
 5. Click the **Point Name** to add the selected **Point**.
 
-#### Edit Points on Trend Group
+#### <mark style="color:purple;">Edit Points on Trend Group</mark>
 
 1. Go to the Trend Group Detail page. Click the **Points** tab.
 2. Click the **Point Name** to go to the relevant Point details page.
@@ -810,7 +810,7 @@ You can add configured points to the created Trend Group.
    2. Click the **Equipment name** to go to the relevant Equipment detail page.
    3. Go to the **Points** tab and click on the required point name to open the relevant detail page.
 
-#### Delete Points from Trend Group
+#### <mark style="color:purple;">Delete Points from Trend Group</mark>
 
 1. Go to the Trend Group detail page. Click the **Points** tab.
 2. Click the ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) icon on the right hand of the same row of the **Point** that you want to delete.
