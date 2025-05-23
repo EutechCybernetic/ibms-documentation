@@ -772,7 +772,8 @@ A **Trend Group** is a collection of **Trend Points** with same unit of measurem
 2. [Edit a Trend Group](chapter-3-configuration-of-prerequisites.md#edit-a-trend-group)
 3. [Delete a Trend Group](chapter-3-configuration-of-prerequisites.md#delete-a-trend-group)
 4. [View Trends of Trend Group](chapter-3-configuration-of-prerequisites.md#view-trends-of-trend-group)
-5. [Dynamic Trend Groups](chapter-3-configuration-of-prerequisites.md#dynamic-trend-groups)
+5. [Real-Time Trends of Trend Groups](chapter-3-configuration-of-prerequisites.md#real-time-trends-of-trend-groups)
+6. [Dynamic Trend Groups](chapter-3-configuration-of-prerequisites.md#dynamic-trend-groups)
 
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Trend Groups 🡪 Trend Groups**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
@@ -813,24 +814,25 @@ You can add configured points to the created Trend Group.
 #### <mark style="color:purple;">Delete Points from Trend Group</mark>
 
 1. Go to the Trend Group detail page. Click the **Points** tab.
-2. Click the ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) icon on the right hand of the same row of the **Point** that you want to delete.
-3. A message box appears to confirm the deletion of **Point.** Click **OK** to confirm deletion of the **Point.** Click **Cancel** to abort the operation.
+2. Click the **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) on the right hand of the same row of the **Point** that you want to delete.
+3. A message box appears to confirm the deletion of **Point.** Click **OK** to confirm deletion of the **Point.** Click **Cancel** to abort the operation.\
 
-### Edit a Trend Group
+
+### <mark style="color:purple;">Edit a Trend Group</mark>
 
 1. On the Trend Groups search page, search for the required **Trend Group**.
 2. Click the required **Trend Group** name that you want to edit. Trend details page will open.
-3. In the **Details** tab, hover over the **Details** section and click the **Edit** ![](<.gitbook/assets/Screenshot 2024-06-07 132020 (3).png>)icon that appears.
+3. In the **Details** tab, hover over the **Details** section and click the **Edit** <img src=".gitbook/assets/Screenshot 2024-06-07 132020 (3).png" alt="" data-size="line"> icon that appears.
 4. Edit the **Trend Group** **Name**, **Location** and **Trend Report Name** as required.
 5. Click **Save**. Click **Cancel** to discard the changes.
 
-### Delete a Trend Group
+### <mark style="color:purple;">Delete a Trend Group</mark>
 
 1. On the Trend Groups search page, search for the **Trend Group**. Click the required **Trend Group** name to go to the Trend detail page.
-2. Click the respective **Delete this Trend Group** link or **Delete** icon![](<.gitbook/assets/Screenshot_11 (4).png>) in the Sidebar.
-3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Trend Group,** or to close the message box without deleting, click![](<.gitbook/assets/Screenshot_10 (4).png>) . If the **Trend** **Group** is in use, you will not be allowed to delete it.
+2. Click the respective **Delete this Trend Group** link or **Delete** icon <img src=".gitbook/assets/Screenshot_11 (4).png" alt="" data-size="line"> in the Sidebar.
+3. A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Trend Group,** or to close the message box without deleting, click <img src=".gitbook/assets/Screenshot_10 (4).png" alt="" data-size="line"> . If the **Trend** **Group** is in use, you will not be allowed to delete it.
 
-### View Trends of Trend Group
+### <mark style="color:purple;">View Trends of Trend Group</mark>
 
 1. Go to ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) **Settings** and click **Trend Groups** under **View** section.
 2. Or go to **App Dashboard**🡪**Trend Groups** tab.
@@ -850,18 +852,21 @@ You can add configured points to the created Trend Group.
 _Tip – You can view respective_ _**User Activities**_ _associated with a_ _**Trend Group (on the respective Trend Group detail page)**_ _such as Trend Group creation, Point addition, Point Deletion, etc. on the right pane in the respective Trend Group detail page under_ _**Activities**_ _section._
 {% endhint %}
 
-### Real-Time Trends of Trend Groups
+### <mark style="color:purple;">Real-Time Trends of Trend Groups</mark>
 
 You can view Real-Time trends on a full view or on a Pop-up window.
 
 1. Go to ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)**Settings** and click **Trend Groups** under **View** section.
 2. Or go to **App Dashboard** 🡪**Trend Groups** tab.
 3. Full View: On the Trend Groups search page, click the ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAIAAABLixI0AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAjFJREFUSEtjfPXqOQOVABOVzAEZM2oWaYHJCI9HTU2dt2/fkqRbTEz0ypVLcC0Is8TEJDs62kxNTYg07tSp07W19c+ePYarZ0HWaWFhoaWlicusM2fOxMYm5OXlZGZmANX8/v0HTSWxaeL379+RkTFbt266cOHiuXPnsdqH3azPnz9PnTrt1atXcD2fPn3+/v17fX3juXPnhIWFiDXr79+/06fPaGxsXr16DUTPmzdv4+MTwsPDbG1tlixZLC8vT9isN2/evHjxorm5Zfv2nX19PTNmzDp69NizZ888PDx9fHx6erp8fX3+/ft348ZNoOlYjAOmCQiCyzk5OUJENm5cDxRkZGRcunQxkJuamgJXw8TEFBYWysLCAtcOZKDE465dOzQ01IEqIHrMzExdXJwFBQWdnZ1aW9uXLl22aNECXV2d//8ZtmzZ2tTUDLQG2XUoYc/Ozs7BwQE3i5mZedmyJVOnTga6Yv78BdnZmR4e7l1dPY8ePUpLSwH6F82bKO66f/8+A8N/zIAAhtGXL18iIyOBUsDI3blzJzBO/fx8N27chKwYke41NLSBiQhXQv327Rsw7KOjoxYuXHT48BEZGekfP35u3brt8uULWPIQ/qyTn1+4ffuOkyePAYMPqPLEiZMhIWEVFWU5Odkkm/Xu3TugcXv37gMmLmACfPLkSVRUZFNTAxcXF8lmATX8+fPn+PHjN27cYmFh1tfXMzQ0RItHRHjh9yMxssTm7aFsFgA0DQk3/GoTcQAAAABJRU5ErkJggg==) **Full View** icon to go to the Real-Time Trends Full page view.
-4. Real-Time Trend Pop-up window:
-   1. On the Trend Groups search page, click the required **Trend Group** name to go to its detail view.
-   2. Click the **Real-Time Trends** link on the top right corner to go to the pop-up window of the Trend Group’s Real-Time Trends.
+4.  Real-Time Trend Pop-up window:
 
-### Dynamic Trend Groups
+    1. On the Trend Groups search page, click the required **Trend Group** name to go to its detail view.
+    2. Click the **Real-Time Trends** link on the top right corner to go to the pop-up window of the Trend Group’s Real-Time Trends.
+
+
+
+### <mark style="color:purple;">Dynamic Trend Groups</mark>
 
 You can create Trend Groups which are dynamic and which will be used only for the required period to view trends. Configured Dynamic Trend Groups will not be saved in the database and will be only used until you view their live trends.
 
@@ -876,7 +881,11 @@ To configure a Dynamic Trend Group;
 7. To view only the trend enabled points, select the ‘Only Trend enable points’ checkbox.
 8. Click ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAaCAIAAADJ6rCnAAAAAXNSR0IArs4c6QAAANtJREFUSEtj/PTpBQNVARNVTQMZNhRMZPy2dyLb6Y9U8Ltp+DdTfpA5nz49+NVg9J+BgRL0r2Hr108vgJEMimcwRZGhyMYBTYPEDMePonW/G4zI8Pv/hq3fi4z/IumExzU5hmIah5Z6SDMUq3GY6ZFYQ3EZhzWFEzYUj3G48gw+Q/EbhycXgg1Nwoj8pGVoMYuZPPDkaw4GOQz1cvzICQVrahsKJcWoG8koKLBoISYcZf97x/2dPv/3mUvfiowJWsuIpy5kuXWMhUHlt5oYwTSIbA0+Ewk6Z8imcABigqIXr0x+TQAAAABJRU5ErkJggg==) icon to select the required Date/Time range to select the Trend period.
 
-## Data Sources
+
+
+***
+
+## <mark style="color:purple;background-color:blue;">Data Sources</mark>
 
 **Data Sources** allow you to configure custom points, which can be used to show user required custom data as point values on IBMS dashboards. A **Data source** is configured using a custom **Data Source script** written in different data protocols such as SQL, Python.
 
@@ -884,12 +893,14 @@ The following on **Data Sources** are described below.
 
 1. [Configure a Data Source](chapter-3-configuration-of-prerequisites.md#configure-a-data-source)
 2. [Edit a Data Source](chapter-3-configuration-of-prerequisites.md#edit-a-data-source)
-3. [Delete a Data Source](chapter-3-configuration-of-prerequisites.md#delete-a-data-source)
+3. [Delete a Data Source](chapter-3-configuration-of-prerequisites.md#delete-a-data-source)\
+
 
 <mark style="color:blue;">**Path**</mark>\
-<mark style="color:blue;">**Settings icon**</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Data Sources**</mark>
+<mark style="color:blue;">**Settings icon**</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Data Sources**</mark>\
 
-### Configure a Data Source
+
+### <mark style="color:purple;">Configure a Data Source</mark>
 
 This describes how to configure a custom point using **Data Source script** written in a data protocol.
 
@@ -902,7 +913,7 @@ This describes how to configure a custom point using **Data Source script** writ
 7. In the **Data Source Script** box, write the **Data Source script** to get the required point.
 8. Click **Create**. A new Data Source will be created and listed under **Data Source** search page.
 
-### Edit a Data Source
+### <mark style="color:purple;">Edit a Data Source</mark>
 
 This describes how to edit the configuration details of a selected **Data Source**.
 
@@ -912,19 +923,25 @@ This describes how to edit the configuration details of a selected **Data Source
 4. Hover over the **Data Source Details** area and click the **Edit** icon to go to the edit mode.
 5. Edit the details accordingly and click **Save**.
 
-### Delete a Data Source
+### <mark style="color:purple;">Delete a Data Source</mark>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Data Sources** under **Configure** section. **Search Data Source** page will appear.
 2. In the **Search Data Sources** box, type the name of the **Data Source** or part of the name that you want. Matching data will be listed.
 3. Click the **Point Name** to go to the detail page of the **Data Source**.
-4. Click the **Delete** icon ![](<.gitbook/assets/Screenshot_11 (4).png>)or **Delete this Data Source** link. A message appears to confirm the deletion.
-5. Click **Delete**. Click ![](<.gitbook/assets/Screenshot_10 (4).png>) to abort the operation.
+4. Click the **Delete** icon <img src=".gitbook/assets/Screenshot_11 (4).png" alt="" data-size="line"> or **Delete this Data Source** link. A message appears to confirm the deletion.
+5. Click **Delete**. Click <img src=".gitbook/assets/Screenshot_10 (4).png" alt="" data-size="line"> to abort the operation.
 
-## Real-Time Reports Configuration
+
+
+***
+
+## <mark style="color:purple;">Real-Time Reports Configuration</mark>
 
 For details on Real-Time Reports, go to the section [Real-Time Reports.](chapter-8-reports.md#real-time-reports)
 
-## Escalated Alarm Message Templates
+***
+
+## <mark style="color:purple;">Escalated Alarm Message Templates</mark>
 
 \
 IBMS Message Templates are used to configure E-mail, HTML e-mail (Rich-text) and SMS templates that need to be sent especially in escalated Alarm messages.\
@@ -936,13 +953,14 @@ This section describes the following:
 4. [Export a Message Template](chapter-3-configuration-of-prerequisites.md#export-a-message-template)
 5. [Localised Messages](chapter-3-configuration-of-prerequisites.md#localised-messages)
 
-<mark style="color:blue;">**Path**</mark>\
+\ <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Escalated Alarm**</mark> <mark style="color:blue;">**Message Templates 🡪 Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
 _<mark style="color:blue;">Setting under App Configuration</mark>_\
-&#xNAN;_<mark style="color:blue;">**Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “</mark><mark style="color:blue;">**Assignee Message Template**</mark><mark style="color:blue;">” and “</mark><mark style="color:blue;">**Un-assignee Message Template**</mark><mark style="color:blue;">” Drop-down boxes in</mark>_ _<mark style="color:blue;">**App Configuration page**</mark><mark style="color:blue;">, which enable user to select accordingly.</mark>_
+&#xNAN;_<mark style="color:blue;">**Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “</mark><mark style="color:blue;">**Assignee Message Template**</mark><mark style="color:blue;">” and “</mark><mark style="color:blue;">**Un-assignee Message Template**</mark><mark style="color:blue;">” Drop-down boxes in</mark>_ _<mark style="color:blue;">**App Configuration page**</mark><mark style="color:blue;">, which enable user to select accordingly.</mark>_\
 
-### Create a New Escalated Alarm Message Template
+
+### <mark style="color:purple;">Create a New Escalated Alarm Message Template</mark>
 
 To configure an Escalated Alarm Message Template;
 
@@ -950,14 +968,15 @@ To configure an Escalated Alarm Message Template;
 2. In the **Name** box, type a name for the new message template.
 3. In the **Subject** box, type the subject of the message.
 
-#### Configure Plain Text Message Template (Plain Text Email)
+#### <mark style="color:purple;">Configure Plain Text Message Template (Plain Text Email)</mark>
 
 1. In the **Message** box, configure the message using message text and relevant **Placeholders.**
 2.  Click **Show Placeholders** link to view list of placeholder in a pop up window.
 
 
 
-    _Note –The default message that will be created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates._
+    _Note –The default message that will be created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates._\
+
 3. Select the **From Address**.
 4. Add Recipients.
    1. Click the **Add Recipient** link.
@@ -1002,8 +1021,8 @@ List of Placeholders:
 | ExpireTime\_EscalationLevel\_1\_After\_Hours | Returns the after hour expire time of alarm escalation level 1         |
 | ExpireTime\_EscalationLevel\_2\_AfterHours   | Returns the after hour expire time of alarm escalation level 2         |
 | ExpireTime\_EscalationLevel\_3\_AfterHours   | Returns the after hour expire time of alarm escalation level 3         |
-| ExpireTime\_EscalationLevel\_4\_AfterHours   | Returns the the after hour expire time of alarm escalation level 4     |
-| ExpireTime\_EscalationLevel\_5\_AfterHours   | Returns the the after hour expire time of alarm escalation level 5     |
+| ExpireTime\_EscalationLevel\_4\_AfterHours   | Returns the after hour expire time of alarm escalation level 4         |
+| ExpireTime\_EscalationLevel\_5\_AfterHours   | Returns the after hour expire time of alarm escalation level 5         |
 | SMSAlarmAckCode                              | Returns the SMS Alarm Acknowledge Code                                 |
 | AckedUser                                    | Acknowledged User                                                      |
 | AckedTime                                    | Acknowledged Time                                                      |
@@ -1012,7 +1031,7 @@ List of Placeholders:
 | Type                                         | Returns the type of the recipient. This is usually the 'User'          |
 | Key                                          | Returns the Key associated with the recipient in the System            |
 
-#### Configure Rich Text Message Template (HTML e-mail)
+#### <mark style="color:purple;">Configure Rich Text Message Template (HTML e-mail)</mark>
 
 Rich Text Message Template allows you to configure a message template for HTML e-mail messages. A Rich Text Message can contain tables, different fonts, HTML formatting and styles. If you know HTML coding, you can go to the code level and make changes to format your template.
 
@@ -1022,15 +1041,16 @@ Rich Text Message Template allows you to configure a message template for HTML e
 4. Click on **\</>** link to switch between code editor and form editor modes.
 5. Once you are done formatting the message, click the **Update** button to save the template or **Cancel** button to discard all your changes.
 
-#### Configure Short Message Template
+#### <mark style="color:purple;">Configure Short Message Template</mark>
 
 A short Message Template is meant for the messages to be sent to mobile devices, (e.g. SMS).
 
 1. On the Message Template detailed page, click the **Short Message** tab.
 2. In the given box, configure the short message using message text and relevant **Placeholders.**
-3. Click **Update.**
+3. Click **Update.**\
 
-#### Configure Push Notifications
+
+#### <mark style="color:purple;">Add Push Notifications</mark>
 
 You can configure alternate notification message to be sent as a push notification through mobile apps. To configure a push notification;
 
@@ -1038,48 +1058,59 @@ You can configure alternate notification message to be sent as a push notificati
 2. Click the **Add New Push Notifications** link.
 3. Select the required **Mobile App Name.**
 4. Type in the message to be sent.
-5. Click **Add**.
+5. Click **Add**.\
 
-#### Add Attachments to Message Template
+
+#### <mark style="color:purple;">Add Attachments to Message Template</mark>
 
 You can attach attachments related to the Message to be sent.
 
 1. On the Message Template detailed page, click **Attachments** tab.
-2. Click the **Add** icon![](<.gitbook/assets/Screenshot_12 (2).png>) .
+2. Click the **Add** icon <img src=".gitbook/assets/Screenshot_12 (2).png" alt="" data-size="line"> .
 3. In the **Name** box, type a name for the attachment.
 4. In the **Type** box, select ‘**File (Attach a File)**’ option.
 5. Select other **Options**.
 6. Drag and drop the required file to be attached to the Message Template or click the marked area to select a file from the file explorer.
-7. Click **Upload**.
+7. Click **Upload**.\
 
-### Edit Message Templates
+
+### <mark style="color:purple;">Edit Message Templates</mark>
 
 1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to edit and click on it to go to its detail page (inside Notification Template tab).
 2. Edit the message template as you want. (See above).
 3. Click **Update**.
 
-### Delete a Message Template
+### <mark style="color:purple;">Delete a Message Template</mark>
 
 1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to delete and click on it to go to its detail page.
-2. Click the **Delete this Template** link or click the **Delete** icon![](<.gitbook/assets/Screenshot_11 (4).png>) on the side bar on the right.
+2. Click the **Delete this Template** link or click the **Delete** icon <img src=".gitbook/assets/Screenshot_11 (4).png" alt="" data-size="line"> on the sidebar on the right.
 3. A message to confirm the deletion appears. Click **Delete**.
 
-### Export a Message Template
+### <mark style="color:purple;">Export a Message Template</mark>
 
 To export a Message Template;
 
 1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to export and click on it to go to its detailed page.
 2. Click **Export** link ![](.gitbook/assets/Screenshot_15.png) on the Side bar.
-3. Save the attachment.
+3. Save the attachment.\
 
-### Localised Messages
+
+### <mark style="color:purple;">Localised Messages</mark>
 
 Click **Localised Messages** link in the side bar to send the required message in another language. Available language/s will be listed in a QI window. Click the required language.
 
-## Alarm Escalation Disable Message Templates
+
+
+***
+
+## <mark style="color:purple;background-color:blue;">Alarm Escalation Disable Message Templates</mark>
+
+
 
 <mark style="color:blue;">**Path**</mark>\
-<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Escalation Disable Message Templates 🡪 Escalation Disable Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>\
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark> ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Alarm Escalation Disable Message Templates 🡪 Escalation Disable Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
+
+\
 \
 To configure an Alarm Escalation Disable Message Template;
 
