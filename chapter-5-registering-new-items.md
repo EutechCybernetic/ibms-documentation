@@ -250,17 +250,18 @@ _Note –“Enable Summary Dashboard (Appear on Equipment and System Real-time G
 &#xNAN;_&#x54;o disable the feature, go to the_ _**Edit**_ _mode._
 {% endhint %}
 
-#### Adding Configured Points to Dashboard
+#### <mark style="color:purple;">Adding Configured Points to Dashboard</mark>
 
 1. On the Dashboard detail page, click the **Points** tab.
-2. Click the **Add**![](.gitbook/assets/Screenshot_12.png) icon to open the page to add configured points.
+2. Click the **Add** icon <img src=".gitbook/assets/Screenshot_12.png" alt="" data-size="line"> to open the page to add configured points.
 3. In the **Data Source** box, select the required Data Source from the list of Data sources that have been already created. Once the Data source is selected, its details will be displayed respectively.
 4. Click **Add**. Respective point will be added and displayed under the **Points** tab.
 5. Repeat 2-4 to add more configured points to the Dashboard.
 6. To edit a configured point, click the relevant **Edit** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAlCAIAAABUNYfnAAAAAXNSR0IArs4c6QAAAoBJREFUWEftWE1v2kAQxdgGtzEOLRiMCVUOKM0xqdT+/x9RNSHqGaKYNPgDMP5AfdQSosY7u3Za5YLFAYmZ997Ozs4+I63Xi9qbPvU3Zd+RnxTUalKFPthut8tg5XneZhOlaRLHiaoqsqw0mw3DMM709/V6idKWU5CmqeM8L14WEMFqINC3P7RNsyPLskiTlVDguf5s9ggRIrhyXR7YlnHe4gaLKnCe5o4z58LlArrdTq9v0llCG1aNHsTz+TNyX6vA94IKq9+zIhfbR4jg1AC7Pp3OxIsvSdJxMN09HAUoo2DrmWb/5vbr7Zdvw+EoJwIIwGGeHWJ9OHIvv4RuDcuyR58uszHQt2xdzx8B4LAOMFWDwF8S534vHfT23+tWVDW3MOCgnwpXSynwfaqDMjjLGubo4zjy3YLKBUF5BWEY0j34h/7iMCZJ4ofJXVo0MVloVA2SmBp/hfST+x+bTbFuFhqlIN0yFZg963j1BD3qxEKjFGC2s3bBcxco+P5XfKfpd06EcWFSChS1WMHF6DJJIlBmIkToEYYbvPRZ0DStMMdoGePxdSZitVpyV5+BsNCoGui6ztqFM72Vibi/+85qvVwuC426nTFGHiY/j4eSpr3LNjWKosNuII4u4q8+jwtbgapB5naOccNwjeLjI0gPBOBU6URkipstogCwa8BhBXDuRiQPBhY9Gbm/AoHwjHyPBK8Hs8WlYQUgl3aLfAWAhtfrdD9WEIEsrk8Udaqg33nl6SMxqg8lou9se/AvvXKGniSJ8+S4rk/4Bhi1dtswe6aiFA/BXC1L1GCfefjOBE14QIan0Wyc/+93pgqtwE0R6kQuymsCTgpO/2Ds+uc3XhRG1b+GzcgAAAAASUVORK5CYII=) .
-7. To delete a configured point (Data source), click the relevant **Delete** icon.
+7. To delete a configured point (Data source), click the relevant **Delete** icon.\
 
-### Edit Dashboard
+
+### <mark style="color:purple;">Edit Dashboard</mark>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Dashboards** under **View** section. Search Dashboard page appears.
 2. Click the **Dashboard Name** you require to go to its detail page.
@@ -270,11 +271,11 @@ _Note –“Enable Summary Dashboard (Appear on Equipment and System Real-time G
 6. Click **Save**.
 7. To upload a relevant RT page to the dashboard, drag and drop the RT page onto the given area and click **Upload**.
 
-### Delete Dashboard
+### <mark style="color:purple;">Delete Dashboard</mark>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Dashboards** under **View** section. Search Dashboard page appears.
 2. Click the **Dashboard Name** you require to go to its detail page. Go to **Details** tab.
-3. Click **Delete this Dashboard link** or **Delete** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAfCAIAAADm9jPlAAAAAXNSR0IArs4c6QAAAnBJREFUSEvdVt9r01AUzr03SZMmdbZru1XnXia+CK0iQt0UfRk+yEDwyX/PF0EQfPHNl7EKImpwoshgoFa6ttNtZWnzo0mutwSSNLlL2nR9MQ8h5J57vvud79xzDtC0E2bOD5yz/5H7/wUDJOrhaIb5u2O1/zh9jTFMPLSAnAUsi8oFbqXMFRYSox2HYfVUfXfPPjiM8QIkSahd5VeW42zoPDDuK9+t/SaDceIxR6ouXszeqaKsSDWm8CDRUN8qTvdoEu+eDcjwwvoNvpSP7grnFbZtdfvjtADELzZMvaEMj3pRjDCP/vsv1o8WlQGXXyhsPXSXus9f4aFJMROF3GYdCpng0hiG2epqDSW4jCSp+ORRfNBCeOxqRapXg1sCscJY/7w3lQZUY6vZDkXM52H8OtDf7c6OQTygy2V546afDl7uqjufolcBAMjmE26ZddzD2Bk7HIS5rfsww7s/fR69l28Y2w7xABxffvp4Kj1cY3G95l3MgB4RgFniZp2o3vaJ6i42h51nL5zBwP0gb+/PWefAA206jBSEsOWHfSIeKTAAi+bOAwTqY4AHPE9ObD5H4UF6ToqY0LdAyC0VKRjcauW8MNDSYlAP/w6Sqn76egfrRhAp3R0U793iKzQeAKFM9drsVNByMQgwVktc72pDsVvd1EikG0qb9VDTDecSKf0gJ6XEAJC022hXD2MQreQHt2FSrY0eAnCcuEHv5/TZh+g/+PDN+klvuhQAWc7erbEXZGoA4uYrs3VofN13jiljgOeLCMBfXxPWrjAAnBXh5DmRTHJms213/o7K7Wl/lCdkJOA5VCpwlSJ/qZQo3j+fgwVtBcxpQAAAAABJRU5ErkJggg==), to delete the selected Dashboard.
+3. Click **Delete this Dashboard link** or **Delete** icon<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAfCAIAAADm9jPlAAAAAXNSR0IArs4c6QAAAnBJREFUSEvdVt9r01AUzr03SZMmdbZru1XnXia+CK0iQt0UfRk+yEDwyX/PF0EQfPHNl7EKImpwoshgoFa6ttNtZWnzo0mutwSSNLlL2nR9MQ8h5J57vvud79xzDtC0E2bOD5yz/5H7/wUDJOrhaIb5u2O1/zh9jTFMPLSAnAUsi8oFbqXMFRYSox2HYfVUfXfPPjiM8QIkSahd5VeW42zoPDDuK9+t/SaDceIxR6ouXszeqaKsSDWm8CDRUN8qTvdoEu+eDcjwwvoNvpSP7grnFbZtdfvjtADELzZMvaEMj3pRjDCP/vsv1o8WlQGXXyhsPXSXus9f4aFJMROF3GYdCpng0hiG2epqDSW4jCSp+ORRfNBCeOxqRapXg1sCscJY/7w3lQZUY6vZDkXM52H8OtDf7c6OQTygy2V546afDl7uqjufolcBAMjmE26ZddzD2Bk7HIS5rfsww7s/fR69l28Y2w7xABxffvp4Kj1cY3G95l3MgB4RgFniZp2o3vaJ6i42h51nL5zBwP0gb+/PWefAA206jBSEsOWHfSIeKTAAi+bOAwTqY4AHPE9ObD5H4UF6ToqY0LdAyC0VKRjcauW8MNDSYlAP/w6Sqn76egfrRhAp3R0U793iKzQeAKFM9drsVNByMQgwVktc72pDsVvd1EikG0qb9VDTDecSKf0gJ6XEAJC022hXD2MQreQHt2FSrY0eAnCcuEHv5/TZh+g/+PDN+klvuhQAWc7erbEXZGoA4uYrs3VofN13jiljgOeLCMBfXxPWrjAAnBXh5DmRTHJms213/o7K7Wl/lCdkJOA5VCpwlSJ/qZQo3j+fgwVtBcxpQAAAAABJRU5ErkJggg==" alt="" data-size="line">, to delete the selected Dashboard.
 4. A message will appear to confirm the deletion.
 
 {% hint style="info" %}
