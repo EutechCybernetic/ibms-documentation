@@ -935,13 +935,13 @@ This describes how to edit the configuration details of a selected **Data Source
 
 ***
 
-## <mark style="color:purple;">Real-Time Reports Configuration</mark>
+## <mark style="color:purple;background-color:blue;">Real-Time Reports Configuration</mark>
 
 For details on Real-Time Reports, go to the section [Real-Time Reports.](chapter-8-reports.md#real-time-reports)
 
 ***
 
-## <mark style="color:purple;">Escalated Alarm Message Templates</mark>
+## <mark style="color:purple;background-color:blue;">Escalated Alarm Message Templates</mark>
 
 \
 IBMS Message Templates are used to configure E-mail, HTML e-mail (Rich-text) and SMS templates that need to be sent especially in escalated Alarm messages.\

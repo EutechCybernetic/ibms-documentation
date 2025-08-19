@@ -69,7 +69,7 @@ An Alarm Notification Group which is in use, cannot be delete&#x64;**.**\
 
 ***
 
-## <mark style="color:purple;">Alarm Escalation Matrix</mark>
+## <mark style="color:purple;background-color:blue;">Alarm Escalation Matrix</mark>
 
 **Alarm Escalation Matrix** allows you to add **Alarm Notification Groups** to each Escalation Level of an Alarm.
 
