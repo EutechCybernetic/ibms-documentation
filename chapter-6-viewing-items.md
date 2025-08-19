@@ -318,11 +318,11 @@ To delete **Equipment;**
 3. Click the **Delete this Equipment** link or **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) on the side bar.
 4. Confirmation message will appear. Click **Delete** to confirm deletion. You cannot delete equipment that are in use.
 
-
+***
 
 ***
 
-## <mark style="color:purple;">View Systems</mark>
+## <mark style="color:purple;background-color:blue;">View Systems</mark>
 
 Systems are useful when there is a requirement to show data from two or more **Equipment** on a single GUI page or on a report.
 
@@ -407,7 +407,7 @@ To delete a **System;**
    * In the **Search Points** box, type the required Point name or part of it. Points will be filtered by the typed **Point Name**.\
 
 
-## <mark style="color:purple;">View Dashboards</mark>
+## <mark style="color:purple;background-color:blue;">View Dashboards</mark>
 
 ‘View Dashboards’ navigates to the Dashboard Search page. Preconfigured Dashboards will be listed and can be filtered using the given search filters.
 
@@ -626,7 +626,7 @@ This allows you to override the **Alarm Severity** configured at **Point Templat
 
 
 
-## <mark style="color:purple;">View Point Templates</mark>
+## <mark style="color:purple;background-color:blue;">View Point Templates</mark>
 
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Point Templates**</mark>
@@ -883,7 +883,7 @@ _Tip – If you need to add trend points dynamically to the configured trend gro
 * _Click **Save** to add the points to the trend group if necessary._
 {% endhint %}
 
-## View Alarms and Alarm History
+## <mark style="color:purple;background-color:blue;">View Alarms and Alarm History</mark>
 
 This section describes how to view and attend to Alarms and how to view alarm history.\
 \
@@ -901,7 +901,7 @@ The section consists of the following sub topics.
 
 <mark style="color:blue;">**Or App Home page🡪 Alarms**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">tab</mark>
 
-### Alarms Search
+### <mark style="color:purple;">Alarms Search</mark>
 
 Alarm Search is used to search for alarms using the given search criteria and to view alarms.
 
@@ -952,7 +952,7 @@ _Tip –Click the icon_ ![](<.gitbook/assets/Screenshot_14 (3).png>)_on the tool
 _E.g_.![](.gitbook/assets/Screenshot_32.png)
 {% endhint %}
 
-#### Alarm Details Page
+#### <mark style="color:purple;">Alarm Details Page</mark>
 
 To access the Alarm details page of a selected Alarm;
 
@@ -966,7 +966,7 @@ Alarm Details page consists of the following tabs;
 _Attention – CWOs/ Job Cards/Incidents tabs will be displayed_ _**only**_ _if the respective bridge apps are enabled. If any of these tabs are not displayed, please refer to the iviva Installation Guide’s Prerequisites🡪 iviva Apps 🡪 Bridge Applications section._
 {% endhint %}
 
-**Re-Assign Alarms from Alarm Detail Page – Assignee Tab**
+<mark style="color:purple;">**Re-Assign Alarms from Alarm Detail Page – Assignee Tab**</mark>
 
 1. Go to the **Alarm Detail page 🡪Assignee tab**.
 2. Click the **Manage Assignee** link on the side bar. **Assignee** pop-up will appear.
@@ -977,7 +977,7 @@ _Attention – CWOs/ Job Cards/Incidents tabs will be displayed_ _**only**_ _if 
 
 _**Note**: To delete an Assignee, click **Manage Assignee** link. On the Assignee window, click the **Delete** button of the respective **Assignee** which you need to remove from the **Assignees** tab._
 
-#### Accessing Equipment Map from Point Detail Page
+#### <mark style="color:purple;">Accessing Equipment Map from Point Detail Page</mark>
 
 Point Detail page gives links to respective Real Time GUI page and Real-Time Values page.
 
@@ -991,7 +991,7 @@ Access Real Time Values page:
 1. Go to Alarm Detail page (View**🡪**Alarms**🡪**Alarm Detail page of a selected Alarm**🡪**Alarm Tab**🡪**Side Bar.
 2. Click **Real Time Values** link on the Side bar on the right.
 
-### Alarm Viewer
+### <mark style="color:purple;">Alarm Viewer</mark>
 
 \
 **Alarm Viewe**r consists of three tabs which help to group the alarms as **New Alarms**, **Acknowledged Alarms** and **Confirmed Alarms**.
@@ -1015,7 +1015,7 @@ _Note –_ _**Filtered Alarm Count as a fraction**_\
     Alarms that are confirmed by users will be displayed under this tab.
 6. "Alarm Summary” tab:
 
-#### Alarm Filter
+#### <mark style="color:purple;">Alarm Filter</mark>
 
 _<mark style="color:blue;">Setting under App Configuration</mark>_
 
@@ -1049,7 +1049,7 @@ _Tip –_ _**Alarm Class**,_ _**Alarm Severity**_ _and_ _**Asset Group**_ _have 
 &#xNAN;_&#x65;.g. Asset Group – You can select more than one Asset Groups to filter records._
 {% endhint %}
 
-#### Alarm Viewer – GUI details
+#### <mark style="color:purple;">Alarm Viewer – GUI Details</mark>
 
 | Feature on Alarm Viewer page | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1064,7 +1064,7 @@ _Tip –_ _**Alarm Class**,_ _**Alarm Severity**_ _and_ _**Asset Group**_ _have 
 
 <table data-header-hidden><thead><tr><th width="259"></th><th></th></tr></thead><tbody><tr><td>Feature on Alarm Viewer page<br></td><td>Description</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsYB6tXNkgAAAM5JREFUSEtj/PTpBQNVARNVTQMZNmoidYJ0KIQj46dPx3fN23nrG+Ve5lLzjHNTZgCa+ILh5f4JrSuvUmQol3Z4RYGrGCw9ijsWVIdrc5HtTIRxSCmcfENRjEPNM+QYim4cRi4kzVAsxmHL18Qait04HCUFYUNxGoe77MFnKD7j8JZmIEN9FDFSlKIvNN3hSmt487U4N2Ya5eICJWM8YCiUFKNuJLvsQdFIXDiycYnIa9l4RKaVNKe4ErAYXOLiBA9O7XjIqKClqSHKQ7QHANKNO7yrapL6AAAAAElFTkSuQmCC" alt="" data-size="original"></td><td><strong>Filter</strong> is used to filter alarms using the given search criteria. Found on Alarm Viewer Toolbar.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAiCAIAAAAs3UUgAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsIBCC16OAAAAIVJREFUSEtj/PTpBQMNABMNzAQZOdTMZfz0aeeGKcefoAaHjFVGgBFFIQQ0d/mElJVXUQ3RDp9R4EqRuSx4de/HtBKPemTXDMF4o0n4AuPtxKkdd96jBpuguouZIkXxBjR3SOXj0XwBie7RfAEJh9F8AQ+H0fpiNF/A64LRfDE0y0lalesAvMZr+zI/AmkAAAAASUVORK5CYII=" alt="" data-size="original"></td><td>This will open the legend that contains the Priority of Alarm Severities.<br>Found on Alarm Viewer Toolbar.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAIAAAA44esqAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsMBETZLeQAAAbpJREFUOE9j/PTpBQO5gIlcjSB9ODUfPnQEiPAbjV3zvbv3Fi1aAkRABh79jGh+/v79+86du7du2QbX4+3j5e7uysnJiWkKus1r16xH1gnUAOQCBbHaj6IZ6MiDBw9hqgMKYnU/iuZLl6/g8iFWKRTNaA5GNgirFJXi+e3bd/hj9fHjJ2gKEDYfPkwgSRw8cAgYkcj6QZqBQhs2bMLjYYgGYJgD4wxZP+P9+9eWL1tx8eIl4hN5R2ebsLAQUD3zi+dPX758SbxOoMo9e/Y6ONizs7OTGdoXL1wEmsICtzM0LFhcXFxISIiVlRUoCCF///4NId+9ewd04OpVayHqgd60tbNhnDa1z97BTlZWBtnlL168vHQJFAp6enoSEuLIUsAIAwY7MPAmTe5n5uHhVFNX5eDg5OKC5ptPnz5XlFddu3odiPbvOwDxHkQ/MC08evRo3boNwKymq6vDePjwrimTp0HkgEJSUpLPnj1Hy5Jogjm5WWpqqsBMCs3PQHdCwLdv3zEjHGgo0F3AEAECZF+gFwYQJ+zatRsSNsBQdHNzxRWR2DVDvAckIYmBZM149MClyEwkEP0UaQYAnEbVTOdINosAAAAASUVORK5CYII=" alt="" data-size="original"></td><td>Alarm Viewer with this icon shows all alarms. Clicking this icon will show only the active alarms. Found on Alarm Viewer Toolbar.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAjCAIAAAB3ku9KAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsQBXnfdvgAAAjlJREFUWEdj/PTpBQN9ARN9rQPZNmoljcIce8Dy8kkA7aMuCfcA42BJsRD/4QLcC5YAEfHBjmYayb7kPH2WxdkbaN+fvVu/mxoTbzFcJb64RDOO9dNn7uZOiH1AAGQAuUBBgraS70uewnLGuQvRLPifHP+lv5OgrcgKiPUlMDwx7QMaBBQESuG3Es2X2K38jFHwMu3Yg8tcPFIQLWimYU8+QHehqcOfhjGdiOw+NNOI9SVJsYWmGM1BRMUl++On+K3kuHwVjwJy4pKFUMZnmbcIT24hzZeQvMjU3Y/fl8B0y17fgstWEvIlMDxZSyoZt+8iPiJ/XT37U1aagPuwFutAd/28e4VdWYd4y+AqgRp/iYqQk2JZt+4gwz6gFkyNxObL/55u8CD911r/X0X5n4z0f04OkDvYweTPH6DS5/sPpidPGe/cZapuhDgRqPHLykV4fImzJgGGLbD8/JMU90NXG1k/+527LODY/ePp9lNFGVkKmFWASReYlH48uf2bjxdnaYVVAmjfv9JCoGamm7eRMyXb6zdsRtZADwERkAHkwrUDlQEVA7UANaLZR2yKBaZ41qPHmcPjIIYCDfqvqc54/SZyhsEU/Lty0W9rSzxeBMUFrhQLj3NgSDLfvguMLYYPnzAzKNBWBgE+YEz/VVVGC2d4AKCVsSS3CrgnT4ekFGCa+pqbSUaqJuxLTEMhsUswy+PyJc6aBE+LEmgZmzao1UNkq5OofElGcBGvZbRPQnxYkaRyZAQsAMkHETSdhLyyAAAAAElFTkSuQmCC" alt="" data-size="original"></td><td>Alarm Viewer with this icon shows only the active alarms. Clicking this icon will show all the alarms.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAaCAIAAABdDBlVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsMBDDN7wQAAAkJJREFUSEtj/PTpBQMR4Ovfr+/+vn/95+2Pfz8gyjmYOERZhIWYBbmZudEMeP/nw/UfN4GCVjzmEClGgtZc/X7jxLdTi9+twOUYP34vd14XbU4NiAKgg2a+nb/p4zYg+4AqiCRgzeNfT6a/mXvs60kifMtgxW2eKZIM9BzcDqKsOfblZNXzRqwWxApF4PIc0DJkZxHwzZaPO3peTUKzo0Qsz5TLSJxVDCL+8ver09/OYSpD1oXPmnPfLhY9rURWDQz9aMEwuAXIUkDLlr5fBYkJTAC3hgkzkWDakS6ciNUOoF6geKJQDMHIQ7fm6NcTaHqAdmAmWbgaYLqa/24JadYA9aCF9VSZPvx2IKcrPJZhyTd3ft47++3Cl39feJh4wgWDcGlGzh+41BCVbwgGBfEK0OOGeJ0kqRy1hqTggiimU6ChJOi5bxfhcSkwffvwuePJRsCS8OWfV+IsYshFH8RAFGscbnvhsWalwgJcRQ5QF7DWiH2YBtcOLAaRiw9iAw2/HcCsCqyZkJ3Iz8yH7G+irMFvB9D0LZ92otV+PnweyLYSZQ2wqAe6F2t4AsWBMTr9zRxk2TbJerTgJcoaYHXifS8UWJ8iWwZkA0WA4mg1KbD2g7c04HaTkAQgeoBxCwz3j38/Ya3KgHb48KMEF4GUBoyPp7+fo1Vx+DNmn3S7EZc+VjXYfQOPc2DIXPx+ZcunHXjaN8BmBjDC9Tl18GQpFGuAYQ10izK7Imb+ANb5b/68+/j3I2qq5RdhEcKTmeCKAVWYInGaIj25AAAAAElFTkSuQmCC" alt="" data-size="original"></td><td>Alarm Auto Refresh is enabled. Click to disable ‘Auto Refresh’.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAhCAIAAAA3RD4GAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsQBQ3LtBgAAAkhJREFUSEtj/PTpBQMtARMtDQeZTXMLGIkJou/fv3/8+OnD+/c/f/2C+JidjU1AUJCfn4+TkxMtDD59+nz//n2goL6+HpAkYMG9u/cuXb6ydcs2XCFpb29nZWWhpKwEUQB0yto16w8ePARkz54zA58FL168XLN67cWLl4iJJKBjQ0KDgR6Cm07AAqC5UyZPw2q0t48XLg8BrUF2EE4fHD50ZNGiJWimx8XFaGlrCQsLQcTfvn137eo1TGXIurBbcOP6jd7eCcjqgKHs6eUBNxpZCmjN9m07ICGOCSAWoCRTYALAND04JBCr6UDNQHE/f1/8kYRiwcULF9FUA03HTIhwNcA0s2njZmItAKpGC9PKyjL8piOnGVzWoOeDx4+fXL9+/du371xcnG5urri0Iad3XGoI5ANikj8xamheFo1aQDAaaB5EiGS6YcMmPM4BplpbWxs82QJYgr19905YSAi5yEIprlNTMvBY0NHZhqvAAOoClu21NfVw7cDiC14EEBVE+E0HZjpgzYHsOB5eHrhfCVuA33SguYcPH0Grl4CBCbePsAXAAhnoRqyhBxQHxtzqVSjOz8nNQg5MRCTjjwOgNjU1VbjHgUbfunUbs9YD1ku2dgjnkxDJEB8AYw8Yvl8+f8FayWCajtMCYLi/fvUKrfLBn6eKiws0NDUw1WAJInisQsIBmMDxtC2AFT0wTJBDD80OhAUQU2RkZDDTO7Du/fjhw+cvX5A18/Lw8AsI4MkcEMVEtewIFjh4FBBOppSYDtQ79C0AALmOIxYHuBBTAAAAAElFTkSuQmCC" alt="" data-size="original"></td><td><p>Alarm Auto Refresh is disabled.</p><p><br>When multiple users are using alarm viewer simultaneously or when new alarms come frequently, alarm viewer tends to refresh frequently making users losing their focus on alarm viewer. Making “Auto Refresh disabled” helps in this.</p><p><br><strong>Note:</strong> <em>When logged in user takes actions on the Alarm Viewer items, Alarm Viewer should refresh the alarm list even if Auto Refresh is disabled.</em><br></p><p>Click to enable ‘Auto Refresh’.</p></td></tr><tr><td><img src=".gitbook/assets/Screenshot_33.png" alt="" data-size="original"></td><td>This icons is displayed when Auto Refresh is disabled &#x26; new alarm updates have been received,</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAaCAIAAADXI4AUAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsMBiqcJbwAAAjBJREFUOE9jfPXqOQMFgIkCvSCtI10/Izz8/4NBTVuXgAA/nkD99+//k2fPp3Q0Q9SwwJXu2X/g69fvOuqqAvx8DP//MzAyQqWQmGxsbM4O9tPmLYbrQujfd+xkqK83IyPj////GIB6/4PVgBiMd+7dffXmLTMzCzsb++/fv/9D5VDj79u374+ePLn/8OHd+w8ePnz88BEYgRiPvnz9DtQMNPrNu7dAEuQ6GEDYLykhHuDtCRTfsHU7hIEJduze++/fP2RxhH5g4AElQGEIVrFjz943b98BGb///DHQ0ZIQE5OUlPwHthhhO5709+Pnr2/ffnz9/j0s0N9AT09CQgJsAbJeXOkXHPBAL6QlxqYnxHFycADdjOZsuBewpX+wHUANQAtv37l79foNJjDAGiII/8OlIQHx/sOHpavXXblxS4CfX0bquI+bs6K8PDA+f/wEgl/47AfFEAPD7gOHhYQEEyNCzI30nGytGvumAF3EzMS4Y8++jx8/wPUzl5aWQDjL1m789u3rtZu3Lly9zvDv/6Vr15Xk5Z4+fyElIXH6wiUOVtb37z9cvHYjKTrC1cEOS/znJMUCXQaUUFdS5OLkPPr/P9CdHz9+es/7Ech9/+GjmIiQiqIzMzMz0CHw4ED4X1NdDeJzIABKy0hJPX32zMbClIWF9c79B89evTIzNgJqRgtF9PwHlwa6ZevuvfsOHwPmGWszY0cbK2EhIYgFwACChBGIPVp+Yk2XxAoCAI9RDMrz6vglAAAAAElFTkSuQmCC" alt="" data-size="original"></td><td><p><strong>System Pages</strong> icon opens a pop-up window which lists System Pages related to the respective Alarm.</p><p><strong>System Name</strong> navigates to System Real-Time Values page</p><p><strong>System GUI</strong> icon <img src=".gitbook/assets/Screenshot_29 (1).png" alt=""> navigates to System Real-Time GUI page. This icon will be visible only when System has an uploaded GUI page.</p></td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAIAAACpTQvdAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxwAADsgBvwozuQAAAcFJREFUKFNjfPXyOQM6+Pbu+cdfQEEmbiFxPjZUWUYUDd/un9x54Mrjj3/+wVSxcAkqGdm7mIjD9CE0/HpxfPu6ky/+cAgoqGuqa8iIsv96fefy2XMPXv1g4FazjvfSAuthghr16/bhbUDV3LJWAYF+juzPjx87cODCW1HXqCQPYwnmr7eOrj70AqwUquHtyTP3PjHxaji4mEgADfr85tHTR4+evv7IwMAmaxtkosj27/WF06cRGj7eevLyH6uYkq4qmhfBhrLpqStyMvx7/fwikMNsr8i1ZdfZl18ZGP59eXn1xPnLj37yqTK/PP38E8O/Dw/Onjj7it1MVffdgxNPPjHxy+grMpn5uaryw3zCJqrhEGClysbCxsnBCUEcLEDJX//+A13PxAy0gYWBTdXJ98efzfvvf+aUtfCwBTvKwC/dACn4f517+ZaBgV1QVAKkAQhEdN182c495dDRF8aIRKDA45NXH/1h4ldW10QKVhF1I315LD7+9eLcxh033jJwKRgaKYNMQ41phPkf75699uLtiyf3Hn/4wcQjb2znbSkLNg+Xhrv75m2+/Y2NX1hGUsvMUh8UORCASwM2v4DFAHoOrx7AR+X9AAAAAElFTkSuQmCC" alt=""><br></td><td><p>Opens Alarm History</p><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAiCAIAAACWfs1AAAAAAXNSR0IArs4c6QAAAqBJREFUWEdjfPXqOcNgAkyDyTEgt4w6iFCMjIbQaAgRCgFC8iMvDTH9+Mj+EYRYCYUNRJ6GIcR+e4NQuKmwnAafKggJiOmJpk3me0TAXbRyEOf6DD7rTGaOuF/rD32+ff/D7YvfVuT8O9vGbuItdPQjHkcx0qIuYz3TKuA15X/8vK/dnt8/nhVYcZaRQfZXvOdXhtsCecGsG2T/HN36XhW7q2gRQo+5u6cwGFf9bPb8DrT052Pm2nqW2v0sPxkYOFQ/dE/8J3qOpXs7B45QooGDHh1j2c/wPz7gM1Y7+S1/RYgybNjP9oP2IcT8aIOwtqSoSQEjAwNjnpmomLfwiiuwzLWYTVVStHQ/OwPHHx1jBoZzzHdIc9Ar/nhJ4fWvgJo41yeKiklC0aSzQBHeSTCuGFQNxOy/cgGfFlb9h1ok+q+581OEzm8G/v9WllDEB3cEOwM7dgdhT9Sc6yezMTCwMIS/DRSD6wO6jEN2/nsThEG8kxKZIuZ/RCgBSXEcbeUJnMIQv+xrtyMoDaGDj/y5GmxXUn9saPrMj0UaWxp6tYHrsdVHWTTVZzk2+P9Acg3Dqw1sDDlorgHq+WFd/eXolq/NWF3DwHRlJetKhv+BYT+wuQZrwfiKv/TxrzxgNKMA3kk+DLkBSD4GKtv4JwJdGUTPD1Xj79hSNPOj7YKl9YzGsb9AUUlkGjqzkm17Gwcw0Xi1MaXrQ5IRKDDOTkcJHqAyYyzBg92Sj7d5j24XqEkUMkliYk/9NanpE2osI+vCXTCemSz8GJKGzgqK+TBse45IPa82COts/HMFPfXg8DMDw5nJol6zGRw9/gQGfI+wwpHfobppUlLjdBkREjQoGImwFY+SUQcRCr/REBoNIUIhQEh+NA2NhhChECAkDwAKSuBKF8k12wAAAABJRU5ErkJggg==" alt=""> -Alarm History icon will be displayed in ‘red’ for many occurrences today and yesterday with alarm occurrence count.</p><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAbCAIAAACSpRrNAAAAAXNSR0IArs4c6QAAAftJREFUSEvtlMFrE0EUxmdmZ2c3u5tNaOzWUwkmlwqi9uBVRDw09FBUBA8eFHspeBfv6j8gFc8iHqIHD54ED3opKI14KQ1WoofWdFPSbpLdnZ2dGekltNlIukIRIcMc37zfvO9778Ht5hY4zoOOM/l+7jFgpML/v0Twb9pUCsBDhe3hkAOEuZ7lWJdIAXCIYOkBPCDuO+PHGyX2hG5IESohFnalV1yIcmaSkBqg/qpaGy+AfT0snFFYIJEmwbq6+QrDi92ZezQ7iEhpsmhlGs+gXvFPXQusDmnc19w6n7zaLd0R/nPz+xecKCEloPVRDWk0uUCNDJAUsXXIPAgIL1xmuTxqvyXhESsQFNI25KwfDntr9qf5E1+XUPxNr1cmalWNRhJosPPQWrlruTuxeQ6Iz6hzFIBgpFnN1ZbtnZ/9cGnO9MoPmHlaAkvaN/3yHLVK9OTS/p26EusqYi6ADkhoNMxkQUnrtbYNoXPBc0oHv6TsrhqbH7hzKygU5IGmhP6aXbuB8ePO7HykHipimAdIi5y52NCSPcfzs73yYjBxOHu4lWk8VaOzbPrSQHZA91KaDIAgpuw/8jay9Zf51UWj6cbFR95UYg6w8SeAIkiOYzJil3VXcPu9yN72zz/ZLU4P2f2KmnrQRq7PgYDUEo0BaRUYGT/24N9L9BsP7cWlFpMavAAAAABJRU5ErkJggg==" alt="">-Alarm History icon will be displayed in ‘amber' for more than one alarm (many occurrences) for today only with alarm occurrence count.</p><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAeCAIAAABWjiKMAAAAAXNSR0IArs4c6QAAAcVJREFUSEtjfPjgDgOVABOVzAEZM2oWaYE5Gl4Mv79//wZCv4kJOUYc6f77kxMbF26+9OoPzBAWDnl9/+gwfXHcpmI16/WBKZPXP2aQNvb2tVGTF+Vh+Pz6xpG1S48+/8Ojl1wQoceL3TzMePx+fdX09Y85dENzy8LM5b9f27x56+Z7DLp+uc357vI/Ls2dsOMJDqdhmPXq1LqzP3jNI6JMRIFavr++dOzkqWMXXwMDjEvKPiVUleXLoVUnPmM1Dd2sl1dPvmIQcbBR4sKmnE/bXJeF4eHNe9+wySLMenlkenF5VduODwwMbzb3VuU3z97z6DtUy62VleVV0y98Z2CVVJVkYLj3+BV+s8RtEjLMeaBqWCTt42Nc5DhZWXiEBAUgiI8VJPkbGLMsLCzYzEKLx8+Xlk2ee5FBNzIzxUAQi/rPZye3rH2qH1MXpYUZCJhp4vOTuz+ElEWxhteDTW39Rxms0krDlcGORAWYaYJXBodBL88snnP0C6+Wtws2g4DG4kr3CBs/Pbv19Nnzk0f2nn/OIKTlnRxmLsOJPYERNuv2uqopZznElLTMbZxd1LEFIsxkwmYRk6shakbLQuLDaqSEFwA6AKoeT9XDYAAAAABJRU5ErkJggg==" alt="">- Alarm History icon will be displayed in ‘grey’ (normal) when only one alarm generated for the current day (Today). It can have older alarms and also cleared alarms.</p></td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAXCAIAAABmo+ONAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAVdJREFUOE9jfPXqOQNZgIksXSBNQ0snI0YIfXt0fM+Rq2+/MXCJmDoE6IvjCgh0f/68uHPL+ecffgHBh2dHN2y+jTME0XV+/vANrpZTykBb5NunT99+YtPOgib46dt3qAinsr7ggx3LL0C4whZh4UaCyIrR7eTj5YRIM0swPL36Aa707bmzj1AtQdcpYmOuyAxSwsbF9hdZ6d+/f/DrZGBQsTcVBqrh+/P3M4rODy8/oWhFs/Pz03P7t199C1Ty5pe4NlKMsEkZ6PPh0Pnt0f5lM5dtPHHrJdiuv/fPf5ZSYIMFl6KROhd21z7dv3LLrQ9IPuMVlxJW1FKEhBevipEceszA0tDPb59+IofIt0cnDp++8xYWRUBtnMLqVp7OKnAnY6Y+BoYXx5atu4yIEBTLhC0iQyDxipnLnh3cffMbGy7w+dyuYy/AZmGzE91H2PlDK2eT71oAEbJ/bS66ZXkAAAAASUVORK5CYII=" alt="" data-size="original"></td><td><p><strong>Assignee</strong> icon can be found on <strong>New</strong>, <strong>Acknowledged</strong> and <strong>Confirmed</strong> <strong>Alarms</strong> tabs on Alarm Viewer. This icon opens a page which allows adding assignees with comments to the relevant alarm.</p><p><strong>Note:</strong></p><ul><li>If an Assignee is added to an Alarm, the respective Assignee icon’s color will be changed from grey to dark black. <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOyAAADsgBTlyBbAAAASJJREFUKFNjfPXqOQNxgAmm7PG+mkgrbUkxbdu0Fbex6mWEmnplsrZT22uoEv8FV2Z4iaGrh5r64+NrqDpRh+YVOWJXNixYsf3KKxTVLBDep1ePIQzjvACGblevsxCeTPO+0+k6UA1QU8U84+LBIjoMH49B1QF5T84+QpgM8xaHY+4kBwYGbVl+ho9I1n789BPOgyn98fEnA9AjV1+xi6mKwmWN5MTYERpfvbqxb1KYFVxatKqrywgq7di479FzYBBBEMOCcBkkC0VVAlIX7FuWCxYKX3ADrg7IYNy3fi3Ccfx8DLf3L+yeveEOOOhEVRy9cmprwnX4wVoR+s4sizdGsgDBlIlfcRFkKiwNfNxXkzjpClalQEGVtFldcKW4FCHEAf03gGXJagtMAAAAAElFTkSuQmCC" alt=""></li><li>Assignee icon will be shown only for the Alarms which are not cleared.</li></ul></td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAIAAAALACogAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxwAADsUBCqRN9AAAARhJREFUOE9jfPXyOQMpgIkYxT/fv3n/C6qQkYANXy+vmLxw37PfDAzMvEZhbQkWeG34+uHh9SvXXwJVA8Hfz+e2rbzIgFvD18vLJjR1rvtlG2kmyYxwOA4NINXzD7z8++fLuXUb/oD1MAur2ZrqM2DzA0w1q4iePt/NM/d+svAYReS46opICbJhOgmh2ig8VPHH859A7/JLiQuDVQMBqpNQVMteWLDxynegS9xi0jy0wapRNRChGkkDcaphGohWDdXwZN8OYAgCOeKqgljdjZx8QJ6++xya/p4c34vpS7TEBtRw7elzkPFggB4mmEmTheHzq4+/JVR1FZSVFFU1NdSkBNjxJmBCqRVDM1H5Ad3TxOQhuBqSbQAAz62g2TmyINIAAAAASUVORK5CYII=" alt=""><br></td><td>Opens Operator Note window to enter Operator Notes <strong>for the first time</strong>. Once an operator note is entered, the <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAIAAAALACogAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxwAADsUBCqRN9AAAARhJREFUOE9jfPXyOQMpgIkYxT/fv3n/C6qQkYANXy+vmLxw37PfDAzMvEZhbQkWeG34+uHh9SvXXwJVA8Hfz+e2rbzIgFvD18vLJjR1rvtlG2kmyYxwOA4NINXzD7z8++fLuXUb/oD1MAur2ZrqM2DzA0w1q4iePt/NM/d+svAYReS46opICbJhOgmh2ig8VPHH859A7/JLiQuDVQMBqpNQVMteWLDxynegS9xi0jy0wapRNRChGkkDcaphGohWDdXwZN8OYAgCOeKqgljdjZx8QJ6++xya/p4c34vpS7TEBtRw7elzkPFggB4mmEmTheHzq4+/JVR1FZSVFFU1NdSkBNjxJmBCqRVDM1H5Ad3TxOQhuBqSbQAAz62g2TmyINIAAAAASUVORK5CYII=" alt=""> icon will be changed to <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAkZJREFUOE+dlG1r01AUx5s0fYCmZKURR1lfT+hnUV+qr5XpGKioo6NjdXEgDHE4UXycH2Hb+/lVZHNTRL2hy5q2aZsH/ycnqdmWF+KFltN78zv//z3npNL3b4d35hcyp1cQBJIkYW/tyWqtVkNgmma1Wk0GiKWD/S+PFpuvX70cDofFYhFblmVpmobAMNYOj442X2w4zkDXL2BHiN8c9Hq9Uqkk+74/PX3RdV0mO50Ok0KIXD6H4O69+2dIHIHEkQyHmSCTy9FzlnVcqVSY1HUdQRD4kiTfvDU30RRmdEQwNDPh9UBq2hSR8fHVK5dBcorm0nKUtEpJB4MBvhXWhNszmpBqNBpbH9+zZihOmghg9tPWB1LGx/e8iIw1/5qMK7S+/rT92AC58fwZN4Jgu2fL2WzS0nkSmq3WCtoBzQcPF2GHLgtYLanJCqWQpmgtr3iex80HiSzZUI9su+6Ya5uq2W4bSdJxnHw+z87lbrerKFSzVLK51GK3rDkejwuFAmJqMOByuZxOmmJ7ZzfsU0RCU1EUJqM7x7ZPTR8qdLD/FXkvzc6y5tzt+YkmSG5wmu2wYW/evtvb+zxTn+EK4dqsiZjJVNtCD2cIzxmr7RvXr3GFeGc0GvErgBTJarPtaG4xcJiher0+qRBOQcI5jeNxhwO53+8LYRIZjxdeSR64ZIXwk4GTE6syRadY0q+fP8JxpbdnUls+Sy7cnDWZtG1bVVWCHfwNhFlhjK+H8siyzBVCjA7xJg8WLswuCD6v8487ZPW/1x+p1KzaiqquVwAAAABJRU5ErkJggg==" alt=""> icon.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsEBIwAp+wAAAkZJREFUOE+dlG1r01AUx5s0fYCmZKURR1lfT+hnUV+qr5XpGKioo6NjdXEgDHE4UXycH2Hb+/lVZHNTRL2hy5q2aZsH/ycnqdmWF+KFltN78zv//z3npNL3b4d35hcyp1cQBJIkYW/tyWqtVkNgmma1Wk0GiKWD/S+PFpuvX70cDofFYhFblmVpmobAMNYOj442X2w4zkDXL2BHiN8c9Hq9Uqkk+74/PX3RdV0mO50Ok0KIXD6H4O69+2dIHIHEkQyHmSCTy9FzlnVcqVSY1HUdQRD4kiTfvDU30RRmdEQwNDPh9UBq2hSR8fHVK5dBcorm0nKUtEpJB4MBvhXWhNszmpBqNBpbH9+zZihOmghg9tPWB1LGx/e8iIw1/5qMK7S+/rT92AC58fwZN4Jgu2fL2WzS0nkSmq3WCtoBzQcPF2GHLgtYLanJCqWQpmgtr3iex80HiSzZUI9su+6Ya5uq2W4bSdJxnHw+z87lbrerKFSzVLK51GK3rDkejwuFAmJqMOByuZxOmmJ7ZzfsU0RCU1EUJqM7x7ZPTR8qdLD/FXkvzc6y5tzt+YkmSG5wmu2wYW/evtvb+zxTn+EK4dqsiZjJVNtCD2cIzxmr7RvXr3GFeGc0GvErgBTJarPtaG4xcJiher0+qRBOQcI5jeNxhwO53+8LYRIZjxdeSR64ZIXwk4GTE6syRadY0q+fP8JxpbdnUls+Sy7cnDWZtG1bVVWCHfwNhFlhjK+H8siyzBVCjA7xJg8WLswuCD6v8487ZPW/1x+p1KzaiqquVwAAAABJRU5ErkJggg==" alt=""><br></td><td>Opens Operator Note window to view/edit Operator notes.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAALCAIAAAAMfhHeAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsQBXnfdvgAAAiRJREFUOE9jjIpNYwCDf3/+hIR4ubnahEbksbGxGuirc3BwQqSA4MeP73i4V6/efPvu4+oVk+HqWWZMbQJyXr9+LSIiwsjICJHgYGcpLkxlYoJygbJCQsLMzEwQWSBXUFCQhYUFzl24+NfbUxfhhgIZIKVohjL8/8vEzAo0FOjwxOQKoKywMHZDK6t7Q8Oz+fn5WWF2INwLlGBgZIbw1dUUiwoS4NyujrKy8vas3OaVyyeiufT///8R0YX//v7OyoxlY2ODyH7+/JmXlxfCZlm9circkg8fPggICMC5PNzsK5dPDo8qCI/M7+4o5+Zmg3j/6bOXBUWtQG/Nn9vFw8MNVf//Lzs7O1wvNMiA/B8/fiAbCvE+ExPT6hWTeHl5Ssvbtm4/DDR05pyVQEN5uDmWLp4AN/Tnrx8MjExwh0PDF0j19c+dNGXJ23cfIBYCPQgxFMLtbCu0sjLduu0AMMT37Dlqaa43a0YrMM3AAucNExMwJKGRDBEE6QS61NraxM7GRFgIHAjQeEPEvpCQUGF+wpSJdUDJtub83Jx4VlaEoXx8vHAuIhyAhnJwcJib6VtYGABFf//+A483IBeWwkARKy4uMm1yrYKCHJKhr4GGwoMVGG8Ic4GGwjlAQ1lZoakSYihaChMQEEQ1lA8RV///IocvwhRkQ3///r1j5wEeHl4m5scQWz99+sTNxc3MAuV+/vQZmP1Y2aDaXzx/AYw35PQAANyW1UDXSNBaAAAAAElFTkSuQmCC" alt=""><br></td><td>This icon is used to send messages manually using the preconfigured Message templates.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAfCAIAAACUOVFTAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsQBXnfdvgAAAl9JREFUSEu1lulum0AUhT0sJikGGy+pHVetlaVSH6DKr77/E1SV0qRKq3grNjiDkWKzuGcyFDsOjBGS+cF67sflzJ25EEonlSNs0hGYDHksLhH4EMex7/seXa5W6yiKwiBUVEWWZU2rGmZN13VJyk0rmwvKzHZcd1HZbHKNIsSyGu1OE296q8ngUupNxtM4iotYTyTSO++aprEn3ufa9nxuz4sQdzWtdrNz1t6988qgclDg5jMHsdlcz/NKZJqyEAsD08sk3zAMx6Op+PMHF9dfb75hnyfDqIDDnyZcZ+6KB8ow651OFwHYv9P1TDQI4Gy5qFPHWYiTfV49p4Lgf1JvQ8ABDfdZPcCX0eP4YA2omnbW6f61J8FqJRD3+t163WQ+LL2lGCrJMnyAZvj4WwyFxl/6Sb73dw/Bep2Hvvr8xbKS2nTd2d3tD3ESarV6eTVg+YZhIJC6rvPz9jsX4AV5g5YSOI1xN3H+IoCat6eUPhUZNK7hNMbFHBd/mvli7suXhQf9rRBGY1xFUcVcw2xwAfwVK/FUVRmNcU9PNbHaslpc4Hn0IJfTGFevZc+fFKFpJ/yc0sVBLqcxrmHUuCl5Wzrr+/2P/Q+fMEFypYQwGueinWDlF3CHwz8cjTpDeQqGDhzenJJ1HWG/7h8K9oi8DCRZurgcKIqS5IsDLrq99we9EwtA4NAtF2foUWgnpdGI3e1yr/oQelSzZZVAI2qvv2X34/FoIp7c23cTct4v0I95QBAEs5nztKDi/4d6w2y3m3yC7W1F/3dQMFEYyYqMkalWVbNulPnfKWHxXsg/wFwaZ0zd3B0AAAAASUVORK5CYII=" alt="" data-size="original"></td><td>Clicking this will open the respective Quick Info window which contains important info of the respective alarm and links to <strong>Real-Time Values</strong>, <strong>Real-time GUI</strong> and <strong>View</strong> <strong>Map</strong>.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAApCAIAAAD4TO2+AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAgxJREFUWEftV79LAlEc/xptokKCFEdCvCW4G7yhIjqnBgcHl7aiQYcmjc4/oOsfuKgmh26qzaXBoMHJlmo4Bx2PwpBEKFBw7z1P7YaK95WKI97jluN9f3ze5/P5Pr1Av98B/60Z/0FiiAQsjC4+ZStALX+4f4k5yW/FHp1sT0r7lC0BCyO+YEuwhWEAEyu8Jdj6igGtaOnmcUbBMOSNxXkrbeimpRe3pu3GnYeBpWZW4qywpGjc9acMRMBSkvNh6DbrA4jLOXXKfpxps5xxAFoqEYRW87wWNRJkMUnAdia5SmEvS3fd1XOsg9ePsmrGyJMwQL9+ZZx+pHzflxeWUpAlgHbjFmzy3CNyYj0NTmVYmxpuM96tZkvuK6hEgYVxV63IMA2aZ6Vzm5sB7v/yZG0pSGm4KdPSzt3jACC2PDK+tkwN13oaYaL7ttMYAQiljlclPCaazeetrXU5AhAhWTr2lu7qJW0M51+NhqhAby+fUBGJSTSr17nD8OTW4YKVVmIAVCZTHz8WNX6EpMY3RXhuopoHHjXZdZcdxkBPLgcs917wygTQqHX67k1hXz204MvZLF9U2e6qUSAIZ3GwRXK7bI6Y2b3Lbjz3WD96tVYM06qDnGf6Dp+dtCeyYty3AcKJjInhTHz5YFTk8Bam3E/FClgYJgVbgi0MA5hY4a1/wBb7TcQc449ifeqtdye/mfklcInOAAAAAElFTkSuQmCC" alt="" data-size="original"></td><td><strong>Ack</strong> button will be displayed only for <strong>New Alarms</strong> as they have to be acknowledged. To acknowledge an Alarm click the respective <strong>Ack</strong> button.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAAAhCAIAAADxgaq/AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAApZJREFUWEftVr9vm1AQPndFxlErobZWiSJGM9hLu6RTOjUDi7dGkUKGTo0U8g/QP8BEbaYOYcrohaGWOniyq0rJYAYsZUFpiZxaSI1iKvbee05iR3LhQX+EWCAG4N3d++6+7+5R2N5owDxeb9+9wrTuzWNqk5zy9O4yvzl7OXuZrUAuzsxSwwDs/7Mnbe5qhqkZu4rMgO8PTQpsfy2ISamUJnsFtqW/d1PsLW+9VqvQ3/uw3wP6zA1aRqOZIlKMC/NfS33NMJUKuKZqaPRue8BXlZ16GkyL9zmAcNgjvvQZio+lNIHYfOLYqyn6G4kfuea25bBFjLQaq8Bvqwcf/0K0qBBj9mLSG+snSorI7UthvM/EjBYFPB9EgScrIVXj8o75tHwFCY2b8OJanKu6tiL6A08oi4ByPZYnr5eROzIpNL6w1ZpFnNKzJaKl087sNsPkMTdEQ0S750JVMfTl65LyIhwRMR8OgKus4yDpNlSrP8J1ZM+Y1bpCGQ4x1FUrCsVzC19NO8ReMNahSXcJSpI6tUu0CKInpzskaH530eRH7qfxYOhZTTsEsbJZu7QP7C9Ugd1jD6BUXIxXo9/Wu1NW/hGdXs5ZSAg8cUh39JxThFR6wDh1Yw6Gb+cYmnvyfGb3P1rAWTr6cbMnuYV/Myl+nqUZ1DHpOZ1hAMAvybOq9f1iRiHDizQw4plNZxF3rPcsveUDyn3qFMYxYJhrq+DufyZL9S3KV02pVznw+nigZeeKSw+RNg80HAkgqfirQe8VMty+PsSscKnlk77H7zgqbUu70Ty3n2bcuXf7CFMiYDkYUobOjhuDOLMDNjmSPL3kNcuOR85edrhIjiRnL3nNsuORs5cdLpIjmXP2CkEwTF6UO+PxC+IV9xZK71XVAAAAAElFTkSuQmCC" alt="" data-size="original"></td><td><strong>Confirm</strong> button will be displayed only for Acknowledged alarms. To confirm an Alarm, click <strong>Confirm</strong>.<br>NOTE: <strong>Confirm</strong> button is displayed only if the <strong>Alarm Confirmation Required</strong> checkbox is selected under <strong>App Configuration</strong>.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAIAAACkFJBSAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsQBxeafqAAAAqRJREFUOE9j/PTpBQPFgBG7KX/+sOzYw7JxM/PxU4xv3wFt+S8s9NfS7I+/7x8PFwYWFjR7sZjCfOAw24LFLOs2YXXiH1+v30lxf5wdkGVRTfnzh23abPaWDoYfP/H5koP9Z03Fr7xMhBqgj+DoR1Ptf6DjiUM/GqrhGpng5gE9wjp/MaYTSk1M/jEhlMEVsM5bxLJ7H4QLlWb8+BEYFkz3H6CZ0mBicklIqNbA4DcnJ5oU06PHQIMYX7xEmMJ8+DhmcPaZmh4XEvr9+/cJAYEAAwNMZ7Js3cFy8AjCFJaduzEV7RAQ+PPnDzMzM9CgH5ycd6WlMdUwHziE5JZTZ9BU/Gdh+f//PxM4RDg5OdnY2B5hizbm8xeRwuX1GzQ10+XlgaZABIGMX79+rVNUxDSHEawRS+ADRXs1NdfKygL9AtHGyMgIZF9nZ4+3sMDmIJgp/0VF4NJTdHV3ysgA9f39+xfoI6ARQBJoCpB8zssbbmaGbBBEIzRH/DUxYrp+EyK9QUxM6+9f55s3nX/84Pzyhen3bwZm5i/8/Jc5OY8qKOzm5//BysoBFASDvwZ6CB/9cXOG2yD871/B5cv+T5/yvH17Wlraz8srxcKC980bq8ePMy5eNJSTY4aFF8gUW2uQlyF5GhhIHAVlLJu3Qcx6LyfXx8t7RVDw279/DDw8QE9x//6t+vJlxt+/CjduwO0D2v2zv/OfrAwDPC98W7/ir7wcWib6w8iYZmT0iYMDM3P9k5H+tmoxRDvCFCDnR2MNkVkRqOxHfRWW3Ah05++k2J8N1f/kZLBGJ1zwv4zUz/qq3ynxcBEspRQwp4Ly69YdWM0ChsXvlIQ/Hq7IsjhLTNa1G1l27GY6fRZeYv4zNf7j4vg7OICBgx3NAhym4PcShiwANolaB4sBrcsAAAAASUVORK5CYII=" alt="" data-size="original"></td><td>Color of the icon denotes the <strong>Severity</strong> of the Alarm.</td></tr><tr><td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAIAAAASrSP9AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsMBETZLeQAAAgtJREFUSEtjfPTwLgMNABMNzAQZOWouJGAZIfH2+vXr5JR0LS1NSoL758+f/X09EBNY4AZ5uLtlZWVQYm5jUwtcO854W7hocVNzKy5rbty4id8FOM09f/7iwYOHkDXvP3AQzgU67fr1G3iMxmnuv79/0bTFxyc9ePAQIggMyty8gh8/fuAyGre5//8h65k3b8Ghg/v27dsPF7x163ZLazvp5v77j6ansKhk85atyIKLFi3ZuXM3VqOJCofAoFBFJcX161arq6sB2cgGlZSWP336FNNopv9wwIBgAll//4HCASK0bu0qB3s7IKO9rQXIBjKAUmxsbHJysvz8fJMmT4UoYwBCGMDp3v9gc/EAHR3tw4f2A1FHO5bkiG7uzZu3gGnz0aPHX75+JZBCmfCVWehyZ86edffwtrVzPHbsONxcYGKQV1CBILggM0nmRkdF+vn6oLnUycnx4YM79XU1Bw/shUsxkmQuUFtra5OMjAyy0QoK8pAcAWTAxZlINZePj29Cfw8LCzOy0UXFpUlJCcgizMwoCtC8iD3sTU1NcnOy4Uorq2rOnj2HFr5MjIx4IhZnnObl5VhaWkB0ApMtMHwhCBEOZLgXqBkYfBXlZbhcVFJcmI23sMaXBrm5uXCZC/QKMKzwhAMjxGtfvnzp7ZvAzs6OPy/gl5WTlY2KioCogZpLiXFY9Q619gMAf8Dl9ddr1rkAAAAASUVORK5CYII=" alt="" data-size="original"></td><td><p><strong>Sort</strong> icon on each tab on Alarm Viewer is used to sort the Alarms in ascending or descending order according to the selected field in the drop-down box.</p><p></p><p><strong>Alarm Time</strong> filter– To sort the alarms on N<strong>ew Alarms, Acknowledged Alarms</strong> and <strong>Confirmed Alarms</strong> tabs, according to the time that the alarm triggered.</p><p></p><p><strong>Cleared Time</strong> filter – To sort the alarms on <strong>New</strong>, <strong>Acknowledged</strong> and <strong>Confirmed Alarms</strong> tabs, according to the Alarm Cleared Time.</p><p></p><p><strong>Acknowledged Time</strong> filter – To sort the already acknowledged alarms according to the time the alarms acknowledged. </p><p>Found on <strong>Acknowledged Alarms</strong> and <strong>Confirmed Alarms</strong> tabs.</p><p></p><p><strong>Confirmed Time</strong> filter - To sort the confirmed alarms according to the time that the alarms confirmed. Found on <strong>Confirmed Alarms</strong> tabs.</p><p></p><p>You can also sort alarms by additional filters such as Equipment, Point, Alarm Class, Alarm Severity and Message.</p></td></tr></tbody></table>
 
-#### Select Preferred Alarm Severities appearing on Alarm Bell icon
+#### <mark style="color:purple;">Select Preferred Alarm Severities appearing on Alarm Bell Icon</mark>
 
 The system provides an option for the users to select the type of alarm severities each user needs to view and to be notified on their Alarm Bell icon. Once the user’s preferred Alarm Severities are selected, the respective user (logged-in User) will be notified only the alarms belong to the preferred Alarm Severities.
 
@@ -1084,14 +1084,15 @@ To configure the preferred Alarm Severities;
 _Tip – If the “**Enable preferred Alarm Severities”** feature is selected, there should be at least one selected Alarm Severity. To disable this feature, deselect the “Enable preferred Alarm Severities” check box._
 {% endhint %}
 
-#### Disable Alarm Escalation (Alarm Silencing)
+#### <mark style="color:purple;">Disable Alarm Escalation (Alarm Silencing)</mark>
 
 The system has a functionality which allows authorized users to disable alarm escalation of active alarms and to stop sending out escalation messages to relevant users. This action will help the user to stop alarms getting escalated while keeping the alarms active.
 
 Users can disable alarm escalation in 2 ways;
 
 1. For a selected Point: Disable alarm escalation for all the alarms associated with a Point at once.
-2. For specific alarm/alarms of a Point: Disable alarm escalation of selected alarm/alarms associated with a Point.
+2. For specific alarm/alarms of a Point: Disable alarm escalation of selected alarm/alarms associated with a Point.\
+
 
 **1. To disable alarm escalation of a selected Point;**
 
@@ -1119,7 +1120,7 @@ _Note: This will only disable the Alarm Escalation of the selected Alarm of the 
 4. Select the ‘**Disable Alarm Escalation**’ check box.
 5. Click **Update**. User will be directed to the Alarms section on Point Details page. A red exclamation mark ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAIAAAAS8MqlAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsEBpZRbVQAAAcVJREFUOE+dU79Lw1AQvpfEIo1ViyhFHbTt0A5uHcSquDhYUQRHN/8Iof+ABf+Ibh0FUayDg6Aogh0L7dBaB5U6lGpNVDQvz7ukDQlUpT5uuHf3fe/L/QhrterQ+5F6pxCDtdWEAMbwrtTzysOx/FJFnw9FjIlVI5QiYAdgy1g0KyRp1f7ijvx0CYEgBGIgALQyvDb5WPJjZs8ciLiZbTWm1dSrdSa/QSwD01u2MuFqOSinBffrc4diYNqpyFbj/vNN2SjCwhmMJFCGnSSItVIgdqMAF0tcmXlb3Acm20xqiVI/lZ+vIb4rRhJgfjIUMd7RyDE/KRjPIABhjhrR+u4PYDAIkW0mTADrPXy1/bBMwcg2AgjWOUSTXm5BjZqKCkyiqqgwy2yfSZRSowRz0zyjw8rwGBoZ1edJemjmUBj0imTogN/DBDVwdJ6MBoNXk1J6hWButa/JDWg1oZoV+JGCUyoQJiM1TsFqFgEEc9OM0DIfnoVSmjVuQPIJrAfHVcuRI/koWEojAGEOrTNu/U69XHON2+onKjvjTh4JdcpL67pcCHn9a7mcfaNVfszLzxVk8eGoMZ76eZW7N/m36D//t3/SvgGUIeQfHyBpygAAAABJRU5ErkJggg==) will be displayed at the beginning of the respective Alarm record in the Alarm section, to denote that alarm escalation is disabled.
 
-#### Acknowledge Alarms
+#### <mark style="color:purple;">Acknowledge Alarms</mark>
 
 Alarm Viewer allows an operator with certain login credentials to **acknowledge** new alarms. Acknowledging an alarm is a user action and it will not change the alarm status (Alarm or Cleared). After an alarm is acknowledged, the respective alarm will be displayed under the **Acknowledged Alarms** tab with the **User Action** named “Acked”.
 
@@ -1141,7 +1142,7 @@ You can either acknowledge individual Alarms or multiple number of alarms at onc
 _<mark style="color:blue;">Setting under App Configuration</mark>_\
 &#xNAN;_<mark style="color:blue;">Acknowledged alarms will</mark>_ _<mark style="color:blue;">**not**</mark>_ _<mark style="color:blue;">be displayed under the “</mark><mark style="color:blue;">**Acknowledged**</mark>_ _<mark style="color:blue;">**Alarms**</mark><mark style="color:blue;">” tab in Alarm Viewer, if the “Show acked alarms in Alarm History Viewer” checkbox is selected in</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Settings🡪Manage🡪App Configuration page**</mark><mark style="color:blue;">. If that checkbox is selected, the acked alarms will be displayed in</mark>_ _<mark style="color:blue;">**Alarm History Viewer**</mark><mark style="color:blue;">.</mark>_
 
-#### Add Operator Notes
+#### <mark style="color:purple;">Add Operator Notes</mark>
 
 Alarm Viewer has an option named “Operator Notes” for the operators to add notes when taking actions upon alarms. E.g. when acknowledging an alarm, operator can add an important note on alarm for the users to see. These notes are not specific to any particular users. This option allows to add multiple notes on one alarm.
 
@@ -1164,7 +1165,7 @@ _Tip – After the first Operator Note is entered, the **Operator Note** icon of
 _Note –Alarm Instructions are added in the Alarm Instructions section on the Details tab in the respective Point Detail page. Added Alarm Instructions will be displayed in the Operator Note page._
 {% endhint %}
 
-#### Add Assignees on Alarm Viewer
+#### <mark style="color:purple;">Add Assignees on Alarm Viewer</mark>
 
 Alarm Viewer has “Assignee” option to assign alarms to specific users.
 
@@ -1182,7 +1183,7 @@ To assign a user as an Assignee;
 6. To delete the added note, click the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAlJJREFUSEu1lstu00AUhufMxHGiJDR240JUqbBAJW0F9IIoSN3xCqzYdMeKV2HHjhVPwY4VLCAsimiaVghBEVBw0ybgQpN6PMM4dh07vpBL60XkjM/5zu/fZy5Qr9dRzMXaHf6jgfZb/LiNOianFHJZlCKgTsClEi4W4hLFOERymfGHb39G+mFCJhI1rl0mZS0yJsTl3Kx9hC97wJOY3jOuFPBSBWczfdE48J9S8/V7vDso1H7fpsFebtDDViyXWxZ9s4kPfg2k0xcEJyZ6u8Vahj+x5wN9twNf9UioXFKurt93HtWfPGOdk3AYy6TJ2hKW084jl2v9PBA1/dFSITf78EGy9v4a0xpZrDgpXX85Z9ufhn39cDz/vu+5Yeul33TY2BmfKwjsoirdWnB9sKq1iFYFlJkqJRdr6w0UbEeGgdxbxWmpq/f5K2Csv1Hk9Nyj9eH8daKXK2Ky2P6GoWN5Yvw9/W7xGNFStcdPzd+GcyN+vZG4JHsxcfthLHn9yZxa58KFFDkfbncNsr+baI4zdAIu5FwuniyeFVdIBE059aH8n/4fvCouKUBsf+15IVZI60XVXu58l1iZRpkXtxeIprp6RQWoXBlcVGykpjhQV69zR6uboDdHpvO0hNcWvQ2ptw+R5TmWz47IFR21EtjlelzhBlm9jor5YdFcImhlPqUGmiqwb+KMjO/c4NPRW3d0vXwW371JplxbvZjo84MlTg4fdlHrKEG7MBTNzqRmyggiplU018HZp5O9Bm80uUnx0bEYsVmyhCYnQFPDGv0i/gE7Ye5rMYIxRQAAAABJRU5ErkJggg==).
 7. To close the window, click![](<.gitbook/assets/Screenshot_10 (2) (1).png>).
 
-#### Confirm Alarms
+#### <mark style="color:purple;">Confirm Alarms</mark>
 
 After an alarm is acknowledged, it can to be confirmed by an authorized user (Only if required setting is applied under **App Configuration** by selecting the **Alarm Confirmation Required** checkbox). When confirming alarms, individual alarms can be confirmed or else multiple alarms can be confirmed together.
 
@@ -1203,11 +1204,11 @@ To confirm multiple alarms/ all alarms together;
 1. On the **Acknowledged Alarms** tab, select the check boxes of the required alarms. To select all the alarms, click ‘**Select All’** check box.
 2. Click **Confirm All** to confirm all the selected alarms.
 
-#### Confirmed Alarms
+#### <mark style="color:purple;">Confirmed Alarms</mark>
 
 Alarms that are confirmed will be displayed under the **Confirmed Alarms** tab. Once a ‘Confirmed alarm’ is cleared from the device, its status will be changed to **Cleared** and the alarm will be removed from the **Confirmed Alarms** tab and will be displayed under the **Alarm History Viewer**.
 
-### Alarm History
+### <mark style="color:purple;">Alarm History</mark>
 
 **Alarm History** option allows you to view list of alarms and search for alarms. It also allows you to filter the new alarms that are not acknowledged and alarms with pending actions.
 
@@ -1231,7 +1232,7 @@ Alarms that are confirmed will be displayed under the **Confirmed Alarms** tab. 
    * **Pending Action**: Used to filter the Alarms with pending actions.
    * **Show Only Active Alarms:** Used to filter the alarms that are New/Acked/Confirmed/Escalated.
 
-### Alarm History Viewer
+### <mark style="color:purple;">Alarm History Viewer</mark>
 
 This shows the alarms that have been confirmed and cleared from the devices.
 
@@ -1239,7 +1240,7 @@ This shows the alarms that have been confirmed and cleared from the devices.
 2. Click the **Filter** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAXCAIAAAB1dKN5AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsEBpZRbVQAAAMlJREFUSEtj/PTpBQNVARNVTQMZRn0TGYG+vnf33ucvXyh0LDsbm4amBtAQkInfv39fu2b9wYOHKDG0o7NNWFgI6mtOTs7gkEB7ezuyTYQbhwhHSgxFNg4lZsgzFM049Lgm1VBM47CkHuINxWoc9vRIjKG4jMOZwvEbisc4fHkGYihmesJvHIFcCDQU00RIMsYDqJ+vR00ku6BA0Uj9cASVj3jclpqSAZTV19cDImlpKRFRUT4+Xvx+IWAisHgnxhRkOwiYSEbQAgD5l0J4rPOAsgAAAABJRU5ErkJggg==)and use the given filters as required.
 3. To clear the already selected Location, Alarm Class and Asset Category filters, click the **Clear Filter** button.
 
-### Alarm Bell Icon on Toolbar
+### <mark style="color:purple;">Alarm Bell Icon on Toolbar</mark>
 
 | Event                                     | Appearance of the Alarm Icon on Toolbar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1257,7 +1258,7 @@ _Note –When a new alarm is triggered, desktop beep sound will be emitted and f
 &#xNAN;_“**Enable desktop sound/flash notification for new alarms**” checkbox is enabled._
 {% endhint %}
 
-### Alarm Viewer Pop-up
+### <mark style="color:purple;">Alarm Viewer Pop-up</mark>
 
 To open Alarm-Viewer pop-up;
 
@@ -1281,7 +1282,9 @@ How to view only the alarms at “Alarm” status (Active Alarms)
 
 Click the Bell icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAXCAIAAABxgXNEAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsEBpZRbVQAAAmJJREFUOE9j/PTpBQOVABNBc16eWNVVUdO17PRLQkoJmfXl4ZG9+26/eXN7374jD77iN40Rtx9/Pj6wdPqqU69/wU1gFTULy4y3lWXHbiZOd73bP69nCbJBQP2/X59a2jN9Py7P4jLr0uZtF79hs/7blZ07zpPkriMnz7zHFTgfzpw4jlUOu7tuPn36A3c4/3j69CY2Wexm/fn7D1+U/fmNiA8kdVjNen//8St8Zr15+vAdFnksZr08vPrgbfwp6c7uRVhiE80sYJqa3bf03AdCSfzblbV9k/be/omiDjmtvjo5b9qCYy/+EDIILs8iZBxVnGorDhWAu+vn5WWkGQQ04M+7s8v6lpyBuQ5m1qPdmw+R4CK40/68PbJl8wMIlwVC/bx+9z7Mb6xcIlIKikoq8hKScipinCg+/v7qzoMXLx7dvXfvwbM3336D5Z7evf6OQUEIbtadt2+BolyKNv4B3tbagojM+/Ppsc3rdh5/zCBj6R7iZaUhK6cBNfznu+tHN2/aePj+t4+fnzMwAM2C+lFFTpaLgeHb05s3rt+48QpetrzfP7N3/o6rzz5+enZ15/zuefvhyerL6xvXbt648QSYZ7lkZVXA5iPi8cuN3YuWbLn84ifQr6xcfPyiMtKCPx5fufcOEa8sQko6shzvnz59/fEjyIMs7BK6PlFxnmo8aGZBA+7d/UsXrt2+8/jxk3uvv/75BtYDB0A7uFh5RBWlZeVUVLX19JSRQgPZXVhT1bsj8zqXnAI7jUXILLo8zRIYLrgAnnIVpuXL60dvfzBwCsmJceM2BzW88KsjRhYAjpkZpOCc5a8AAAAASUVORK5CYII=) on the Alarm viewer pop-up. Cleared alarms displayed on the screen will be removed and only the active alarms at “Alarm” status will appear. The Bell icon will become red![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAixJREFUOE9j/PTpBQPFgAm/CSzHp/KY2/NMOMmCVx0jPrd8e8wVbcq8F2iA498rc7/JceEyCpdbfrHsbuBRghgBBPuZdXR4qvax/MRuDna3MO8q4gpZhkVHxILvszz+YEhgNeUSt74b032s1ir8O3TiqwG6FDYfHVyJwwig5gdMS49gGo/FFLYrZ/BFyKmrbBjS2NzyG9PjSPp+/GAkwpSPLCeu4nPL9XPMHwiFC8v+dqZt+FPiTuayHWiJENlHwDRSzRG2ANPB6KauSOPI2cKKnHaAaReMLv8q0f/PwEACUk3+dQei9wUDmHr0s4lEIyD2qZf8fA035Vr/P3ZSXIHk5H89J4HuAAUT49kDjHBPiqj/d3D472z6T1XjjxQnSoh8e85y7S7TyQOM+w4xXn8LkWLcd5o5TR7kox9N2iDnOZX8PnHzMzSYwB5+ff5XT8g/WZl/4e2/rj+ChSBI6vOjA78rHUC6dGt/fHoBiqPfhhYgY09sZTp6me3NN5j9HzmLXVhL1jA+fsK4spLVtoITnky+vWW7eIJp0ymQSiv930ASYsOXM7P+GvBBI0hE5p994N8EJ9TAYvvnGvM3xOafrDBUGZ/e3wVHvoC1o+Rpxg8P2E+eZD5wmvHUAcYX3xkeQz0PdZ2IDAOn+H9nk//mtn+tTH8q8gONg4YOnrKO+WADZ8gMcMCz/c9Z9r3N5i+OVI23xATq+faW9d0PBg7B3yI4i0tQTFGlDgAAeFhLSIpqpAIAAAAASUVORK5CYII=).
 
-## Point Write History
+***
+
+## <mark style="color:purple;background-color:blue;">Point Write History</mark>
 
 **Point Write History** is a report, which shows all the Equipment Point value changes that have occurred along with the user who performed the action. Whenever equipment point value changes, it will be logged and can be viewed under Point Write History.
 
@@ -1319,7 +1322,7 @@ _For Multi-state : the State text will be displayed as well._\
 &#xNAN;_&#x46;or Analog points, the analog value and the unit of the value will be displayed. E.g. 8 m3._
 {% endhint %}
 
-## View Real-time Reports
+## <mark style="color:purple;background-color:blue;">View Real-time Reports</mark>
 
 **Real Time Reports page** lists the Real Time Reports configured by users in the IBMS application.
 
@@ -1330,7 +1333,9 @@ Refer to the [Real Time Reports](chapter-8-reports.md#real-time-reports) section
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Real Time Reports**</mark>
 
-## View Interface Gateways
+
+
+## <mark style="color:purple;background-color:blue;">View Interface Gateways</mark>
 
 This is used to view the Interfaces running Gateway servers.
 
@@ -1344,7 +1349,7 @@ _Note –SubsystemInterfaceUpdater Service should be installed for you to view t
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Interface Gateways** under **View** section. **Interface Gateways Search** page will appear.
 2. Type the name of the **Interface Gateway** in the **Search Interface Gateways** input box to search for the **Interface Gateway** you want.
 
-## View Interface Transaction History
+## <mark style="color:purple;background-color:blue;">View Interface Transaction History</mark>
 
 **Interface Transaction History** page lists the Interfaces which were activated/refreshed along with the Time stamp of each transaction, Description of transaction (either Activated or Refreshed) and User who took the action (If the action is taken manually, User who took the action may not be captured by iviva. So **Action Taken by** data will not be available).
 
@@ -1356,7 +1361,7 @@ _Note –SubsystemInterfaceUpdater Service should be installed for you to view t
 3. Use the given search filters accordingly.
 4. Use the Sort option to sort the search results by the given fields.
 
-## View Overridden Points
+## <mark style="color:purple;background-color:blue;">View Overridden Points</mark>
 
 Overridden Points search page lists the Points that have been manually overridden by authorized users on iviva Equipment Real-time Values page and System Real-time Values page. Each record on the Overridden Points search page shows each Overridden Point’s last overridden details as follows;
 
@@ -1376,7 +1381,7 @@ Overridden Points search page lists the Points that have been manually overridde
 3. Use the given search filters on the Side bar accordingly.
 4. Use the Sort option to sort the search results by the given fields.
 
-## View Health Status
+## <mark style="color:purple;background-color:blue;">View Health Status</mark>
 
 Health Status window is used to monitor the status of the following:
 
