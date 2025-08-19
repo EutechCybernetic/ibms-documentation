@@ -1333,7 +1333,7 @@ Refer to the [Real Time Reports](chapter-8-reports.md#real-time-reports) section
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**View**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Real Time Reports**</mark>
 
-
+***
 
 ## <mark style="color:purple;background-color:blue;">View Interface Gateways</mark>
 
@@ -1349,6 +1349,8 @@ _Note –SubsystemInterfaceUpdater Service should be installed for you to view t
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Interface Gateways** under **View** section. **Interface Gateways Search** page will appear.
 2. Type the name of the **Interface Gateway** in the **Search Interface Gateways** input box to search for the **Interface Gateway** you want.
 
+***
+
 ## <mark style="color:purple;background-color:blue;">View Interface Transaction History</mark>
 
 **Interface Transaction History** page lists the Interfaces which were activated/refreshed along with the Time stamp of each transaction, Description of transaction (either Activated or Refreshed) and User who took the action (If the action is taken manually, User who took the action may not be captured by iviva. So **Action Taken by** data will not be available).
@@ -1360,6 +1362,8 @@ _Note –SubsystemInterfaceUpdater Service should be installed for you to view t
 2. Type the **Interface ID** in the **Search Interface Transaction History** input box to search for the transaction history of the **Interface ID** you want.
 3. Use the given search filters accordingly.
 4. Use the Sort option to sort the search results by the given fields.
+
+***
 
 ## <mark style="color:purple;background-color:blue;">View Overridden Points</mark>
 
@@ -1381,6 +1385,8 @@ Overridden Points search page lists the Points that have been manually overridde
 3. Use the given search filters on the Side bar accordingly.
 4. Use the Sort option to sort the search results by the given fields.
 
+***
+
 ## <mark style="color:purple;background-color:blue;">View Health Status</mark>
 
 Health Status window is used to monitor the status of the following:
@@ -1397,7 +1403,9 @@ Health Status window is used to monitor the status of the following:
 
 User can expand and collapse nodes under Zones. Furthermore, users can navigate to SSIF details as well.
 
-## Alarm History Download from BACnet Controllers
+***
+
+## <mark style="color:purple;background-color:blue;">Alarm History Download from BACnet Controllers</mark>
 
 {% hint style="info" %}
 _Note –_ This _section is applicable only for BACnet Controller based Alarms._
@@ -1438,7 +1446,7 @@ After the Alarm History is downloaded from the BACnet Controller;
 _Note –The alarm events that are not associated with any existing data In_ iviva _can be viewed by clicking on “Exceptions” checkbox on the side bar._
 {% endhint %}
 
-### View BACnet Devices
+### <mark style="color:purple;">View BACnet Devices</mark>
 
 This section describes how to view BACnet Devices.
 
