@@ -9,7 +9,7 @@
 5. [Bulk Import Data](chapter-7-managing-the-application.md#bulk-import-data)
 6. [Processes for Alarms](chapter-7-managing-the-application.md#processes-for-alarms)
 
-## App Configuration
+## <mark style="color:purple;background-color:blue;">App Configuration</mark>
 
 App Configuration page has been divided into few sections. Each section has settings related to a specific area in IBMS app.
 
@@ -19,17 +19,17 @@ App Configuration page has been divided into few sections. Each section has sett
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **App Configuration** under **Manage.**
 2. After configuring the following settings, click **Update** to save the settings.
 
-### General Settings
+### <mark style="color:purple;">General Settings</mark>
 
 <table><thead><tr><th width="227">Field</th><th>Description</th></tr></thead><tbody><tr><td>“<strong>Comment required for write command</strong>” check box</td><td>If this check box is selected, Real Time GUI and Real-Time Values pages of equipment and systems will have mandatory comment boxes for the user to add comments when manual override is done.</td></tr><tr><td><strong>“Enable desktop sound/flash notification for new alarms</strong>” checkbox</td><td>This enables desktop beep sound and flash notification when a new alarm is triggered. Desktop sound/notifications for new alarms work only for https connections.</td></tr><tr><td><strong>System User Account</strong></td><td>Allowed to select the <strong>System User</strong> which will be logged as the user in user transactions.</td></tr><tr><td>“<strong>Display Alarm Class in Weblets and Search pages</strong>” check box </td><td>Used to enable/disable displaying <strong>Alarm Class</strong> in weblets and in search pages where Alarm class is not already displayed as a search filter.</td></tr><tr><td>“<strong>Merge Point Name and Point Description in Real-Time value page</strong>” checkbox</td><td><p>If this check box is selected, Point Name &#x26; Point Description will be merged and displayed in one column on Equipment/ System Real-Time Value pages.   E.g.</p><p><img src=".gitbook/assets/Screenshot_23.png" alt="" data-size="original"></p><p></p><p><em><mark style="color:blue;">Note: A quick method to navigate to</mark><mark style="color:blue;"> </mark><mark style="color:blue;"><strong>Equipment Real-Time value page/ System Real-Time value page</strong></mark><mark style="color:blue;">,</mark></em></p><p><em><mark style="color:blue;">Go to <strong>Equipment Search page</strong> and filter equipment records. Click the <strong>Real-Time Values</strong></mark></em> <img src=".gitbook/assets/Screenshot_24.png" alt="">  <em><mark style="color:blue;">icon of the respective equipment record.</mark></em> </p><p></p><p><em><mark style="color:blue;">Go to <strong>System Search page</strong> and filter System records. Click the <strong>Real-Time Values</strong></mark></em> <img src=".gitbook/assets/Screenshot_24.png" alt=""> <em><mark style="color:blue;">icon of the respective System record.</mark></em></p></td></tr><tr><td><strong>Enable auto refresh in Real-Time Value page</strong></td><td><p>Used to enable Auto Refresh feature on every Equipment Real-Time Value page.</p><p> Once enabled, Auto Refresh icon will be green.<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAaCAIAAABdDBlVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsMBDDN7wQAAAkJJREFUSEtj/PTpBQMR4Ovfr+/+vn/95+2Pfz8gyjmYOERZhIWYBbmZudEMeP/nw/UfN4GCVjzmEClGgtZc/X7jxLdTi9+twOUYP34vd14XbU4NiAKgg2a+nb/p4zYg+4AqiCRgzeNfT6a/mXvs60kifMtgxW2eKZIM9BzcDqKsOfblZNXzRqwWxApF4PIc0DJkZxHwzZaPO3peTUKzo0Qsz5TLSJxVDCL+8ver09/OYSpD1oXPmnPfLhY9rURWDQz9aMEwuAXIUkDLlr5fBYkJTAC3hgkzkWDakS6ciNUOoF6geKJQDMHIQ7fm6NcTaHqAdmAmWbgaYLqa/24JadYA9aCF9VSZPvx2IKcrPJZhyTd3ft47++3Cl39feJh4wgWDcGlGzh+41BCVbwgGBfEK0OOGeJ0kqRy1hqTggiimU6ChJOi5bxfhcSkwffvwuePJRsCS8OWfV+IsYshFH8RAFGscbnvhsWalwgJcRQ5QF7DWiH2YBtcOLAaRiw9iAw2/HcCsCqyZkJ3Iz8yH7G+irMFvB9D0LZ92otV+PnweyLYSZQ2wqAe6F2t4AsWBMTr9zRxk2TbJerTgJcoaYHXifS8UWJ8iWwZkA0WA4mg1KbD2g7c04HaTkAQgeoBxCwz3j38/Ya3KgHb48KMEF4GUBoyPp7+fo1Vx+DNmn3S7EZc+VjXYfQOPc2DIXPx+ZcunHXjaN8BmBjDC9Tl18GQpFGuAYQ10izK7Imb+ANb5b/68+/j3I2qq5RdhEcKTmeCKAVWYInGaIj25AAAAAElFTkSuQmCC" alt=""></p></td></tr><tr><td>“<strong>Enable only "Print Chart" function in Trend Graphs”</strong> checkbox</td><td><p><img src=".gitbook/assets/Screenshot_25 (2).png" alt=""><img src=".gitbook/assets/Screenshot_26 (1).png" alt=""></p><p><em><mark style="color:blue;">Note: To navigate to <strong>Historical Trend Graph /Real Time Trend</strong></mark></em> <em><mark style="color:blue;"><strong>Graph,</strong></mark></em></p><p></p><p><em><mark style="color:blue;">Go to <strong>Equipment Search page</strong> and filter equipment records. Click the <strong>Real-Time Values</strong></mark></em> <img src=".gitbook/assets/Screenshot_24.png" alt=""> <em><mark style="color:blue;">icon of the respective equipment record.</mark></em></p><p></p><p><em><mark style="color:blue;">Click</mark><mark style="color:blue;"> </mark><mark style="color:blue;"><strong>Historical Trend</strong></mark><mark style="color:blue;"> </mark><mark style="color:blue;">icon</mark></em><img src=".gitbook/assets/Screenshot_27.png" alt=""> <em><mark style="color:blue;">of the required point to go to</mark><mark style="color:blue;"> </mark><mark style="color:blue;"><strong>Historical Trend</strong></mark><mark style="color:blue;"> </mark><mark style="color:blue;">tab in point details to see this feature.</mark></em></p><p><em><mark style="color:blue;">Go to <strong>Real Time Trend</strong></mark></em> <em><mark style="color:blue;">tab to observe</mark><mark style="color:blue;"> </mark><mark style="color:blue;"><strong>print chart</strong></mark><mark style="color:blue;"> </mark><mark style="color:blue;">feature.</mark></em></p><p> </p><p><em>This feature is applicable for both Equipment and Systems.</em></p><p><em>Also applicable for Trend Groups (<strong>App</strong></em> 🡪 <em><strong>Groups tab</strong></em>🡪<em><strong>relevant Trend Group</strong>).</em></p></td></tr><tr><td><strong>OnDemand polling frequency</strong></td><td></td></tr><tr><td><strong>BACnet OnDemand trend polling request frequency</strong></td><td></td></tr><tr><td><strong>BACnet OnDemand trend polling request time out</strong></td><td></td></tr><tr><td><strong>Maximum month range for trend chart filter</strong></td><td></td></tr></tbody></table>
 
-### Process Trigger Priority Settings
+### <mark style="color:purple;">Process Trigger Priority Settings</mark>
 
 App Admin shall select the required setting for **Process Trigger Priority** under App Configuration page. Default configuration “**Terminate the running process”** will terminate the current process and start another process. (E.g. If a new alarm generated, the current alarm will be stopped and new alarm will be notified). Other option “**Terminate this process**” will terminate the process without starting a new process.
 
 1. On the App Configuration page, select the **Default Configuration** from the list for **Process Trigger Priority**.
 
-### Alarm Viewer Settings
+### <mark style="color:purple;">Alarm Viewer Settings</mark>
 
 If it is required to show the Alarm Viewer Pop-up;
 
@@ -43,16 +43,16 @@ If it is required to show the Alarm Viewer Pop-up;
    * **Show Only Active and Cleared Alarm Tabs**
    * **Show Alarm Summary Tab in Alarm Viewer**
 
-#### “Show Pop-up Alarm Viewer” Check box
+#### <mark style="color:purple;">“Show Pop-up Alarm Viewer” Checkbox</mark>
 
 1. Select the **Show Pop-up Alarm Viewer** check box if it is required to show the Alarm Viewer pop-up.
 2. Alarm Viewer Pop Up will be displayed, when you click **Alarm** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAZlJREFUSEtjYBgFoyEACwEWXl4WUkKDmYBiw+RJRZG+mt/3nnj4hzhz8ZjIqx1V0uKjDFIhoOlhr/D21JknvwibitNEPvvsWlcZhAGsogb6fBcOXv1EyEwmHAqkfewV0KWEzXx1CZnHwIDTRAlhTM2sEgpCBI3EYaKYOD82rXxCYuSZyGsZZiWBTSuXUVAgITMxYoZXI76k3FeOFYdbeFTs7BXfnTr1FGeso5koH1WRZyuK32esYnoWsk/3nnmFXRmqiWaxOeawGPn97dubpzcfP3/15g0Iff3Hw8bOygpRzyohzXr88K3v2MxEyWAyoKj8dO/o5lXbz93/DMojfBq+YQ7SnO9OLlx1HpwSOcU1rKKj/dSFxIBp9S02E1Hc+OkLn4G+poKctCjXz08fvv7kc8krcNEUFRWTMzAXenDyKbuKrrWzm7We6N8XZ/Zsu/ziJzYTGTEEORV1XeysVZTkxfhYubgQMQQMhd+fXj18/PTS8T2nrr7DmcsxTUS2glc7LCXeUIzh3Y0tCxcewhEVBFPoqILhGgIAAAJ3VNNhfQkAAAAASUVORK5CYII=) in **App Dashboard**.
 
-#### Show Acked Alarms in Alarm History Viewer Check box
+#### <mark style="color:purple;">"Show Acked Alarms in Alarm History Viewer" Checkbox</mark>
 
 Select the **Show Acked Alarms in Alarm History Viewer** check box, if it is required to show the acknowledged alarms under **Alarm History Viewer**. If this check box is selected, the acknowledged alarms will be cleared and displayed under **Alarm History Viewer**, without displaying under the **Acknowledged Alarms** tab on **Alarm Viewer**. **Alarm Viewer** will have a link named **Alarm History Viewer** to view the alarms in **Alarm History Viewer**.
 
-#### Alarm Confirmation Required Check box
+#### <mark style="color:purple;">"Alarm Confirmation Required" Checkbox</mark>
 
 Select the **Alarm** **Confirmation Required** checkbox, if the alarms need confirmation actions (Corrective Action required and Corrective Action not required).\
 If the **Alarm** **Confirmation Required** check box in App Configuration page is selected;
@@ -61,7 +61,7 @@ If the **Alarm** **Confirmation Required** check box in App Configuration page i
 * **Confirmed Alarms** tab on **Alarm Viewer** will be displayed containing the confirmed alarms.
 * **Alarm History Viewer** link on Alarm Viewer will be displayed.
 
-#### Apply Filters for New Alarms
+#### <mark style="color:purple;">"Apply Filters for New Alarms" Checkbox</mark>
 
 This option allows to apply filters for alarms with “New” status in Alarm viewer according to the customer requirement.
 
@@ -71,26 +71,28 @@ This option allows to apply filters for alarms with “New” status in Alarm vi
   * **Filter** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAIAAAD9b0jDAAAAAXNSR0IArs4c6QAAANtJREFUSEtj/PTpBQO1ARO1DQSZN2oo9UOV8e2V9WsP3vtNscmsSnbB1rKsYHMYgUnqzYHO2iX3/1BgLotSVHOVnQjMBFDsiziUN8cospBrKJqJiCRFtrmYJqKkUzLMxWoieuInyVxcJmLJUUSai8dE7NmUoLn4TcSZ9/GYS9BEfAUK0NxKT2H0ZCbsXomUHnElQnylFJcwH7o2fmEuIpLzaNFHRCCRqGR4hSkLp7CaqWdUamXDxFJEoYknSECFNC7p329u3fzIpyQnwQUp0IkG+Awl2hB0hUMnogALvD7sQIkJNAAAAABJRU5ErkJggg==) will be enabled on Alarm Viewer page (To go to Alarm Viewer Page, go to **Settings🡪View🡪Alarm Viewer**).
   * Or go to **app dashboard** and click![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAAAXNSR0IArs4c6QAAAZlJREFUSEtjYBgFoyEACwEWXl4WUkKDmYBiw+RJRZG+mt/3nnj4hzhz8ZjIqx1V0uKjDFIhoOlhr/D21JknvwibitNEPvvsWlcZhAGsogb6fBcOXv1EyEwmHAqkfewV0KWEzXx1CZnHwIDTRAlhTM2sEgpCBI3EYaKYOD82rXxCYuSZyGsZZiWBTSuXUVAgITMxYoZXI76k3FeOFYdbeFTs7BXfnTr1FGeso5koH1WRZyuK32esYnoWsk/3nnmFXRmqiWaxOeawGPn97dubpzcfP3/15g0Iff3Hw8bOygpRzyohzXr88K3v2MxEyWAyoKj8dO/o5lXbz93/DMojfBq+YQ7SnO9OLlx1HpwSOcU1rKKj/dSFxIBp9S02E1Hc+OkLn4G+poKctCjXz08fvv7kc8krcNEUFRWTMzAXenDyKbuKrrWzm7We6N8XZ/Zsu/ziJzYTGTEEORV1XeysVZTkxfhYubgQMQQMhd+fXj18/PTS8T2nrr7DmcsxTUS2glc7LCXeUIzh3Y0tCxcewhEVBFPoqILhGgIAAAJ3VNNhfQkAAAAASUVORK5CYII=) **Alarm** icon.
 
-#### Show Only Active and Cleared Alarm Tabs
+#### <mark style="color:purple;">"Show Only Active and Cleared Alarm Tabs" Checkbox</mark>
 
 The alarm viewer will only have two tabs available when this option is enabled. Below tabs will be enabled when “**Show Only Active and Cleared Alarm Tabs**” check box is selected under **App Configuration.**
 
 1. **Active Alarms tab**
 2. **Cleared Alarms tab**
 
-#### Show Alarm Summary Tab in Alarm Viewer
+#### <mark style="color:purple;">"Show Alarm Summary Tab in Alarm Viewer" Checkbox</mark>
 
 When **Show Alarm Summary Tab in Alarm Viewe**r check box is selected,  the **Alarm Summary** Tab will be displayed on the **Alarm Viewer** page (Settings🡪View🡪Alarm Viewer).
 
 If it is deselected, the Alarm Summary Tab will not be displayed on the Alarm Viewer page.
 
-### Operating Scope Settings
+
+
+### <mark style="color:purple;">Operating Scope Settings</mark>
 
 The following operating scopes cannot be changed by the end-users.
 
 <table><thead><tr><th width="280">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Equipment Based Permission</strong></td><td>Used to filter equipment to Equipment search page based on the Asset Group. If Equipment based permission is selected, both location scope and Asset group scope will be applied.</td></tr><tr><td><strong>Location Scope</strong></td><td>Location scope is applied to search pages where location, Equipment, Zone interfaces etc. are used.</td></tr><tr><td><strong>Point Based Scope</strong></td><td>Applied to filter point related pages, equipment point configuration and Real Time pages</td></tr></tbody></table>
 
-### Alarm Escalation Settings
+### <mark style="color:purple;">Alarm Escalation Settings</mark>
 
 This section allows admin to configure the following;
 
@@ -101,7 +103,9 @@ This section allows admin to configure the following;
 
 Once you are done with necessary configurations, click **Update** to save the changes.
 
-## Manage User Roles
+***
+
+## <mark style="color:purple;background-color:blue;">Manage User Roles</mark>
 
 This section describes how to add and manage **User Roles** and their User Rights. A **User Role** grants permission for app users to perform a collection of tasks, through the User Rights attached to it. User Rights in a User Role, give access rights to functionalities in IBMS App.\
 \
@@ -110,7 +114,7 @@ User Rights are grouped into four ‘User Rights Groups’ (Guest User, Normal U
 <mark style="color:blue;">**Path**</mark>\
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">on the</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Application Home page**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Manage**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**User Roles**</mark>
 
-### Add a new User Role
+### <mark style="color:purple;">Add a New User Role</mark>
 
 1. Click the **Settings** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)and go to **Manage** section 🡪 **User Roles**.
 2. Click the **Add** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAjhJREFUSEutlt9L21AUx3tvfohtattEVDaYhbEnHzYURdQXp3N72bt/orB/YBu4QbfJQHyfG+rcg78wabokFfvjZt+SS5rEJkvbXAopyTmf8z3nnvuDuK6bSzf+nBzA8MnTtXTmOZKM/v3rq9O8s61mq9VmjHXaHVESKaWyLCnFfCE/if9x8WLRZz+/GHrDbNg5l8XKJLRcUlStJAjCw2wGoJG4Zdk3NwbrxkMD0Qils7NqsahE6L10ggNcXTevLm9TcuHrMgZ7/bYeQYVUe1xDN1NOVMRM1cqaVva1h1RbtjMyF2Hgi0r68fqqT49r5+cX6eswMDMq0Pn5R6IoQntftVm3krmLK9vL62/wo4IUVzEQwPG+9tAoMfq3bvJXoxXa9wIHK4Cj8XCcZlL/DhXNZbbd5GjUxbbvhnJPNnacHo3X+v6+lSHao/EO+fRhD50fpGOulla30sQ7+r7Puu2gJdbny9e7XHWEm4aYYOPROBpxxsSF3AlF1/GC1PbftVuhpB5GQl8Lkoj3h9/eJ+uQZKlafczFTkzIGar2aBxdKExmiPZoHK0o+RzJqNyEgtbfQ6rPNnBeZCIcHO9UC+3Xnz/ujb/zbe7sehJDRZiZUccUHiSE0AsvdlS1NDIdvjghfffo1GnTlUplFDq84Bs8eWNP9OtrI+3qJ3RuTkXGkXRj7yEnP2q60bD+Oon3EFKcUlbW3g6s4RC3py5GpyuIuM8IsiQqU4WF568SJuY/aN9z2AsfHP8B9/IJEvAneB8AAAAASUVORK5CYII=) . Add User Role window will appear.
@@ -126,7 +130,7 @@ User Rights are grouped into four ‘User Rights Groups’ (Guest User, Normal U
     _User Rights – Administrator User Rights (If the “Administrator User Rights” checkbox is selected, all the User rights under “Administrator User Rights” will be applied. Or else, select individual User Rights considering the permissions you need to provide to each functionality in the App)_
 5. Click **Add**.
 
-### Edit an Existing User Role
+### <mark style="color:purple;">Edit an Existing User Role</mark>
 
 1. On the User Roles page, find the User Role that you want to edit and click the respective **Edit** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAq5JREFUSEud1t1v0lAUAHD6AWRQPtrqINEwZQITHmRZjInxI8a4mPgH6J/ou8YYYjQxc4tMxZiYaBaN8cVAgJW1hVFK67mUteW2t3Q0PNDLOb8ezr3tLWWaZiT08ffXvhVb2Ly9NIki0aAYhqEOR4o81LQJfNcnOhtlaZqOxaJcKlG78ShYJ9KfD15KAyViGsR8is5mOEHMXC3f9Y3xp981nhtTMuqSKJrO5YRUivO2CKdbzVf9nrS0j1iAIGTECzymOzQ0t9eTVnCtywhiVhSzbp22ry8r6souIJAry4q9hGBkTv/++b7T7p2jD5RTk53V6fR1XbdP5xHSsRxy3i4VSg92nz58/OxapY6VAgI4C/Sfo71jyRkKqL1QvL5Vu0kzDMRsFKsZ/iIWDA5o1iCqWlWHQev3LBvcUmXbbcVicbwO01CUoUMrymhplwvFKuaORmqv2/YmqupcQ1WPx1owPXMXOquNR18O3xrTiTfR1hCt69PA/vq4hx/fnKr+02NriDYN4j19eaPsrTfAdWuIhucAqepu9x/8d/tX+B7sosizJY9QlkWLyXuUqzvaKbIsPZQbiUSjjHVPIjoej/nSgpCv79y39IHUXV7vTAHNepIgOplcIzWEF3OW/umgQZo3LNfWEM1xCbtB7rhvrb3mh9dHP1o0Q5wMvCaKRtrsQDmwJ8F+4S18qA7kkz58dG3JwrdzwblSuuPQ0BpeSJ+jNEL7QADH/nH+T4uVe+vrAqnjIcdBAAen4Rz2N9iHQireMMit1Xfd4878QFtgf+P5VXTI2r71BLuez47+/Wuj3e4H3P0LBEXn8wJWrxVAfA9p7r+QT9TA9xAqleZEIbO55fTXfVUiDUGwX9hvT1M49CnDMnDEoiyXTiYTa7BqA97QgmirBOuBEOYlD+v1f7C3QmEU+RLIAAAAAElFTkSuQmCC).
 2. To find a specific User Role(s) based on its text, type in the required text in the Search box.
@@ -135,12 +139,12 @@ User Rights are grouped into four ‘User Rights Groups’ (Guest User, Normal U
 
 <table data-header-hidden><thead><tr><th width="283"></th><th></th></tr></thead><tbody><tr><td><strong>Search filter in List box</strong></td><td><strong>Purpose of Search filter</strong></td></tr><tr><td><em>All Items</em></td><td>To view all the User Rights</td></tr><tr><td><em>Selected Items</em></td><td>To view only the selected (ticked) User Rights</td></tr><tr><td><em>Unselected Items</em></td><td>To view only the User Rights that are not selected</td></tr></tbody></table>
 
-### Delete An Existing User Role
+### <mark style="color:purple;">Delete an Existing User Role</mark>
 
 1. On the User Roles page, find the User Role that you want to delete and click the respective **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAfCAIAAAAA3/ihAAAAAXNSR0IArs4c6QAAAn1JREFUSEu9lk1PE0EYx3dmdvalFChLWxAQPGktRjyAqAkJNz+BiYmJ8eBnMjHx4Gfg6MmLoImaqGkjFwVUsNDWQkm3+/q4pQnuW2enxbSHptn9z//3PPPM03lQ5VdJGNYHDwvU4SCezBzdcA6qbqUBuuG2TcF2cFoFgkl2nMxkxYlRzogTYPbxqV3edSt1hh0aUUlxQZrNJSJ7wwD0z9/c7/so0eNMgLQxunxVTKkMeXzNwLJab74AN8kDQP3EeP3JrDX6g4Hj6JsloXrMl9I/FTIt623Z/tPstTBmG9sft929w9gFkqbNPHzQfbX34qVrGlEZKLKyfosoUvRVGGYd1Kx3Zb9OTKfnHj9iZxkC47mcslyILgnWDMAq7/S7e1G98/ModjMDmRk/Dp0P2xeHdRymtdSdxZBVANbeKsW0FEJSNsuOwKxWBQC/BjBW7t8mMvU/DMBaG5uC64R8sSTPP33SV826YnGlEOr0YM0ipItsKZy0wnFz2oFh7jx77jSb3R/e9/mTXg6gtweEccbkl7lWpCIDuHAuwZQMLzOkKiyYd145o+aR4fERFsy7DHlceDRe3CSfYcJmE5qXB9PVkFwGi2JIH2jqzuXy6r1gmH7RYE1N7y7SKY2VGSKEFhf4w++lxPmJKMkTx9xn+lYJmEMHOxqQqLy+FDsfxBw/eeWaMJoaMD+E6Gqh1yQSA/MKK9+7gTLpfnlACV0tSpPhQ3juE99YRJWVtZv4cp6fh9KqsrZEp8OHwu+QMDdav+v2111onDKoXpHE6/PylUsCShj7uCZib1R19mvuUQMsW2ieXRyyhLyLcXJMnNLY2fSRGf828ij/559hIu8vNcD/hPK/PvQAAAAASUVORK5CYII=) to the right. A message to confirm the deletion will appear.
 2. Click **OK** to confirm. Click **Cancel** to abort the operation.
 
-### Copy an Existing User Role to Another User Role <a href="#toc531702796" id="toc531702796"></a>
+### <mark style="color:purple;">Copy an Existing User Role to Another User Role</mark> <a href="#toc531702796" id="toc531702796"></a>
 
 \
 Copy feature allows you to copy an existing User Role including its all User Rights to another User Role at once. You can
@@ -148,7 +152,7 @@ Copy feature allows you to copy an existing User Role including its all User Rig
 1. Copy an existing User Role to a new User Role
 2. Copy an existing User Role to another existing User Role
 
-#### **Copy an Existing User Role to a New User Role**
+#### <mark style="color:purple;">**Copy an Existing User Role to a New User Role**</mark>
 
 1. Go to **Settings🡪Manage🡪User Roles.**
 2. Click the **Add** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAjhJREFUSEutlt9L21AUx3tvfohtattEVDaYhbEnHzYURdQXp3N72bt/orB/YBu4QbfJQHyfG+rcg78wabokFfvjZt+SS5rEJkvbXAopyTmf8z3nnvuDuK6bSzf+nBzA8MnTtXTmOZKM/v3rq9O8s61mq9VmjHXaHVESKaWyLCnFfCE/if9x8WLRZz+/GHrDbNg5l8XKJLRcUlStJAjCw2wGoJG4Zdk3NwbrxkMD0Qils7NqsahE6L10ggNcXTevLm9TcuHrMgZ7/bYeQYVUe1xDN1NOVMRM1cqaVva1h1RbtjMyF2Hgi0r68fqqT49r5+cX6eswMDMq0Pn5R6IoQntftVm3krmLK9vL62/wo4IUVzEQwPG+9tAoMfq3bvJXoxXa9wIHK4Cj8XCcZlL/DhXNZbbd5GjUxbbvhnJPNnacHo3X+v6+lSHao/EO+fRhD50fpGOulla30sQ7+r7Puu2gJdbny9e7XHWEm4aYYOPROBpxxsSF3AlF1/GC1PbftVuhpB5GQl8Lkoj3h9/eJ+uQZKlafczFTkzIGar2aBxdKExmiPZoHK0o+RzJqNyEgtbfQ6rPNnBeZCIcHO9UC+3Xnz/ujb/zbe7sehJDRZiZUccUHiSE0AsvdlS1NDIdvjghfffo1GnTlUplFDq84Bs8eWNP9OtrI+3qJ3RuTkXGkXRj7yEnP2q60bD+Oon3EFKcUlbW3g6s4RC3py5GpyuIuM8IsiQqU4WF568SJuY/aN9z2AsfHP8B9/IJEvAneB8AAAAASUVORK5CYII=).
@@ -156,7 +160,7 @@ Copy feature allows you to copy an existing User Role including its all User Rig
 4. Select the User Role that you need to copy, from the ‘**Copy**’ drop-down box.
 5. Click **Add**. Selected User Role’s User Rights will be copied and applied to the new User Role.
 
-#### **Copy an existing User Role to Another Existing User Role**
+#### <mark style="color:purple;">**Copy an Existing User Role to Another Existing User Role**</mark>
 
 1. Go to **Settings🡪Manage🡪User Roles.**
 2. Select the User Role that you need to edit and click on its **Edit** icon![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAIAAAAyxktbAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsUBWmncRwAAAq5JREFUSEud1t1v0lAUAHD6AWRQPtrqINEwZQITHmRZjInxI8a4mPgH6J/ou8YYYjQxc4tMxZiYaBaN8cVAgJW1hVFK67mUteW2t3Q0PNDLOb8ezr3tLWWaZiT08ffXvhVb2Ly9NIki0aAYhqEOR4o81LQJfNcnOhtlaZqOxaJcKlG78ShYJ9KfD15KAyViGsR8is5mOEHMXC3f9Y3xp981nhtTMuqSKJrO5YRUivO2CKdbzVf9nrS0j1iAIGTECzymOzQ0t9eTVnCtywhiVhSzbp22ry8r6souIJAry4q9hGBkTv/++b7T7p2jD5RTk53V6fR1XbdP5xHSsRxy3i4VSg92nz58/OxapY6VAgI4C/Sfo71jyRkKqL1QvL5Vu0kzDMRsFKsZ/iIWDA5o1iCqWlWHQev3LBvcUmXbbcVicbwO01CUoUMrymhplwvFKuaORmqv2/YmqupcQ1WPx1owPXMXOquNR18O3xrTiTfR1hCt69PA/vq4hx/fnKr+02NriDYN4j19eaPsrTfAdWuIhucAqepu9x/8d/tX+B7sosizJY9QlkWLyXuUqzvaKbIsPZQbiUSjjHVPIjoej/nSgpCv79y39IHUXV7vTAHNepIgOplcIzWEF3OW/umgQZo3LNfWEM1xCbtB7rhvrb3mh9dHP1o0Q5wMvCaKRtrsQDmwJ8F+4S18qA7kkz58dG3JwrdzwblSuuPQ0BpeSJ+jNEL7QADH/nH+T4uVe+vrAqnjIcdBAAen4Rz2N9iHQireMMit1Xfd4878QFtgf+P5VXTI2r71BLuez47+/Wuj3e4H3P0LBEXn8wJWrxVAfA9p7r+QT9TA9xAqleZEIbO55fTXfVUiDUGwX9hvT1M49CnDMnDEoiyXTiYTa7BqA97QgmirBOuBEOYlD+v1f7C3QmEU+RLIAAAAAElFTkSuQmCC). ‘Edit User Role’ page will appear with the selected User Role’s name under the ‘User Role’ box.
@@ -164,7 +168,9 @@ Copy feature allows you to copy an existing User Role including its all User Rig
    Message will appear to confirm the action.
 4. Click **OK**. User Role selected under ‘**Copy**’ box will be applied to the selected User Role
 
-## Trend Configuration
+***
+
+## <mark style="color:purple;background-color:blue;">Trend Configuration</mark>
 
 Trend Configuration functionality in the system is used to add/edit/delete and audit Trend Data.\
 \
@@ -198,9 +204,15 @@ Trend Configuration page allows you to audit the uploaded trend data by comparin
 _Note –_ _Please refer to_ _**Bulk Import**_ _**Data**_ _User Guide to find the details on importing application related bulk data to databases._
 {% endhint %}
 
-## Trend Database Configuration
+## <mark style="color:purple;background-color:blue;">Trend Database Configuration</mark>
 
 
+
+
+
+
+
+***
 
 ## Bulk Import Data
 
