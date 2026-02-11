@@ -218,9 +218,22 @@ The following diagram illustrates the types of current Trend Database configurat
 
 Currently, the iviva IBMS application can be configured to use two database servers to store trend data.
 
-1. SQL Database (Monthly DB  Mechanism)
-   1. Main DB Server: Main DB Server is the server where the Account Database exists.
-   2. Trend Server: Trend Server is a separate server that can be configured to store trends using the monthly DB mechanism.
+1. **SQL Database** (Monthly DB  Mechanism)
+   1. **Main DB Server**: Main DB Server is the server where the Account Database exists.
+   2.  **Trend Server**: Trend Server is a separate server that can be configured to store trends using the monthly DB mechanism.\
+       \
+       Each month, a new database (either under the Main DB Server or the Trend Server) is created to facilitate storing trend data for that particular month.\
+       \
+       **Monthly DB Structure**:  IVIVAIBMSTrends\_\<Year>\_\<Months>
+
+       e.g. IVIVAIBMSTrends\_2025\_02<br>
+2.  **Influx Database**: InfluxDB is used externally to store trend data exclusively. It is specifically designed as a time-series database for efficiently handling time-based data such as trends.
+
+    When using the Influx Database, each point’s data is stored in a separate table (measurement).
+
+    &#x20;
+
+    The IBMS Trend Database configuration mentioned above can be set up in the **IBMS Trend Database Configuration** page within the iviva IBMS application.
 
 
 
