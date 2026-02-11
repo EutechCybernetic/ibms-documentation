@@ -246,13 +246,14 @@ Currently, the iviva IBMS application can be configured to use two database serv
 
     The following image shows the Trend Database Configuration Page-with SQL Server.\
     \
-    \
     <br>
 
+    <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+2.  In the right pane, the currently running Trend Server Type is displayed under Server Type. e.g. MS SQL Server or InfluxDB
+
     \
-    \
-    <br>
-2.
+    The screenshot below shows how the Server Type and Status of server are displayed in the sidebar when SQL Database Server is in use.
+3.
 
 *
 *
