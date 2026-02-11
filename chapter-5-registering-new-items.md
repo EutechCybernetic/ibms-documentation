@@ -45,8 +45,7 @@ To make changes to Asset Details;
 4. Selecting **Disable Subsystem Communication** checkbox would stop data acquisition for points on this Equipment.
 5. Type in the **Trend Report Name** if necessary.
 6. After updating the details, click **Save**.
-7. To disable all the alarms of points in a selected Equipment at once, refer to the [Disable Alarms of all Points in a Selected Equipment ](chapter-6-viewing-items.md#disable-alarms-of-all-points-in-a-selected-equipment)section.\
-
+7. To disable all the alarms of points in a selected Equipment at once, refer to the [Disable Alarms of all Points in a Selected Equipment ](chapter-6-viewing-items.md#disable-alarms-of-all-points-in-a-selected-equipment)section.<br>
 
 #### <mark style="color:purple;">Points Tab</mark>
 
@@ -110,12 +109,10 @@ To save a **Filter**;
 
 A **System** represents a combination of **Points** that makes up a logical entity. **Systems** become useful when points from different equipment needs to be visualized, monitored together.
 
-This section describes how to register new **System** in the application.\
-
+This section describes how to register new **System** in the application.<br>
 
 <mark style="color:blue;">**Path**</mark>\
-<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪Register**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark><mark style="color:blue;">**New System**</mark>\
-
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪Register**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark><mark style="color:blue;">**New System**</mark><br>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **New System** under **Register** section. **New System** form will appear.
 2. Enter a **System Name** which is unique and appropriate.
@@ -151,8 +148,7 @@ _Tip – If you select the_ _**Point**_ _first, respective_ _**Equipment**_ _wil
 
 **Trend** tab displays all the Trend points on a chart, for this Equipment.
 
-You can save a Filter with filter conditions that will be used often.\
-
+You can save a Filter with filter conditions that will be used often.<br>
 
 ### <mark style="color:purple;">Configure Monitoring Groups for System</mark>
 
@@ -194,13 +190,11 @@ To configure **Controlling Groups** for the **System**:
    3. Click **Assign**. Point will be added and will be displayed on the page.
    4. Add all the required **Points** to the **Controlling Group**.
    5. If you need to remove an added **Point**, click the respective **Delete** icon.
-8. Click the **Manual Write** button![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAmCAIAAABWJxJnAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsUBjDA/WgAAA4lJREFUaEPtmT9P22AQxo+qn8BE2A1iA2WyICAgFSsTrlgY2yLIkLWSFYkxyoKEhCx1ZQgItSMSqkgk1Kwt/0QC8mQlW0RwUPDAJ+i9r53EMRDso1P7egGse967/O65s0WGHh7s3JfvIK7QBPJfP74JHSwCewQENYobBDVBjUKAohFeE9QoBCga4TVBjUKAohFeE9QoBCga4TVBjUKAoonktcR6QTcK+sZKrJsqvrKGd4zC8jQlewjN2MJGYW1prBvJa9hciHs3Ykub/uyBP3lQahkrXE+FyBU6JBI171R5JtEtempGCp3rrwRax0UHlIkpl+NYQlXwh6R4WIdlBVrF3xVfqvgoq3BktNfp19cRmZpZrQeKbtnO6+sIf0LzvNYCSR5livjchGzXTVtS5ziUVEIFuLtp+09rHuzpaWPrAG8yn/oHJXzSQOTbyMoLy0xqWGWp0WZFQ718KcmadwwObFbz3GfuGLunaIeFjfz8XbWuJscxqFXcZx/AvekG4ARlpHJur9SAJ+SP62u07wDU2QScWkpcal0eHYOURfvjscxW9evOmWYV1CSUd2pqZsLMnch5DZmCtmpo9W/pHxVeg8zOd9zs4a/IXgOwrqvAhzTGxrNqXfWyxRQ42U4b2Fs9dzaS6S07FSy8uV10ZO2Db0kF6nxW3h/HCoB3sTgkJpOOed5m7lOGlU49nfGUVDjR03ulG1dt7aaLJm+bjsjQd/l5YL8b+o6zmI+2lwnUoHLBhxTHQXHKh5bvI7VteJ/lTwyDtbG7bsC8YGF8uAZcz8oDGrvJV9sKzqNjo0eY+8YnU3ypNe87wYHa+s9gs1z/ycYW0LMmk4e3GlCo8TTSYmZetmtXPmPz+YJyzvPaQEBPlBhe7q42lTudO4u5T83gADLrhfn0/BEx/sltcIFNbqTHBYkar5ItqUurGayRN9/d0wPK57vJLXR6lu27rkHCyS3TBlmRXAvjxeyPV38XB+Tn3HGd8Qan97dz7uMi7EWjBpXDM8waaGzz4Khsew38HHcGeo29QMi4mAv6ZBOPYlcUedu+RYXT8nYWwM09O+S2/aiLfhCdpPi61/i1laupeddrq9m8/5XwZXZD4juqlyH1R4jvqKIS8+KJE0rM9q/IBDVKJwU1QY1CgKIRXhPUKAQoGuE1QY1CgKIRXhPUKAQoGuE1QY1CgKJh//Og6P5vjZhQSv//AMpHiFDBBfOYAAAAAElFTkSuQmCC), to manually write a Controlling value.\
-
+8. Click the **Manual Write** button![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAmCAIAAABWJxJnAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsUBjDA/WgAAA4lJREFUaEPtmT9P22AQxo+qn8BE2A1iA2WyICAgFSsTrlgY2yLIkLWSFYkxyoKEhCx1ZQgItSMSqkgk1Kwt/0QC8mQlW0RwUPDAJ+i9r53EMRDso1P7egGse967/O65s0WGHh7s3JfvIK7QBPJfP74JHSwCewQENYobBDVBjUKAohFeE9QoBCga4TVBjUKAohFeE9QoBCga4TVBjUKAoonktcR6QTcK+sZKrJsqvrKGd4zC8jQlewjN2MJGYW1prBvJa9hciHs3Ykub/uyBP3lQahkrXE+FyBU6JBI171R5JtEtempGCp3rrwRax0UHlIkpl+NYQlXwh6R4WIdlBVrF3xVfqvgoq3BktNfp19cRmZpZrQeKbtnO6+sIf0LzvNYCSR5livjchGzXTVtS5ziUVEIFuLtp+09rHuzpaWPrAG8yn/oHJXzSQOTbyMoLy0xqWGWp0WZFQ718KcmadwwObFbz3GfuGLunaIeFjfz8XbWuJscxqFXcZx/AvekG4ARlpHJur9SAJ+SP62u07wDU2QScWkpcal0eHYOURfvjscxW9evOmWYV1CSUd2pqZsLMnch5DZmCtmpo9W/pHxVeg8zOd9zs4a/IXgOwrqvAhzTGxrNqXfWyxRQ42U4b2Fs9dzaS6S07FSy8uV10ZO2Db0kF6nxW3h/HCoB3sTgkJpOOed5m7lOGlU49nfGUVDjR03ulG1dt7aaLJm+bjsjQd/l5YL8b+o6zmI+2lwnUoHLBhxTHQXHKh5bvI7VteJ/lTwyDtbG7bsC8YGF8uAZcz8oDGrvJV9sKzqNjo0eY+8YnU3ypNe87wYHa+s9gs1z/ycYW0LMmk4e3GlCo8TTSYmZetmtXPmPz+YJyzvPaQEBPlBhe7q42lTudO4u5T83gADLrhfn0/BEx/sltcIFNbqTHBYkar5ItqUurGayRN9/d0wPK57vJLXR6lu27rkHCyS3TBlmRXAvjxeyPV38XB+Tn3HGd8Qan97dz7uMi7EWjBpXDM8waaGzz4Khsew38HHcGeo29QMi4mAv6ZBOPYlcUedu+RYXT8nYWwM09O+S2/aiLfhCdpPi61/i1laupeddrq9m8/5XwZXZD4juqlyH1R4jvqKIS8+KJE0rM9q/IBDVKJwU1QY1CgKIRXhPUKAQoGuE1QY1CgKIRXhPUKAQoGuE1QY1CgKJh//Og6P5vjZhQSv//AMpHiFDBBfOYAAAAAElFTkSuQmCC), to manually write a Controlling value.<br>
 
 ### <mark style="color:purple;">Trend Tab of System</mark>
 
-Trend Tab displays all the Trend points on a chart, for the respective Equipment. You can save a Filter with filter condition that will be used often.\
-
+Trend Tab displays all the Trend points on a chart, for the respective Equipment. You can save a Filter with filter condition that will be used often.<br>
 
 ### <mark style="color:purple;">RT GUI Tab of System</mark>
 
@@ -225,8 +219,7 @@ This section describes the following;
 * [Delete Dashboard](chapter-5-registering-new-items.md#delete-dashboard)
 
 \ <mark style="color:blue;">**Path**</mark>\
-<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪Register**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark><mark style="color:blue;">**New Dashboard**</mark>\
-
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC)<mark style="color:blue;">**🡪Register**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark><mark style="color:blue;">**New Dashboard**</mark><br>
 
 ### <mark style="color:purple;">Register a New Dashboard</mark>
 
@@ -258,8 +251,7 @@ _Note –“Enable Summary Dashboard (Appear on Equipment and System Real-time G
 4. Click **Add**. Respective point will be added and displayed under the **Points** tab.
 5. Repeat 2-4 to add more configured points to the Dashboard.
 6. To edit a configured point, click the relevant **Edit** icon <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAlCAIAAABUNYfnAAAAAXNSR0IArs4c6QAAAoBJREFUWEftWE1v2kAQxdgGtzEOLRiMCVUOKM0xqdT+/x9RNSHqGaKYNPgDMP5AfdQSosY7u3Za5YLFAYmZ997Ozs4+I63Xi9qbPvU3Zd+RnxTUalKFPthut8tg5XneZhOlaRLHiaoqsqw0mw3DMM709/V6idKWU5CmqeM8L14WEMFqINC3P7RNsyPLskiTlVDguf5s9ggRIrhyXR7YlnHe4gaLKnCe5o4z58LlArrdTq9v0llCG1aNHsTz+TNyX6vA94IKq9+zIhfbR4jg1AC7Pp3OxIsvSdJxMN09HAUoo2DrmWb/5vbr7Zdvw+EoJwIIwGGeHWJ9OHIvv4RuDcuyR58uszHQt2xdzx8B4LAOMFWDwF8S534vHfT23+tWVDW3MOCgnwpXSynwfaqDMjjLGubo4zjy3YLKBUF5BWEY0j34h/7iMCZJ4ofJXVo0MVloVA2SmBp/hfST+x+bTbFuFhqlIN0yFZg963j1BD3qxEKjFGC2s3bBcxco+P5XfKfpd06EcWFSChS1WMHF6DJJIlBmIkToEYYbvPRZ0DStMMdoGePxdSZitVpyV5+BsNCoGui6ztqFM72Vibi/+85qvVwuC426nTFGHiY/j4eSpr3LNjWKosNuII4u4q8+jwtbgapB5naOccNwjeLjI0gPBOBU6URkipstogCwa8BhBXDuRiQPBhY9Gbm/AoHwjHyPBK8Hs8WlYQUgl3aLfAWAhtfrdD9WEIEsrk8Udaqg33nl6SMxqg8lou9se/AvvXKGniSJ8+S4rk/4Bhi1dtswe6aiFA/BXC1L1GCfefjOBE14QIan0Wyc/+93pgqtwE0R6kQuymsCTgpO/2Ds+uc3XhRG1b+GzcgAAAAASUVORK5CYII=" alt="" data-size="line"> .
-7. To delete a configured point (Data source), click the relevant **Delete** icon.\
-
+7. To delete a configured point (Data source), click the relevant **Delete** icon.<br>
 
 ### <mark style="color:purple;">Edit Dashboard</mark>
 

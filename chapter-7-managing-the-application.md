@@ -200,11 +200,23 @@ Trend Configuration page allows you to audit the uploaded trend data by comparin
    * If it is required to discard all the changes done in Trend data, click ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAATCAIAAADwLNHcAAAAAXNSR0IArs4c6QAAArxJREFUOE9tk9lPE1EUxjt7oSAqS5lhaEWwyhKJhqgJifpg/Ht9IjEhmIDGkBjUKrXGFkoXhtaWTjecztL63Tk4tso8nbn3/M757lm4ZvMsdNXX7/e7tut5Hi5FQZAkkee5/x25f3hgYPKl6lGu7Hg9nuNcz+V5XpEldfbmYmxaluXBKEM8SKNsZk/OzEYHTsAovyAIvV4PxvjYyO1YVNcmRVGgKHwQDK6VWvNz6qRutgkmBjBEwcZJu2N9OjwunNZwMsTj36iYB8ljx3E4jiMYh5QZnyiKFAUnX9P5bM4Y4uGbxYP/wBwXWl9NLMR1gkkCBJLhum6uUPU8pu5Sf6FYNRttyizw/PPNR2vLiRsT47KExCwz4EHD6jpfvuXAs/rhemcv2b7oAo6MhDcerGmzMwDwSZLUbLVLRqVolKu1OmkBhqtwWHn5bJ3ld13Pdll5cK2pM2p0mmC0CqHDirxyd/HF0yexuVlIgD+e6Tv3ra7NeMf1oBwAvDPHhd33H2zHAdxotWrndYqCN28+fqhrURgQBX/HsW3bZbxf2Ms+s+EpGu/2P7ZanUz2ZHt3/9XWTup7Bi/FF9fVQL8giKxe4FEjLsRTbfFBZKV6/vrN28JpGb/tTieZ+nGQTFmWNT4W8TMz/SizJAqMxzCNjsqDrYKNR138sqjz8KnVTUVR8qUzagSi9EM9RZEYj8XQ1clg1Ab7HKi9Na+ZjWYqnUFmwIirq1MCNNAYxeamJq5FaMKCPqNO/mX//mqi3mhtbe9hzACjhCNheSUx/3d+sJ6L8ejgqJFsuGLSD9PZXL7ECui3CVdLC6oo+tqD/VGj1zfWl6COPKjP9FQqGGWG5ntLc3F9msCh/YX+fPHnUb6CPaMq0KgRDGMsEr6zoGF/EeUKno6wGOlMoWSYMDBIiOJvoRfTppYTerD55PwbDWH22ev+Pk4AAAAASUVORK5CYII=) icon.
    * If it is required to delete all the Trend data displayed on the Trend Configuration page, click ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAAAXNSR0IArs4c6QAAA1NJREFUOE+dk0toXGUUx7/XvXPvjEnmlcQkmFIsMbHGWFOCVlGxKjYwpQ+spVI3LirdSOxOBF2IUMSlggouRMSFT0TFahfSagkOoXZIkzS06dTpZNqZTDKPO3fu/R7H73YyJY07D2dxP77/7zzuOR+uVgvo/xreBONqnc4u0GyeFIrEcbBEyjJVT1IO9ouHt0O0c2OiDbBUJHvd/OlXI3MJud6maoBRsXWLSD0tHhxBhLRu2zAAXVwyv/yezl3BAAhpx5t5jORAn39wj5oYA0r1bTtGqcxOnSELVzDnmuRbB5H+EKLlQAlSCnNBsznjh9NkcakV9xYsJcssmH+kSb0BpllLPb965AVvZAhxgXwuujorB/c6zz6ps2HfZ5eX6MwscpvrMK7V6W9noFIFn3uP7GzsfkpsGay8uM+7/z4Rj1UP7XMef3R172Rt8hmlu6k5JP03WS6uw1Cu4Gxe+Vxxwc6lrVzeMAy0bVv1+CtrU6+64w8pgxHOzdkFqDe0DGXm8Y02jMoV6Tjc59pFLh96/8PwzAWbGeZAPx4ZppYV+ifX+d4H6M80F0JrpMdhtYr0dIKeuZBNX/oicC7l5Sz56DPbdcPhsG3bJqWhs9M4fUEKua7RMs8DaMEdEYmw4rpsrnTU/j52+ACNxxhjpjbbholxOTosXa+lkVKgjjCmLIAh3iWjUdHk2iERD00dM/ZPYsuC/DLMzjEAPPYAf+2YmNgh3EAju5MomdB7EMA41oUe28k9KV2uImGih2wYcv6S88ZJ58Q78Ps5RggZuhcOpWQkLCXA2CgauLs9Z9vCu3ehkSHRFM2Z+bUTb8nc9dqbJ53vfmlOn69Pva3OTjPPUx9/LpbLuka8a0eQ7/Z6guerb0+7736irhUIKBS3UbnR3j8gw/fgDkv8tUijnfRoynz9ZRzfACulRHmt+cWP6tOv4WqeKPWfxcYQj7KXUvbxw7SvG+Ng89cfBgA0Gq5Tq9W/OcW/+pldzYWcJhMKAUhGglb7E/i5J+yj+yM9yUgkfAeswwghVlbKxcLNYuaik5mDawXD84K3Y9t4oNfaPhQbH00ktSX0CO98krdOuvhSaaVQuFEqlpy1quS+Ls4Mhe6KRmPdid7enkQirn/87Y7+BZ5K4d21eqxjAAAAAElFTkSuQmCC) icon.
 
-{% hint style="info" %}
-_Note –_ _Please refer to_ _**Bulk Import**_ _**Data**_ _User Guide to find the details on importing application related bulk data to databases._
-{% endhint %}
-
 ## <mark style="color:purple;background-color:blue;">Trend Database Configuration</mark>
+
+Previously, the iviva IBMS application used a single SQL database with a dedicated and separate table to store IBMS trend data. However, as the number of points increased, the high volume of generated trends stored in the main database, began causing performance issues, significantly slowing down the entire database.
+
+To address this, a new mechanism called the Monthly Database was introduced in SQL. With this approach, trend data is no longer stored in the SQL main database server. Instead, a new database is created each month in the Trend Server to store trend data specific to that particular month.
+
+In addition to the Monthly database mechanism in SQL Server for storing trend data, the current iviva IBMS Trend Database configuration is integrated with an InfluxDB. The influxDB is used to store trend data. Therefore, users can choose either SQL Monthly DB method or influxDB for trends.
+
+The following diagram illustrates the types of current Trend Database configuration in the iviva IBMS application.
+
+
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
 
 
 

@@ -138,8 +138,7 @@ _Note –_ _**Prerequisite:**_ [_**Alarm Severities**_](chapter-3-configuration-
 1. On the **Alarm Classes** search page, search for the required Alarm Class and click the name of it to go to its detailed page.
 2. Click the **Delete this Alarm Class** link or **Delete this item** icon <img src=".gitbook/assets/Screenshot_11 (3).png" alt="" data-size="line"> on the sidebar.
 
-A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Alarm Class**, or to close the message box without deleting, click **Cancel** <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line">. If the **Alarm Class** is in use, a message will appear stating that it cannot be deleted.\
-
+A message box to confirm deletion appears. Click **Delete** to confirm deletion of the **Alarm Class**, or to close the message box without deleting, click **Cancel** <img src=".gitbook/assets/Screenshot_10 (1).png" alt="" data-size="line">. If the **Alarm Class** is in use, a message will appear stating that it cannot be deleted.<br>
 
 ***
 
@@ -319,8 +318,7 @@ This section describes the following:
 
 ### <mark style="color:purple;">Configure a Point Templates</mark>
 
-This section helps you to configure Point Templates for Equipment Templates. These Point templates will be the points for equipment registered using the respective Equipment Template in the system.\
-
+This section helps you to configure Point Templates for Equipment Templates. These Point templates will be the points for equipment registered using the respective Equipment Template in the system.<br>
 
 1. Click the **Settings** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAYCAIAAACEIhGsAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxgAADsQB2OOvEAAAALNJREFUSEu9VdEOgCAIzL61tj6prT6wZ78gm5siIqCpPbk4z4MDNdY+C/vt2xHi133yYBddcwSkgGuHZEKBBzP6PYiodCoJMzBrkYhMGZUiamyjyxOKjJqq12kUTVQCEmcaZOZbiO5RainBPq95T6AKDVLQiJLSlKV/1tMZmbnmnIGx2smZ0T1JHWsFkrfUSGcaBHoD0MbBdw80zq3JCUH/Za89Qpw2Bpa8CmTTdngLf95mL07MU8bzyyrxAAAAAElFTkSuQmCC) and select **Equipment Templates** under **Configure** section. **Equipment Templates search** page will appear.
 2. Search and click the required **Equipment Template** to which you want to add a new **Point Template**.
@@ -369,8 +367,7 @@ _Note –_ _Reset Value Configuration section will be displayed under Point Temp
 2. **Sample Interval (trending) –** Trending sample interval frequency in minutes
 3. **Change of Value (COV) trending –** Select this checkbox to use COV (Change of Value) of point to trend instead of poling for given trending intervals.
 4. **Also apply for overridden points** - Select this check box to apply the settings under **Trend** section for overridden points.
-5. Click **Save**.\
-
+5. Click **Save**.<br>
 
 ### <mark style="color:purple;">Add Alarm to Point Template</mark>
 
@@ -444,8 +441,7 @@ E.g.\
 
 * **When adding an iviva alarm while having enabled Controller based alarms**
 
-System will allow to add/enable iviva based alarms, only if there are **no** Controller Based alarms or if the Controller Based alarms are disabled.\
-
+System will allow to add/enable iviva based alarms, only if there are **no** Controller Based alarms or if the Controller Based alarms are disabled.<br>
 
 The above steps should be carried out to prevent the following issues;
 
@@ -499,16 +495,14 @@ This section describes the following:
 3. [Delete an Interface Driver Type](chapter-3-configuration-of-prerequisites.md#delete-an-interface-driver-type)
 
 <mark style="color:blue;">**Path**</mark>\
-<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Interface Driver Type 🡪 Interface Driver Types**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>\
-
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Interface Driver Type 🡪 Interface Driver Types**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark><br>
 
 ### <mark style="color:purple;">Configure Interface Driver Types</mark>
 
 1. On the Interface Driver Types search page, click **Add Interface Driver Type** link.
 2. In the **Driver Type** box, type a unique and appropriate name for the new **Interface Driver Type**.
 3. In the **Parameter List** box, type the relevant comma separated parameters.
-4. Click **Create**. New Interface Driver Type will be created and its detailed page will appear.\
-
+4. Click **Create**. New Interface Driver Type will be created and its detailed page will appear.<br>
 
 ### <mark style="color:purple;">Edit  an Interface Driver Type</mark>
 
@@ -527,8 +521,7 @@ To upload a Binary File;
 1. On the Interface Driver Type detail page, click the **Binaries** tab.
 2. Drag and drop the relevant SSIF Binary file (.Zip file) onto the given area on the page above the **Upload** button; or click on the given area to search and select for the relevant Binary file.
 3. Click **Upload**.
-4. **Assembly Name** (.exe name of the Interface), **Interface Version** and **Description** (if available in the Binary file) fields on the GUI will be automatically filled up by obtaining the respective details from the uploaded Binary file.\
-
+4. **Assembly Name** (.exe name of the Interface), **Interface Version** and **Description** (if available in the Binary file) fields on the GUI will be automatically filled up by obtaining the respective details from the uploaded Binary file.<br>
 
 ### <mark style="color:purple;">Delete an Interface Driver Type</mark>
 
@@ -557,8 +550,7 @@ This section describes the following:
 4. [Search Subsystems](chapter-3-configuration-of-prerequisites.md#search-subsystems)
 
 <mark style="color:blue;">**Path**</mark>\
-<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Subsystems 🡪 Subsystems**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>\
-
+<mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Subsystems 🡪 Subsystems**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark><br>
 
 ### <mark style="color:purple;">Configure Subsystems</mark>
 
@@ -584,8 +576,7 @@ This section describes the following:
 
 1. On the **Subsystems search** page, click the name of the **Subsystem** you want to delete, to open its details page.
 2. Click the **Delete** icon or click the **Delete This Subsystem** link on the side panel under the **Subsystem Details** tab. A confirmation message box will appear.
-3. Click **Delete** to confirm deletion of the Subsystem. To close the message box without deleting, click the **X** icon.\
-
+3. Click **Delete** to confirm deletion of the Subsystem. To close the message box without deleting, click the **X** icon.<br>
 
 ### <mark style="color:purple;">Search Subsystems</mark>
 
@@ -636,8 +627,7 @@ The following table shows the fields that appear on the **Interface Details** pa
 
 #### <mark style="color:purple;">Clusters</mark>
 
-After creating an Interface, you need to create Clusters. If there is only one Instance of Interface (one machine), then you shall create only one Cluster. If there are two instances of the same **Interface** to be run on two machines, you shall create 2 Clusters. If the active Cluster stops working, then the other Cluster will become active.\
-
+After creating an Interface, you need to create Clusters. If there is only one Instance of Interface (one machine), then you shall create only one Cluster. If there are two instances of the same **Interface** to be run on two machines, you shall create 2 Clusters. If the active Cluster stops working, then the other Cluster will become active.<br>
 
 <mark style="color:purple;">**Create a Cluster**</mark>
 
@@ -697,8 +687,7 @@ The following additional functional options will be available for each selected 
 
 To select an option under a Cluster;
 
-1. Click the respective ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAIAAAD5mpj+AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsMBDDN7wQAAAk1JREFUSEudll1zmkAUhot8ORERFNKIuWg17Q9ILvr//0aTeGUxE7Dy1WZUcPpul1kR2NWBC2eE8z579pzdfVf6+Ig+cZ7j8fgn+5skyW63L4r8cMhVVZFlRdc10zQHxk2v1+Np8V5qRRdFEQSbaBuBzhODa9mW605kWW6NaUEncbpev4EuyIh9knvy1LszR8NmcB0dvIdBEF4DrcY4zuT2s1tTnRWrGxfEMNxAy0WnSdYhX4aDFpWs0susUVnfX4vr8OXr4vHpB355YbUOlWjMSNy34dAcjx1A8XszGLTSQQCHfSJorLDtb+7qpqG73Y5p8kPOSxwctl7JCkGNVqtfF1eFpumO44ZhsN+fhmmqZjNvZJl4T7JO07PyN6MVWUFB8N73V2IuYrIsowSS9evLEluZl/V88d2ybPo1irbL15/i+eEYWDzMy6zzg2jjxQT3THEYg9fDSidKGilIcRShN5sgS5NrekhjGI2gcQ6I52j8LzSRFcXFWrPjkKAV9Vp0HG/FSeArDl4aQ9D9fl8ssO2yjWlyqgxPwmgEbRiGGK2qGg1IK0XnSRiNoIemIfYLdgZ4s3vPu8fe4XHBAe1UEOoXgsTX/orSRyNb03VBJ8FhWZZWAOXL8/JKZ+ElASd7+DZnflaefPg/nd5d7L44AISqT55cBv4GH+pMh7bmkGcGBn+bOOMOdKia3shxdP9NvPvZ8Gia502vcnSqyfM8eA/iOBXcQyRJsizTvXUVpdx+tem2X3FoUPX2hMHwgIJH07VR59tTh3I3Jf8AwMoaRR+VCaYAAAAASUVORK5CYII=)icon and select the required option from the pop-up menu.\
-
+1. Click the respective ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAIAAAD5mpj+AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwgAADsMBDDN7wQAAAk1JREFUSEudll1zmkAUhot8ORERFNKIuWg17Q9ILvr//0aTeGUxE7Dy1WZUcPpul1kR2NWBC2eE8z579pzdfVf6+Ig+cZ7j8fgn+5skyW63L4r8cMhVVZFlRdc10zQHxk2v1+Np8V5qRRdFEQSbaBuBzhODa9mW605kWW6NaUEncbpev4EuyIh9knvy1LszR8NmcB0dvIdBEF4DrcY4zuT2s1tTnRWrGxfEMNxAy0WnSdYhX4aDFpWs0susUVnfX4vr8OXr4vHpB355YbUOlWjMSNy34dAcjx1A8XszGLTSQQCHfSJorLDtb+7qpqG73Y5p8kPOSxwctl7JCkGNVqtfF1eFpumO44ZhsN+fhmmqZjNvZJl4T7JO07PyN6MVWUFB8N73V2IuYrIsowSS9evLEluZl/V88d2ybPo1irbL15/i+eEYWDzMy6zzg2jjxQT3THEYg9fDSidKGilIcRShN5sgS5NrekhjGI2gcQ6I52j8LzSRFcXFWrPjkKAV9Vp0HG/FSeArDl4aQ9D9fl8ssO2yjWlyqgxPwmgEbRiGGK2qGg1IK0XnSRiNoIemIfYLdgZ4s3vPu8fe4XHBAe1UEOoXgsTX/orSRyNb03VBJ8FhWZZWAOXL8/JKZ+ElASd7+DZnflaefPg/nd5d7L44AISqT55cBv4GH+pMh7bmkGcGBn+bOOMOdKia3shxdP9NvPvZ8Gia502vcnSqyfM8eA/iOBXcQyRJsizTvXUVpdx+tem2X3FoUPX2hMHwgIJH07VR59tTh3I3Jf8AwMoaRR+VCaYAAAAASUVORK5CYII=)icon and select the required option from the pop-up menu.<br>
 
 <mark style="color:purple;">**Delete a Cluster**</mark>
 
@@ -733,8 +722,7 @@ To generate a report on Interface Transactions:
 
 #### <mark style="color:purple;">Debug Tab</mark>
 
-Debug tab displays the debug information which is managed by SSI when troubleshooting.\
-
+Debug tab displays the debug information which is managed by SSI when troubleshooting.<br>
 
 ### <mark style="color:purple;">Delete an Interface</mark>
 
@@ -815,8 +803,7 @@ You can add configured points to the created Trend Group.
 
 1. Go to the Trend Group detail page. Click the **Points** tab.
 2. Click the **Delete** icon ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxQAADsYBbEG/PAAAAmNJREFUSEu1ll1P01AYx3vO6enLKDDKNhAQvNI5jHgBoiYk3PkJTExMjBd+JhMTL/wMXnrljaCJmqjZIjcKqOBgm4ORde1pezylpSvrC93AXixtz/P8nn//e84LqP4uczGXpenWbs2uNqmm2x2DMy2oyBRBlBtFUzl+bDgukb0HkVzz4MisbNnVRlLmkIxKc8J0PjImxKVU+/Ld/rEDEpCBIaCO4MWrfEbuCYfBZ0pI++1XmhrKcmnjUH/z2ag3Y7nUsrS1Mlc7SCe0GwUMQt5VzL+tYGLXh86nDXt7LxIqqOrUwwfu0PaLl7ahh8OoJEqrt5AkuEMel+zWyftKMJpXlJnHj5K199SAM3lpseimHPtLKals9vv54Xjr177vhqNX/7lnfdw4P9chTKqZO/OeD531ckSrAiDkcsnFjFqNfWswhkIo3b+NROzobb9a42yrt1EEcfbpk778dYP5pSKbLMf+hqDn8YQetk/+t3gM1Y3NZ8+tVsu9Yb/+m7gkqnXO5g4g3CaOpafm8QCUcArE6L9wgSx5XNYcF6LUhcDRIY/L1umL4jKJqJA94U6f0f/pq6J8FvI8i3fmhbNCvv7A6UYwHw40L/DdeTyhenoBQrg0l15UXCQsjLlQT697p62XaeKGllyYClhcXfA3pG4niEvXuOHMgKoBwMvF4C7X5TK/xXs3QFbpF00xwsslYdxpA/861blIFqWVm/ByIT0aKLK0soAnPVv9xOjzA/nTML9t0eZRQgFmKH99VrxyiQMRZ4JorotjpxNrp27vNykxuZaz+nGiAETMjY/wE2pYY1DEP+Td+jjtNYxiAAAAAElFTkSuQmCC) on the right hand of the same row of the **Point** that you want to delete.
-3. A message box appears to confirm the deletion of **Point.** Click **OK** to confirm deletion of the **Point.** Click **Cancel** to abort the operation.\
-
+3. A message box appears to confirm the deletion of **Point.** Click **OK** to confirm deletion of the **Point.** Click **Cancel** to abort the operation.<br>
 
 ### <mark style="color:purple;">Edit a Trend Group</mark>
 
@@ -893,12 +880,10 @@ The following on **Data Sources** are described below.
 
 1. [Configure a Data Source](chapter-3-configuration-of-prerequisites.md#configure-a-data-source)
 2. [Edit a Data Source](chapter-3-configuration-of-prerequisites.md#edit-a-data-source)
-3. [Delete a Data Source](chapter-3-configuration-of-prerequisites.md#delete-a-data-source)\
-
+3. [Delete a Data Source](chapter-3-configuration-of-prerequisites.md#delete-a-data-source)<br>
 
 <mark style="color:blue;">**Path**</mark>\
-<mark style="color:blue;">**Settings icon**</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Data Sources**</mark>\
-
+<mark style="color:blue;">**Settings icon**</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==) <mark style="color:blue;">**🡪**</mark> <mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Data Sources**</mark><br>
 
 ### <mark style="color:purple;">Configure a Data Source</mark>
 
@@ -957,8 +942,7 @@ This section describes the following:
 <mark style="color:blue;">**Settings**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">icon</mark>![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAIAAABm/grVAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOwwAADsQBiC4+owAAALRJREFUSEvFVUEOgCAME9+qiU8y0Qd69gWSYMgscx0kIicCXelWBuE8j4GNeVoyZNtXBh9GFSFZ5DyCja1MpZCmMOAqzzZgAdKnXGpmUJOH0jbGMq0HqceEaqXUVicAjWoQW4boV8qp6A12u29bJLV4kFwpZOepDydtKMVPpEbvE6Pkdm1fdbpSWNNamep79r1RDTKTGRDY5ZWSVsa52j+w7nI/gWg7GjD8Tug/SA+LDJ+4fwHNY1PGX6HgqAAAAABJRU5ErkJggg==)<mark style="color:blue;">on the Application Dashboard 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Configure**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">section 🡪</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Escalated Alarm**</mark> <mark style="color:blue;">**Message Templates 🡪 Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">search page</mark>
 
 _<mark style="color:blue;">Setting under App Configuration</mark>_\
-&#xNAN;_<mark style="color:blue;">**Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “</mark><mark style="color:blue;">**Assignee Message Template**</mark><mark style="color:blue;">” and “</mark><mark style="color:blue;">**Un-assignee Message Template**</mark><mark style="color:blue;">” Drop-down boxes in</mark>_ _<mark style="color:blue;">**App Configuration page**</mark><mark style="color:blue;">, which enable user to select accordingly.</mark>_\
-
+&#xNAN;_<mark style="color:blue;">**Escalated Alarm Message Templates**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">configured here (Settings🡪Configure🡪Escalated Alarm Message Templates) will be populated in “</mark><mark style="color:blue;">**Assignee Message Template**</mark><mark style="color:blue;">” and “</mark><mark style="color:blue;">**Un-assignee Message Template**</mark><mark style="color:blue;">” Drop-down boxes in</mark>_ _<mark style="color:blue;">**App Configuration page**</mark><mark style="color:blue;">, which enable user to select accordingly.</mark>_<br>
 
 ### <mark style="color:purple;">Create a New Escalated Alarm Message Template</mark>
 
@@ -975,8 +959,7 @@ To configure an Escalated Alarm Message Template;
 
 
 
-    _Note –The default message that will be created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates._\
-
+    _Note –The default message that will be created here is the plain text e-mail message. Once you have created the Message Template, you will have the ability to create other templates._<br>
 3. Select the **From Address**.
 4. Add Recipients.
    1. Click the **Add Recipient** link.
@@ -1047,8 +1030,7 @@ A short Message Template is meant for the messages to be sent to mobile devices,
 
 1. On the Message Template detailed page, click the **Short Message** tab.
 2. In the given box, configure the short message using message text and relevant **Placeholders.**
-3. Click **Update.**\
-
+3. Click **Update.**<br>
 
 #### <mark style="color:purple;">Add Push Notifications</mark>
 
@@ -1058,8 +1040,7 @@ You can configure alternate notification message to be sent as a push notificati
 2. Click the **Add New Push Notifications** link.
 3. Select the required **Mobile App Name.**
 4. Type in the message to be sent.
-5. Click **Add**.\
-
+5. Click **Add**.<br>
 
 #### <mark style="color:purple;">Add Attachments to Message Template</mark>
 
@@ -1071,8 +1052,7 @@ You can attach attachments related to the Message to be sent.
 4. In the **Type** box, select ‘**File (Attach a File)**’ option.
 5. Select other **Options**.
 6. Drag and drop the required file to be attached to the Message Template or click the marked area to select a file from the file explorer.
-7. Click **Upload**.\
-
+7. Click **Upload**.<br>
 
 ### <mark style="color:purple;">Edit Message Templates</mark>
 
@@ -1092,8 +1072,7 @@ To export a Message Template;
 
 1. On the **Escalated Alarm** **Message Templates** search page, select the Message template you want to export and click on it to go to its detailed page.
 2. Click **Export** link <img src=".gitbook/assets/Screenshot_15.png" alt="" data-size="line"> on the sidebar.
-3. Save the attachment.\
-
+3. Save the attachment.<br>
 
 ### <mark style="color:purple;">Localised Messages</mark>
 
