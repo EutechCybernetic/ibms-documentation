@@ -216,9 +216,15 @@ The following diagram illustrates the types of current Trend Database configurat
 
 
 
+Currently, the iviva IBMS application can be configured to use two database servers to store trend data.
+
+1. SQL Database (Monthly DB  Mechanism)
+   1. Main DB Server: Main DB Server is the server where the Account Database exists.
+   2. Trend Server: Trend Server is a separate server that can be configured to store trends using the monthly DB mechanism.
 
 
 
+*
 
 
 
