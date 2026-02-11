@@ -238,6 +238,24 @@ Currently, the iviva IBMS application can be configured to use two database serv
 
 
 *
+* ### How to access Trend Database Configuration page
+*
+* [ ] To begin setting up the Trend Database configuration in the iviva IBMS application, you first need to access the **Trend Database Configuration** page. To do this;<br>
+
+1.  Go to the IBMS app. Click the **Settings** icon ![](<.gitbook/assets/image (2).png>) and go to **Manage** section  **🡪** **Trend Database Configuration**.<br>
+
+    The following image shows the Trend Database Configuration Page-with SQL Server.\
+    \
+    \
+    <br>
+
+    \
+    \
+    <br>
+2.
+
+*
+*
 
 
 
