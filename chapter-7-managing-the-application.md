@@ -271,6 +271,20 @@ When using the SQL Database -Monthly Database mechanism for trends, the followin
 2. SQL Procedure Configuration
 3. SQL Job Configuration
 
+
+
+#### <mark style="color:purple;">Server Status</mark>
+
+Under the Server Status section on the Trend Database Configuration page, you can view where the trends are currently being stored (Main DB Server or Trend Server). By default, IBMS trends are saved in the SQL Main database Server.<br>
+
+<mark style="color:purple;">**How to configure a Trend Server under the Server Status section**</mark>
+
+To configure a Trend Server for storing trends:
+
+1.
+
+
+
 ## Bulk Import Data
 
 {% hint style="info" %}
