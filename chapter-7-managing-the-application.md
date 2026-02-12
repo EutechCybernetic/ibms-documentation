@@ -255,12 +255,21 @@ Currently, the iviva IBMS application can be configured to use two database serv
 
 *
 *
+* ### <mark style="color:purple;">SQL Database (Monthly Database Mechanism)</mark>
 
+This section describes the SQL Database configuration for trends in the IBMS application.\
+It covers the following:
 
+* Server Status
+* SQL Procedure Configuration
+* SQL Job Configuration
+* Available Databases and Actions ( Database Operations)
 
+When using the SQL Database -Monthly Database mechanism for trends, the following configurations must be performed.
 
-
-***
+1. Server Status
+2. SQL Procedure Configuration
+3. SQL Job Configuration
 
 ## Bulk Import Data
 
