@@ -281,7 +281,10 @@ Under the Server Status section on the Trend Database Configuration page, you ca
 
 To configure a Trend Server for storing trends:
 
-1.
+1. Go to IBMS App **🡪 Manage 🡪 Trend Database Configuration 🡪 Server Status section**
+2.  &#x20;                                                                                                                                                                                                                                                                                      &#x20;
+
+
 
 
 
