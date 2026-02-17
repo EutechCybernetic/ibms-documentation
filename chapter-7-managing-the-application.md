@@ -292,11 +292,14 @@ To configure a Trend Server for storing trends:
 
     .
 
+<mark style="color:purple;">**SQL Procedure Configuration**</mark>
 
+SQL Procedure Configuration must be set up to collect trend records from multiple trend databases in **Main Database Server** or **Trend Server** and to merge them as a single output.
 
+The SQL procedure should be present on the Main Database Server or Trend Server (depend on the user configuration on the **Server Status** section). When developers need to retrieve trend data, they must fetch the output of this procedure into a temporary table.
 
-
-    &#x20;                                                                                                                                                                                                                                                                                      &#x20;
+**Note:**\
+When using the Trend Server, to extract data from multiple servers into a single output, the **Linked Server Object** named **TRENDSERVER** must be properly configured in the **Main DB Server**. This **Linked Server Object** should be linked to the respective **Trend Server**.                                                                                                                                                                                                                                                                                     &#x20;
 
 
 
