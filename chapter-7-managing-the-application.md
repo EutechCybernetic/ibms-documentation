@@ -212,7 +212,7 @@ The following diagram illustrates the types of current Trend Database configurat
 
 
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -237,10 +237,13 @@ Currently, the iviva IBMS application can be configured to use two database serv
 
 
 
-*
-* ### <mark style="color:purple;">How to access Trend Database Configuration page</mark>
-*
-* [ ] To begin setting up the Trend Database configuration in the iviva IBMS application, you first need to access the **Trend Database Configuration** page. To do this;<br>
+
+
+### <mark style="color:purple;">How to access Trend Database Configuration page</mark>
+
+
+
+To begin setting up the Trend Database configuration in the iviva IBMS application, you first need to access the **Trend Database Configuration** page. To do this;<br>
 
 1. Go to the IBMS app. Click the **Settings** icon ![](<.gitbook/assets/image (2).png>) and go to **Manage** section  **🡪** **Trend Database Configuration**. \
    <br>
@@ -253,9 +256,9 @@ Currently, the iviva IBMS application can be configured to use two database serv
 
 <figure><img src=".gitbook/assets/Server Type and Status of server.png" alt=""><figcaption><p>Server Type and Status of server (When SOL Database Server is in use)</p></figcaption></figure>
 
-*
-*
-* ### <mark style="color:purple;">SQL Database (Monthly Database Mechanism)</mark>
+
+
+### <mark style="color:purple;">SQL Database (Monthly Database Mechanism)</mark>
 
 This section describes the SQL Database configuration for trends in the IBMS application.\
 It covers the following:
@@ -282,7 +285,18 @@ Under the Server Status section on the Trend Database Configuration page, you ca
 To configure a Trend Server for storing trends:
 
 1. Go to IBMS App **🡪 Manage 🡪 Trend Database Configuration 🡪 Server Status section**
-2.  &#x20;                                                                                                                                                                                                                                                                                      &#x20;
+2. Click the **Edit** icon <img src=".gitbook/assets/image.png" alt="" data-size="line"> on the right side of the **Server Status** section.
+3. Enter the appropriate SQL connection string for the respective Trend server in the **Connection String** text box.
+4. Click **Save**. This will update the configuration key in the respective table.
+5.  Perform a **config reset**. Once these steps are completed, trends will be stored in the specified trend server. (instead of the Main DB Server).
+
+    .
+
+
+
+
+
+    &#x20;                                                                                                                                                                                                                                                                                      &#x20;
 
 
 
