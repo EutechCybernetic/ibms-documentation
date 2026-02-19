@@ -301,7 +301,12 @@ The SQL procedure should be present on the Main Database Server or Trend Server 
 **Note:**\
 When using the Trend Server, to extract data from multiple servers into a single output, the **Linked Server Object** named **TRENDSERVER** must be properly configured in the **Main DB Server**. This **Linked Server Object** should be linked to the respective **Trend Server**.                                                                                                                                                                                                                                                                                     &#x20;
 
+\
+<mark style="color:purple;">**SQL Job Configurations**</mark>
 
+In IBMS, a preconfigured SQL Job is used to automatically create monthly databases.
+
+To simplify the task of creating monthly databases, an SQL job is configured to run daily at 12 AM (0:0:0 time). This SOL job automatically checks whether the respective database and table exist. If the expected database and table are not found, the SQL job will create them on either the Main DB Server or the Trend Server, based on the user configuration in the **Server Status** section.
 
 
 
