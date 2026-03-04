@@ -212,7 +212,7 @@ The following diagram illustrates the types of current Trend Database configurat
 
 
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -245,7 +245,7 @@ Currently, the iviva IBMS application can be configured to use two database serv
 
 To begin setting up the Trend Database configuration in the iviva IBMS application, you first need to access the **Trend Database Configuration** page. To do this;<br>
 
-1. Go to the IBMS app. Click the **Settings** icon ![](<.gitbook/assets/image (2).png>) and go to **Manage** section  **🡪** **Trend Database Configuration**. \
+1. Go to the IBMS app. Click the **Settings** icon ![](<.gitbook/assets/image (2) (1).png>) and go to **Manage** section  **🡪** **Trend Database Configuration**. \
    <br>
 2.  In the right pane, the currently running Trend Server Type is displayed under Server Type. e.g. MS SQL Server or InfluxDB
 
@@ -278,37 +278,74 @@ When using the SQL Database -Monthly Database mechanism for trends, the followin
 
 #### <mark style="color:purple;">Server Status</mark>
 
-Under the Server Status section on the Trend Database Configuration page, you can view where the trends are currently being stored (Main DB Server or Trend Server). By default, IBMS trends are saved in the SQL Main database Server.<br>
+Under the **Server Status** section on the Trend Database Configuration page, you can view where the trends are currently being stored (Main DB Server or Trend Server). By default, IBMS trends are saved in the SQL Main database Server.<br>
 
 <mark style="color:purple;">**How to configure a Trend Server under the Server Status section**</mark>
 
 To configure a Trend Server for storing trends:
 
-1. Go to IBMS App **🡪 Manage 🡪 Trend Database Configuration 🡪 Server Status section**
-2. Click the **Edit** icon <img src=".gitbook/assets/image.png" alt="" data-size="line"> on the right side of the **Server Status** section.
+1. Go to **IBMS App** **🡪 Manage 🡪 Trend Database Configuration 🡪 Server Status section**
+2. Click the **Edit** icon <img src=".gitbook/assets/image (3).png" alt="" data-size="line"> on the right side of the **Server Status** section.
 3. Enter the appropriate SQL connection string for the respective Trend server in the **Connection String** text box.
 4. Click **Save**. This will update the configuration key in the respective table.
 5.  Perform a **config reset**. Once these steps are completed, trends will be stored in the specified trend server. (instead of the Main DB Server).
 
     .
 
-<mark style="color:purple;">**SQL Procedure Configuration**</mark>
+#### <mark style="color:purple;">**SQL Procedure Configuration**</mark>
 
 SQL Procedure Configuration must be set up to collect trend records from multiple trend databases in **Main Database Server** or **Trend Server** and to merge them as a single output.
 
 The SQL procedure should be present on the Main Database Server or Trend Server (depend on the user configuration on the **Server Status** section). When developers need to retrieve trend data, they must fetch the output of this procedure into a temporary table.
 
 **Note:**\
-When using the Trend Server, to extract data from multiple servers into a single output, the **Linked Server Object** named **TRENDSERVER** must be properly configured in the **Main DB Server**. This **Linked Server Object** should be linked to the respective **Trend Server**.                                                                                                                                                                                                                                                                                     &#x20;
+When using the Trend Server, to extract data from multiple servers into a single output, the **Linked Server Object** named **TRENDSERVER** must be properly configured in the **Main DB Server**. This **Linked Server Object** should be linked to the respective **Trend Server**.  \
+&#x20;                                                                                                                                                                                                                                                                                  &#x20;
 
-\
-<mark style="color:purple;">**SQL Job Configurations**</mark>
+#### <mark style="color:purple;">**SQL Job Configurations**</mark>
 
 In IBMS, a preconfigured SQL Job is used to automatically create monthly databases.
 
 To simplify the task of creating monthly databases, an SQL job is configured to run daily at 12 AM (0:0:0 time). This SOL job automatically checks whether the respective database and table exist. If the expected database and table are not found, the SQL job will create them on either the Main DB Server or the Trend Server, based on the user configuration in the **Server Status** section.
 
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>SQL Job Configurations on the Trend Database Configuration Page</p></figcaption></figure>
 
+**Note:**\
+To run the mentioned SQL job, the **SQL Agent** must be up and running. The current status
+
+of the SQL Agent is displayed in the sidebar on the right. If the SQL Agent is not running, a warning message will appear in red.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Warning message to notify that the SQL Agent is not running</p></figcaption></figure>
+
+You can also run the SQL Job manually at any time by clicking the **Execute** button under the **Execute SOL Job** section. However, even to run the SQL job manually, the SQL Agent must be running. If the SQL Agent us not running, an error message will appear.
+
+**Note**:\
+Once you set up the Trend Server configuration during the day, you must manually execute the **SQL Job** to create the monthly databases. If you do not do it, there will ne no databases to store trends until the SQL job runs automatically the next day at 12 AM. (0:0:0).
+
+
+
+#### <mark style="color:purple;">**Available Databases and Actions**</mark>
+
+On the Trend Database Configuration page, under the **Available Databases and Actions** section, all existing databases are displayed along with the actions that can be performed on them.\
+\
+**Note**: This applies to both the **Main DB Server** and **Trend Server** when the SQL Server is used for trends.
+
+
+
+<mark style="color:purple;">**Database Operations (Actions)**</mark>
+
+* **Detach**: This action is used to detach the selected database without deleting it. Once detached, the Database will no longer appear under the **Available Databases and Actions** section. To reattach it, you must use **SQL Server Management Studio (SSMS)**.
+* **Backup**: This operation creates a backup of the selected database by running a query. The backup is stored in the default backup path on the same server.
+* **Shrink Data**: This process reduces unused space within a database by moving pages and releasing free space. However, it can cause fragmentation, which may result in slower query performance. While it can be used to reclaim space, it is not recommended to be performed frequently.
+* **Shrink File**: This process reduces the physical file size at the operating system level (e.g., manually shrinking .mdf or .ldf files). If not performed correctly, it can lead to data loss or corruption. Therefore, it is generally advised only to be done when necessary.
+
+### <mark style="color:purple;">**InfluxDB**</mark>
+
+InfluxDB is used externally to store trend data. It is specifically designed as a time-series database for managing time-based data such as trends.
+
+When InfluxDB is used, each point’s data is stored in a separate table (measurement).<br>
+
+#### <mark style="color:purple;">**Enable InfluxDB**</mark>
 
 ## Bulk Import Data
 
